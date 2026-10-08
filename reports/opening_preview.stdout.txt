@@ -1,0 +1,2 @@
+LIVE_LEVEL /Game/WreckagePrototype/Maps/L_Wreckage_Opening
+PREVIEW_CAPTURED

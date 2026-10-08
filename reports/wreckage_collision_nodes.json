@@ -1,0 +1,60 @@
+{
+  "GetCapsuleComponent": [
+    "Variables|Character|GetCapsuleComponent"
+  ],
+  "SetCollisionResponseToChannel": [
+    "Collision|SetCollisionResponsetoChannel"
+  ],
+  "SetCollisionProfileName": [
+    "Collision|SetCollisionProfileName"
+  ],
+  "begin": [
+    {
+      "output_pins": [
+        {
+          "value": "",
+          "connected_pins": [],
+          "pin_id": {
+            "direction": "EGPD_Output",
+            "index_id": 0,
+            "node": {
+              "refPath": "/Game/WreckagePrototype/Blueprints/BP_WreckagePlayer_Runtime.BP_WreckagePlayer_Runtime:EventGraph.K2Node_Event_0"
+            }
+          },
+          "type_id": "Delegate",
+          "name": "OutputDelegate"
+        },
+        {
+          "value": "",
+          "connected_pins": [
+            {
+              "direction": "EGPD_Input",
+              "index_id": 0,
+              "node": {
+                "refPath": "/Game/WreckagePrototype/Blueprints/BP_WreckagePlayer_Runtime.BP_WreckagePlayer_Runtime:EventGraph.K2Node_CallFunction_62"
+              }
+            }
+          ],
+          "pin_id": {
+            "direction": "EGPD_Output",
+            "index_id": 1,
+            "node": {
+              "refPath": "/Game/WreckagePrototype/Blueprints/BP_WreckagePlayer_Runtime.BP_WreckagePlayer_Runtime:EventGraph.K2Node_Event_0"
+            }
+          },
+          "type_id": "Exec",
+          "name": "then"
+        }
+      ],
+      "input_pins": [],
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "node": {
+        "refPath": "/Game/WreckagePrototype/Blueprints/BP_WreckagePlayer_Runtime.BP_WreckagePlayer_Runtime:EventGraph.K2Node_Event_0"
+      },
+      "type_id": "AddEvent|EventBeginPlay"
+    }
+  ]
+}

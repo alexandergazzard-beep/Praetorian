@@ -1,0 +1,12 @@
+{
+  "FileVersion": 3,
+  "EngineAssociation": "5.8",
+  "Category": "Games",
+  "Description": "Lost Vanguard AI production setup project",
+  "Plugins": [
+    { "Name": "ModelContextProtocol", "Enabled": true },
+    { "Name": "AllToolsets", "Enabled": true },
+    { "Name": "PythonScriptPlugin", "Enabled": true },
+    { "Name": "EditorScriptingUtilities", "Enabled": true }
+  ]
+}

@@ -1,0 +1,540 @@
+{
+  "checks": [
+    {
+      "name": "Fresh start at recovery",
+      "passed": true,
+      "observed": {
+        "Step": 0,
+        "Checkpoint": 0,
+        "Health": 100,
+        "Dead": false,
+        "HasWeapon": false,
+        "EvidenceRead": false,
+        "CommsRestored": false,
+        "Objective": "E: shift the wreckage",
+        "Subtitle": "Clank: Evan. Can you hear me?",
+        "SubtitleQueue": [],
+        "LookTotal": 0,
+        "DebugMoveTime": -2.000000983476639,
+        "bIsCrouched": false
+      }
+    },
+    {
+      "name": "Debris interaction",
+      "passed": true,
+      "observed": {
+        "Step": 1,
+        "Checkpoint": 0,
+        "Health": 100,
+        "Dead": false,
+        "HasWeapon": false,
+        "EvidenceRead": false,
+        "CommsRestored": false,
+        "Objective": "Look around to check suit response",
+        "Subtitle": "Clank: Evan. Can you hear me?",
+        "SubtitleQueue": [
+          "Clank: Suit response is uneven. Follow the light."
+        ],
+        "LookTotal": 0,
+        "DebugMoveTime": -3.3333350718021393,
+        "bIsCrouched": false
+      }
+    },
+    {
+      "name": "Look recovery",
+      "passed": true,
+      "observed": {
+        "Step": 2,
+        "Checkpoint": 0,
+        "Health": 100,
+        "Dead": false,
+        "HasWeapon": false,
+        "EvidenceRead": false,
+        "CommsRestored": false,
+        "Objective": "WASD: walk to the damaged passage",
+        "Subtitle": "Clank: Evan. Can you hear me?",
+        "SubtitleQueue": [
+          "Clank: Suit response is uneven. Follow the light.",
+          "Clank: Good. On your feet."
+        ],
+        "LookTotal": 13.333336114883423,
+        "DebugMoveTime": -0.1666668951511383,
+        "bIsCrouched": false
+      }
+    },
+    {
+      "name": "Walk recovery",
+      "passed": true,
+      "observed": {
+        "Step": 3,
+        "Checkpoint": 0,
+        "Health": 100,
+        "Dead": false,
+        "HasWeapon": false,
+        "EvidenceRead": false,
+        "CommsRestored": false,
+        "Objective": "Hold C: pass under the low beam",
+        "Subtitle": "Clank: Suit response is uneven. Follow the light.",
+        "SubtitleQueue": [
+          "Clank: Good. On your feet.",
+          "Clank: I cannot account for the attack. My records are damaged. Clearance ahead.\\nKeep low."
+        ],
+        "LookTotal": -1.0887783901125658e-05,
+        "DebugMoveTime": -0.5333342671394348,
+        "bIsCrouched": false
+      }
+    },
+    {
+      "name": "Crouch passage",
+      "passed": true,
+      "observed": {
+        "state": {
+          "Step": 4,
+          "Checkpoint": 0,
+          "Health": 100,
+          "Dead": false,
+          "HasWeapon": false,
+          "EvidenceRead": false,
+          "CommsRestored": false,
+          "Objective": "Space: cross the small break",
+          "Subtitle": "Clank: Good. On your feet.",
+          "SubtitleQueue": [
+            "Clank: I cannot account for the attack. My records are damaged. Clearance ahead.\\nKeep low.",
+            "Clank: Check your footing."
+          ],
+          "LookTotal": -1.0887783901125658e-05,
+          "DebugMoveTime": -0.5333339989185333,
+          "bIsCrouched": true
+        },
+        "transform": {
+          "location": {
+            "x": 1002.6746211953161,
+            "y": 0,
+            "z": 46.15000343322754
+          },
+          "rotation": {
+            "pitch": 0,
+            "yaw": 0,
+            "roll": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        }
+      }
+    },
+    {
+      "name": "Break traversal",
+      "passed": true,
+      "observed": {
+        "state": {
+          "Step": 5,
+          "Checkpoint": 5,
+          "Health": 100,
+          "Dead": false,
+          "HasWeapon": false,
+          "EvidenceRead": false,
+          "CommsRestored": false,
+          "Objective": "E near the locker: take the weapon",
+          "Subtitle": "Clank: I cannot account for the attack. My records are damaged. Clearance ahead.\\nKeep low.",
+          "SubtitleQueue": [
+            "Clank: Check your footing.",
+            "Clank: Movement checks complete. Movement beyond that wall. Manual release; power\\nis gone."
+          ],
+          "LookTotal": -1.0887783901125658e-05,
+          "DebugMoveTime": -0.33333462476730347,
+          "bIsCrouched": false
+        },
+        "transform": {
+          "location": {
+            "x": 1442.760553497807,
+            "y": 0,
+            "z": 90.11091666113978
+          },
+          "rotation": {
+            "pitch": 0,
+            "yaw": 0,
+            "roll": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        }
+      }
+    },
+    {
+      "name": "Weapon pickup",
+      "passed": true,
+      "observed": {
+        "Step": 6,
+        "Checkpoint": 5,
+        "Health": 100,
+        "Dead": false,
+        "HasWeapon": true,
+        "EvidenceRead": false,
+        "CommsRestored": false,
+        "Objective": "Left mouse: clear the two searchers. Use cover or the flank.",
+        "Subtitle": "Clank: I cannot account for the attack. My records are damaged. Clearance ahead.\\nKeep low.",
+        "SubtitleQueue": [
+          "Clank: Check your footing.",
+          "Clank: Movement checks complete. Movement beyond that wall. Manual release; power\\nis gone.",
+          "Clank: Searchers ahead. Their speech is untranslated."
+        ],
+        "LookTotal": -1.0887783901125658e-05,
+        "DebugMoveTime": -1.333335131406784,
+        "bIsCrouched": false
+      }
+    }
+  ],
+  "actions": [
+    {
+      "label": "Fresh PIE start",
+      "properties": {
+        "Step": 0,
+        "Checkpoint": 0,
+        "Health": 100,
+        "Dead": false,
+        "HasWeapon": false,
+        "EvidenceRead": false,
+        "CommsRestored": false,
+        "Objective": "E: shift the wreckage",
+        "Subtitle": "Clank: Evan. Can you hear me?",
+        "SubtitleQueue": [],
+        "LookTotal": 0,
+        "DebugMoveTime": -2.000000983476639,
+        "bIsCrouched": false
+      },
+      "transform": {
+        "location": {
+          "x": -359.25,
+          "y": 0,
+          "z": 90.15000343322754
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      }
+    },
+    {
+      "label": "Shift debris",
+      "properties": {
+        "Step": 1,
+        "Checkpoint": 0,
+        "Health": 100,
+        "Dead": false,
+        "HasWeapon": false,
+        "EvidenceRead": false,
+        "CommsRestored": false,
+        "Objective": "Look around to check suit response",
+        "Subtitle": "Clank: Evan. Can you hear me?",
+        "SubtitleQueue": [
+          "Clank: Suit response is uneven. Follow the light."
+        ],
+        "LookTotal": 0,
+        "DebugMoveTime": -3.3333350718021393,
+        "bIsCrouched": false
+      },
+      "transform": {
+        "location": {
+          "x": -359.25,
+          "y": 0,
+          "z": 90.15000343322754
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      }
+    },
+    {
+      "label": "Look recovery",
+      "properties": {
+        "Step": 2,
+        "Checkpoint": 0,
+        "Health": 100,
+        "Dead": false,
+        "HasWeapon": false,
+        "EvidenceRead": false,
+        "CommsRestored": false,
+        "Objective": "WASD: walk to the damaged passage",
+        "Subtitle": "Clank: Evan. Can you hear me?",
+        "SubtitleQueue": [
+          "Clank: Suit response is uneven. Follow the light.",
+          "Clank: Good. On your feet."
+        ],
+        "LookTotal": 13.333336114883423,
+        "DebugMoveTime": -0.1666668951511383,
+        "bIsCrouched": false
+      },
+      "transform": {
+        "location": {
+          "x": -359.25,
+          "y": 0,
+          "z": 90.15000343322754
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 33.33333969116212,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      }
+    },
+    {
+      "label": "Walk to passage",
+      "properties": {
+        "Step": 3,
+        "Checkpoint": 0,
+        "Health": 100,
+        "Dead": false,
+        "HasWeapon": false,
+        "EvidenceRead": false,
+        "CommsRestored": false,
+        "Objective": "Hold C: pass under the low beam",
+        "Subtitle": "Clank: Suit response is uneven. Follow the light.",
+        "SubtitleQueue": [
+          "Clank: Good. On your feet.",
+          "Clank: I cannot account for the attack. My records are damaged. Clearance ahead.\\nKeep low."
+        ],
+        "LookTotal": -1.0887783901125658e-05,
+        "DebugMoveTime": -0.5333342671394348,
+        "bIsCrouched": false
+      },
+      "transform": {
+        "location": {
+          "x": 355.95428573381895,
+          "y": 0,
+          "z": 90.15000343322754
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      }
+    },
+    {
+      "label": "Crouch under beam",
+      "properties": {
+        "Step": 3,
+        "Checkpoint": 0,
+        "Health": 100,
+        "Dead": false,
+        "HasWeapon": false,
+        "EvidenceRead": false,
+        "CommsRestored": false,
+        "Objective": "Hold C: pass under the low beam",
+        "Subtitle": "Clank: Good. On your feet.",
+        "SubtitleQueue": [
+          "Clank: I cannot account for the attack. My records are damaged. Clearance ahead.\\nKeep low."
+        ],
+        "LookTotal": -1.0887783901125658e-05,
+        "DebugMoveTime": -0.3500016987323762,
+        "bIsCrouched": true
+      },
+      "transform": {
+        "location": {
+          "x": 862.647902493,
+          "y": 0,
+          "z": 46.15000343322754
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      }
+    },
+    {
+      "label": "Finish low passage",
+      "properties": {
+        "Step": 4,
+        "Checkpoint": 0,
+        "Health": 100,
+        "Dead": false,
+        "HasWeapon": false,
+        "EvidenceRead": false,
+        "CommsRestored": false,
+        "Objective": "Space: cross the small break",
+        "Subtitle": "Clank: Good. On your feet.",
+        "SubtitleQueue": [
+          "Clank: I cannot account for the attack. My records are damaged. Clearance ahead.\\nKeep low.",
+          "Clank: Check your footing."
+        ],
+        "LookTotal": -1.0887783901125658e-05,
+        "DebugMoveTime": -0.5333339989185333,
+        "bIsCrouched": true
+      },
+      "transform": {
+        "location": {
+          "x": 1002.6746211953161,
+          "y": 0,
+          "z": 46.15000343322754
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      }
+    },
+    {
+      "label": "Approach break",
+      "properties": {
+        "Step": 4,
+        "Checkpoint": 0,
+        "Health": 100,
+        "Dead": false,
+        "HasWeapon": false,
+        "EvidenceRead": false,
+        "CommsRestored": false,
+        "Objective": "Space: cross the small break",
+        "Subtitle": "Clank: Good. On your feet.",
+        "SubtitleQueue": [
+          "Clank: I cannot account for the attack. My records are damaged. Clearance ahead.\\nKeep low.",
+          "Clank: Check your footing."
+        ],
+        "LookTotal": -1.0887783901125658e-05,
+        "DebugMoveTime": -0.5466670143604279,
+        "bIsCrouched": false
+      },
+      "transform": {
+        "location": {
+          "x": 1002.6746211953161,
+          "y": 0,
+          "z": 90.15100288391113
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      }
+    },
+    {
+      "label": "Jump the break",
+      "properties": {
+        "Step": 5,
+        "Checkpoint": 5,
+        "Health": 100,
+        "Dead": false,
+        "HasWeapon": false,
+        "EvidenceRead": false,
+        "CommsRestored": false,
+        "Objective": "E near the locker: take the weapon",
+        "Subtitle": "Clank: I cannot account for the attack. My records are damaged. Clearance ahead.\\nKeep low.",
+        "SubtitleQueue": [
+          "Clank: Check your footing.",
+          "Clank: Movement checks complete. Movement beyond that wall. Manual release; power\\nis gone."
+        ],
+        "LookTotal": -1.0887783901125658e-05,
+        "DebugMoveTime": -0.33333462476730347,
+        "bIsCrouched": false
+      },
+      "transform": {
+        "location": {
+          "x": 1442.760553497807,
+          "y": 0,
+          "z": 90.11091666113978
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      }
+    },
+    {
+      "label": "Weapon pickup",
+      "properties": {
+        "Step": 6,
+        "Checkpoint": 5,
+        "Health": 100,
+        "Dead": false,
+        "HasWeapon": true,
+        "EvidenceRead": false,
+        "CommsRestored": false,
+        "Objective": "Left mouse: clear the two searchers. Use cover or the flank.",
+        "Subtitle": "Clank: I cannot account for the attack. My records are damaged. Clearance ahead.\\nKeep low.",
+        "SubtitleQueue": [
+          "Clank: Check your footing.",
+          "Clank: Movement checks complete. Movement beyond that wall. Manual release; power\\nis gone.",
+          "Clank: Searchers ahead. Their speech is untranslated."
+        ],
+        "LookTotal": -1.0887783901125658e-05,
+        "DebugMoveTime": -1.333335131406784,
+        "bIsCrouched": false
+      },
+      "transform": {
+        "location": {
+          "x": 1442.760553497807,
+          "y": 0,
+          "z": 90.11091666113978
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      }
+    }
+  ],
+  "errors": [],
+  "limitations": [
+    "Automated editor input properties used; physical keyboard/mouse feel needs a human pass."
+  ],
+  "player": {
+    "refPath": "/Game/WreckagePrototype/Maps/UEDPIE_0_L_Wreckage_Playable.L_Wreckage_Playable:PersistentLevel.BP_WreckagePlayer_Runtime_C_0"
+  }
+}

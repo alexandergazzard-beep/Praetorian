@@ -1,0 +1,1602 @@
+{
+  "compiled": [
+    "BP_WreckagePlayer_Runtime",
+    "BP_SearcherPlaceholder_Runtime",
+    "BP_WreckageGameMode_Runtime",
+    "BP_WreckageHUD"
+  ],
+  "saved_player_defaults": {
+    "Health": 100,
+    "Step": 0,
+    "Checkpoint": 0,
+    "DebugForward": 0,
+    "DebugRight": 0,
+    "DebugLook": 0,
+    "DebugCrouch": false,
+    "HasWeapon": false,
+    "EvidenceRead": false,
+    "CommsRestored": false
+  },
+  "saved": true,
+  "level": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening",
+  "actors": [
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.WorldSettings"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.Brush_0"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_0"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_1"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_2"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_3"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_4"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_5"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_6"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_7"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_8"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_9"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_10"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_11"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_12"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_13"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_14"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_15"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_16"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_17"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_18"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_19"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_20"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_21"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_22"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_23"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_24"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_25"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_26"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_27"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_28"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_29"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_30"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_31"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_32"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_33"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.DirectionalLight_0"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.SkyLight_0"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.PlayerStart_0"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.PointLight_0"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.PointLight_1"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.PointLight_2"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.PointLight_3"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.PointLight_4"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_34"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_35"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_36"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_37"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_38"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_39"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_40"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_41"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_42"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_43"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_44"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_45"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_46"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_47"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_48"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_49"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_50"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_51"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_52"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_53"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_54"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_55"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_56"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_57"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_58"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_59"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_60"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_61"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_62"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_63"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_64"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_65"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_66"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_67"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_68"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_69"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_70"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_71"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_72"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_73"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_74"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_75"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_76"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_77"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_78"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_79"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_80"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_81"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_82"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_83"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_84"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_85"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_86"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_87"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_88"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_89"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_90"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_91"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_92"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_93"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_94"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_95"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_96"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_97"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_98"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_99"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_100"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_101"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_102"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_103"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_104"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_105"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_106"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_107"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_108"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_109"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_110"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_111"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_112"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_113"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_114"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_115"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_116"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_117"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_118"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_119"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_120"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_121"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_122"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_123"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_124"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_125"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_126"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_127"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_128"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_129"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_130"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_131"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_132"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_133"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_134"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_135"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_136"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_137"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_138"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_139"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_140"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_141"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_142"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_143"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_144"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_145"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_146"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_147"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_148"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_149"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_150"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_151"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_152"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_153"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_154"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_155"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_156"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_157"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_158"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_159"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_160"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_161"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_162"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_163"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_164"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_165"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_166"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_167"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_168"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_169"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_170"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_171"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_172"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_173"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_174"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_175"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_176"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_177"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_178"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_179"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_180"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_181"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_182"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_183"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_184"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_185"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_186"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_187"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_188"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_189"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_190"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_191"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_192"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_193"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_194"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_195"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_196"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_197"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_198"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_199"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_200"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_201"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_202"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_203"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_204"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_205"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_206"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_207"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_208"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_209"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_210"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_211"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_212"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_213"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_214"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_215"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_216"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_217"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_218"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_219"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_220"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_221"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_222"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_223"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_224"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_225"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_226"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_227"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_228"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_229"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_230"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_231"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_232"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_233"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_234"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_235"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_236"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_237"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_238"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_239"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_240"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_241"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_242"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_243"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_244"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_245"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_246"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_247"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_248"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_249"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_250"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_251"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_252"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_253"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_254"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_255"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_256"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_257"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_258"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_259"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_260"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_261"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_262"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_263"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_264"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_265"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_266"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_267"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_268"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_269"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_270"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_271"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_272"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_273"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_274"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_275"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_276"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_277"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_278"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_279"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_280"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_281"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_282"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_283"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_284"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_285"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_286"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_287"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_288"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_289"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_290"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_291"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_292"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_293"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_294"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_295"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_296"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_297"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_298"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_299"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_300"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_301"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_302"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_303"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_304"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_305"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_306"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_307"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_308"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_309"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_310"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_311"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_312"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_313"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_314"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_315"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_316"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_317"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_318"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_319"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_320"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_321"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_322"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_323"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_324"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_325"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_326"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_327"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_328"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_329"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_330"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_331"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_332"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_333"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_334"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_335"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_336"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_337"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_338"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_339"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_340"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_341"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_342"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_343"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_344"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_345"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_346"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_347"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_348"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_349"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_350"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_351"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_352"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_353"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_354"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_355"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_356"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_357"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_358"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_359"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_360"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_361"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_362"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_363"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_364"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_365"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_366"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_367"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_368"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_369"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_370"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_371"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_372"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_373"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_374"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_375"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_376"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_377"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_378"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_379"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_380"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_381"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_382"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_383"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_384"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_385"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_386"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_387"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_388"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_389"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_390"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_391"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_392"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_393"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_394"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_395"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_396"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_397"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_398"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_399"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_400"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_401"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_402"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_403"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_404"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_405"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_406"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_407"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_408"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_409"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_410"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_411"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_412"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_413"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_414"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_415"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_416"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_417"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_418"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_419"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_420"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_421"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_422"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_423"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_424"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_425"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_426"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_427"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_428"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_429"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_430"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_431"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_432"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_433"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_434"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_435"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_436"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_437"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_438"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_439"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_440"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_441"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.PointLight_5"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_442"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_443"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_444"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_445"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_446"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_447"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_448"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_449"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_450"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_451"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_452"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.PointLight_6"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_453"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_454"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_455"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_456"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_457"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_458"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_459"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_460"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_461"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_462"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_463"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.PointLight_7"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_464"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_465"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_466"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_467"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_468"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_469"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_470"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_471"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_472"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_473"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_474"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.PointLight_8"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_475"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_476"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_477"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_478"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_479"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_480"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_481"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_482"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_483"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_484"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_485"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_486"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_487"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_488"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_489"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_490"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_491"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_492"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_493"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_494"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_495"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_496"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_497"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_498"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_499"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_500"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_501"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_502"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_503"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.PointLight_9"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.ExponentialHeightFog_0"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.PostProcessVolume_0"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.BuoyancyManager_0"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.DefaultPhysicsVolume_0"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.GameplayDebuggerPlayerManager_0"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.ChaosDebugDrawActor"
+    },
+    {
+      "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.AbstractNavData-Default"
+    }
+  ]
+}

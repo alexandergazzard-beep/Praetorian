@@ -1,0 +1,20 @@
+{
+  "blender_version": "5.2.1 LTS",
+  "background": true,
+  "scene_name": "Scene",
+  "objects": [
+    {
+      "name": "Cube",
+      "type": "MESH"
+    },
+    {
+      "name": "Light",
+      "type": "LIGHT"
+    },
+    {
+      "name": "Camera",
+      "type": "CAMERA"
+    }
+  ],
+  "mcp_addon_enabled": true
+}

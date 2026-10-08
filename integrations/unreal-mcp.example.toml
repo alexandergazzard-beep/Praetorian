@@ -1,0 +1,5 @@
+# Reference only: not an active Codex configuration.
+# Enable after Unreal 5.8 + Unreal MCP + toolsets are running at this endpoint.
+[mcp_servers.unreal]
+url = "http://127.0.0.1:8000/mcp"
+enabled = false

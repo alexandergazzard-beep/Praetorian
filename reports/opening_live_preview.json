@@ -1,0 +1,32 @@
+{
+  "level": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening",
+  "fresh": {
+    "Step": 0,
+    "Health": 100,
+    "HasWeapon": false,
+    "Objective": "E: shift the wreckage"
+  },
+  "after_debris": {
+    "Step": 1,
+    "Health": 100,
+    "HasWeapon": false,
+    "Objective": "Look around to check suit response"
+  },
+  "transform": {
+    "location": {
+      "x": -390,
+      "y": 0,
+      "z": 90.14999961853027
+    },
+    "rotation": {
+      "pitch": 0,
+      "yaw": 0,
+      "roll": 0
+    },
+    "scale": {
+      "x": 1,
+      "y": 1,
+      "z": 1
+    }
+  }
+}

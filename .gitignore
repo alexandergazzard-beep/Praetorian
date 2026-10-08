@@ -1,0 +1,33 @@
+# Local caches and credentials
+.venv/
+.cache/
+tmp/
+__pycache__/
+*.pyc
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.p12
+*.pfx
+.aws/
+.codex/
+.agents/
+
+# Unreal generated files
+Binaries/
+Intermediate/
+DerivedDataCache/
+Saved/
+.vs/
+*.sln
+*.suo
+*.VC.db
+*.VC.opendb
+
+# Blender backup copies; keep primary .blend sources
+*.blend1
+*.blend2
+
+# Source and project assets are tracked; binary game assets use .gitattributes.

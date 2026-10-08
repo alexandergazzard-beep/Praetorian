@@ -1,0 +1,43 @@
+Session termination failed: 202
+  + Exception Group Traceback (most recent call last):
+  |   File "C:\Users\alexa\Documents\AI STUFF\Project Big\tools\test_wreckage.py", line 156, in <module>
+  |     try:asyncio.run(main())
+  |         ^^^^^^^^^^^^^^^^^^^
+  |   File "C:\Users\alexa\AppData\Local\Programs\Python\Python312\Lib\asyncio\runners.py", line 194, in run
+  |     return runner.run(main)
+  |            ^^^^^^^^^^^^^^^^
+  |   File "C:\Users\alexa\AppData\Local\Programs\Python\Python312\Lib\asyncio\runners.py", line 118, in run
+  |     return self._loop.run_until_complete(task)
+  |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  |   File "C:\Users\alexa\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 664, in run_until_complete
+  |     return future.result()
+  |            ^^^^^^^^^^^^^^^
+  |   File "C:\Users\alexa\Documents\AI STUFF\Project Big\tools\test_wreckage.py", line 26, in main
+  |     async with streamable_http_client('http://127.0.0.1:8000/mcp') as (reader,writer):
+  |   File "C:\Users\alexa\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 222, in __aexit__
+  |     await self.gen.athrow(value)
+  |   File "C:\Users\alexa\AppData\Local\uv\cache\environments-v2\test-wreckage-08ebe169fe42a3fc\Lib\site-packages\mcp\client\streamable_http.py", line 766, in streamable_http_client
+  |     async with (
+  |   File "C:\Users\alexa\AppData\Local\uv\cache\environments-v2\test-wreckage-08ebe169fe42a3fc\Lib\site-packages\anyio\_backends\_asyncio.py", line 847, in __aexit__
+  |     raise BaseExceptionGroup(
+  | ExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)
+  +-+---------------- 1 ----------------
+    | Exception Group Traceback (most recent call last):
+    |   File "C:\Users\alexa\AppData\Local\uv\cache\environments-v2\test-wreckage-08ebe169fe42a3fc\Lib\site-packages\mcp\client\streamable_http.py", line 788, in streamable_http_client
+    |     yield read_stream, write_stream
+    |   File "C:\Users\alexa\Documents\AI STUFF\Project Big\tools\test_wreckage.py", line 27, in main
+    |     async with ClientSession(reader,writer) as session:
+    |   File "C:\Users\alexa\AppData\Local\uv\cache\environments-v2\test-wreckage-08ebe169fe42a3fc\Lib\site-packages\mcp\client\session.py", line 514, in __aexit__
+    |     result = await self._task_group.__aexit__(exc_type, exc_val, exc_tb)
+    |              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |   File "C:\Users\alexa\AppData\Local\uv\cache\environments-v2\test-wreckage-08ebe169fe42a3fc\Lib\site-packages\anyio\_backends\_asyncio.py", line 847, in __aexit__
+    |     raise BaseExceptionGroup(
+    | ExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)
+    +-+---------------- 1 ----------------
+      | Traceback (most recent call last):
+      |   File "C:\Users\alexa\Documents\AI STUFF\Project Big\tools\test_wreckage.py", line 101, in main
+      |     await go('Enter bay',1730,0)
+      |   File "C:\Users\alexa\Documents\AI STUFF\Project Big\tools\test_wreckage.py", line 80, in go
+      |     raise AssertionError('Route did not reach '+label)
+      | AssertionError: Route did not reach Enter bay
+      +------------------------------------

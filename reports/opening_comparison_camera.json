@@ -1,0 +1,21 @@
+{
+  "camera": {
+    "location": {
+      "x": -390,
+      "y": 0,
+      "z": 154.14999961853027
+    },
+    "rotation": {
+      "pitch": 0,
+      "yaw": 0,
+      "roll": 0
+    },
+    "scale": {
+      "x": 1,
+      "y": 1,
+      "z": 1
+    }
+  },
+  "fov": 90,
+  "note": "Clean editor capture at the observed player pose after freeing debris; see opening_starting_view_play.png for actual gameplay."
+}

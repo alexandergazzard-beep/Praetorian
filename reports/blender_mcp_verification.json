@@ -1,0 +1,29 @@
+{
+  "server": {
+    "name": "MCP for Blender",
+    "title": null,
+    "version": "1.30.0",
+    "description": null,
+    "website_url": null,
+    "icons": null
+  },
+  "tools": [
+    "get_addon_status",
+    "disable_telemetry",
+    "get_scene_info",
+    "execute_blender_code",
+    "record_trajectory_feedback",
+    "look",
+    "generate_3d",
+    "search_assets",
+    "import_asset"
+  ],
+  "scene_query": [
+    "Scene 'Scene' | 1 camera, 1 light, 1 mesh | active Cube | selected Cube | mode OBJECT\n\nShowing 3 of 3 (name | type | location | size | hidden | children):\nCube | mesh | at (0.0, 0.0, 0.0) | size 2.0x2.0x2.0\nLight | light | at (4.08, 1.01, 5.9)\nCamera | camera | at (7.36, -6.93, 4.96)"
+  ],
+  "verified": "MCP initialization, tool discovery, and read-only live scene query; temporary mesh creation/transform, save copy, and cleanup",
+  "write_test": [
+    "Code executed successfully: Info: Saved copy as \"blender_connection_test.blend\"\n{\"created_moved_saved_removed\": true, \"scene_object_count_restored\": 3}\n"
+  ],
+  "test_scene_copy": "C:\\Users\\alexa\\Documents\\AI STUFF\\Project Big\\reports\\blender_connection_test.blend"
+}

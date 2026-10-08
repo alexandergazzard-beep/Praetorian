@@ -1,0 +1,115 @@
+{
+  "server": {
+    "meta": null,
+    "protocol_version": "2025-11-25",
+    "capabilities": {
+      "experimental": null,
+      "logging": null,
+      "prompts": null,
+      "resources": {
+        "subscribe": null,
+        "list_changed": null
+      },
+      "tools": {
+        "list_changed": true
+      },
+      "completions": null,
+      "extensions": null,
+      "tasks": null
+    },
+    "server_info": {
+      "name": "",
+      "title": "",
+      "version": "",
+      "description": null,
+      "website_url": null,
+      "icons": null
+    },
+    "instructions": null
+  },
+  "tools": {
+    "meta": null,
+    "ttl_ms": 0,
+    "cache_scope": "private",
+    "next_cursor": null,
+    "tools": [
+      {
+        "name": "list_toolsets",
+        "title": null,
+        "description": "List all available toolsets with names and descriptions.",
+        "input_schema": {
+          "type": "object",
+          "properties": {}
+        },
+        "execution": null,
+        "output_schema": null,
+        "icons": null,
+        "annotations": null,
+        "meta": null
+      },
+      {
+        "name": "describe_toolset",
+        "title": null,
+        "description": "Get detailed information about a toolset including all tool names, descriptions, and input schemas.",
+        "input_schema": {
+          "type": "object",
+          "properties": {
+            "toolset_name": {
+              "type": "string",
+              "description": "Name of the toolset to describe. Use list_toolsets to see available names."
+            }
+          },
+          "required": [
+            "toolset_name"
+          ]
+        },
+        "execution": null,
+        "output_schema": null,
+        "icons": null,
+        "annotations": null,
+        "meta": null
+      },
+      {
+        "name": "call_tool",
+        "title": null,
+        "description": "Call a tool by name. Provide toolset_name to call a toolset tool, or omit it to call a top-level MCP tool. Use list_toolsets and describe_toolset to discover available tools and their input schemas.",
+        "input_schema": {
+          "type": "object",
+          "properties": {
+            "toolset_name": {
+              "type": "string",
+              "description": "Optional. Name of the toolset containing the tool. Omit to call a top-level MCP tool. Use list_toolsets to discover toolset names."
+            },
+            "tool_name": {
+              "type": "string",
+              "description": "Name of the tool to call, without toolset prefix. Use describe_toolset to discover tool names and input schemas."
+            },
+            "arguments": {
+              "type": "object",
+              "description": "Arguments to pass to the tool. Must match the tool's input schema. Defaults to an empty object."
+            }
+          },
+          "required": [
+            "tool_name"
+          ]
+        },
+        "execution": null,
+        "output_schema": null,
+        "icons": null,
+        "annotations": null,
+        "meta": null
+      }
+    ],
+    "result_type": "complete"
+  },
+  "verified": "MCP initialization, tool discovery, live level query, temporary actor creation at (100,200,300), discovery, removal, and confirmed absence",
+  "project": "Unreal/LostVanguard/LostVanguard.uproject",
+  "endpoint": "http://127.0.0.1:8000/mcp",
+  "local_bind_verified": "127.0.0.1:8000",
+  "limitations": [
+    "No gameplay, asset import, save/reload, or packaged build tested",
+    "Tools registered in global Codex configuration; current chat exposure may require a new session",
+    "Client logs session termination HTTP 202 warning despite successful tool results",
+    "GameFeatureData scan rule added after initial startup warning; requires next editor startup validation"
+  ]
+}

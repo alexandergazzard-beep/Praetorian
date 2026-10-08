@@ -4,6 +4,8 @@ Repository selected by the user on 2026-10-07: https://github.com/alexandergazza
 
 The workspace root is the Git repository. The initial branch is `main`. Repository naming does not change the game's working title, Lost Vanguard.
 
+Initial upload verified on 2026-10-07: project commit `c531b5892713f603d1a2b4ee72c850cb0ba6e9ac` matched GitHub main after a successful push. All 35 LFS objects uploaded (approximately 3.2 MB), and local LFS integrity passed. The branch tracks origin/main. A follow-up documentation commit records upload verification. No fresh clone or recovery test has been performed.
+
 ## What is included
 
 Project records and story drafts, source scripts, Unreal project/configuration and saved Content assets, reference art, verification reports and screenshots, and shareable PDFs. Saved Unreal assets are versioned through Git LFS without changing their binary contents.

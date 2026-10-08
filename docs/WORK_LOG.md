@@ -411,3 +411,10 @@ Unreal still needs installation/location and a project. Meshy account/API connec
 - Updated README for actual playable-prototype status and share links; created SOURCE_CONTROL.md with clone/update commands and backup scope. Recorded D061 and updated PROJECT/STATUS.
 - Candidate file scan: 194 files, approximately 15.5 MB before Git compression/LFS, no credential pattern hits and no file over 100 MiB. Upload is pending; authenticated push and remote verification are next.
 - Sandbox Git/network operations needed approved elevated shell access; initial git init succeeded and origin was already configured despite a subsequent sandbox access error. No existing remote work was overwritten.
+
+## 2026-10-07 - GitHub upload verified
+- Initial commit c531b5892713f603d1a2b4ee72c850cb0ba6e9ac successfully pushed to main at the user's Praetorian repository. GitHub's live main ref exactly matched the local commit; main now tracks origin/main.
+- All 35 LFS objects uploaded successfully, approximately 3.2 MB; git lfs fsck passed. Confirmed caches/tmp are ignored and the committed overview PDF exactly matches original binary bytes. Explicit binary rules prevent text conversion of PDFs and images.
+- Initial diff whitespace check noted only pre-existing extra blank lines at EOF in some notes/config/report files; retained original contents. No credential patterns detected. No force-push, paid purchase, or Unreal binary editing/movement performed.
+- Updated STATUS and SOURCE_CONTROL with actual upload evidence. This follow-up documentation update is committed and pushed next, with another remote-ref and clean-worktree check. No fresh clone/recovery test claimed.
+- Next: save assets in Unreal, review Git changes, commit descriptive updates, and push routinely; install Git LFS before cloning elsewhere. A separate backup for ignored local generated files remains open.

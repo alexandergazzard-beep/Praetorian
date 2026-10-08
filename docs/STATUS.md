@@ -4,7 +4,7 @@ Updated: 2026-10-07 (America/Los_Angeles).
 
 ## GitHub setup - 2026-10-07
 
-User selected `https://github.com/alexandergazzard-beep/Praetorian` for this project. Local Git repository initialized on `main`, origin configured, Git LFS 3.7.1 installed locally, and binary asset rules added. Git 2.53.0.windows.1 is installed. Remote branch inspection succeeded and returned no refs (empty repository). Initial upload prepared; push verification is pending. See SOURCE_CONTROL.md for included files, exclusions, and routine commands. Generated Unreal working folders, temporary files, local assistant settings, and credentials are excluded. Automated credential-pattern scan of the 194 candidate files found no hits; no file exceeded 100 MiB.
+User selected `https://github.com/alexandergazzard-beep/Praetorian` for this project. Local Git repository initialized on `main`, origin configured, Git LFS 3.7.1 installed locally, and binary asset rules added. Git 2.53.0.windows.1 is installed. The initially empty remote now contains the project: initial commit `c531b5892713f603d1a2b4ee72c850cb0ba6e9ac` pushed successfully and matched the live GitHub main ref. All 35 LFS objects uploaded (approximately 3.2 MB), local LFS integrity passed, and main tracks origin/main. See SOURCE_CONTROL.md for included files, exclusions, and routine commands. Generated Unreal working folders, temporary files, local assistant settings, and credentials are excluded. Automated credential-pattern scan of the 194 candidate files found no hits; no file exceeded 100 MiB. The committed overview PDF matches its original binary bytes. A follow-up documentation commit records these results.
 
 ## Shareable project package - 2026-10-07
 

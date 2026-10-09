@@ -21,3 +21,9 @@ Git LFS stores game binaries separately from ordinary Git objects. Other machine
 Git/Git LFS installed versions: Git 2.53.0.windows.1, Git LFS 3.7.1. LFS handling was checked against [GitHub's official documentation](https://docs.github.com/en/repositories/working-with-files/managing-large-files/about-git-large-file-storage).
 
 Avoid force-pushes. Do not move or edit .uasset/.umap assets through filesystem operations; keep authoring in Unreal. Git versions the files saved by the editor.
+
+
+## Combined environment upload readiness - 2026-10-08
+Asset sources committed 736e32d; integration committed 8eda88e, followed by this documentation update. Active 5.8 project now tracked with terrain/vegetation and accepted movement. 1,358 files, 8.05 GiB working bytes; image sources now LFS alongside game/model binaries. Final LFS integrity passes; scan of 442 text files found no credential/signed-link patterns. All 41 gameplay checks pass. See COMBINED_ENVIRONMENT_REPORT.md.
+
+Remote main remains 642db88 at latest inspection. Automatic approval review rejected large-asset upload because it requires explicit destination/payload authorization. Local work awaits that confirmation. Successful LFS upload and remote ref comparison are required before claiming a new push.

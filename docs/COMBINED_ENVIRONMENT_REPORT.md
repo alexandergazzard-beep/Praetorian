@@ -23,9 +23,9 @@ ExitGate height is now 450 cm in the playable, opening, and forest/wreck review 
 
 ## Source control
 
-Environment sources committed as `736e32d`. The integration commit also includes the previously untracked active Unreal project, earlier accumulated environment work, movement source, evidence and updated project records. Generated editor/cache folders, local marker and authentication values are excluded. Generated Android file-server token values were removed from publishable config, with exact local originals retained in ignored `tmp/local_config_backups`.
+Environment sources committed as `736e32d`; verified integration commit `8eda88e`. The integration commit also includes the previously untracked active Unreal project, earlier accumulated environment work, movement source, evidence and updated project records. Generated editor/cache folders, local marker and authentication values are excluded. Generated Android file-server token values were removed from publishable config, with exact local originals retained in ignored `tmp/local_config_backups`.
 
-GitHub destination: `https://github.com/alexandergazzard-beep/Praetorian.git`, branch `main`. Approximately 8 GB of project files before Git/LFS compression. Automatic approval review rejected the initial asset upload because it requires explicit approval of this destination and payload. Upload remains pending user approval; no remote completion claim.
+GitHub destination: `https://github.com/alexandergazzard-beep/Praetorian.git`, branch `main`. 1,358 tracked files, 8.05 GiB of working files before Git/LFS compression. Final Git LFS integrity check passed; scan of 442 text files found no credential/signed-link patterns. Automatic approval review rejected the initial asset upload because it requires explicit approval of this destination and payload. Upload remains pending user approval; no remote completion claim.
 
 ## Limits and recovery
 

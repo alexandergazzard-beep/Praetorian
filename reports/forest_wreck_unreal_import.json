@@ -1,0 +1,58 @@
+{
+  "assets": [
+    {
+      "id": "F01_LayeredCanopy",
+      "reference": "F1/F01",
+      "source": "C:\\Users\\alexa\\Documents\\AI STUFF\\Project Big\\assets\\models\\forest_wreck\\F01_LayeredCanopy\\blender\\F01_LayeredCanopy.blend",
+      "export": "C:\\Users\\alexa\\Documents\\AI STUFF\\Project Big\\assets\\models\\forest_wreck\\F01_LayeredCanopy\\export\\SM_F01_LayeredCanopy.fbx",
+      "dimensions_m": [
+        9.29013442993164,
+        8.945846557617188,
+        8.320242881774902
+      ],
+      "triangles": 17286,
+      "materials": [
+        "Bark",
+        "Leaf"
+      ],
+      "uv_layers": 1,
+      "pivot": "ground at origin",
+      "produced": true,
+      "imported": true,
+      "integrated": false,
+      "verified": false,
+      "mesh": "/Game/LostVanguard/Environment/OpeningReview/Assets/Meshes/SM_F01_LayeredCanopy.SM_F01_LayeredCanopy",
+      "bounds_cm": "<Struct 'Box' (0x000001661FC6B040) {min: {x: -440.714355, y: -454.670898, z: -4.796557}, max: {x: 488.299072, y: 439.913788, z: 827.227661}, is_valid: True}>",
+      "collision": "pending live editor",
+      "lods": "pending live editor"
+    },
+    {
+      "id": "Hull_ArmoredSection",
+      "reference": "A4/D5",
+      "source": "C:\\Users\\alexa\\Documents\\AI STUFF\\Project Big\\assets\\models\\forest_wreck\\Hull_ArmoredSection\\blender\\Hull_ArmoredSection.blend",
+      "export": "C:\\Users\\alexa\\Documents\\AI STUFF\\Project Big\\assets\\models\\forest_wreck\\Hull_ArmoredSection\\export\\SM_Hull_ArmoredSection.fbx",
+      "dimensions_m": [
+        12.149765014648438,
+        5.369999885559082,
+        3.5059850215911865
+      ],
+      "triangles": 12852,
+      "materials": [
+        "ArmorAtlas"
+      ],
+      "uv_layers": 1,
+      "pivot": "ground at origin",
+      "produced": true,
+      "imported": true,
+      "integrated": false,
+      "verified": false,
+      "mesh": "/Game/LostVanguard/Environment/OpeningReview/Assets/Meshes/SM_Hull_ArmoredSection.SM_Hull_ArmoredSection",
+      "bounds_cm": "<Struct 'Box' (0x00000165CA48FAA0) {min: {x: -600.000000, y: -268.500031, z: 0.000000}, max: {x: 614.976501, y: 268.500031, z: 350.598511}, is_valid: True}>",
+      "collision": "pending live editor",
+      "lods": "pending live editor"
+    }
+  ],
+  "destination": "/Game/LostVanguard/Environment/OpeningReview/Assets",
+  "project_file": "C:/Users/alexa/Documents/AI STUFF/Project Big/Unreal/LostVanguard 5.8/LostVanguard.uproject",
+  "engine": "5.8.3-58210709+++UE5+Release-5.8"
+}

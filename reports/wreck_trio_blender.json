@@ -1,0 +1,50 @@
+{
+  "Medium_WreckPanel": {
+    "triangles": 15037,
+    "vertices": 8523,
+    "vertices_removed": 12606,
+    "nonmanifold_edges": 239,
+    "uv_layers": 1,
+    "material_slots": 1,
+    "dimensions_m": [
+      5.519459247589111,
+      1.387157678604126,
+      4.5
+    ],
+    "pivot": "centered bottom",
+    "scale": "provisional production size; not story canon",
+    "source_preserved": true
+  },
+  "Engine_MeshyNacelle": {
+    "triangles": 12952,
+    "vertices": 7931,
+    "vertices_removed": 13074,
+    "nonmanifold_edges": 146,
+    "uv_layers": 1,
+    "material_slots": 1,
+    "dimensions_m": [
+      12.0,
+      5.444015979766846,
+      5.602643966674805
+    ],
+    "pivot": "centered bottom",
+    "scale": "provisional production size; not story canon",
+    "source_preserved": true
+  },
+  "Large_WreckModule": {
+    "triangles": 14501,
+    "vertices": 8882,
+    "vertices_removed": 15691,
+    "nonmanifold_edges": 217,
+    "uv_layers": 1,
+    "material_slots": 1,
+    "dimensions_m": [
+      12.0,
+      9.705960273742676,
+      6.884892463684082
+    ],
+    "pivot": "centered bottom",
+    "scale": "provisional production size; not story canon",
+    "source_preserved": true
+  }
+}

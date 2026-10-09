@@ -1,0 +1,125 @@
+{
+  "level": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening",
+  "assets": [
+    {
+      "id": "M17_supply_trunk",
+      "mesh": "/Game/LostVanguard/Art/Debris/FirstPair/M17_supply_trunk/SM_M17_supply_trunk.SM_M17_supply_trunk",
+      "material": "/Game/LostVanguard/Art/Debris/FirstPair/M17_supply_trunk/MI_M17_supply_trunk.MI_M17_supply_trunk",
+      "textures": {
+        "BaseColor": "/Game/LostVanguard/Art/Debris/FirstPair/M17_supply_trunk/T_M17_supply_trunk_BaseColor.T_M17_supply_trunk_BaseColor",
+        "Normal": "/Game/LostVanguard/Art/Debris/FirstPair/M17_supply_trunk/T_M17_supply_trunk_Normal.T_M17_supply_trunk_Normal",
+        "Roughness": "/Game/LostVanguard/Art/Debris/FirstPair/M17_supply_trunk/T_M17_supply_trunk_Roughness.T_M17_supply_trunk_Roughness",
+        "Metallic": "/Game/LostVanguard/Art/Debris/FirstPair/M17_supply_trunk/T_M17_supply_trunk_Metallic.T_M17_supply_trunk_Metallic"
+      },
+      "collision_and_lods": "verified and saved",
+      "bounds_cm": "<Struct 'Box' (0x000001D325BBAF00) {min: {x: -90.000000, y: -36.963272, z: 0.000000}, max: {x: 90.000000, y: 36.963272, z: 64.697578}, is_valid: True}>",
+      "lod_triangles": [
+        4224,
+        2111,
+        1056
+      ],
+      "bounds": {
+        "min": {
+          "x": -90,
+          "y": -36.96327209472656,
+          "z": 0
+        },
+        "max": {
+          "x": 90,
+          "y": 36.96327209472656,
+          "z": 64.69757843017578
+        },
+        "isValid": true
+      },
+      "collision": "one convex hull",
+      "placed_actor": {
+        "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_504"
+      },
+      "placement": {
+        "location": {
+          "x": 350,
+          "y": 250,
+          "z": 0
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": -12,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      }
+    },
+    {
+      "id": "S04_vent_grille",
+      "mesh": "/Game/LostVanguard/Art/Debris/FirstPair/S04_vent_grille/SM_S04_vent_grille.SM_S04_vent_grille",
+      "material": "/Game/LostVanguard/Art/Debris/FirstPair/S04_vent_grille/MI_S04_vent_grille.MI_S04_vent_grille",
+      "textures": {
+        "BaseColor": "/Game/LostVanguard/Art/Debris/FirstPair/S04_vent_grille/T_S04_vent_grille_BaseColor.T_S04_vent_grille_BaseColor",
+        "Normal": "/Game/LostVanguard/Art/Debris/FirstPair/S04_vent_grille/T_S04_vent_grille_Normal.T_S04_vent_grille_Normal",
+        "Roughness": "/Game/LostVanguard/Art/Debris/FirstPair/S04_vent_grille/T_S04_vent_grille_Roughness.T_S04_vent_grille_Roughness",
+        "Metallic": "/Game/LostVanguard/Art/Debris/FirstPair/S04_vent_grille/T_S04_vent_grille_Metallic.T_S04_vent_grille_Metallic"
+      },
+      "collision_and_lods": "verified and saved",
+      "bounds_cm": "<Struct 'Box' (0x000001D325BBE640) {min: {x: -37.500000, y: -7.409365, z: 0.000000}, max: {x: 37.500000, y: 7.409360, z: 45.341473}, is_valid: True}>",
+      "lod_triangles": [
+        1302,
+        650,
+        326
+      ],
+      "bounds": {
+        "min": {
+          "x": -37.5,
+          "y": -7.409364700317383,
+          "z": 0
+        },
+        "max": {
+          "x": 37.5,
+          "y": 7.409360408782959,
+          "z": 45.34147262573242
+        },
+        "isValid": true
+      },
+      "collision": "none",
+      "placed_actor": {
+        "refPath": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.StaticMeshActor_505"
+      },
+      "placement": {
+        "location": {
+          "x": 100,
+          "y": 290,
+          "z": 9
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 18,
+          "roll": 90
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      }
+    }
+  ],
+  "camera": {
+    "location": {
+      "x": -40,
+      "y": -60,
+      "z": 180
+    },
+    "rotation": {
+      "pitch": -15,
+      "yaw": 44,
+      "roll": 0
+    }
+  },
+  "performance": "Frame time not yet profiled; mesh budgets alone do not establish FPS.",
+  "active_project": "Unreal/LostVanguard 5.8/LostVanguard.uproject",
+  "master_material": "/Game/LostVanguard/Art/Debris/FirstPair/M_Debris_PBR_Final",
+  "roughness_minimum": 0.6
+}

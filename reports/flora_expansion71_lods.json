@@ -1,0 +1,117 @@
+{
+  "F13_Expansion71": {
+    "triangles": [
+      47969,
+      26138,
+      14193,
+      3771
+    ],
+    "ratios": [
+      1,
+      0.5,
+      0.22,
+      0.08
+    ],
+    "simplification": "distance-based vertex welding before collapse to reduce nonmanifold thin foliage; UV loops retained",
+    "engine_screen_thresholds": "unassigned; visual distance testing required",
+    "pre_export_triangles": [
+      47969,
+      26366,
+      14244,
+      3781
+    ],
+    "count_evidence": "Actual exported FBX reimport; importer strips some invalid reduced faces"
+  },
+  "F14_Expansion71": {
+    "triangles": [
+      41594,
+      20483,
+      14124,
+      4060
+    ],
+    "ratios": [
+      1,
+      0.5,
+      0.22,
+      0.08
+    ],
+    "simplification": "distance-based vertex welding before collapse to reduce nonmanifold thin foliage; UV loops retained",
+    "engine_screen_thresholds": "unassigned; visual distance testing required",
+    "pre_export_triangles": [
+      41594,
+      20686,
+      14177,
+      4067
+    ],
+    "count_evidence": "Actual exported FBX reimport; importer strips some invalid reduced faces"
+  },
+  "F16_Expansion71": {
+    "triangles": [
+      55302,
+      30333,
+      23344,
+      6961
+    ],
+    "ratios": [
+      1,
+      0.5,
+      0.22,
+      0.08
+    ],
+    "simplification": "distance-based vertex welding before collapse to reduce nonmanifold thin foliage; UV loops retained",
+    "engine_screen_thresholds": "unassigned; visual distance testing required",
+    "pre_export_triangles": [
+      55302,
+      30556,
+      23442,
+      6963
+    ],
+    "count_evidence": "Actual exported FBX reimport; importer strips some invalid reduced faces"
+  },
+  "F19_Expansion71": {
+    "triangles": [
+      15948,
+      7908,
+      6257,
+      4467
+    ],
+    "ratios": [
+      1,
+      0.5,
+      0.22,
+      0.08
+    ],
+    "simplification": "distance-based vertex welding before collapse to reduce nonmanifold thin foliage; UV loops retained",
+    "engine_screen_thresholds": "unassigned; visual distance testing required",
+    "pre_export_triangles": [
+      15948,
+      7973,
+      6303,
+      4471
+    ],
+    "count_evidence": "Actual exported FBX reimport; importer strips some invalid reduced faces"
+  },
+  "F21_Expansion71": {
+    "triangles": [
+      14150,
+      6786,
+      3307,
+      2002
+    ],
+    "ratios": [
+      1,
+      0.5,
+      0.22,
+      0.08
+    ],
+    "simplification": "distance-based vertex welding before collapse to reduce nonmanifold thin foliage; UV loops retained",
+    "engine_screen_thresholds": "unassigned; visual distance testing required",
+    "pre_export_triangles": [
+      14150,
+      6789,
+      3311,
+      2006
+    ],
+    "count_evidence": "Actual exported FBX reimport; importer strips some invalid reduced faces"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "date": "2026-10-08",
+  "mode": "built-in imagegen",
+  "assets": [
+    {
+      "id": "Fire",
+      "prompt": "A production VFX sprite atlas for Unreal Engine: exactly 4 columns by 4 rows, 16 equally sized tiles. Transparent RGBA background. Each tile contains one isolated realistic orange-yellow flame tongue from burning wreckage, white-hot core at base, wispy thin orange curling tips, no smoke, no object, no floor, no shadow. The sixteen frames are a coherent evolving flame cycle in chronological row-major order, same centered base position and scale in every tile, full flame contained within each tile with generous transparent padding on all sides. Flame changes curling shape and flickers from frame to frame, photographic plasma detail, soft alpha edges. No grid lines, no text, no labels. Precisely aligned animation texture sheet, square overall image.",
+      "source": "C:\\Users\\alexa\\.codex\\generated_images\\01a11cb3-50f5-7131-8ed6-c789e60afb6b\\exec-885248aa-22fe-4adb-a51c-24797218d7ec.png",
+      "project_copy": "assets/models/space_impact/textures/T_FireAtlas.png"
+    },
+    {
+      "id": "Smoke",
+      "prompt": "A production VFX sprite atlas for Unreal Engine: exactly 4 columns by 4 rows, 16 equally sized tiles. Transparent RGBA background. Each tile is one isolated photorealistic billowy gray-black smoke puff, lit softly so internal rolling turbulence is visible, semitransparent edges, uneven organic shape. Coherent slow evolving smoke puff cycle in chronological row-major order, same centered position and consistent scale each tile, all sixteen puffs separate with large transparent padding, no tile overlap. No flames, no object, no floor, no shadows, no background haze outside the puffs. No grid lines, text or labels. Precisely aligned square animation texture atlas.",
+      "source": "C:\\Users\\alexa\\.codex\\generated_images\\01a11cb3-50f5-7131-8ed6-c789e60afb6b\\exec-ddc19788-cc74-4016-8ec8-d4ba50afb47d.png",
+      "project_copy": "assets/models/space_impact/textures/T_SmokeAtlas.png"
+    },
+    {
+      "id": "Soil",
+      "prompt": "Seamless tileable physically based game environment base-color texture, square full bleed top down orthographic scan of dark damp impact soil, charcoal earth, small sharp gravel, fine coarse mineral grains, scattered burnt organic flecks, dense realistic microdetail, cool desaturated brown gray, 1 meter patch, evenly diffuse-lit ALBEDO ONLY no directional lighting no shadows no highlights no puddles no large stones no scenery no text. Natural irregular stochastic distribution, perfectly seamless edges. Photogrammetry material quality.",
+      "source": "C:\\Users\\alexa\\.codex\\generated_images\\01a11cb3-50f5-7131-8ed6-c789e60afb6b\\exec-83991b83-e6c7-4bc0-9b8d-bca7cdbbf8fe.png",
+      "project_copy": "assets/models/space_impact/textures/T_ImpactSoil.png"
+    }
+  ],
+  "inspection": "Each generated source viewed before import; RGBA atlases use 4x4 layout and shader tile-edge fade. Texture generation is not a physical smoke simulation."
+}

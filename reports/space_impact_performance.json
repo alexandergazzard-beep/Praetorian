@@ -1,0 +1,53 @@
+{
+  "source_csv": "C:\\Users\\alexa\\Documents\\AI STUFF\\Project Big\\Unreal\\LostVanguard 5.8\\Saved\\Profiling\\CSV\\Profile(20261008_162336).csv",
+  "hardware": {
+    "cpu": "AMD Ryzen 7 5800X",
+    "gpu": "NVIDIA GeForce RTX 3080 Ti"
+  },
+  "viewport_pixels": [
+    1526,
+    862
+  ],
+  "screen_percentage": "Unreal editor automatic default (r.ScreenPercentage=0); native internal resolution unmeasured",
+  "vsync": false,
+  "maxfps": 0,
+  "background_throttle_disabled_for_test": true,
+  "excluded_background_capture": "Profile(20261008_161951).csv",
+  "kind": "Play-in-Editor fixed cinematic camera, all effects active",
+  "sample_frame_count": 1445,
+  "trim": "first and last 10 rows excluded to reduce capture command/metadata overhead",
+  "not_packaged_hardware_guarantee": true,
+  "FrameTime": {
+    "mean": 15.07285785467128,
+    "median": 15.1168,
+    "p95": 17.4641
+  },
+  "GameThreadTime": {
+    "mean": 10.684688858131487,
+    "median": 10.3264,
+    "p95": 14.3908
+  },
+  "RenderThreadTime": {
+    "mean": 14.761703252595156,
+    "median": 15.1615,
+    "p95": 17.0705
+  },
+  "GPUTime": {
+    "mean": 12.732827128027681,
+    "median": 13.0165,
+    "p95": 14.4527
+  },
+  "RHI/DrawCalls": {
+    "mean": 337.89134948096887,
+    "median": 336.0,
+    "p95": 350.0
+  },
+  "RHI/PrimitivesDrawn": {
+    "mean": 2276904.211764706,
+    "median": 2273318.0,
+    "p95": 2293116.0
+  },
+  "average_fps": 66.34441919652859,
+  "p95_frame_ms": 17.4641,
+  "median_fps": 66.15156646909399
+}

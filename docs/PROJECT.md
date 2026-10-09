@@ -58,3 +58,6 @@ Paid-tool budget, final asset style, cinematic production software, and whether 
 - User currently uses free Gemini. They expect a possible Google AI Pro upgrade through a student offer; upgrade and eligibility are not verified. API access and billing remain unconfirmed.
 
 
+
+## Player movement target - 2026-10-08
+User wants Halo 3 or Halo Reach movement/jumping feel, explicitly no fall damage. Primary reference and numerical tuning remain open; hands-on comparison required.

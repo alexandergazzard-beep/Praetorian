@@ -9,6 +9,10 @@ import json
 import math
 import sys
 from pathlib import Path
+import sys
+sys.path.insert(0,str(Path(__file__).parent))
+from movement_profiles import ACTIVE_PROFILE, PROFILES
+WALK = PROFILES[ACTIVE_PROFILE]['MaxWalkSpeed']
 from mcp import ClientSession
 from mcp.client.streamable_http import streamable_http_client
 
@@ -16,6 +20,8 @@ sys.stdout.reconfigure(encoding='utf-8')
 MAP=sys.argv[1] if len(sys.argv)>1 else '/Game/WreckagePrototype/Maps/L_Wreckage_Playable'
 OPENING=MAP.endswith('L_Wreckage_Opening')
 OUT=Path('reports/opening_playtest.json' if OPENING else 'reports/wreckage_playtest.json')
+CAPTURE_PREFIX=''
+CAPTURE_VIEWPORT=False
 report={'map':MAP,'checks':[],'actions':[],'errors':[],'limitations':['Automated editor input properties used; physical keyboard/mouse feel needs a human pass.','Fresh 100-health start and normal 100-health death/restart are tested. Slow remote movement/combat uses temporary 5000 health, restored to 100 before the death check and by checkpoint restart; saved defaults remain unchanged. Normal-health encounter balance is not verified.']}
 SCENE='editor_toolset.toolsets.scene.SceneTools'
 OBJ='editor_toolset.toolsets.object.ObjectTools'
@@ -30,13 +36,19 @@ async def main():
         await session.initialize()
         async def call(toolset,tool,**args):
             result=await asyncio.wait_for(session.call_tool('call_tool',{'toolset_name':toolset,'tool_name':tool,'arguments':args}),25)
-            if result.is_error:raise RuntimeError(str(result.content))
+            if result.is_error:
+                # UE 5.8 may report warmup cancellation while the world is running.
+                # Verify the actual state; every other tool error remains fatal.
+                if tool=='StartPIE' and 'PIE ended before warmup completed' in str(result.content):
+                    if await call(EDITOR,'IsPIERunning'):return {'verified_running_after_warmup_error':True}
+                raise RuntimeError(str(result.content))
             value=json.loads(result.content[0].text)['returnValue'] if result.content and result.content[0].type=='text' else None
             return value
         if await call(EDITOR,'IsPIERunning'):
             await call(EDITOR,'StopPIE')
         await call(SCENE,'load_level',level_path=MAP)
-        await call(EDITOR,'StartPIE',options={'bSimulate':False,'playMode':'PlayMode_InViewPort','warmupSeconds':.5})
+        await call(EDITOR,'StartPIE',options={'bSimulate':False,'playMode':'PlayMode_InViewPort','warmupSeconds':0})
+        await asyncio.sleep(.75)
         found=await call(SCENE,'find_actors',name='',tag='',collision_channels=[],actor_type={'refPath':'/Game/WreckagePrototype/Blueprints/BP_WreckagePlayer_Runtime.BP_WreckagePlayer_Runtime_C'})
         assert len(found)==1,found
         player=found[0]
@@ -58,28 +70,36 @@ async def main():
             await set_props(**props);await asyncio.sleep(seconds);return await state(label)
         async def move(label,forward,seconds,right=0,crouch=False,jump=False):
             return await input_action(label,seconds+.25,DebugForward=forward,DebugRight=right,DebugMoveTime=seconds,DebugCrouch=crouch,RequestJump=jump)
-        async def face(yaw,pitch=0):
+        async def face(yaw,pitch=0,allow_dead=False):
             # Exercise the same controller input as mouse look. Background editor
             # tick rates vary, so use observed heading rather than fixed timing.
             for _ in range(12):
+                if allow_dead:
+                    health=json.loads(await call(OBJ,'get_properties',instance=player,properties=['Dead']))
+                    if health['Dead']:return False
                 tr=await call(ACTOR,'get_actor_transform',actor=player)
                 delta=(yaw-tr['rotation']['yaw']+180)%360-180
-                if abs(delta)<.6:return
+                if abs(delta)<.6:return True
                 await set_props(DebugLook=delta*.5,DebugMoveTime=.5)
                 await asyncio.sleep(.85)
             raise AssertionError('Could not turn toward requested heading')
         async def capture(name):
-            data=await call(EDITOR,'CaptureEditorImage')
+            if CAPTURE_VIEWPORT:
+                pose=await call(ACTOR,'get_actor_transform',actor=player)
+                pose['location']['z']+=64
+                data=(await call(EDITOR,'CaptureViewport',captureTransform=pose,bShowUI=False,annotations={'gridSpacing':0,'gridExtent':0,'gridHeight':0,'maxLabelDistance':0,'classFilter':{'refPath':'/Script/Engine.Actor'},'maxLabels':0}))['image']
+            else:data=await call(EDITOR,'CaptureEditorImage')
             if OPENING:name='opening_'+name
-            Path('reports/'+name+'.png').write_bytes(base64.b64decode(data['data']))
+            Path('reports/'+CAPTURE_PREFIX+name+'.png').write_bytes(base64.b64decode(data['data']))
         async def go(label,x,y,tolerance=100,allow_dead=False,crouch=False):
             for attempt in range(12):
                 tr=await call(ACTOR,'get_actor_transform',actor=player)
                 dx=x-tr['location']['x'];dy=y-tr['location']['y'];dist=math.hypot(dx,dy)
                 if dist<tolerance:return await state(label)
-                await face(math.degrees(math.atan2(dy,dx)))
-                speed=min(1.0,dist/500)
-                seconds=min(2.0,max(1.0,dist/450))
+                turned=await face(math.degrees(math.atan2(dy,dx)),allow_dead=allow_dead)
+                if turned is False and allow_dead:return await state(label+' death while turning')
+                speed=min(1.0,dist/(WALK*500/450))
+                seconds=min(2.0,max(1.0,dist/WALK))
                 props,tr=await move(label+' segment '+str(attempt),speed,seconds,crouch=crouch)
                 if props['Dead'] and allow_dead:return props,tr
                 assert not props['Dead'],f'Died during {label}'
@@ -166,6 +186,7 @@ async def main():
         await check('Saved map reload',current==MAP,current)
         print('ALL_CHECKS_PASSED',flush=True)
 
-try:asyncio.run(main())
-except Exception as error:
-    report['errors'].append(str(error));save();raise
+if __name__=='__main__':
+    try:asyncio.run(main())
+    except Exception as error:
+        report['errors'].append(str(error));save();raise

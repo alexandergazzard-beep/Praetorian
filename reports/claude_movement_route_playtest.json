@@ -1,0 +1,2629 @@
+{
+  "map": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening",
+  "checks": [
+    {
+      "name": "Fresh start at recovery",
+      "passed": true,
+      "observed": {
+        "Step": 0,
+        "Checkpoint": 0,
+        "Health": 100,
+        "Dead": false,
+        "HasWeapon": false,
+        "EvidenceRead": false,
+        "CommsRestored": false,
+        "Objective": "E: shift the wreckage",
+        "Subtitle": "Clank: Evan. Can you hear me?",
+        "SubtitleQueue": [],
+        "LookTotal": 0,
+        "DebugMoveTime": -1.10633709654212,
+        "bIsCrouched": false,
+        "Cue0": true,
+        "Cue5": false,
+        "Cue6": false,
+        "Cue8": false,
+        "Cue9": false
+      }
+    },
+    {
+      "name": "Debris interaction",
+      "passed": true,
+      "observed": {
+        "Step": 1,
+        "Checkpoint": 0,
+        "Health": 100,
+        "Dead": false,
+        "HasWeapon": false,
+        "EvidenceRead": false,
+        "CommsRestored": false,
+        "Objective": "Look around to check suit response",
+        "Subtitle": "Clank: Evan. Can you hear me?",
+        "SubtitleQueue": [
+          "Clank: Suit response is uneven. Follow the light."
+        ],
+        "LookTotal": 0,
+        "DebugMoveTime": -1.5801729932427406,
+        "bIsCrouched": false,
+        "Cue0": true,
+        "Cue5": false,
+        "Cue6": false,
+        "Cue8": false,
+        "Cue9": false
+      }
+    },
+    {
+      "name": "Look recovery",
+      "passed": true,
+      "observed": {
+        "Step": 2,
+        "Checkpoint": 0,
+        "Health": 100,
+        "Dead": false,
+        "HasWeapon": false,
+        "EvidenceRead": false,
+        "CommsRestored": false,
+        "Objective": "WASD: walk to the damaged passage",
+        "Subtitle": "Clank: Evan. Can you hear me?",
+        "SubtitleQueue": [
+          "Clank: Suit response is uneven. Follow the light.",
+          "Clank: Good. On your feet."
+        ],
+        "LookTotal": 19.935079962015152,
+        "DebugMoveTime": -0.12884439900517464,
+        "bIsCrouched": false,
+        "Cue0": true,
+        "Cue5": false,
+        "Cue6": false,
+        "Cue8": false,
+        "Cue9": false
+      }
+    },
+    {
+      "name": "Walk recovery",
+      "passed": true,
+      "observed": {
+        "Step": 3,
+        "Checkpoint": 0,
+        "Health": 100,
+        "Dead": false,
+        "HasWeapon": false,
+        "EvidenceRead": false,
+        "CommsRestored": false,
+        "Objective": "Hold C: pass under the low beam",
+        "Subtitle": "Clank: Suit response is uneven. Follow the light.",
+        "SubtitleQueue": [
+          "Clank: Good. On your feet.",
+          "Clank: I cannot account for the attack. My records are damaged. Clearance ahead.\nKeep low."
+        ],
+        "LookTotal": 0.16637080959458656,
+        "DebugMoveTime": -0.3091516773418599,
+        "bIsCrouched": false,
+        "Cue0": true,
+        "Cue5": false,
+        "Cue6": false,
+        "Cue8": false,
+        "Cue9": false
+      }
+    },
+    {
+      "name": "Crouch passage",
+      "passed": true,
+      "observed": {
+        "state": {
+          "Step": 4,
+          "Checkpoint": 0,
+          "Health": 100,
+          "Dead": false,
+          "HasWeapon": false,
+          "EvidenceRead": false,
+          "CommsRestored": false,
+          "Objective": "Space: cross the small break",
+          "Subtitle": "Clank: I cannot account for the attack. My records are damaged. Clearance ahead.\nKeep low.",
+          "SubtitleQueue": [
+            "Clank: Check your footing."
+          ],
+          "LookTotal": -0.6789119775029495,
+          "DebugMoveTime": -0.2860771007835865,
+          "bIsCrouched": true,
+          "Cue0": true,
+          "Cue5": false,
+          "Cue6": false,
+          "Cue8": false,
+          "Cue9": false
+        },
+        "transform": {
+          "location": {
+            "x": 1009.8356523186053,
+            "y": 0.8213570735563244,
+            "z": 46.14999961853027
+          },
+          "rotation": {
+            "pitch": 0,
+            "yaw": -1.697279783897102,
+            "roll": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        }
+      }
+    },
+    {
+      "name": "Break traversal",
+      "passed": true,
+      "observed": {
+        "state": {
+          "Step": 5,
+          "Checkpoint": 5,
+          "Health": 4976,
+          "Dead": false,
+          "HasWeapon": false,
+          "EvidenceRead": false,
+          "CommsRestored": false,
+          "Objective": "E near the locker: take the weapon",
+          "Subtitle": "Clank: I cannot account for the attack. My records are damaged. Clearance ahead.\nKeep low.",
+          "SubtitleQueue": [
+            "Clank: Check your footing.",
+            "Clank: Movement checks complete. Movement beyond that wall. Manual release; power\nis gone."
+          ],
+          "LookTotal": -0.6789119775029495,
+          "DebugMoveTime": -0.25974300131201744,
+          "bIsCrouched": false,
+          "Cue0": true,
+          "Cue5": true,
+          "Cue6": false,
+          "Cue8": false,
+          "Cue9": false
+        },
+        "transform": {
+          "location": {
+            "x": 2057.9883754715656,
+            "y": -30.23728289283835,
+            "z": 90.15000303976858
+          },
+          "rotation": {
+            "pitch": 0,
+            "yaw": -1.697279783897102,
+            "roll": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        }
+      }
+    },
+    {
+      "name": "Weapon pickup",
+      "passed": true,
+      "observed": {
+        "Step": 6,
+        "Checkpoint": 5,
+        "Health": 4856,
+        "Dead": false,
+        "HasWeapon": true,
+        "EvidenceRead": false,
+        "CommsRestored": false,
+        "Objective": "Left mouse: clear the two searchers. Use cover or the flank.",
+        "Subtitle": "Clank: Movement checks complete. Movement beyond that wall. Manual release; power\nis gone.",
+        "SubtitleQueue": [
+          "Clank: Searchers ahead. Their speech is untranslated."
+        ],
+        "LookTotal": -65.59302715023045,
+        "DebugMoveTime": -0.6214760988950729,
+        "bIsCrouched": false,
+        "Cue0": true,
+        "Cue5": true,
+        "Cue6": true,
+        "Cue8": false,
+        "Cue9": false
+      }
+    },
+    {
+      "name": "Combat can kill the player",
+      "passed": true,
+      "observed": {
+        "Step": 6,
+        "Checkpoint": 5,
+        "Health": -8,
+        "Dead": true,
+        "HasWeapon": true,
+        "EvidenceRead": false,
+        "CommsRestored": false,
+        "Objective": "You died. Press R to restart at the checkpoint.",
+        "Subtitle": "",
+        "SubtitleQueue": [],
+        "LookTotal": -28.516374435314535,
+        "DebugMoveTime": -0.3786622993648052,
+        "bIsCrouched": false,
+        "Cue0": true,
+        "Cue5": true,
+        "Cue6": true,
+        "Cue8": false,
+        "Cue9": false
+      }
+    },
+    {
+      "name": "Death/restart resets encounter",
+      "passed": true,
+      "observed": {
+        "Step": 5,
+        "Checkpoint": 5,
+        "Health": 100,
+        "Dead": false,
+        "HasWeapon": false,
+        "EvidenceRead": false,
+        "CommsRestored": false,
+        "Objective": "E near the locker: take the weapon",
+        "Subtitle": "",
+        "SubtitleQueue": [],
+        "LookTotal": -28.516374435314535,
+        "DebugMoveTime": -0.8194105960428715,
+        "bIsCrouched": false,
+        "Cue0": true,
+        "Cue5": true,
+        "Cue6": true,
+        "Cue8": false,
+        "Cue9": false
+      }
+    },
+    {
+      "name": "Opening subtitles do not replay",
+      "passed": true,
+      "observed": {
+        "Step": 5,
+        "Checkpoint": 5,
+        "Health": 100,
+        "Dead": false,
+        "HasWeapon": false,
+        "EvidenceRead": false,
+        "CommsRestored": false,
+        "Objective": "E near the locker: take the weapon",
+        "Subtitle": "",
+        "SubtitleQueue": [],
+        "LookTotal": -28.516374435314535,
+        "DebugMoveTime": -0.8194105960428715,
+        "bIsCrouched": false,
+        "Cue0": true,
+        "Cue5": true,
+        "Cue6": true,
+        "Cue8": false,
+        "Cue9": false
+      }
+    },
+    {
+      "name": "Weapon trace defeats first searcher",
+      "passed": true,
+      "observed": 1
+    },
+    {
+      "name": "First fight completes objective",
+      "passed": true,
+      "observed": {
+        "Step": 7,
+        "Checkpoint": 5,
+        "Health": 4760,
+        "Dead": false,
+        "HasWeapon": true,
+        "EvidenceRead": false,
+        "CommsRestored": false,
+        "Objective": "E near the cyan search terminal: access the record",
+        "Subtitle": "Evan: Clear.",
+        "SubtitleQueue": [],
+        "LookTotal": 30.373701540739102,
+        "DebugMoveTime": -1.8333860002458096,
+        "bIsCrouched": false,
+        "Cue0": true,
+        "Cue5": true,
+        "Cue6": true,
+        "Cue8": false,
+        "Cue9": false
+      }
+    },
+    {
+      "name": "Evidence advances in order",
+      "passed": true,
+      "observed": {
+        "Step": 8,
+        "Checkpoint": 8,
+        "Health": 4760,
+        "Dead": false,
+        "HasWeapon": true,
+        "EvidenceRead": true,
+        "CommsRestored": false,
+        "Objective": "E near the communications panel: restore the signal",
+        "Subtitle": "Clank: Fresh search records. They are looking for an artifact. This ship is marked\nas a search site. The record does not identify it.",
+        "SubtitleQueue": [],
+        "LookTotal": 33.631377281866854,
+        "DebugMoveTime": -0.6313536858174598,
+        "bIsCrouched": false,
+        "Cue0": true,
+        "Cue5": true,
+        "Cue6": true,
+        "Cue8": true,
+        "Cue9": false
+      }
+    },
+    {
+      "name": "Evidence repeat does not replay cue",
+      "passed": true,
+      "observed": {
+        "Step": 8,
+        "Checkpoint": 8,
+        "Health": 4760,
+        "Dead": false,
+        "HasWeapon": true,
+        "EvidenceRead": true,
+        "CommsRestored": false,
+        "Objective": "E near the communications panel: restore the signal",
+        "Subtitle": "Clank: Fresh search records. They are looking for an artifact. This ship is marked\nas a search site. The record does not identify it.",
+        "SubtitleQueue": [],
+        "LookTotal": 33.631377281866854,
+        "DebugMoveTime": -1.0465875810000693,
+        "bIsCrouched": false,
+        "Cue0": true,
+        "Cue5": true,
+        "Cue6": true,
+        "Cue8": true,
+        "Cue9": false
+      }
+    },
+    {
+      "name": "Evidence remains available after restart",
+      "passed": true,
+      "observed": {
+        "Step": 8,
+        "Checkpoint": 8,
+        "Health": 100,
+        "Dead": false,
+        "HasWeapon": true,
+        "EvidenceRead": true,
+        "CommsRestored": false,
+        "Objective": "E near the communications panel: restore the signal",
+        "Subtitle": "",
+        "SubtitleQueue": [],
+        "LookTotal": 33.631377281866854,
+        "DebugMoveTime": -1.3840110806736743,
+        "bIsCrouched": false,
+        "Cue0": true,
+        "Cue5": true,
+        "Cue6": true,
+        "Cue8": true,
+        "Cue9": false
+      }
+    },
+    {
+      "name": "Exit cannot bypass clue/communications",
+      "passed": true,
+      "observed": {
+        "state": {
+          "Step": 8,
+          "Checkpoint": 8,
+          "Health": 100,
+          "Dead": false,
+          "HasWeapon": true,
+          "EvidenceRead": true,
+          "CommsRestored": false,
+          "Objective": "E near the communications panel: restore the signal",
+          "Subtitle": "",
+          "SubtitleQueue": [],
+          "LookTotal": 0.1023744098372853,
+          "DebugMoveTime": -0.6409432950472704,
+          "bIsCrouched": false,
+          "Cue0": true,
+          "Cue5": true,
+          "Cue6": true,
+          "Cue8": true,
+          "Cue9": false
+        },
+        "transform": {
+          "location": {
+            "x": 3956.718210829016,
+            "y": 3.782279376412047,
+            "z": 90.14999961853027
+          },
+          "rotation": {
+            "pitch": 0,
+            "yaw": 0.25593780912458897,
+            "roll": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        }
+      }
+    },
+    {
+      "name": "Communications advances after clue",
+      "passed": true,
+      "observed": {
+        "Step": 9,
+        "Checkpoint": 8,
+        "Health": 100,
+        "Dead": false,
+        "HasWeapon": true,
+        "EvidenceRead": true,
+        "CommsRestored": true,
+        "Objective": "Follow the route to the exit; E to continue",
+        "Subtitle": "Human Signal: Any surviving units, respond. Rally-point transmission follows.\nClank: Signal is weak. We have a direction.",
+        "SubtitleQueue": [],
+        "LookTotal": -59.44357443050804,
+        "DebugMoveTime": -0.627368800342083,
+        "bIsCrouched": false,
+        "Cue0": true,
+        "Cue5": true,
+        "Cue6": true,
+        "Cue8": true,
+        "Cue9": true
+      }
+    },
+    {
+      "name": "Complete route from fresh start",
+      "passed": true,
+      "observed": {
+        "Step": 10,
+        "Checkpoint": 8,
+        "Health": 100,
+        "Dead": false,
+        "HasWeapon": true,
+        "EvidenceRead": true,
+        "CommsRestored": true,
+        "Objective": "WRECKAGE COMPLETE - proposed next mission: Rally Point",
+        "Subtitle": "Evan: Then we move.",
+        "SubtitleQueue": [],
+        "LookTotal": 6.034044198284791,
+        "DebugMoveTime": -0.6476720663278548,
+        "bIsCrouched": false,
+        "Cue0": true,
+        "Cue5": true,
+        "Cue6": true,
+        "Cue8": true,
+        "Cue9": true
+      }
+    },
+    {
+      "name": "Saved map reload",
+      "passed": true,
+      "observed": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening"
+    }
+  ],
+  "actions": [
+    {
+      "label": "Fresh PIE start",
+      "properties": {
+        "Step": 0,
+        "Checkpoint": 0,
+        "Health": 100,
+        "Dead": false,
+        "HasWeapon": false,
+        "EvidenceRead": false,
+        "CommsRestored": false,
+        "Objective": "E: shift the wreckage",
+        "Subtitle": "Clank: Evan. Can you hear me?",
+        "SubtitleQueue": [],
+        "LookTotal": 0,
+        "DebugMoveTime": -1.10633709654212,
+        "bIsCrouched": false,
+        "Cue0": true,
+        "Cue5": false,
+        "Cue6": false,
+        "Cue8": false,
+        "Cue9": false
+      },
+      "transform": {
+        "location": {
+          "x": -390,
+          "y": 0,
+          "z": 90.14999961853027
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      }
+    },
+    {
+      "label": "Shift debris",
+      "properties": {
+        "Step": 1,
+        "Checkpoint": 0,
+        "Health": 100,
+        "Dead": false,
+        "HasWeapon": false,
+        "EvidenceRead": false,
+        "CommsRestored": false,
+        "Objective": "Look around to check suit response",
+        "Subtitle": "Clank: Evan. Can you hear me?",
+        "SubtitleQueue": [
+          "Clank: Suit response is uneven. Follow the light."
+        ],
+        "LookTotal": 0,
+        "DebugMoveTime": -1.5801729932427406,
+        "bIsCrouched": false,
+        "Cue0": true,
+        "Cue5": false,
+        "Cue6": false,
+        "Cue8": false,
+        "Cue9": false
+      },
+      "transform": {
+        "location": {
+          "x": -390,
+          "y": 0,
+          "z": 90.14999961853027
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      }
+    },
+    {
+      "label": "Look recovery",
+      "properties": {
+        "Step": 2,
+        "Checkpoint": 0,
+        "Health": 100,
+        "Dead": false,
+        "HasWeapon": false,
+        "EvidenceRead": false,
+        "CommsRestored": false,
+        "Objective": "WASD: walk to the damaged passage",
+        "Subtitle": "Clank: Evan. Can you hear me?",
+        "SubtitleQueue": [
+          "Clank: Suit response is uneven. Follow the light.",
+          "Clank: Good. On your feet."
+        ],
+        "LookTotal": 19.935079962015152,
+        "DebugMoveTime": -0.12884439900517464,
+        "bIsCrouched": false,
+        "Cue0": true,
+        "Cue5": false,
+        "Cue6": false,
+        "Cue8": false,
+        "Cue9": false
+      },
+      "transform": {
+        "location": {
+          "x": -390,
+          "y": 0,
+          "z": 90.14999961853027
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 49.83770048618318,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      }
+    },
+    {
+      "label": "Walk to passage segment 0",
+      "properties": {
+        "Step": 3,
+        "Checkpoint": 0,
+        "Health": 100,
+        "Dead": false,
+        "HasWeapon": false,
+        "EvidenceRead": false,
+        "CommsRestored": false,
+        "Objective": "Hold C: pass under the low beam",
+        "Subtitle": "Clank: Suit response is uneven. Follow the light.",
+        "SubtitleQueue": [
+          "Clank: Good. On your feet.",
+          "Clank: I cannot account for the attack. My records are damaged. Clearance ahead.\nKeep low."
+        ],
+        "LookTotal": 0.16637080959458656,
+        "DebugMoveTime": -0.2782474774138146,
+        "bIsCrouched": false,
+        "Cue0": true,
+        "Cue5": false,
+        "Cue6": false,
+        "Cue8": false,
+        "Cue9": false
+      },
+      "transform": {
+        "location": {
+          "x": 422.7552210286508,
+          "y": 5.900136501364251,
+          "z": 90.14999961853027
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0.4159271735697985,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      }
+    },
+    {
+      "label": "Walk to passage",
+      "properties": {
+        "Step": 3,
+        "Checkpoint": 0,
+        "Health": 100,
+        "Dead": false,
+        "HasWeapon": false,
+        "EvidenceRead": false,
+        "CommsRestored": false,
+        "Objective": "Hold C: pass under the low beam",
+        "Subtitle": "Clank: Suit response is uneven. Follow the light.",
+        "SubtitleQueue": [
+          "Clank: Good. On your feet.",
+          "Clank: I cannot account for the attack. My records are damaged. Clearance ahead.\nKeep low."
+        ],
+        "LookTotal": 0.16637080959458656,
+        "DebugMoveTime": -0.3091516773418599,
+        "bIsCrouched": false,
+        "Cue0": true,
+        "Cue5": false,
+        "Cue6": false,
+        "Cue8": false,
+        "Cue9": false
+      },
+      "transform": {
+        "location": {
+          "x": 422.7552210286508,
+          "y": 5.900136501364251,
+          "z": 90.14999961853027
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0.4159271735697985,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      }
+    },
+    {
+      "label": "Crouch under beam segment 0",
+      "properties": {
+        "Step": 3,
+        "Checkpoint": 0,
+        "Health": 100,
+        "Dead": false,
+        "HasWeapon": false,
+        "EvidenceRead": false,
+        "CommsRestored": false,
+        "Objective": "Hold C: pass under the low beam",
+        "Subtitle": "Clank: Suit response is uneven. Follow the light.",
+        "SubtitleQueue": [
+          "Clank: Good. On your feet.",
+          "Clank: I cannot account for the attack. My records are damaged. Clearance ahead.\nKeep low."
+        ],
+        "LookTotal": -0.07353858131046549,
+        "DebugMoveTime": -0.263697773797269,
+        "bIsCrouched": true,
+        "Cue0": true,
+        "Cue5": false,
+        "Cue6": false,
+        "Cue8": false,
+        "Cue9": false
+      },
+      "transform": {
+        "location": {
+          "x": 707.1721063354486,
+          "y": 4.98751828439803,
+          "z": 46.14999961853027
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": -0.18384630233049393,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      }
+    },
+    {
+      "label": "Crouch under beam segment 1",
+      "properties": {
+        "Step": 3,
+        "Checkpoint": 0,
+        "Health": 100,
+        "Dead": false,
+        "HasWeapon": false,
+        "EvidenceRead": false,
+        "CommsRestored": false,
+        "Objective": "Hold C: pass under the low beam",
+        "Subtitle": "Clank: Good. On your feet.",
+        "SubtitleQueue": [
+          "Clank: I cannot account for the attack. My records are damaged. Clearance ahead.\nKeep low."
+        ],
+        "LookTotal": -0.2469590093737376,
+        "DebugMoveTime": -0.27734300121665,
+        "bIsCrouched": true,
+        "Cue0": true,
+        "Cue5": false,
+        "Cue6": false,
+        "Cue8": false,
+        "Cue9": false
+      },
+      "transform": {
+        "location": {
+          "x": 845.0275854165382,
+          "y": 3.5019829616697473,
+          "z": 46.14999961853027
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": -0.6173973679542542,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      }
+    },
+    {
+      "label": "Crouch under beam segment 2",
+      "properties": {
+        "Step": 3,
+        "Checkpoint": 0,
+        "Health": 100,
+        "Dead": false,
+        "HasWeapon": false,
+        "EvidenceRead": false,
+        "CommsRestored": false,
+        "Objective": "Hold C: pass under the low beam",
+        "Subtitle": "Clank: Good. On your feet.",
+        "SubtitleQueue": [
+          "Clank: I cannot account for the attack. My records are damaged. Clearance ahead.\nKeep low."
+        ],
+        "LookTotal": -0.2469590093737376,
+        "DebugMoveTime": -0.26339979842305183,
+        "bIsCrouched": true,
+        "Cue0": true,
+        "Cue5": false,
+        "Cue6": false,
+        "Cue8": false,
+        "Cue9": false
+      },
+      "transform": {
+        "location": {
+          "x": 923.4236305500697,
+          "y": 2.6571845177895743,
+          "z": 46.14999961853027
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": -0.6173973679542542,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      }
+    },
+    {
+      "label": "Crouch under beam segment 3",
+      "properties": {
+        "Step": 4,
+        "Checkpoint": 0,
+        "Health": 100,
+        "Dead": false,
+        "HasWeapon": false,
+        "EvidenceRead": false,
+        "CommsRestored": false,
+        "Objective": "Space: cross the small break",
+        "Subtitle": "Clank: Good. On your feet.",
+        "SubtitleQueue": [
+          "Clank: I cannot account for the attack. My records are damaged. Clearance ahead.\nKeep low.",
+          "Clank: Check your footing."
+        ],
+        "LookTotal": -0.4465683402284724,
+        "DebugMoveTime": -0.26391930133104324,
+        "bIsCrouched": true,
+        "Cue0": true,
+        "Cue5": false,
+        "Cue6": false,
+        "Cue8": false,
+        "Cue9": false
+      },
+      "transform": {
+        "location": {
+          "x": 968.8505283391453,
+          "y": 1.7719195185020835,
+          "z": 46.14999961853027
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": -1.116420694626868,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      }
+    },
+    {
+      "label": "Crouch under beam segment 4",
+      "properties": {
+        "Step": 4,
+        "Checkpoint": 0,
+        "Health": 100,
+        "Dead": false,
+        "HasWeapon": false,
+        "EvidenceRead": false,
+        "CommsRestored": false,
+        "Objective": "Space: cross the small break",
+        "Subtitle": "Clank: Good. On your feet.",
+        "SubtitleQueue": [
+          "Clank: I cannot account for the attack. My records are damaged. Clearance ahead.\nKeep low.",
+          "Clank: Check your footing."
+        ],
+        "LookTotal": -0.4465683402284724,
+        "DebugMoveTime": -0.2617841027677059,
+        "bIsCrouched": true,
+        "Cue0": true,
+        "Cue5": false,
+        "Cue6": false,
+        "Cue8": false,
+        "Cue9": false
+      },
+      "transform": {
+        "location": {
+          "x": 994.865645354307,
+          "y": 1.2649451560258886,
+          "z": 46.14999961853027
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": -1.116420694626868,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      }
+    },
+    {
+      "label": "Crouch under beam segment 5",
+      "properties": {
+        "Step": 4,
+        "Checkpoint": 0,
+        "Health": 100,
+        "Dead": false,
+        "HasWeapon": false,
+        "EvidenceRead": false,
+        "CommsRestored": false,
+        "Objective": "Space: cross the small break",
+        "Subtitle": "Clank: I cannot account for the attack. My records are damaged. Clearance ahead.\nKeep low.",
+        "SubtitleQueue": [
+          "Clank: Check your footing."
+        ],
+        "LookTotal": -0.6789119775029495,
+        "DebugMoveTime": -0.2586241029202938,
+        "bIsCrouched": true,
+        "Cue0": true,
+        "Cue5": false,
+        "Cue6": false,
+        "Cue8": false,
+        "Cue9": false
+      },
+      "transform": {
+        "location": {
+          "x": 1009.8356523186053,
+          "y": 0.8213570735563244,
+          "z": 46.14999961853027
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": -1.697279783897102,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      }
+    },
+    {
+      "label": "Crouch under beam",
+      "properties": {
+        "Step": 4,
+        "Checkpoint": 0,
+        "Health": 100,
+        "Dead": false,
+        "HasWeapon": false,
+        "EvidenceRead": false,
+        "CommsRestored": false,
+        "Objective": "Space: cross the small break",
+        "Subtitle": "Clank: I cannot account for the attack. My records are damaged. Clearance ahead.\nKeep low.",
+        "SubtitleQueue": [
+          "Clank: Check your footing."
+        ],
+        "LookTotal": -0.6789119775029495,
+        "DebugMoveTime": -0.2860771007835865,
+        "bIsCrouched": true,
+        "Cue0": true,
+        "Cue5": false,
+        "Cue6": false,
+        "Cue8": false,
+        "Cue9": false
+      },
+      "transform": {
+        "location": {
+          "x": 1009.8356523186053,
+          "y": 0.8213570735563244,
+          "z": 46.14999961853027
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": -1.697279783897102,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      }
+    },
+    {
+      "label": "Approach break",
+      "properties": {
+        "Step": 4,
+        "Checkpoint": 0,
+        "Health": 100,
+        "Dead": false,
+        "HasWeapon": false,
+        "EvidenceRead": false,
+        "CommsRestored": false,
+        "Objective": "Space: cross the small break",
+        "Subtitle": "Clank: I cannot account for the attack. My records are damaged. Clearance ahead.\nKeep low.",
+        "SubtitleQueue": [
+          "Clank: Check your footing."
+        ],
+        "LookTotal": -0.6789119775029495,
+        "DebugMoveTime": -0.2728022012114525,
+        "bIsCrouched": false,
+        "Cue0": true,
+        "Cue5": false,
+        "Cue6": false,
+        "Cue8": false,
+        "Cue9": false
+      },
+      "transform": {
+        "location": {
+          "x": 1048.1819424969501,
+          "y": -0.3149120925566725,
+          "z": 90.15099906921387
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": -1.697279783897102,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      }
+    },
+    {
+      "label": "Jump the break",
+      "properties": {
+        "Step": 5,
+        "Checkpoint": 5,
+        "Health": 4976,
+        "Dead": false,
+        "HasWeapon": false,
+        "EvidenceRead": false,
+        "CommsRestored": false,
+        "Objective": "E near the locker: take the weapon",
+        "Subtitle": "Clank: I cannot account for the attack. My records are damaged. Clearance ahead.\nKeep low.",
+        "SubtitleQueue": [
+          "Clank: Check your footing.",
+          "Clank: Movement checks complete. Movement beyond that wall. Manual release; power\nis gone."
+        ],
+        "LookTotal": -0.6789119775029495,
+        "DebugMoveTime": -0.25974300131201744,
+        "bIsCrouched": false,
+        "Cue0": true,
+        "Cue5": true,
+        "Cue6": false,
+        "Cue8": false,
+        "Cue9": false
+      },
+      "transform": {
+        "location": {
+          "x": 2057.9883754715656,
+          "y": -30.23728289283835,
+          "z": 90.15000303976858
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": -1.697279783897102,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      }
+    },
+    {
+      "label": "Weapon locker approach segment 0",
+      "properties": {
+        "Step": 5,
+        "Checkpoint": 5,
+        "Health": 4856,
+        "Dead": false,
+        "HasWeapon": false,
+        "EvidenceRead": false,
+        "CommsRestored": false,
+        "Objective": "E near the locker: take the weapon",
+        "Subtitle": "Clank: Check your footing.",
+        "SubtitleQueue": [
+          "Clank: Movement checks complete. Movement beyond that wall. Manual release; power\nis gone."
+        ],
+        "LookTotal": -69.85402806747265,
+        "DebugMoveTime": -0.2731420161866742,
+        "bIsCrouched": false,
+        "Cue0": true,
+        "Cue5": true,
+        "Cue6": false,
+        "Cue8": false,
+        "Cue9": false
+      },
+      "transform": {
+        "location": {
+          "x": 1579.7293419423231,
+          "y": -48.01453231987027,
+          "z": 90.14999788737879
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": -174.63506981637332,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      }
+    },
+    {
+      "label": "Weapon locker approach segment 1",
+      "properties": {
+        "Step": 5,
+        "Checkpoint": 5,
+        "Health": 4856,
+        "Dead": false,
+        "HasWeapon": false,
+        "EvidenceRead": false,
+        "CommsRestored": false,
+        "Objective": "E near the locker: take the weapon",
+        "Subtitle": "Clank: Movement checks complete. Movement beyond that wall. Manual release; power\nis gone.",
+        "SubtitleQueue": [],
+        "LookTotal": -65.59302715023045,
+        "DebugMoveTime": -0.2695230022072792,
+        "bIsCrouched": false,
+        "Cue0": true,
+        "Cue5": true,
+        "Cue6": false,
+        "Cue8": false,
+        "Cue9": false
+      },
+      "transform": {
+        "location": {
+          "x": 1483.6996861760158,
+          "y": -50.996762648561834,
+          "z": 90.14999928855406
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": -163.98256753012538,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      }
+    },
+    {
+      "label": "Weapon locker approach",
+      "properties": {
+        "Step": 5,
+        "Checkpoint": 5,
+        "Health": 4856,
+        "Dead": false,
+        "HasWeapon": false,
+        "EvidenceRead": false,
+        "CommsRestored": false,
+        "Objective": "E near the locker: take the weapon",
+        "Subtitle": "Clank: Movement checks complete. Movement beyond that wall. Manual release; power\nis gone.",
+        "SubtitleQueue": [],
+        "LookTotal": -65.59302715023045,
+        "DebugMoveTime": -0.29728979989886284,
+        "bIsCrouched": false,
+        "Cue0": true,
+        "Cue5": true,
+        "Cue6": false,
+        "Cue8": false,
+        "Cue9": false
+      },
+      "transform": {
+        "location": {
+          "x": 1483.6996861760158,
+          "y": -50.996762648561834,
+          "z": 90.14999928855406
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": -163.98256753012538,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      }
+    },
+    {
+      "label": "Weapon pickup",
+      "properties": {
+        "Step": 6,
+        "Checkpoint": 5,
+        "Health": 4856,
+        "Dead": false,
+        "HasWeapon": true,
+        "EvidenceRead": false,
+        "CommsRestored": false,
+        "Objective": "Left mouse: clear the two searchers. Use cover or the flank.",
+        "Subtitle": "Clank: Movement checks complete. Movement beyond that wall. Manual release; power\nis gone.",
+        "SubtitleQueue": [
+          "Clank: Searchers ahead. Their speech is untranslated."
+        ],
+        "LookTotal": -65.59302715023045,
+        "DebugMoveTime": -0.6214760988950729,
+        "bIsCrouched": false,
+        "Cue0": true,
+        "Cue5": true,
+        "Cue6": true,
+        "Cue8": false,
+        "Cue9": false
+      },
+      "transform": {
+        "location": {
+          "x": 1483.6996861760158,
+          "y": -50.996762648561834,
+          "z": 90.14999928855406
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": -163.98256753012538,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      }
+    },
+    {
+      "label": "Enter bay segment 0",
+      "properties": {
+        "Step": 6,
+        "Checkpoint": 5,
+        "Health": 76,
+        "Dead": false,
+        "HasWeapon": true,
+        "EvidenceRead": false,
+        "CommsRestored": false,
+        "Objective": "Left mouse: clear the two searchers. Use cover or the flank.",
+        "Subtitle": "Clank: Searchers ahead. Their speech is untranslated.",
+        "SubtitleQueue": [],
+        "LookTotal": 4.463464349526489,
+        "DebugMoveTime": -0.26642340049147606,
+        "bIsCrouched": false,
+        "Cue0": true,
+        "Cue5": true,
+        "Cue6": true,
+        "Cue8": false,
+        "Cue9": false
+      },
+      "transform": {
+        "location": {
+          "x": 1693.368269640351,
+          "y": -9.638447970842089,
+          "z": 90.14999928855406
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 11.158661513589324,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      }
+    },
+    {
+      "label": "Enter bay",
+      "properties": {
+        "Step": 6,
+        "Checkpoint": 5,
+        "Health": 76,
+        "Dead": false,
+        "HasWeapon": true,
+        "EvidenceRead": false,
+        "CommsRestored": false,
+        "Objective": "Left mouse: clear the two searchers. Use cover or the flank.",
+        "Subtitle": "Clank: Searchers ahead. Their speech is untranslated.",
+        "SubtitleQueue": [],
+        "LookTotal": 4.463464349526489,
+        "DebugMoveTime": -0.3039417006075382,
+        "bIsCrouched": false,
+        "Cue0": true,
+        "Cue5": true,
+        "Cue6": true,
+        "Cue8": false,
+        "Cue9": false
+      },
+      "transform": {
+        "location": {
+          "x": 1693.368269640351,
+          "y": -9.638447970842089,
+          "z": 90.14999928855406
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 11.158661513589324,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      }
+    },
+    {
+      "label": "Stand exposed to searcher fire death while turning",
+      "properties": {
+        "Step": 6,
+        "Checkpoint": 5,
+        "Health": -8,
+        "Dead": true,
+        "HasWeapon": true,
+        "EvidenceRead": false,
+        "CommsRestored": false,
+        "Objective": "You died. Press R to restart at the checkpoint.",
+        "Subtitle": "",
+        "SubtitleQueue": [],
+        "LookTotal": -28.516374435314535,
+        "DebugMoveTime": -0.3786622993648052,
+        "bIsCrouched": false,
+        "Cue0": true,
+        "Cue5": true,
+        "Cue6": true,
+        "Cue8": false,
+        "Cue9": false
+      },
+      "transform": {
+        "location": {
+          "x": 1693.368269640351,
+          "y": -9.638447970842089,
+          "z": 90.14999928855406
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": -71.29093524534254,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      }
+    },
+    {
+      "label": "Restart recovery checkpoint",
+      "properties": {
+        "Step": 5,
+        "Checkpoint": 5,
+        "Health": 100,
+        "Dead": false,
+        "HasWeapon": false,
+        "EvidenceRead": false,
+        "CommsRestored": false,
+        "Objective": "E near the locker: take the weapon",
+        "Subtitle": "",
+        "SubtitleQueue": [],
+        "LookTotal": -28.516374435314535,
+        "DebugMoveTime": -0.8194105960428715,
+        "bIsCrouched": false,
+        "Cue0": true,
+        "Cue5": true,
+        "Cue6": true,
+        "Cue8": false,
+        "Cue9": false
+      },
+      "transform": {
+        "location": {
+          "x": 1400,
+          "y": 0,
+          "z": 90.14999961853027
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": -71.29093524534254,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      }
+    },
+    {
+      "label": "Pickup after restart",
+      "properties": {
+        "Step": 6,
+        "Checkpoint": 5,
+        "Health": 5000,
+        "Dead": false,
+        "HasWeapon": true,
+        "EvidenceRead": false,
+        "CommsRestored": false,
+        "Objective": "Left mouse: clear the two searchers. Use cover or the flank.",
+        "Subtitle": "",
+        "SubtitleQueue": [],
+        "LookTotal": -28.516374435314535,
+        "DebugMoveTime": -1.160812996327877,
+        "bIsCrouched": false,
+        "Cue0": true,
+        "Cue5": true,
+        "Cue6": true,
+        "Cue8": false,
+        "Cue9": false
+      },
+      "transform": {
+        "location": {
+          "x": 1400,
+          "y": 0,
+          "z": 90.14999961853027
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": -71.29093524534254,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      }
+    },
+    {
+      "label": "Combat entrance after restart segment 0",
+      "properties": {
+        "Step": 6,
+        "Checkpoint": 5,
+        "Health": 4976,
+        "Dead": false,
+        "HasWeapon": true,
+        "EvidenceRead": false,
+        "CommsRestored": false,
+        "Objective": "Left mouse: clear the two searchers. Use cover or the flank.",
+        "Subtitle": "",
+        "SubtitleQueue": [],
+        "LookTotal": -0.22733124426911328,
+        "DebugMoveTime": -0.27645669877529144,
+        "bIsCrouched": false,
+        "Cue0": true,
+        "Cue5": true,
+        "Cue6": true,
+        "Cue8": false,
+        "Cue9": false
+      },
+      "transform": {
+        "location": {
+          "x": 1681.231365587387,
+          "y": -2.7896777307797076,
+          "z": 90.14999961853027
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": -0.5683274967595936,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      }
+    },
+    {
+      "label": "Combat entrance after restart",
+      "properties": {
+        "Step": 6,
+        "Checkpoint": 5,
+        "Health": 4976,
+        "Dead": false,
+        "HasWeapon": true,
+        "EvidenceRead": false,
+        "CommsRestored": false,
+        "Objective": "Left mouse: clear the two searchers. Use cover or the flank.",
+        "Subtitle": "",
+        "SubtitleQueue": [],
+        "LookTotal": -0.22733124426911328,
+        "DebugMoveTime": -0.3014569990336895,
+        "bIsCrouched": false,
+        "Cue0": true,
+        "Cue5": true,
+        "Cue6": true,
+        "Cue8": false,
+        "Cue9": false
+      },
+      "transform": {
+        "location": {
+          "x": 1681.231365587387,
+          "y": -2.7896777307797076,
+          "z": 90.14999961853027
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": -0.5683274967595936,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      }
+    },
+    {
+      "label": "South firing lane segment 0",
+      "properties": {
+        "Step": 6,
+        "Checkpoint": 5,
+        "Health": 4868,
+        "Dead": false,
+        "HasWeapon": true,
+        "EvidenceRead": false,
+        "CommsRestored": false,
+        "Objective": "Left mouse: clear the two searchers. Use cover or the flank.",
+        "Subtitle": "",
+        "SubtitleQueue": [],
+        "LookTotal": -28.265319335512917,
+        "DebugMoveTime": -0.2627575993537903,
+        "bIsCrouched": false,
+        "Cue0": true,
+        "Cue5": true,
+        "Cue6": true,
+        "Cue8": false,
+        "Cue9": false
+      },
+      "transform": {
+        "location": {
+          "x": 1821.4173210736542,
+          "y": -402.2773939003717,
+          "z": 90.14999961853027
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": -70.66329805739223,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      }
+    },
+    {
+      "label": "South firing lane",
+      "properties": {
+        "Step": 6,
+        "Checkpoint": 5,
+        "Health": 4868,
+        "Dead": false,
+        "HasWeapon": true,
+        "EvidenceRead": false,
+        "CommsRestored": false,
+        "Objective": "Left mouse: clear the two searchers. Use cover or the flank.",
+        "Subtitle": "",
+        "SubtitleQueue": [],
+        "LookTotal": -28.265319335512917,
+        "DebugMoveTime": -0.2923137992620468,
+        "bIsCrouched": false,
+        "Cue0": true,
+        "Cue5": true,
+        "Cue6": true,
+        "Cue8": false,
+        "Cue9": false
+      },
+      "transform": {
+        "location": {
+          "x": 1821.4173210736542,
+          "y": -402.2773939003717,
+          "z": 90.14999961853027
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": -70.66329805739223,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      }
+    },
+    {
+      "label": "First searcher shot 1",
+      "properties": {
+        "Step": 6,
+        "Checkpoint": 5,
+        "Health": 4820,
+        "Dead": false,
+        "HasWeapon": true,
+        "EvidenceRead": false,
+        "CommsRestored": false,
+        "Objective": "Left mouse: clear the two searchers. Use cover or the flank.",
+        "Subtitle": "",
+        "SubtitleQueue": [],
+        "LookTotal": -2.8992338545228296,
+        "DebugMoveTime": -0.8402866013348103,
+        "bIsCrouched": false,
+        "Cue0": true,
+        "Cue5": true,
+        "Cue6": true,
+        "Cue8": false,
+        "Cue9": false
+      },
+      "transform": {
+        "location": {
+          "x": 1821.4173210736542,
+          "y": -402.2773939003717,
+          "z": 90.14999961853027
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": -7.248084213584661,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      }
+    },
+    {
+      "label": "First searcher shot 2",
+      "properties": {
+        "Step": 6,
+        "Checkpoint": 5,
+        "Health": 4820,
+        "Dead": false,
+        "HasWeapon": true,
+        "EvidenceRead": false,
+        "CommsRestored": false,
+        "Objective": "Left mouse: clear the two searchers. Use cover or the flank.",
+        "Subtitle": "",
+        "SubtitleQueue": [],
+        "LookTotal": -2.8992338545228296,
+        "DebugMoveTime": -1.3271089009940624,
+        "bIsCrouched": false,
+        "Cue0": true,
+        "Cue5": true,
+        "Cue6": true,
+        "Cue8": false,
+        "Cue9": false
+      },
+      "transform": {
+        "location": {
+          "x": 1821.4173210736542,
+          "y": -402.2773939003717,
+          "z": 90.14999961853027
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": -7.248084213584661,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      }
+    },
+    {
+      "label": "First searcher shot 3",
+      "properties": {
+        "Step": 6,
+        "Checkpoint": 5,
+        "Health": 4820,
+        "Dead": false,
+        "HasWeapon": true,
+        "EvidenceRead": false,
+        "CommsRestored": false,
+        "Objective": "Left mouse: clear the two searchers. Use cover or the flank.",
+        "Subtitle": "",
+        "SubtitleQueue": [],
+        "LookTotal": -2.8992338545228296,
+        "DebugMoveTime": -1.8105000033974648,
+        "bIsCrouched": false,
+        "Cue0": true,
+        "Cue5": true,
+        "Cue6": true,
+        "Cue8": false,
+        "Cue9": false
+      },
+      "transform": {
+        "location": {
+          "x": 1821.4173210736542,
+          "y": -402.2773939003717,
+          "z": 90.14999961853027
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": -7.248084213584661,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      }
+    },
+    {
+      "label": "South cover lane segment 0",
+      "properties": {
+        "Step": 6,
+        "Checkpoint": 5,
+        "Health": 4820,
+        "Dead": false,
+        "HasWeapon": true,
+        "EvidenceRead": false,
+        "CommsRestored": false,
+        "Objective": "Left mouse: clear the two searchers. Use cover or the flank.",
+        "Subtitle": "",
+        "SubtitleQueue": [],
+        "LookTotal": -0.8755749068633942,
+        "DebugMoveTime": -0.2663448533146311,
+        "bIsCrouched": false,
+        "Cue0": true,
+        "Cue5": true,
+        "Cue6": true,
+        "Cue8": false,
+        "Cue9": false
+      },
+      "transform": {
+        "location": {
+          "x": 2636.3726865291806,
+          "y": -433.42723098132905,
+          "z": 90.14999961853027
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": -2.1889368072152138,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      }
+    },
+    {
+      "label": "South cover lane",
+      "properties": {
+        "Step": 6,
+        "Checkpoint": 5,
+        "Health": 4820,
+        "Dead": false,
+        "HasWeapon": true,
+        "EvidenceRead": false,
+        "CommsRestored": false,
+        "Objective": "Left mouse: clear the two searchers. Use cover or the flank.",
+        "Subtitle": "",
+        "SubtitleQueue": [],
+        "LookTotal": -0.8755749068633942,
+        "DebugMoveTime": -0.291820951375239,
+        "bIsCrouched": false,
+        "Cue0": true,
+        "Cue5": true,
+        "Cue6": true,
+        "Cue8": false,
+        "Cue9": false
+      },
+      "transform": {
+        "location": {
+          "x": 2636.3726865291806,
+          "y": -433.42723098132905,
+          "z": 90.14999961853027
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": -2.1889368072152138,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      }
+    },
+    {
+      "label": "Second searcher shot 1",
+      "properties": {
+        "Step": 6,
+        "Checkpoint": 5,
+        "Health": 4760,
+        "Dead": false,
+        "HasWeapon": true,
+        "EvidenceRead": false,
+        "CommsRestored": false,
+        "Objective": "Left mouse: clear the two searchers. Use cover or the flank.",
+        "Subtitle": "",
+        "SubtitleQueue": [],
+        "LookTotal": 30.373701540739102,
+        "DebugMoveTime": -0.8487434983253479,
+        "bIsCrouched": false,
+        "Cue0": true,
+        "Cue5": true,
+        "Cue6": true,
+        "Cue8": false,
+        "Cue9": false
+      },
+      "transform": {
+        "location": {
+          "x": 2636.3726865291806,
+          "y": -433.42723098132905,
+          "z": 90.14999961853027
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 75.9342545028776,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      }
+    },
+    {
+      "label": "Second searcher shot 2",
+      "properties": {
+        "Step": 6,
+        "Checkpoint": 5,
+        "Health": 4760,
+        "Dead": false,
+        "HasWeapon": true,
+        "EvidenceRead": false,
+        "CommsRestored": false,
+        "Objective": "Left mouse: clear the two searchers. Use cover or the flank.",
+        "Subtitle": "",
+        "SubtitleQueue": [],
+        "LookTotal": 30.373701540739102,
+        "DebugMoveTime": -1.3362631984055042,
+        "bIsCrouched": false,
+        "Cue0": true,
+        "Cue5": true,
+        "Cue6": true,
+        "Cue8": false,
+        "Cue9": false
+      },
+      "transform": {
+        "location": {
+          "x": 2636.3726865291806,
+          "y": -433.42723098132905,
+          "z": 90.14999961853027
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 75.9342545028776,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      }
+    },
+    {
+      "label": "Second searcher shot 3",
+      "properties": {
+        "Step": 7,
+        "Checkpoint": 5,
+        "Health": 4760,
+        "Dead": false,
+        "HasWeapon": true,
+        "EvidenceRead": false,
+        "CommsRestored": false,
+        "Objective": "E near the cyan search terminal: access the record",
+        "Subtitle": "Evan: Clear.",
+        "SubtitleQueue": [],
+        "LookTotal": 30.373701540739102,
+        "DebugMoveTime": -1.8167189992964268,
+        "bIsCrouched": false,
+        "Cue0": true,
+        "Cue5": true,
+        "Cue6": true,
+        "Cue8": false,
+        "Cue9": false
+      },
+      "transform": {
+        "location": {
+          "x": 2636.3726865291806,
+          "y": -433.42723098132905,
+          "z": 90.14999961853027
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 75.9342545028776,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      }
+    },
+    {
+      "label": "Combat clear",
+      "properties": {
+        "Step": 7,
+        "Checkpoint": 5,
+        "Health": 4760,
+        "Dead": false,
+        "HasWeapon": true,
+        "EvidenceRead": false,
+        "CommsRestored": false,
+        "Objective": "E near the cyan search terminal: access the record",
+        "Subtitle": "Evan: Clear.",
+        "SubtitleQueue": [],
+        "LookTotal": 30.373701540739102,
+        "DebugMoveTime": -1.8333860002458096,
+        "bIsCrouched": false,
+        "Cue0": true,
+        "Cue5": true,
+        "Cue6": true,
+        "Cue8": false,
+        "Cue9": false
+      },
+      "transform": {
+        "location": {
+          "x": 2636.3726865291806,
+          "y": -433.42723098132905,
+          "z": 90.14999961853027
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 75.9342545028776,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      }
+    },
+    {
+      "label": "East bay segment 0",
+      "properties": {
+        "Step": 7,
+        "Checkpoint": 5,
+        "Health": 4760,
+        "Dead": false,
+        "HasWeapon": true,
+        "EvidenceRead": false,
+        "CommsRestored": false,
+        "Objective": "E near the cyan search terminal: access the record",
+        "Subtitle": "",
+        "SubtitleQueue": [],
+        "LookTotal": 12.674130182284381,
+        "DebugMoveTime": -0.26680880039930344,
+        "bIsCrouched": false,
+        "Cue0": true,
+        "Cue5": true,
+        "Cue6": true,
+        "Cue8": false,
+        "Cue9": false
+      },
+      "transform": {
+        "location": {
+          "x": 2965.1227705085907,
+          "y": -230.5033334365169,
+          "z": 90.14999961853027
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 31.68532616086306,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      }
+    },
+    {
+      "label": "East bay",
+      "properties": {
+        "Step": 7,
+        "Checkpoint": 5,
+        "Health": 4760,
+        "Dead": false,
+        "HasWeapon": true,
+        "EvidenceRead": false,
+        "CommsRestored": false,
+        "Objective": "E near the cyan search terminal: access the record",
+        "Subtitle": "",
+        "SubtitleQueue": [],
+        "LookTotal": 12.674130182284381,
+        "DebugMoveTime": -0.29564669728279114,
+        "bIsCrouched": false,
+        "Cue0": true,
+        "Cue5": true,
+        "Cue6": true,
+        "Cue8": false,
+        "Cue9": false
+      },
+      "transform": {
+        "location": {
+          "x": 2965.1227705085907,
+          "y": -230.5033334365169,
+          "z": 90.14999961853027
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 31.68532616086306,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      }
+    },
+    {
+      "label": "Search record access segment 0",
+      "properties": {
+        "Step": 7,
+        "Checkpoint": 5,
+        "Health": 4760,
+        "Dead": false,
+        "HasWeapon": true,
+        "EvidenceRead": false,
+        "CommsRestored": false,
+        "Objective": "E near the cyan search terminal: access the record",
+        "Subtitle": "",
+        "SubtitleQueue": [],
+        "LookTotal": 33.631377281866854,
+        "DebugMoveTime": -0.2748816853377616,
+        "bIsCrouched": false,
+        "Cue0": true,
+        "Cue5": true,
+        "Cue6": true,
+        "Cue8": false,
+        "Cue9": false
+      },
+      "transform": {
+        "location": {
+          "x": 3016.9681032328385,
+          "y": 269.3542999334006,
+          "z": 90.14999961853027
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 84.0784442871809,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      }
+    },
+    {
+      "label": "Search record access",
+      "properties": {
+        "Step": 7,
+        "Checkpoint": 5,
+        "Health": 4760,
+        "Dead": false,
+        "HasWeapon": true,
+        "EvidenceRead": false,
+        "CommsRestored": false,
+        "Objective": "E near the cyan search terminal: access the record",
+        "Subtitle": "",
+        "SubtitleQueue": [],
+        "LookTotal": 33.631377281866854,
+        "DebugMoveTime": -0.29988218676183576,
+        "bIsCrouched": false,
+        "Cue0": true,
+        "Cue5": true,
+        "Cue6": true,
+        "Cue8": false,
+        "Cue9": false
+      },
+      "transform": {
+        "location": {
+          "x": 3016.9681032328385,
+          "y": 269.3542999334006,
+          "z": 90.14999961853027
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 84.0784442871809,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      }
+    },
+    {
+      "label": "Read fresh search record",
+      "properties": {
+        "Step": 8,
+        "Checkpoint": 8,
+        "Health": 4760,
+        "Dead": false,
+        "HasWeapon": true,
+        "EvidenceRead": true,
+        "CommsRestored": false,
+        "Objective": "E near the communications panel: restore the signal",
+        "Subtitle": "Clank: Fresh search records. They are looking for an artifact. This ship is marked\nas a search site. The record does not identify it.",
+        "SubtitleQueue": [],
+        "LookTotal": 33.631377281866854,
+        "DebugMoveTime": -0.6313536858174598,
+        "bIsCrouched": false,
+        "Cue0": true,
+        "Cue5": true,
+        "Cue6": true,
+        "Cue8": true,
+        "Cue9": false
+      },
+      "transform": {
+        "location": {
+          "x": 3016.9681032328385,
+          "y": 269.3542999334006,
+          "z": 90.14999961853027
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 84.0784442871809,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      }
+    },
+    {
+      "label": "Repeat evidence interaction",
+      "properties": {
+        "Step": 8,
+        "Checkpoint": 8,
+        "Health": 4760,
+        "Dead": false,
+        "HasWeapon": true,
+        "EvidenceRead": true,
+        "CommsRestored": false,
+        "Objective": "E near the communications panel: restore the signal",
+        "Subtitle": "Clank: Fresh search records. They are looking for an artifact. This ship is marked\nas a search site. The record does not identify it.",
+        "SubtitleQueue": [],
+        "LookTotal": 33.631377281866854,
+        "DebugMoveTime": -1.0465875810000693,
+        "bIsCrouched": false,
+        "Cue0": true,
+        "Cue5": true,
+        "Cue6": true,
+        "Cue8": true,
+        "Cue9": false
+      },
+      "transform": {
+        "location": {
+          "x": 3016.9681032328385,
+          "y": 269.3542999334006,
+          "z": 90.14999961853027
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 84.0784442871809,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      }
+    },
+    {
+      "label": "Restart after evidence checkpoint",
+      "properties": {
+        "Step": 8,
+        "Checkpoint": 8,
+        "Health": 100,
+        "Dead": false,
+        "HasWeapon": true,
+        "EvidenceRead": true,
+        "CommsRestored": false,
+        "Objective": "E near the communications panel: restore the signal",
+        "Subtitle": "",
+        "SubtitleQueue": [],
+        "LookTotal": 33.631377281866854,
+        "DebugMoveTime": -1.3840110806736743,
+        "bIsCrouched": false,
+        "Cue0": true,
+        "Cue5": true,
+        "Cue6": true,
+        "Cue8": true,
+        "Cue9": false
+      },
+      "transform": {
+        "location": {
+          "x": 3110,
+          "y": 0,
+          "z": 90.14999961853027
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 84.0784442871809,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      }
+    },
+    {
+      "label": "Approach locked exit segment 0",
+      "properties": {
+        "Step": 8,
+        "Checkpoint": 8,
+        "Health": 100,
+        "Dead": false,
+        "HasWeapon": true,
+        "EvidenceRead": true,
+        "CommsRestored": false,
+        "Objective": "E near the communications panel: restore the signal",
+        "Subtitle": "",
+        "SubtitleQueue": [],
+        "LookTotal": 0.1023744098372853,
+        "DebugMoveTime": -0.2689761954402796,
+        "bIsCrouched": false,
+        "Cue0": true,
+        "Cue5": true,
+        "Cue6": true,
+        "Cue8": true,
+        "Cue9": false
+      },
+      "transform": {
+        "location": {
+          "x": 3956.718210829016,
+          "y": 3.782279376412047,
+          "z": 90.14999961853027
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0.25593780912458897,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      }
+    },
+    {
+      "label": "Approach locked exit",
+      "properties": {
+        "Step": 8,
+        "Checkpoint": 8,
+        "Health": 100,
+        "Dead": false,
+        "HasWeapon": true,
+        "EvidenceRead": true,
+        "CommsRestored": false,
+        "Objective": "E near the communications panel: restore the signal",
+        "Subtitle": "",
+        "SubtitleQueue": [],
+        "LookTotal": 0.1023744098372853,
+        "DebugMoveTime": -0.29628619431017555,
+        "bIsCrouched": false,
+        "Cue0": true,
+        "Cue5": true,
+        "Cue6": true,
+        "Cue8": true,
+        "Cue9": false
+      },
+      "transform": {
+        "location": {
+          "x": 3956.718210829016,
+          "y": 3.782279376412047,
+          "z": 90.14999961853027
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0.25593780912458897,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      }
+    },
+    {
+      "label": "Attempt early exit",
+      "properties": {
+        "Step": 8,
+        "Checkpoint": 8,
+        "Health": 100,
+        "Dead": false,
+        "HasWeapon": true,
+        "EvidenceRead": true,
+        "CommsRestored": false,
+        "Objective": "E near the communications panel: restore the signal",
+        "Subtitle": "",
+        "SubtitleQueue": [],
+        "LookTotal": 0.1023744098372853,
+        "DebugMoveTime": -0.6409432950472704,
+        "bIsCrouched": false,
+        "Cue0": true,
+        "Cue5": true,
+        "Cue6": true,
+        "Cue8": true,
+        "Cue9": false
+      },
+      "transform": {
+        "location": {
+          "x": 3956.718210829016,
+          "y": 3.782279376412047,
+          "z": 90.14999961853027
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0.25593780912458897,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      }
+    },
+    {
+      "label": "Return to communications segment 0",
+      "properties": {
+        "Step": 8,
+        "Checkpoint": 8,
+        "Health": 100,
+        "Dead": false,
+        "HasWeapon": true,
+        "EvidenceRead": true,
+        "CommsRestored": false,
+        "Objective": "E near the communications panel: restore the signal",
+        "Subtitle": "",
+        "SubtitleQueue": [],
+        "LookTotal": -59.44357443050804,
+        "DebugMoveTime": -0.26864980161190033,
+        "bIsCrouched": false,
+        "Cue0": true,
+        "Cue5": true,
+        "Cue6": true,
+        "Cue8": true,
+        "Cue9": false
+      },
+      "transform": {
+        "location": {
+          "x": 3601.0798342730463,
+          "y": -175.27596145164316,
+          "z": 90.15000225093172
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": -148.6089328285307,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      }
+    },
+    {
+      "label": "Return to communications",
+      "properties": {
+        "Step": 8,
+        "Checkpoint": 8,
+        "Health": 100,
+        "Dead": false,
+        "HasWeapon": true,
+        "EvidenceRead": true,
+        "CommsRestored": false,
+        "Objective": "E near the communications panel: restore the signal",
+        "Subtitle": "",
+        "SubtitleQueue": [],
+        "LookTotal": -59.44357443050804,
+        "DebugMoveTime": -0.2954834997653961,
+        "bIsCrouched": false,
+        "Cue0": true,
+        "Cue5": true,
+        "Cue6": true,
+        "Cue8": true,
+        "Cue9": false
+      },
+      "transform": {
+        "location": {
+          "x": 3601.0798342730463,
+          "y": -175.27596145164316,
+          "z": 90.15000225093172
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": -148.6089328285307,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      }
+    },
+    {
+      "label": "Restore unidentified human signal",
+      "properties": {
+        "Step": 9,
+        "Checkpoint": 8,
+        "Health": 100,
+        "Dead": false,
+        "HasWeapon": true,
+        "EvidenceRead": true,
+        "CommsRestored": true,
+        "Objective": "Follow the route to the exit; E to continue",
+        "Subtitle": "Human Signal: Any surviving units, respond. Rally-point transmission follows.\nClank: Signal is weak. We have a direction.",
+        "SubtitleQueue": [],
+        "LookTotal": -59.44357443050804,
+        "DebugMoveTime": -0.627368800342083,
+        "bIsCrouched": false,
+        "Cue0": true,
+        "Cue5": true,
+        "Cue6": true,
+        "Cue8": true,
+        "Cue9": true
+      },
+      "transform": {
+        "location": {
+          "x": 3601.0798342730463,
+          "y": -175.27596145164316,
+          "z": 90.15000225093172
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": -148.6089328285307,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      }
+    },
+    {
+      "label": "Exit route segment 0",
+      "properties": {
+        "Step": 9,
+        "Checkpoint": 8,
+        "Health": 100,
+        "Dead": false,
+        "HasWeapon": true,
+        "EvidenceRead": true,
+        "CommsRestored": true,
+        "Objective": "Follow the route to the exit; E to continue",
+        "Subtitle": "",
+        "SubtitleQueue": [],
+        "LookTotal": 6.034044198284791,
+        "DebugMoveTime": -0.2639616670577971,
+        "bIsCrouched": false,
+        "Cue0": true,
+        "Cue5": true,
+        "Cue6": true,
+        "Cue8": true,
+        "Cue9": true
+      },
+      "transform": {
+        "location": {
+          "x": 4202.7110297530035,
+          "y": -0.46079598421473195,
+          "z": 90.15000132684736
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 15.085114079527564,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      }
+    },
+    {
+      "label": "Exit route",
+      "properties": {
+        "Step": 9,
+        "Checkpoint": 8,
+        "Health": 100,
+        "Dead": false,
+        "HasWeapon": true,
+        "EvidenceRead": true,
+        "CommsRestored": true,
+        "Objective": "Follow the route to the exit; E to continue",
+        "Subtitle": "",
+        "SubtitleQueue": [],
+        "LookTotal": 6.034044198284791,
+        "DebugMoveTime": -0.2972956652312724,
+        "bIsCrouched": false,
+        "Cue0": true,
+        "Cue5": true,
+        "Cue6": true,
+        "Cue8": true,
+        "Cue9": true
+      },
+      "transform": {
+        "location": {
+          "x": 4202.7110297530035,
+          "y": -0.46079598421473195,
+          "z": 90.15000132684736
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 15.085114079527564,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      }
+    },
+    {
+      "label": "Complete Wreckage",
+      "properties": {
+        "Step": 10,
+        "Checkpoint": 8,
+        "Health": 100,
+        "Dead": false,
+        "HasWeapon": true,
+        "EvidenceRead": true,
+        "CommsRestored": true,
+        "Objective": "WRECKAGE COMPLETE - proposed next mission: Rally Point",
+        "Subtitle": "Evan: Then we move.",
+        "SubtitleQueue": [],
+        "LookTotal": 6.034044198284791,
+        "DebugMoveTime": -0.6476720663278548,
+        "bIsCrouched": false,
+        "Cue0": true,
+        "Cue5": true,
+        "Cue6": true,
+        "Cue8": true,
+        "Cue9": true
+      },
+      "transform": {
+        "location": {
+          "x": 4202.7110297530035,
+          "y": -0.46079598421473195,
+          "z": 90.15000132684736
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 15.085114079527564,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      }
+    }
+  ],
+  "errors": [],
+  "limitations": [
+    "Automated editor input properties used; physical keyboard/mouse feel needs a human pass.",
+    "Fresh 100-health start and normal 100-health death/restart are tested. Slow remote movement/combat uses temporary 5000 health, restored to 100 before the death check and by checkpoint restart; saved defaults remain unchanged. Normal-health encounter balance is not verified.",
+    "Run in the movement checkout editor on its snapshot copy of the map; Codex scene edits made after the snapshot are not included."
+  ],
+  "driver_timing_scaled_to_walk_speed": 562.0,
+  "verified_target": {
+    "port": 8001,
+    "listener": "\"C:\\Program Files\\Epic Games\\UE_5.8\\Engine\\Binaries\\Win64\\UnrealEditor.exe\" \"C:/Users/alexa/Documents/AI STUFF/Project Big-movement/Unreal/LostVanguard 5.8/LostVanguard.uproject\" -ini:EditorPerProjectUserSettings:[/Script/ModelContextProtocolEngine.ModelContextProtocolSettings]:ServerPortNumber=8001 -log=MovementEditor_Final.log",
+    "marker_token_matched": true
+  },
+  "player": {
+    "refPath": "/Game/WreckagePrototype/Maps/UEDPIE_0_L_Wreckage_Opening.L_Wreckage_Opening:PersistentLevel.BP_WreckagePlayer_Runtime_C_0"
+  }
+}

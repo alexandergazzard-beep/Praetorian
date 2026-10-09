@@ -89,7 +89,7 @@ def setup():
     box('Bay_FlankDivider',(2340,380,120),(600,70,240),metal)
     box('SearchTerminal',(2920,420,75),(120,90,150),clue)
     box('CommsPanel',(3710,-240,75),(120,90,150),clue)
-    box('ExitGate',(4040,0,145),(45,610,290),danger)
+    box('ExitGate',(4040,0,225),(45,610,450),danger)  # Reach crouch-jump from the 150 cm panel stays below this top.
     box('Surface_Prototype_Only',(2500,0,-280),(18000,18000,100),ground)
     for i, (x,y,h) in enumerate([(5000,2500,1300),(6000,-2000,1000),(7600,500,1900)]):
         box('Proposed_DistantRuin_'+str(i),(x,y,h/2-220),(220,320,h),metal)

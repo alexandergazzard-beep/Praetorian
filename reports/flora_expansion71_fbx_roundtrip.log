@@ -1,0 +1,54 @@
+Traceback (most recent call last):
+  File "C:\Program Files\Blender Foundation\Blender 5.2\5.2\scripts\modules\addon_utils.py", line 458, in enable
+    mod = importlib.import_module(module_name)
+  File "C:\Program Files\Blender Foundation\Blender 5.2\5.2\python\Lib\importlib\__init__.py", line 88, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1395, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 1023, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "C:\Users\alexa\AppData\Roaming\Blender Foundation\Blender\5.2\extensions\user_default\meshy\__init__.py", line 1, in <module>
+    from . import BridgePanel
+  File "C:\Users\alexa\AppData\Roaming\Blender Foundation\Blender\5.2\extensions\user_default\meshy\BridgePanel.py", line 15, in <module>
+    from .Utils import logger
+  File "C:\Users\alexa\AppData\Roaming\Blender Foundation\Blender\5.2\extensions\user_default\meshy\Utils.py", line 27, in <module>
+    logger = setup_logging()
+  File "C:\Users\alexa\AppData\Roaming\Blender Foundation\Blender\5.2\extensions\user_default\meshy\Utils.py", line 16, in setup_logging
+    file_handler = logging.FileHandler(os.path.join(addon_dir, "meshy.log"))
+  File "C:\Program Files\Blender Foundation\Blender 5.2\5.2\python\Lib\logging\__init__.py", line 1219, in __init__
+    StreamHandler.__init__(self, self._open())
+                                 ~~~~~~~~~~^^
+  File "C:\Program Files\Blender Foundation\Blender 5.2\5.2\python\Lib\logging\__init__.py", line 1248, in _open
+    return open_func(self.baseFilename, self.mode,
+                     encoding=self.encoding, errors=self.errors)
+PermissionError: [Errno 13] Permission denied: 'C:\\Users\\alexa\\AppData\\Roaming\\Blender Foundation\\Blender\\5.2\\extensions\\user_default\\meshy\\meshy.log'
+Extensions: writing cache failed ([Errno 13] Permission denied: 'C:\\Users\\alexa\\AppData\\Roaming\\Blender Foundation\\Blender\\5.2\\extensions\\.cache\\compat.dat').
+BlenderMCP addon registered
+BlenderMCP addon unregistered
+FBX version: 7400
+FBX version: 7400
+FBX version: 7400
+FBX version: 7400
+FBX version: 7400
+FBX version: 7400
+FBX version: 7400
+FBX version: 7400
+FBX version: 7400
+FBX version: 7400
+FBX version: 7400
+FBX version: 7400
+FBX version: 7400
+FBX version: 7400
+FBX version: 7400
+FBX version: 7400
+FBX version: 7400
+FBX version: 7400
+FBX version: 7400
+FBX version: 7400
+TWENTY_FBX_LODS_VERIFIED 20
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+
+Blender quit

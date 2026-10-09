@@ -1,0 +1,14 @@
+{
+  "id": "F01_HybridCanopy",
+  "replaced_leaf_islands": 1399,
+  "triangles": 14949,
+  "materials": 2,
+  "dimensions_m": [
+    11.431623458862305,
+    9.882740020751953,
+    8.22274398803711
+  ],
+  "method": "Meshy wood retained, opaque rectangular foliage replaced by tapered fork-tip geometry and violet undersides",
+  "collision": "pending trunk-only setup",
+  "visual_acceptance": "pending"
+}

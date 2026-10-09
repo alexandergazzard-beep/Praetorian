@@ -1,0 +1,192 @@
+[
+  {
+    "asset": "F13_Expansion71",
+    "preferred_lod0_range": [
+      40000,
+      75000
+    ],
+    "game_glb": {
+      "triangles": 47969,
+      "meshes": 1,
+      "embedded_images": 3,
+      "bytes": 51663360
+    },
+    "high_detail_source": {
+      "triangles": 7986686,
+      "meshes": 1,
+      "embedded_images": 0,
+      "bytes": 190201340
+    },
+    "textures": {
+      "base_color.png": [
+        4096,
+        4096
+      ],
+      "metallic.png": [
+        2048,
+        2048
+      ],
+      "normal.png": [
+        4096,
+        4096
+      ],
+      "roughness.png": [
+        2048,
+        2048
+      ]
+    },
+    "historical_flora_preserved": true
+  },
+  {
+    "asset": "F14_Expansion71",
+    "preferred_lod0_range": [
+      30000,
+      55000
+    ],
+    "game_glb": {
+      "triangles": 41594,
+      "meshes": 1,
+      "embedded_images": 3,
+      "bytes": 50677332
+    },
+    "high_detail_source": {
+      "triangles": 7862750,
+      "meshes": 1,
+      "embedded_images": 0,
+      "bytes": 188176652
+    },
+    "textures": {
+      "base_color.png": [
+        4096,
+        4096
+      ],
+      "metallic.png": [
+        2048,
+        2048
+      ],
+      "normal.png": [
+        4096,
+        4096
+      ],
+      "roughness.png": [
+        2048,
+        2048
+      ]
+    },
+    "historical_flora_preserved": true
+  },
+  {
+    "asset": "F16_Expansion71",
+    "preferred_lod0_range": [
+      40000,
+      75000
+    ],
+    "game_glb": {
+      "triangles": 55302,
+      "meshes": 1,
+      "embedded_images": 3,
+      "bytes": 49632260
+    },
+    "high_detail_source": {
+      "triangles": 7876304,
+      "meshes": 1,
+      "embedded_images": 0,
+      "bytes": 188102108
+    },
+    "textures": {
+      "base_color.png": [
+        4096,
+        4096
+      ],
+      "metallic.png": [
+        2048,
+        2048
+      ],
+      "normal.png": [
+        4096,
+        4096
+      ],
+      "roughness.png": [
+        2048,
+        2048
+      ]
+    },
+    "historical_flora_preserved": true
+  },
+  {
+    "asset": "F19_Expansion71",
+    "preferred_lod0_range": [
+      10000,
+      22000
+    ],
+    "game_glb": {
+      "triangles": 15948,
+      "meshes": 1,
+      "embedded_images": 3,
+      "bytes": 40902764
+    },
+    "high_detail_source": {
+      "triangles": 4918816,
+      "meshes": 1,
+      "embedded_images": 0,
+      "bytes": 117965036
+    },
+    "textures": {
+      "base_color.png": [
+        4096,
+        4096
+      ],
+      "metallic.png": [
+        2048,
+        2048
+      ],
+      "normal.png": [
+        4096,
+        4096
+      ],
+      "roughness.png": [
+        2048,
+        2048
+      ]
+    },
+    "historical_flora_preserved": true
+  },
+  {
+    "asset": "F21_Expansion71",
+    "preferred_lod0_range": [
+      9000,
+      20000
+    ],
+    "game_glb": {
+      "triangles": 14150,
+      "meshes": 1,
+      "embedded_images": 3,
+      "bytes": 38050948
+    },
+    "high_detail_source": {
+      "triangles": 2425258,
+      "meshes": 1,
+      "embedded_images": 0,
+      "bytes": 58156892
+    },
+    "textures": {
+      "base_color.png": [
+        4096,
+        4096
+      ],
+      "metallic.png": [
+        2048,
+        2048
+      ],
+      "normal.png": [
+        4096,
+        4096
+      ],
+      "roughness.png": [
+        2048,
+        2048
+      ]
+    },
+    "historical_flora_preserved": true
+  }
+]

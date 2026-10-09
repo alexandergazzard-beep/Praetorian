@@ -1,0 +1,1767 @@
+{
+  "NS_ImpactFireVolume": {
+    "summary": {
+      "systemName": "NS_ImpactFireVolume",
+      "userVariables": [
+        {
+          "defaultValue": {
+            "struct": {
+              "refPath": "/Script/Niagara.NiagaraBool"
+            },
+            "value": {
+              "value": -1
+            }
+          },
+          "description": "",
+          "name": "User.DrawBounds",
+          "type": {
+            "classStructOrEnum": {
+              "refPath": "/Script/Niagara.NiagaraBool"
+            }
+          }
+        },
+        {
+          "defaultValue": {
+            "struct": {
+              "refPath": "/Script/Niagara.NiagaraInt32"
+            },
+            "value": {
+              "value": 256
+            }
+          },
+          "description": "",
+          "name": "User.ResolutionMaxAxis",
+          "type": {
+            "classStructOrEnum": {
+              "refPath": "/Script/Niagara.NiagaraInt32"
+            }
+          }
+        },
+        {
+          "defaultValue": {
+            "struct": {
+              "refPath": "/Script/NiagaraEditor.NiagaraExt_VariableValue_DataInterface"
+            },
+            "value": {
+              "dataInterfaceClass": {
+                "refPath": "/Script/Niagara.NiagaraDataInterfaceStaticMesh"
+              },
+              "dataInterface": {
+                "refPath": "/Game/LostVanguard/Environment/SpaceImpact/FX/NS_ImpactFireVolume.NS_ImpactFireVolume:NiagaraDataInterfaceStaticMesh_0"
+              }
+            }
+          },
+          "description": "",
+          "name": "User.StaticMesh",
+          "type": {
+            "classStructOrEnum": {
+              "refPath": "/Script/Niagara.NiagaraDataInterfaceStaticMesh"
+            }
+          }
+        },
+        {
+          "defaultValue": {
+            "struct": {
+              "refPath": "/Script/CoreUObject.Vector3f"
+            },
+            "value": {
+              "x": 200,
+              "y": 200,
+              "z": 400
+            }
+          },
+          "description": "",
+          "name": "User.WorldSpaceSize",
+          "type": {
+            "classStructOrEnum": {
+              "refPath": "/Script/CoreUObject.Vector3f"
+            }
+          }
+        }
+      ],
+      "emitters": [
+        {
+          "emitterName": "ParticleSourceEmitter",
+          "bEnabled": true,
+          "simTarget": "GPUComputeSim",
+          "rendererClasses": [
+            {
+              "refPath": "/Script/Niagara.NiagaraSpriteRendererProperties"
+            }
+          ]
+        },
+        {
+          "emitterName": "Grid3D_Gas_Master_Emitter",
+          "bEnabled": true,
+          "simTarget": "GPUComputeSim",
+          "rendererClasses": [
+            {
+              "refPath": "/Script/Niagara.NiagaraMeshRendererProperties"
+            },
+            {
+              "refPath": "/Script/Niagara.NiagaraVolumeRendererProperties"
+            }
+          ]
+        }
+      ]
+    },
+    "compile": {
+      "aggregateStatus": "UpToDate",
+      "bIsCompiling": false,
+      "bIsStale": false,
+      "bHasErrors": false,
+      "bHasWarnings": false,
+      "scripts": [
+        {
+          "emitterName": "None",
+          "scriptName": "ENiagaraScriptUsage::SystemSpawnScript",
+          "lastCompileStatus": "UpToDate",
+          "errorSummary": "",
+          "compileEvents": []
+        },
+        {
+          "emitterName": "None",
+          "scriptName": "ENiagaraScriptUsage::SystemUpdateScript",
+          "lastCompileStatus": "UpToDate",
+          "errorSummary": "",
+          "compileEvents": []
+        },
+        {
+          "emitterName": "ParticleSourceEmitter",
+          "scriptName": "ENiagaraScriptUsage::ParticleSpawnScriptInterpolated",
+          "lastCompileStatus": "UpToDate",
+          "errorSummary": "",
+          "compileEvents": []
+        },
+        {
+          "emitterName": "ParticleSourceEmitter",
+          "scriptName": "ENiagaraScriptUsage::ParticleUpdateScript",
+          "lastCompileStatus": "UpToDate",
+          "errorSummary": "",
+          "compileEvents": []
+        },
+        {
+          "emitterName": "ParticleSourceEmitter",
+          "scriptName": "ENiagaraScriptUsage::ParticleGPUComputeScript",
+          "lastCompileStatus": "UpToDate",
+          "errorSummary": "",
+          "compileEvents": []
+        },
+        {
+          "emitterName": "Grid3D_Gas_Master_Emitter",
+          "scriptName": "ENiagaraScriptUsage::ParticleSpawnScript",
+          "lastCompileStatus": "UpToDate",
+          "errorSummary": "",
+          "compileEvents": []
+        },
+        {
+          "emitterName": "Grid3D_Gas_Master_Emitter",
+          "scriptName": "ENiagaraScriptUsage::ParticleUpdateScript",
+          "lastCompileStatus": "UpToDate",
+          "errorSummary": "",
+          "compileEvents": []
+        },
+        {
+          "emitterName": "Grid3D_Gas_Master_Emitter",
+          "scriptName": "ENiagaraScriptUsage::ParticleSimulationStageScript",
+          "lastCompileStatus": "UpToDate",
+          "errorSummary": "",
+          "compileEvents": []
+        },
+        {
+          "emitterName": "Grid3D_Gas_Master_Emitter",
+          "scriptName": "ENiagaraScriptUsage::ParticleSimulationStageScript",
+          "lastCompileStatus": "UpToDate",
+          "errorSummary": "",
+          "compileEvents": []
+        },
+        {
+          "emitterName": "Grid3D_Gas_Master_Emitter",
+          "scriptName": "ENiagaraScriptUsage::ParticleSimulationStageScript",
+          "lastCompileStatus": "UpToDate",
+          "errorSummary": "",
+          "compileEvents": []
+        },
+        {
+          "emitterName": "Grid3D_Gas_Master_Emitter",
+          "scriptName": "ENiagaraScriptUsage::ParticleSimulationStageScript",
+          "lastCompileStatus": "UpToDate",
+          "errorSummary": "",
+          "compileEvents": []
+        },
+        {
+          "emitterName": "Grid3D_Gas_Master_Emitter",
+          "scriptName": "ENiagaraScriptUsage::ParticleSimulationStageScript",
+          "lastCompileStatus": "UpToDate",
+          "errorSummary": "",
+          "compileEvents": []
+        },
+        {
+          "emitterName": "Grid3D_Gas_Master_Emitter",
+          "scriptName": "ENiagaraScriptUsage::ParticleSimulationStageScript",
+          "lastCompileStatus": "UpToDate",
+          "errorSummary": "",
+          "compileEvents": []
+        },
+        {
+          "emitterName": "Grid3D_Gas_Master_Emitter",
+          "scriptName": "ENiagaraScriptUsage::ParticleSimulationStageScript",
+          "lastCompileStatus": "UpToDate",
+          "errorSummary": "",
+          "compileEvents": []
+        },
+        {
+          "emitterName": "Grid3D_Gas_Master_Emitter",
+          "scriptName": "ENiagaraScriptUsage::ParticleSimulationStageScript",
+          "lastCompileStatus": "UpToDate",
+          "errorSummary": "",
+          "compileEvents": []
+        },
+        {
+          "emitterName": "Grid3D_Gas_Master_Emitter",
+          "scriptName": "ENiagaraScriptUsage::ParticleSimulationStageScript",
+          "lastCompileStatus": "UpToDate",
+          "errorSummary": "",
+          "compileEvents": []
+        },
+        {
+          "emitterName": "Grid3D_Gas_Master_Emitter",
+          "scriptName": "ENiagaraScriptUsage::ParticleSimulationStageScript",
+          "lastCompileStatus": "UpToDate",
+          "errorSummary": "",
+          "compileEvents": []
+        },
+        {
+          "emitterName": "Grid3D_Gas_Master_Emitter",
+          "scriptName": "ENiagaraScriptUsage::ParticleSimulationStageScript",
+          "lastCompileStatus": "UpToDate",
+          "errorSummary": "",
+          "compileEvents": []
+        },
+        {
+          "emitterName": "Grid3D_Gas_Master_Emitter",
+          "scriptName": "ENiagaraScriptUsage::ParticleSimulationStageScript",
+          "lastCompileStatus": "UpToDate",
+          "errorSummary": "",
+          "compileEvents": []
+        },
+        {
+          "emitterName": "Grid3D_Gas_Master_Emitter",
+          "scriptName": "ENiagaraScriptUsage::ParticleSimulationStageScript",
+          "lastCompileStatus": "UpToDate",
+          "errorSummary": "",
+          "compileEvents": []
+        },
+        {
+          "emitterName": "Grid3D_Gas_Master_Emitter",
+          "scriptName": "ENiagaraScriptUsage::ParticleSimulationStageScript",
+          "lastCompileStatus": "UpToDate",
+          "errorSummary": "",
+          "compileEvents": []
+        },
+        {
+          "emitterName": "Grid3D_Gas_Master_Emitter",
+          "scriptName": "ENiagaraScriptUsage::ParticleSimulationStageScript",
+          "lastCompileStatus": "UpToDate",
+          "errorSummary": "",
+          "compileEvents": []
+        },
+        {
+          "emitterName": "Grid3D_Gas_Master_Emitter",
+          "scriptName": "ENiagaraScriptUsage::ParticleSimulationStageScript",
+          "lastCompileStatus": "UpToDate",
+          "errorSummary": "",
+          "compileEvents": []
+        },
+        {
+          "emitterName": "Grid3D_Gas_Master_Emitter",
+          "scriptName": "ENiagaraScriptUsage::ParticleSimulationStageScript",
+          "lastCompileStatus": "UpToDate",
+          "errorSummary": "",
+          "compileEvents": []
+        },
+        {
+          "emitterName": "Grid3D_Gas_Master_Emitter",
+          "scriptName": "ENiagaraScriptUsage::ParticleSimulationStageScript",
+          "lastCompileStatus": "UpToDate",
+          "errorSummary": "",
+          "compileEvents": []
+        },
+        {
+          "emitterName": "Grid3D_Gas_Master_Emitter",
+          "scriptName": "ENiagaraScriptUsage::ParticleSimulationStageScript",
+          "lastCompileStatus": "UpToDate",
+          "errorSummary": "",
+          "compileEvents": []
+        },
+        {
+          "emitterName": "Grid3D_Gas_Master_Emitter",
+          "scriptName": "ENiagaraScriptUsage::ParticleSimulationStageScript",
+          "lastCompileStatus": "UpToDate",
+          "errorSummary": "",
+          "compileEvents": []
+        },
+        {
+          "emitterName": "Grid3D_Gas_Master_Emitter",
+          "scriptName": "ENiagaraScriptUsage::ParticleSimulationStageScript",
+          "lastCompileStatus": "UpToDate",
+          "errorSummary": "",
+          "compileEvents": []
+        },
+        {
+          "emitterName": "Grid3D_Gas_Master_Emitter",
+          "scriptName": "ENiagaraScriptUsage::ParticleSimulationStageScript",
+          "lastCompileStatus": "UpToDate",
+          "errorSummary": "",
+          "compileEvents": []
+        },
+        {
+          "emitterName": "Grid3D_Gas_Master_Emitter",
+          "scriptName": "ENiagaraScriptUsage::ParticleSimulationStageScript",
+          "lastCompileStatus": "UpToDate",
+          "errorSummary": "",
+          "compileEvents": []
+        },
+        {
+          "emitterName": "Grid3D_Gas_Master_Emitter",
+          "scriptName": "ENiagaraScriptUsage::ParticleSimulationStageScript",
+          "lastCompileStatus": "UpToDate",
+          "errorSummary": "",
+          "compileEvents": []
+        },
+        {
+          "emitterName": "Grid3D_Gas_Master_Emitter",
+          "scriptName": "ENiagaraScriptUsage::ParticleSimulationStageScript",
+          "lastCompileStatus": "UpToDate",
+          "errorSummary": "",
+          "compileEvents": []
+        },
+        {
+          "emitterName": "Grid3D_Gas_Master_Emitter",
+          "scriptName": "ENiagaraScriptUsage::ParticleGPUComputeScript",
+          "lastCompileStatus": "UpToDate",
+          "errorSummary": "",
+          "compileEvents": []
+        }
+      ]
+    },
+    "issues": {
+      "numErrors": 0,
+      "numWarnings": 14,
+      "numInfos": 47,
+      "issues": [
+        {
+          "issueId": "f02bff3a84a70d0f27ef1226ff6eca7a",
+          "severity": "Info",
+          "shortDescription": "Version upgrade note",
+          "longDescription": "The version of this script was recently upgraded; here is a list of changes:\n1.1: Particles with lifespan greater than zero but less than delta time will live for one frame.\n",
+          "bCanBeDismissed": true,
+          "bIsDismissed": false,
+          "location": {
+            "system": {
+              "refPath": "/Game/LostVanguard/Environment/SpaceImpact/FX/NS_ImpactFireVolume.NS_ImpactFireVolume"
+            },
+            "emitterName": "ParticleSourceEmitter",
+            "scriptName": "ENiagaraScriptUsage::ParticleUpdateScript",
+            "moduleName": "ParticleState",
+            "rendererIndex": -1,
+            "inputNameStack": []
+          },
+          "stackDisplayPath": "/Particle Update/Particle State",
+          "fixes": []
+        },
+        {
+          "issueId": "182e9b359dfa306929dd4edc8bf15a7c",
+          "severity": "Info",
+          "shortDescription": "Version upgrade note",
+          "longDescription": "The version of this script was recently upgraded; here is a list of changes:\n4.0: Make sure position and velocity are in world space.\n",
+          "bCanBeDismissed": true,
+          "bIsDismissed": false,
+          "location": {
+            "system": {
+              "refPath": "/Game/LostVanguard/Environment/SpaceImpact/FX/NS_ImpactFireVolume.NS_ImpactFireVolume"
+            },
+            "emitterName": "ParticleSourceEmitter",
+            "scriptName": "ENiagaraScriptUsage::ParticleUpdateScript",
+            "moduleName": "SetFluidSourceAttributes",
+            "rendererIndex": -1,
+            "inputNameStack": []
+          },
+          "stackDisplayPath": "/Particle Update/Set Fluid Source Attributes",
+          "fixes": []
+        },
+        {
+          "issueId": "dcd73a598f59f9690a5bd1293e80593e",
+          "severity": "Info",
+          "shortDescription": "Module Usage Note",
+          "longDescription": "Prepares attributes used to carry data into a gas simulation. The source modules in the gas simulation expect attributes of a specific type and name. This module sets them up for you.",
+          "bCanBeDismissed": true,
+          "bIsDismissed": false,
+          "location": {
+            "system": {
+              "refPath": "/Game/LostVanguard/Environment/SpaceImpact/FX/NS_ImpactFireVolume.NS_ImpactFireVolume"
+            },
+            "emitterName": "ParticleSourceEmitter",
+            "scriptName": "ENiagaraScriptUsage::ParticleUpdateScript",
+            "moduleName": "SetFluidSourceAttributes",
+            "rendererIndex": -1,
+            "inputNameStack": []
+          },
+          "stackDisplayPath": "/Particle Update/Set Fluid Source Attributes",
+          "fixes": []
+        },
+        {
+          "issueId": "58cf2cdb4dcb3e9a3677cb1bb314b7e0",
+          "severity": "Info",
+          "shortDescription": "Interpolated spawning disabled, particle update will not run on the first frame.",
+          "longDescription": "When interpolated spawning is disabled only the spawn script runs on the first frame.",
+          "bCanBeDismissed": true,
+          "bIsDismissed": false,
+          "location": {
+            "system": {
+              "refPath": "/Game/LostVanguard/Environment/SpaceImpact/FX/NS_ImpactFireVolume.NS_ImpactFireVolume"
+            },
+            "emitterName": "Grid3D_Gas_Master_Emitter",
+            "scriptName": "None",
+            "moduleName": "None",
+            "rendererIndex": -1,
+            "inputNameStack": []
+          },
+          "stackDisplayPath": "/Properties/Emitter Properties",
+          "fixes": [
+            {
+              "fixId": "ee5f06c36e8be3f1abba2ee85fcbdabd",
+              "description": "Run update script on spawn",
+              "style": "Fix"
+            }
+          ]
+        },
+        {
+          "issueId": "636531eff6769ac5f7484588299651c9",
+          "severity": "Warning",
+          "shortDescription": "Object has warnings",
+          "longDescription": "The displayed object has warnings.  Check the object properties or the message log for details.",
+          "bCanBeDismissed": false,
+          "bIsDismissed": false,
+          "location": {
+            "system": {
+              "refPath": "/Game/LostVanguard/Environment/SpaceImpact/FX/NS_ImpactFireVolume.NS_ImpactFireVolume"
+            },
+            "emitterName": "Grid3D_Gas_Master_Emitter",
+            "scriptName": "None",
+            "moduleName": "None",
+            "rendererIndex": -1,
+            "inputNameStack": [
+              "ParticleReader"
+            ]
+          },
+          "stackDisplayPath": "/Emitter Summary/Emitter Summary/Filtered Inputs/Collision Data Interfaces/Collision Particle Reader/",
+          "fixes": []
+        },
+        {
+          "issueId": "8b42fdcf003f37332b044c74e8dc44dc",
+          "severity": "Info",
+          "shortDescription": "Version upgrade note",
+          "longDescription": "The version of this script was recently upgraded; here is a list of changes:\n1.1: 5.8\n",
+          "bCanBeDismissed": true,
+          "bIsDismissed": false,
+          "location": {
+            "system": {
+              "refPath": "/Game/LostVanguard/Environment/SpaceImpact/FX/NS_ImpactFireVolume.NS_ImpactFireVolume"
+            },
+            "emitterName": "Grid3D_Gas_Master_Emitter",
+            "scriptName": "ENiagaraScriptUsage::EmitterSpawnScript",
+            "moduleName": "Grid3D_Gas_QualityOverrides",
+            "rendererIndex": -1,
+            "inputNameStack": []
+          },
+          "stackDisplayPath": "/Emitter Spawn/Grid 3D Gas Quality Overrides",
+          "fixes": []
+        },
+        {
+          "issueId": "53cd1c9b3ded3c991a6267bb22e08989",
+          "severity": "Info",
+          "shortDescription": "Version upgrade note",
+          "longDescription": "The version of this script was recently upgraded; here is a list of changes:\n6.3: If rendering a debug slice, make sure the render target has enough channels.\n",
+          "bCanBeDismissed": true,
+          "bIsDismissed": false,
+          "location": {
+            "system": {
+              "refPath": "/Game/LostVanguard/Environment/SpaceImpact/FX/NS_ImpactFireVolume.NS_ImpactFireVolume"
+            },
+            "emitterName": "Grid3D_Gas_Master_Emitter",
+            "scriptName": "ENiagaraScriptUsage::EmitterSpawnScript",
+            "moduleName": "Grid3D_Gas_InitializeEmitter",
+            "rendererIndex": -1,
+            "inputNameStack": []
+          },
+          "stackDisplayPath": "/Emitter Spawn/Grid 3D Gas Initialize Emitter",
+          "fixes": []
+        },
+        {
+          "issueId": "51e37340c0dc74f10541832c7e0814ae",
+          "severity": "Info",
+          "shortDescription": "Version upgrade note",
+          "longDescription": "The version of this script was recently upgraded; here is a list of changes:\n3.0: Allow both source types to be used at the same time.\n",
+          "bCanBeDismissed": true,
+          "bIsDismissed": false,
+          "location": {
+            "system": {
+              "refPath": "/Game/LostVanguard/Environment/SpaceImpact/FX/NS_ImpactFireVolume.NS_ImpactFireVolume"
+            },
+            "emitterName": "Grid3D_Gas_Master_Emitter",
+            "scriptName": "ENiagaraScriptUsage::EmitterSpawnScript",
+            "moduleName": "Grid3D_Gas_InitializeParticleSource",
+            "rendererIndex": -1,
+            "inputNameStack": []
+          },
+          "stackDisplayPath": "/Emitter Spawn/Grid 3D Gas Initialize Particle Source",
+          "fixes": []
+        },
+        {
+          "issueId": "a501b7983b27143cd2913487d124f0f1",
+          "severity": "Info",
+          "shortDescription": "Module Usage Note",
+          "longDescription": "Particle data can be sourced into the gas simulation from a separate emitter. This module initializes the controls and rasterization grids for that process.\r\nThere are two rasterization grid types available: The deterministic Rasterization Grid and the faster Grid 3D Collection. \r\nThis module works with two other modules to perform the reading, rasterization and application of the particle data:\r\nGrid3D_Gas_SplatParticleDataIntoRasterGrid requires it's own stage and fills the rasterization grids from the particle data.\r\nGrid3D_Gas_GetParticleDataFromRasterGrid fetches the data from the relevant structure ready for sourcing into the simulation.\r\nThe above modules get all the information they need from Emitter parameters created by this module. All the controls reside here.",
+          "bCanBeDismissed": true,
+          "bIsDismissed": false,
+          "location": {
+            "system": {
+              "refPath": "/Game/LostVanguard/Environment/SpaceImpact/FX/NS_ImpactFireVolume.NS_ImpactFireVolume"
+            },
+            "emitterName": "Grid3D_Gas_Master_Emitter",
+            "scriptName": "ENiagaraScriptUsage::EmitterSpawnScript",
+            "moduleName": "Grid3D_Gas_InitializeParticleSource",
+            "rendererIndex": -1,
+            "inputNameStack": []
+          },
+          "stackDisplayPath": "/Emitter Spawn/Grid 3D Gas Initialize Particle Source",
+          "fixes": []
+        },
+        {
+          "issueId": "17665b9d3b108081077d725b67228ebc",
+          "severity": "Info",
+          "shortDescription": "Version upgrade note",
+          "longDescription": "The version of this script was recently upgraded; here is a list of changes:\n3.0: Add temperature color controls\n",
+          "bCanBeDismissed": true,
+          "bIsDismissed": false,
+          "location": {
+            "system": {
+              "refPath": "/Game/LostVanguard/Environment/SpaceImpact/FX/NS_ImpactFireVolume.NS_ImpactFireVolume"
+            },
+            "emitterName": "Grid3D_Gas_Master_Emitter",
+            "scriptName": "ENiagaraScriptUsage::EmitterUpdateScript",
+            "moduleName": "Grid3D_Gas_MaterialControls",
+            "rendererIndex": -1,
+            "inputNameStack": []
+          },
+          "stackDisplayPath": "/Emitter Update/Grid 3D Gas Material Controls",
+          "fixes": []
+        },
+        {
+          "issueId": "c9e5a0e1ba2d221d275d14c773969749",
+          "severity": "Info",
+          "shortDescription": "Version upgrade note",
+          "longDescription": "The version of this script was recently upgraded; here is a list of changes:\n7.0: Add options to control gain and frequency per axis\n",
+          "bCanBeDismissed": true,
+          "bIsDismissed": false,
+          "location": {
+            "system": {
+              "refPath": "/Game/LostVanguard/Environment/SpaceImpact/FX/NS_ImpactFireVolume.NS_ImpactFireVolume"
+            },
+            "emitterName": "Grid3D_Gas_Master_Emitter",
+            "scriptName": "ENiagaraScriptUsage::ParticleSimulationStageScript",
+            "moduleName": "Grid3D_Turbulence",
+            "rendererIndex": -1,
+            "inputNameStack": []
+          },
+          "stackDisplayPath": "/Init Sim Grids/Grid 3D Turbulence",
+          "fixes": []
+        },
+        {
+          "issueId": "5aa44c53246733e9aefd28a16b114ff9",
+          "severity": "Info",
+          "shortDescription": "Version upgrade note",
+          "longDescription": "The version of this script was recently upgraded; here is a list of changes:\n2.0: Swap to the reduced fluid attribute list\n",
+          "bCanBeDismissed": true,
+          "bIsDismissed": false,
+          "location": {
+            "system": {
+              "refPath": "/Game/LostVanguard/Environment/SpaceImpact/FX/NS_ImpactFireVolume.NS_ImpactFireVolume"
+            },
+            "emitterName": "Grid3D_Gas_Master_Emitter",
+            "scriptName": "ENiagaraScriptUsage::ParticleSimulationStageScript",
+            "moduleName": "Grid3D_SetFluidAttribute011",
+            "rendererIndex": -1,
+            "inputNameStack": []
+          },
+          "stackDisplayPath": "/Compute Curl/Grid 3D Set Fluid Attribute 011",
+          "fixes": []
+        },
+        {
+          "issueId": "e8a148d10007d1edfd4e2c0acfb74208",
+          "severity": "Info",
+          "shortDescription": "Version upgrade note",
+          "longDescription": "The version of this script was recently upgraded; here is a list of changes:\n4.0: Convert emitter parameters to inputs so this module can be used multiple times\n",
+          "bCanBeDismissed": true,
+          "bIsDismissed": false,
+          "location": {
+            "system": {
+              "refPath": "/Game/LostVanguard/Environment/SpaceImpact/FX/NS_ImpactFireVolume.NS_ImpactFireVolume"
+            },
+            "emitterName": "Grid3D_Gas_Master_Emitter",
+            "scriptName": "ENiagaraScriptUsage::ParticleSimulationStageScript",
+            "moduleName": "Grid3D_Gas_SplatParticleDataIntoRasterGrid",
+            "rendererIndex": -1,
+            "inputNameStack": []
+          },
+          "stackDisplayPath": "/Splat Particle Data into Raster Grids/Grid 3D Gas Splat Particle Data Into Raster Grid",
+          "fixes": []
+        },
+        {
+          "issueId": "97362780e1adcc4d6ff29a58a5d06855",
+          "severity": "Info",
+          "shortDescription": "Module Usage Note",
+          "longDescription": "To be used in conjunction with the InitializeParticleSource module.\r\nAll necessary data is passed via Emitter parameters.\r\n\r\nThis module iterates over the particle reader created by the Grid3D_Gas_InitializeParticleSource module.\r\nIt reads the particle data and splats it into a separate grid. \r\nThe particle source controls all reside on the Initialize Particle Source module.",
+          "bCanBeDismissed": true,
+          "bIsDismissed": false,
+          "location": {
+            "system": {
+              "refPath": "/Game/LostVanguard/Environment/SpaceImpact/FX/NS_ImpactFireVolume.NS_ImpactFireVolume"
+            },
+            "emitterName": "Grid3D_Gas_Master_Emitter",
+            "scriptName": "ENiagaraScriptUsage::ParticleSimulationStageScript",
+            "moduleName": "Grid3D_Gas_SplatParticleDataIntoRasterGrid",
+            "rendererIndex": -1,
+            "inputNameStack": []
+          },
+          "stackDisplayPath": "/Splat Particle Data into Raster Grids/Grid 3D Gas Splat Particle Data Into Raster Grid",
+          "fixes": []
+        },
+        {
+          "issueId": "564702c68f2353c84f18c0e917d5f1bf",
+          "severity": "Info",
+          "shortDescription": "Version upgrade note",
+          "longDescription": "The version of this script was recently upgraded; here is a list of changes:\n4.0: Convert emitter parameters to inputs so this module can be used multiple times\n",
+          "bCanBeDismissed": true,
+          "bIsDismissed": false,
+          "location": {
+            "system": {
+              "refPath": "/Game/LostVanguard/Environment/SpaceImpact/FX/NS_ImpactFireVolume.NS_ImpactFireVolume"
+            },
+            "emitterName": "Grid3D_Gas_Master_Emitter",
+            "scriptName": "ENiagaraScriptUsage::ParticleSimulationStageScript",
+            "moduleName": "Grid3D_Gas_SplatParticleDataIntoRasterGrid001",
+            "rendererIndex": -1,
+            "inputNameStack": []
+          },
+          "stackDisplayPath": "/Splat Data Channel into Raster Grid/Grid 3D Gas Splat Particle Data Into Raster Grid 001",
+          "fixes": []
+        },
+        {
+          "issueId": "1246f64e2632dd7d9c51950d226eff2f",
+          "severity": "Info",
+          "shortDescription": "Module Usage Note",
+          "longDescription": "To be used in conjunction with the InitializeParticleSource module.\r\nAll necessary data is passed via Emitter parameters.\r\n\r\nThis module iterates over the particle reader created by the Grid3D_Gas_InitializeParticleSource module.\r\nIt reads the particle data and splats it into a separate grid. \r\nThe particle source controls all reside on the Initialize Particle Source module.",
+          "bCanBeDismissed": true,
+          "bIsDismissed": false,
+          "location": {
+            "system": {
+              "refPath": "/Game/LostVanguard/Environment/SpaceImpact/FX/NS_ImpactFireVolume.NS_ImpactFireVolume"
+            },
+            "emitterName": "Grid3D_Gas_Master_Emitter",
+            "scriptName": "ENiagaraScriptUsage::ParticleSimulationStageScript",
+            "moduleName": "Grid3D_Gas_SplatParticleDataIntoRasterGrid001",
+            "rendererIndex": -1,
+            "inputNameStack": []
+          },
+          "stackDisplayPath": "/Splat Data Channel into Raster Grid/Grid 3D Gas Splat Particle Data Into Raster Grid 001",
+          "fixes": []
+        },
+        {
+          "issueId": "acc40b8dfa823bc3949dacdbe4c3ba3e",
+          "severity": "Info",
+          "shortDescription": "Version upgrade note",
+          "longDescription": "The version of this script was recently upgraded; here is a list of changes:\n2.4: 5.4\n",
+          "bCanBeDismissed": true,
+          "bIsDismissed": false,
+          "location": {
+            "system": {
+              "refPath": "/Game/LostVanguard/Environment/SpaceImpact/FX/NS_ImpactFireVolume.NS_ImpactFireVolume"
+            },
+            "emitterName": "Grid3D_Gas_Master_Emitter",
+            "scriptName": "ENiagaraScriptUsage::ParticleSimulationStageScript",
+            "moduleName": "Grid3D_ComputeBoundary",
+            "rendererIndex": -1,
+            "inputNameStack": []
+          },
+          "stackDisplayPath": "/Pre Sim Velocity/Grid 3D Compute Boundary",
+          "fixes": []
+        },
+        {
+          "issueId": "159bc918cf3d4b6e01a7e9c831d031e4",
+          "severity": "Warning",
+          "shortDescription": "Object has warnings",
+          "longDescription": "The displayed object has warnings.  Check the object properties or the message log for details.",
+          "bCanBeDismissed": false,
+          "bIsDismissed": false,
+          "location": {
+            "system": {
+              "refPath": "/Game/LostVanguard/Environment/SpaceImpact/FX/NS_ImpactFireVolume.NS_ImpactFireVolume"
+            },
+            "emitterName": "Grid3D_Gas_Master_Emitter",
+            "scriptName": "ENiagaraScriptUsage::ParticleSimulationStageScript",
+            "moduleName": "Grid3D_ComputeBoundary",
+            "rendererIndex": -1,
+            "inputNameStack": [
+              "ParticleReader"
+            ]
+          },
+          "stackDisplayPath": "/Pre Sim Velocity/Grid 3D Compute Boundary//Particles/ParticleReader/",
+          "fixes": []
+        },
+        {
+          "issueId": "56fc57fbd85c751dcb269c8ef2d44d86",
+          "severity": "Info",
+          "shortDescription": "Version upgrade note",
+          "longDescription": "The version of this script was recently upgraded; here is a list of changes:\n2.0: Swap to the reduced fluid attribute list\n",
+          "bCanBeDismissed": true,
+          "bIsDismissed": false,
+          "location": {
+            "system": {
+              "refPath": "/Game/LostVanguard/Environment/SpaceImpact/FX/NS_ImpactFireVolume.NS_ImpactFireVolume"
+            },
+            "emitterName": "Grid3D_Gas_Master_Emitter",
+            "scriptName": "ENiagaraScriptUsage::ParticleSimulationStageScript",
+            "moduleName": "Grid3D_SetFluidAttribute",
+            "rendererIndex": -1,
+            "inputNameStack": []
+          },
+          "stackDisplayPath": "/Pre Sim Velocity/Grid 3D Set Fluid Attribute",
+          "fixes": []
+        },
+        {
+          "issueId": "1ca1844d2e261451bab58f84479cc2b7",
+          "severity": "Info",
+          "shortDescription": "Version upgrade note",
+          "longDescription": "The version of this script was recently upgraded; here is a list of changes:\n3.0: Combine resample into the get module.\n",
+          "bCanBeDismissed": true,
+          "bIsDismissed": false,
+          "location": {
+            "system": {
+              "refPath": "/Game/LostVanguard/Environment/SpaceImpact/FX/NS_ImpactFireVolume.NS_ImpactFireVolume"
+            },
+            "emitterName": "Grid3D_Gas_Master_Emitter",
+            "scriptName": "ENiagaraScriptUsage::ParticleSimulationStageScript",
+            "moduleName": "Grid3D_GetFluidAttribute006",
+            "rendererIndex": -1,
+            "inputNameStack": []
+          },
+          "stackDisplayPath": "/Pre Sim Velocity/Grid 3D Get Fluid Attribute 006",
+          "fixes": []
+        },
+        {
+          "issueId": "7daae88613a40ccd9ebb9a000b5aea23",
+          "severity": "Warning",
+          "shortDescription": "Object has warnings",
+          "longDescription": "The displayed object has warnings.  Check the object properties or the message log for details.",
+          "bCanBeDismissed": false,
+          "bIsDismissed": false,
+          "location": {
+            "system": {
+              "refPath": "/Game/LostVanguard/Environment/SpaceImpact/FX/NS_ImpactFireVolume.NS_ImpactFireVolume"
+            },
+            "emitterName": "Grid3D_Gas_Master_Emitter",
+            "scriptName": "ENiagaraScriptUsage::ParticleSimulationStageScript",
+            "moduleName": "Grid3D_GetFluidAttribute006",
+            "rendererIndex": -1,
+            "inputNameStack": [
+              "GridToSampleTo"
+            ]
+          },
+          "stackDisplayPath": "/Pre Sim Velocity/Grid 3D Get Fluid Attribute 006//GridToSampleTo/",
+          "fixes": []
+        },
+        {
+          "issueId": "e3d90f98ddbabceea508573a9e164df1",
+          "severity": "Info",
+          "shortDescription": "Version upgrade note",
+          "longDescription": "The version of this script was recently upgraded; here is a list of changes:\n7.0: Add options to control gain and frequency per axis\n",
+          "bCanBeDismissed": true,
+          "bIsDismissed": false,
+          "location": {
+            "system": {
+              "refPath": "/Game/LostVanguard/Environment/SpaceImpact/FX/NS_ImpactFireVolume.NS_ImpactFireVolume"
+            },
+            "emitterName": "Grid3D_Gas_Master_Emitter",
+            "scriptName": "ENiagaraScriptUsage::ParticleSimulationStageScript",
+            "moduleName": "Grid3D_Turbulence001",
+            "rendererIndex": -1,
+            "inputNameStack": []
+          },
+          "stackDisplayPath": "/Pre Sim Velocity/Grid 3D Turbulence 001",
+          "fixes": []
+        },
+        {
+          "issueId": "1b0809bb109d01b5f06e6928181c7352",
+          "severity": "Info",
+          "shortDescription": "Version upgrade note",
+          "longDescription": "The version of this script was recently upgraded; here is a list of changes:\n7.0: Add options to control gain and frequency per axis\n",
+          "bCanBeDismissed": true,
+          "bIsDismissed": false,
+          "location": {
+            "system": {
+              "refPath": "/Game/LostVanguard/Environment/SpaceImpact/FX/NS_ImpactFireVolume.NS_ImpactFireVolume"
+            },
+            "emitterName": "Grid3D_Gas_Master_Emitter",
+            "scriptName": "ENiagaraScriptUsage::ParticleSimulationStageScript",
+            "moduleName": "Grid3D_Turbulence002",
+            "rendererIndex": -1,
+            "inputNameStack": []
+          },
+          "stackDisplayPath": "/Pre Sim Velocity/Grid 3D Turbulence 002",
+          "fixes": []
+        },
+        {
+          "issueId": "46594f2fcdc8b40c829fbc95f73dec35",
+          "severity": "Info",
+          "shortDescription": "Version upgrade note",
+          "longDescription": "The version of this script was recently upgraded; here is a list of changes:\n1.2: Add enable toggle\n",
+          "bCanBeDismissed": true,
+          "bIsDismissed": false,
+          "location": {
+            "system": {
+              "refPath": "/Game/LostVanguard/Environment/SpaceImpact/FX/NS_ImpactFireVolume.NS_ImpactFireVolume"
+            },
+            "emitterName": "Grid3D_Gas_Master_Emitter",
+            "scriptName": "ENiagaraScriptUsage::ParticleSimulationStageScript",
+            "moduleName": "Grid3D_VorticityConfinementForce",
+            "rendererIndex": -1,
+            "inputNameStack": []
+          },
+          "stackDisplayPath": "/Pre Sim Velocity/Grid 3D Vorticity Confinement Force",
+          "fixes": []
+        },
+        {
+          "issueId": "40c6bc1513141981db244e177cecdfc2",
+          "severity": "Info",
+          "shortDescription": "Module Usage Note",
+          "longDescription": "This module integrates Transient.PhysicsForce and Transient.PhysicsForceLocal into the supplied velocity grid.",
+          "bCanBeDismissed": true,
+          "bIsDismissed": false,
+          "location": {
+            "system": {
+              "refPath": "/Game/LostVanguard/Environment/SpaceImpact/FX/NS_ImpactFireVolume.NS_ImpactFireVolume"
+            },
+            "emitterName": "Grid3D_Gas_Master_Emitter",
+            "scriptName": "ENiagaraScriptUsage::ParticleSimulationStageScript",
+            "moduleName": "Grid3D_IntegrateForces",
+            "rendererIndex": -1,
+            "inputNameStack": []
+          },
+          "stackDisplayPath": "/Pre Sim Velocity/Grid 3D Integrate Forces",
+          "fixes": []
+        },
+        {
+          "issueId": "214ba19f6d3daa08827a205394a8c7ca",
+          "severity": "Info",
+          "shortDescription": "Version upgrade note",
+          "longDescription": "The version of this script was recently upgraded; here is a list of changes:\n2.0: Swap to the reduced fluid attribute list\n",
+          "bCanBeDismissed": true,
+          "bIsDismissed": false,
+          "location": {
+            "system": {
+              "refPath": "/Game/LostVanguard/Environment/SpaceImpact/FX/NS_ImpactFireVolume.NS_ImpactFireVolume"
+            },
+            "emitterName": "Grid3D_Gas_Master_Emitter",
+            "scriptName": "ENiagaraScriptUsage::ParticleSimulationStageScript",
+            "moduleName": "Grid3D_SetFluidAttribute004",
+            "rendererIndex": -1,
+            "inputNameStack": []
+          },
+          "stackDisplayPath": "/Pre Sim Velocity/Grid 3D Set Fluid Attribute 004",
+          "fixes": []
+        },
+        {
+          "issueId": "58881ae89ac7a78236b3d8bcbc31be03",
+          "severity": "Info",
+          "shortDescription": "Version upgrade note",
+          "longDescription": "The version of this script was recently upgraded; here is a list of changes:\n3.0: Combine resample into the get module.\n",
+          "bCanBeDismissed": true,
+          "bIsDismissed": false,
+          "location": {
+            "system": {
+              "refPath": "/Game/LostVanguard/Environment/SpaceImpact/FX/NS_ImpactFireVolume.NS_ImpactFireVolume"
+            },
+            "emitterName": "Grid3D_Gas_Master_Emitter",
+            "scriptName": "ENiagaraScriptUsage::ParticleSimulationStageScript",
+            "moduleName": "Grid3D_GetFluidAttribute004",
+            "rendererIndex": -1,
+            "inputNameStack": []
+          },
+          "stackDisplayPath": "/Sourcing/Grid 3D Get Fluid Attribute 004",
+          "fixes": []
+        },
+        {
+          "issueId": "928a986963be8f8cb20948650b9fc3a3",
+          "severity": "Warning",
+          "shortDescription": "Object has warnings",
+          "longDescription": "The displayed object has warnings.  Check the object properties or the message log for details.",
+          "bCanBeDismissed": false,
+          "bIsDismissed": false,
+          "location": {
+            "system": {
+              "refPath": "/Game/LostVanguard/Environment/SpaceImpact/FX/NS_ImpactFireVolume.NS_ImpactFireVolume"
+            },
+            "emitterName": "Grid3D_Gas_Master_Emitter",
+            "scriptName": "ENiagaraScriptUsage::ParticleSimulationStageScript",
+            "moduleName": "Grid3D_GetFluidAttribute004",
+            "rendererIndex": -1,
+            "inputNameStack": [
+              "GridToSampleTo"
+            ]
+          },
+          "stackDisplayPath": "/Sourcing/Grid 3D Get Fluid Attribute 004//GridToSampleTo/",
+          "fixes": []
+        },
+        {
+          "issueId": "65e35e254705cec2b2253115c85b07b8",
+          "severity": "Info",
+          "shortDescription": "Version upgrade note",
+          "longDescription": "The version of this script was recently upgraded; here is a list of changes:\n3.0: Combine resample into the get module.\n",
+          "bCanBeDismissed": true,
+          "bIsDismissed": false,
+          "location": {
+            "system": {
+              "refPath": "/Game/LostVanguard/Environment/SpaceImpact/FX/NS_ImpactFireVolume.NS_ImpactFireVolume"
+            },
+            "emitterName": "Grid3D_Gas_Master_Emitter",
+            "scriptName": "ENiagaraScriptUsage::ParticleSimulationStageScript",
+            "moduleName": "Grid3D_GetFluidAttribute",
+            "rendererIndex": -1,
+            "inputNameStack": []
+          },
+          "stackDisplayPath": "/Sourcing/Grid 3D Get Fluid Attribute",
+          "fixes": []
+        },
+        {
+          "issueId": "07855d48283500cce0076d8030c7c9eb",
+          "severity": "Warning",
+          "shortDescription": "Object has warnings",
+          "longDescription": "The displayed object has warnings.  Check the object properties or the message log for details.",
+          "bCanBeDismissed": false,
+          "bIsDismissed": false,
+          "location": {
+            "system": {
+              "refPath": "/Game/LostVanguard/Environment/SpaceImpact/FX/NS_ImpactFireVolume.NS_ImpactFireVolume"
+            },
+            "emitterName": "Grid3D_Gas_Master_Emitter",
+            "scriptName": "ENiagaraScriptUsage::ParticleSimulationStageScript",
+            "moduleName": "Grid3D_GetFluidAttribute",
+            "rendererIndex": -1,
+            "inputNameStack": [
+              "GridToSampleTo"
+            ]
+          },
+          "stackDisplayPath": "/Sourcing/Grid 3D Get Fluid Attribute//GridToSampleTo/",
+          "fixes": []
+        },
+        {
+          "issueId": "23928c4b5c9af409b97c757803a18c7c",
+          "severity": "Info",
+          "shortDescription": "Version upgrade note",
+          "longDescription": "The version of this script was recently upgraded; here is a list of changes:\n3.0: Combine resample into the get module.\n",
+          "bCanBeDismissed": true,
+          "bIsDismissed": false,
+          "location": {
+            "system": {
+              "refPath": "/Game/LostVanguard/Environment/SpaceImpact/FX/NS_ImpactFireVolume.NS_ImpactFireVolume"
+            },
+            "emitterName": "Grid3D_Gas_Master_Emitter",
+            "scriptName": "ENiagaraScriptUsage::ParticleSimulationStageScript",
+            "moduleName": "Grid3D_GetFluidAttribute009",
+            "rendererIndex": -1,
+            "inputNameStack": []
+          },
+          "stackDisplayPath": "/Sourcing/Grid 3D Get Fluid Attribute 009",
+          "fixes": []
+        },
+        {
+          "issueId": "52e4419152960d4fcaa97a2108a8362d",
+          "severity": "Warning",
+          "shortDescription": "Object has warnings",
+          "longDescription": "The displayed object has warnings.  Check the object properties or the message log for details.",
+          "bCanBeDismissed": false,
+          "bIsDismissed": false,
+          "location": {
+            "system": {
+              "refPath": "/Game/LostVanguard/Environment/SpaceImpact/FX/NS_ImpactFireVolume.NS_ImpactFireVolume"
+            },
+            "emitterName": "Grid3D_Gas_Master_Emitter",
+            "scriptName": "ENiagaraScriptUsage::ParticleSimulationStageScript",
+            "moduleName": "Grid3D_GetFluidAttribute009",
+            "rendererIndex": -1,
+            "inputNameStack": [
+              "GridToSampleTo"
+            ]
+          },
+          "stackDisplayPath": "/Sourcing/Grid 3D Get Fluid Attribute 009//GridToSampleTo/",
+          "fixes": []
+        },
+        {
+          "issueId": "bd6fa11d2a00a0362a50afeaa4787011",
+          "severity": "Info",
+          "shortDescription": "Version upgrade note",
+          "longDescription": "The version of this script was recently upgraded; here is a list of changes:\n2.0: Support weight grid on color query\n",
+          "bCanBeDismissed": true,
+          "bIsDismissed": false,
+          "location": {
+            "system": {
+              "refPath": "/Game/LostVanguard/Environment/SpaceImpact/FX/NS_ImpactFireVolume.NS_ImpactFireVolume"
+            },
+            "emitterName": "Grid3D_Gas_Master_Emitter",
+            "scriptName": "ENiagaraScriptUsage::ParticleSimulationStageScript",
+            "moduleName": "Grid3D_Gas_GetParticleDataFromRasterGrid",
+            "rendererIndex": -1,
+            "inputNameStack": []
+          },
+          "stackDisplayPath": "/Sourcing/Grid 3D Gas Get Particle Data from Raster Grid",
+          "fixes": []
+        },
+        {
+          "issueId": "87e5eb33ca4f8c699f1bbb233ce84f27",
+          "severity": "Info",
+          "shortDescription": "Module Usage Note",
+          "longDescription": "To be used in conjunction with the SplatParticleDataIntoRasterGrid module.\r\nAll necessary data is passed via Emitter parameters.\r\n\r\nThis module samples data from the rasterization grid which contains the particle source data.\r\nIt composites 'Transient' parameters for Density, Temperature, Velocity and RGBA which can then be written back to the simulation grids.",
+          "bCanBeDismissed": true,
+          "bIsDismissed": false,
+          "location": {
+            "system": {
+              "refPath": "/Game/LostVanguard/Environment/SpaceImpact/FX/NS_ImpactFireVolume.NS_ImpactFireVolume"
+            },
+            "emitterName": "Grid3D_Gas_Master_Emitter",
+            "scriptName": "ENiagaraScriptUsage::ParticleSimulationStageScript",
+            "moduleName": "Grid3D_Gas_GetParticleDataFromRasterGrid",
+            "rendererIndex": -1,
+            "inputNameStack": []
+          },
+          "stackDisplayPath": "/Sourcing/Grid 3D Gas Get Particle Data from Raster Grid",
+          "fixes": []
+        },
+        {
+          "issueId": "ce3a452a43ab6bec6b6de01672662deb",
+          "severity": "Info",
+          "shortDescription": "Version upgrade note",
+          "longDescription": "The version of this script was recently upgraded; here is a list of changes:\n3.0: Combine resample into the get module.\n",
+          "bCanBeDismissed": true,
+          "bIsDismissed": false,
+          "location": {
+            "system": {
+              "refPath": "/Game/LostVanguard/Environment/SpaceImpact/FX/NS_ImpactFireVolume.NS_ImpactFireVolume"
+            },
+            "emitterName": "Grid3D_Gas_Master_Emitter",
+            "scriptName": "ENiagaraScriptUsage::ParticleSimulationStageScript",
+            "moduleName": "Grid3D_GetFluidAttribute005",
+            "rendererIndex": -1,
+            "inputNameStack": []
+          },
+          "stackDisplayPath": "/Sourcing/Grid 3D Get Fluid Attribute 005",
+          "fixes": []
+        },
+        {
+          "issueId": "ea963dfffe5b2e7d02a982150f392fb9",
+          "severity": "Warning",
+          "shortDescription": "Object has warnings",
+          "longDescription": "The displayed object has warnings.  Check the object properties or the message log for details.",
+          "bCanBeDismissed": false,
+          "bIsDismissed": false,
+          "location": {
+            "system": {
+              "refPath": "/Game/LostVanguard/Environment/SpaceImpact/FX/NS_ImpactFireVolume.NS_ImpactFireVolume"
+            },
+            "emitterName": "Grid3D_Gas_Master_Emitter",
+            "scriptName": "ENiagaraScriptUsage::ParticleSimulationStageScript",
+            "moduleName": "Grid3D_GetFluidAttribute005",
+            "rendererIndex": -1,
+            "inputNameStack": [
+              "GridToSampleTo"
+            ]
+          },
+          "stackDisplayPath": "/Sourcing/Grid 3D Get Fluid Attribute 005//GridToSampleTo/",
+          "fixes": []
+        },
+        {
+          "issueId": "3caba921ac33ea28bf7c4d1a23bcd67b",
+          "severity": "Info",
+          "shortDescription": "Version upgrade note",
+          "longDescription": "The version of this script was recently upgraded; here is a list of changes:\n2.0: Swap to the reduced fluid attribute list\n",
+          "bCanBeDismissed": true,
+          "bIsDismissed": false,
+          "location": {
+            "system": {
+              "refPath": "/Game/LostVanguard/Environment/SpaceImpact/FX/NS_ImpactFireVolume.NS_ImpactFireVolume"
+            },
+            "emitterName": "Grid3D_Gas_Master_Emitter",
+            "scriptName": "ENiagaraScriptUsage::ParticleSimulationStageScript",
+            "moduleName": "Grid3D_SetFluidAttribute012",
+            "rendererIndex": -1,
+            "inputNameStack": []
+          },
+          "stackDisplayPath": "/Sourcing/Grid 3D Set Fluid Attribute 012",
+          "fixes": []
+        },
+        {
+          "issueId": "ac9a4e3dd982191686ed012813001c61",
+          "severity": "Info",
+          "shortDescription": "Version upgrade note",
+          "longDescription": "The version of this script was recently upgraded; here is a list of changes:\n2.0: Swap to the reduced fluid attribute list\n",
+          "bCanBeDismissed": true,
+          "bIsDismissed": false,
+          "location": {
+            "system": {
+              "refPath": "/Game/LostVanguard/Environment/SpaceImpact/FX/NS_ImpactFireVolume.NS_ImpactFireVolume"
+            },
+            "emitterName": "Grid3D_Gas_Master_Emitter",
+            "scriptName": "ENiagaraScriptUsage::ParticleSimulationStageScript",
+            "moduleName": "Grid3D_SetFluidAttribute001",
+            "rendererIndex": -1,
+            "inputNameStack": []
+          },
+          "stackDisplayPath": "/Sourcing/Grid 3D Set Fluid Attribute 001",
+          "fixes": []
+        },
+        {
+          "issueId": "643254daa5c655e8dc8e90c1e8cf8672",
+          "severity": "Info",
+          "shortDescription": "Version upgrade note",
+          "longDescription": "The version of this script was recently upgraded; here is a list of changes:\n2.0: Switch to reduced fluid attribute list\n",
+          "bCanBeDismissed": true,
+          "bIsDismissed": false,
+          "location": {
+            "system": {
+              "refPath": "/Game/LostVanguard/Environment/SpaceImpact/FX/NS_ImpactFireVolume.NS_ImpactFireVolume"
+            },
+            "emitterName": "Grid3D_Gas_Master_Emitter",
+            "scriptName": "ENiagaraScriptUsage::ParticleSimulationStageScript",
+            "moduleName": "Grid3D_Advect_FluidAttribute001",
+            "rendererIndex": -1,
+            "inputNameStack": []
+          },
+          "stackDisplayPath": "/Advect Velocity/Grid 3D Advect Fluid Attribute 001",
+          "fixes": []
+        },
+        {
+          "issueId": "ade9ac4b2dcb8a07238f569ec84e2465",
+          "severity": "Info",
+          "shortDescription": "Version upgrade note",
+          "longDescription": "The version of this script was recently upgraded; here is a list of changes:\n2.0: Swap to the reduced fluid attribute list\n",
+          "bCanBeDismissed": true,
+          "bIsDismissed": false,
+          "location": {
+            "system": {
+              "refPath": "/Game/LostVanguard/Environment/SpaceImpact/FX/NS_ImpactFireVolume.NS_ImpactFireVolume"
+            },
+            "emitterName": "Grid3D_Gas_Master_Emitter",
+            "scriptName": "ENiagaraScriptUsage::ParticleSimulationStageScript",
+            "moduleName": "Grid3D_SetFluidAttribute014",
+            "rendererIndex": -1,
+            "inputNameStack": []
+          },
+          "stackDisplayPath": "/Advect Velocity/Grid 3D Set Fluid Attribute 014",
+          "fixes": []
+        },
+        {
+          "issueId": "139dafef68673cb042faec85c8b1ed69",
+          "severity": "Info",
+          "shortDescription": "Module Usage Note",
+          "longDescription": "To be used in conjunction with the SplatParticleDataIntoRasterGrid module.\r\nAll necessary data is passed via Emitter parameters.\r\n\r\nThis module samples data from the rasterization grid which contains the particle source data.\r\nIt composites 'Transient' parameters for Density, Temperature, Velocity and RGBA which can then be written back to the simulation grids.",
+          "bCanBeDismissed": true,
+          "bIsDismissed": false,
+          "location": {
+            "system": {
+              "refPath": "/Game/LostVanguard/Environment/SpaceImpact/FX/NS_ImpactFireVolume.NS_ImpactFireVolume"
+            },
+            "emitterName": "Grid3D_Gas_Master_Emitter",
+            "scriptName": "ENiagaraScriptUsage::ParticleSimulationStageScript",
+            "moduleName": "Grid3D_Gas_GetAttributeFromRasterGrid",
+            "rendererIndex": -1,
+            "inputNameStack": []
+          },
+          "stackDisplayPath": "/Compute Divergence/Grid 3D Gas Get Attribute from Raster Grid",
+          "fixes": []
+        },
+        {
+          "issueId": "c7f1ec69b5ef3b6c5d9094e87b6027b7",
+          "severity": "Info",
+          "shortDescription": "Version upgrade note",
+          "longDescription": "The version of this script was recently upgraded; here is a list of changes:\n2.0: Swap to the reduced fluid attribute list\n",
+          "bCanBeDismissed": true,
+          "bIsDismissed": false,
+          "location": {
+            "system": {
+              "refPath": "/Game/LostVanguard/Environment/SpaceImpact/FX/NS_ImpactFireVolume.NS_ImpactFireVolume"
+            },
+            "emitterName": "Grid3D_Gas_Master_Emitter",
+            "scriptName": "ENiagaraScriptUsage::ParticleSimulationStageScript",
+            "moduleName": "Grid3D_SetFluidAttribute006",
+            "rendererIndex": -1,
+            "inputNameStack": []
+          },
+          "stackDisplayPath": "/Compute Divergence/Grid 3D Set Fluid Attribute 006",
+          "fixes": []
+        },
+        {
+          "issueId": "1a6ecc32d67e9173f81448aca47e3e90",
+          "severity": "Info",
+          "shortDescription": "Version upgrade note",
+          "longDescription": "The version of this script was recently upgraded; here is a list of changes:\n2.0: Swap to the reduced fluid attribute list\n",
+          "bCanBeDismissed": true,
+          "bIsDismissed": false,
+          "location": {
+            "system": {
+              "refPath": "/Game/LostVanguard/Environment/SpaceImpact/FX/NS_ImpactFireVolume.NS_ImpactFireVolume"
+            },
+            "emitterName": "Grid3D_Gas_Master_Emitter",
+            "scriptName": "ENiagaraScriptUsage::ParticleSimulationStageScript",
+            "moduleName": "Grid3D_SetFluidAttribute002",
+            "rendererIndex": -1,
+            "inputNameStack": []
+          },
+          "stackDisplayPath": "/Compute Divergence/Grid 3D Set Fluid Attribute 002",
+          "fixes": []
+        },
+        {
+          "issueId": "3c8a72718e4542cb986384c6f4ca6120",
+          "severity": "Info",
+          "shortDescription": "Version upgrade note",
+          "longDescription": "The version of this script was recently upgraded; here is a list of changes:\n3.0: 5.8 - proper SOR\n",
+          "bCanBeDismissed": true,
+          "bIsDismissed": false,
+          "location": {
+            "system": {
+              "refPath": "/Game/LostVanguard/Environment/SpaceImpact/FX/NS_ImpactFireVolume.NS_ImpactFireVolume"
+            },
+            "emitterName": "Grid3D_Gas_Master_Emitter",
+            "scriptName": "ENiagaraScriptUsage::ParticleSimulationStageScript",
+            "moduleName": "Grid3D_PressureIteration",
+            "rendererIndex": -1,
+            "inputNameStack": []
+          },
+          "stackDisplayPath": "/Solve Pressure/Grid 3D Pressure Iteration",
+          "fixes": []
+        },
+        {
+          "issueId": "9061065b1529f9dfd9604c8f9750d803",
+          "severity": "Warning",
+          "shortDescription": "Object has warnings",
+          "longDescription": "The displayed object has warnings.  Check the object properties or the message log for details.",
+          "bCanBeDismissed": false,
+          "bIsDismissed": false,
+          "location": {
+            "system": {
+              "refPath": "/Game/LostVanguard/Environment/SpaceImpact/FX/NS_ImpactFireVolume.NS_ImpactFireVolume"
+            },
+            "emitterName": "Grid3D_Gas_Master_Emitter",
+            "scriptName": "ENiagaraScriptUsage::ParticleSimulationStageScript",
+            "moduleName": "Grid3D_PressureIteration",
+            "rendererIndex": -1,
+            "inputNameStack": [
+              "FractionGrid"
+            ]
+          },
+          "stackDisplayPath": "/Solve Pressure/Grid 3D Pressure Iteration//FractionGrid/",
+          "fixes": []
+        },
+        {
+          "issueId": "65d308fff2d16edc77b3ea7ace04b16d",
+          "severity": "Info",
+          "shortDescription": "Version upgrade note",
+          "longDescription": "The version of this script was recently upgraded; here is a list of changes:\n3.0: Combine resample into the get module.\n",
+          "bCanBeDismissed": true,
+          "bIsDismissed": false,
+          "location": {
+            "system": {
+              "refPath": "/Game/LostVanguard/Environment/SpaceImpact/FX/NS_ImpactFireVolume.NS_ImpactFireVolume"
+            },
+            "emitterName": "Grid3D_Gas_Master_Emitter",
+            "scriptName": "ENiagaraScriptUsage::ParticleSimulationStageScript",
+            "moduleName": "Grid3D_GetFluidAttribute002",
+            "rendererIndex": -1,
+            "inputNameStack": []
+          },
+          "stackDisplayPath": "/Project Pressure/Grid 3D Get Fluid Attribute 002",
+          "fixes": []
+        },
+        {
+          "issueId": "92749d6c83d365f7593a0cfd2565a927",
+          "severity": "Warning",
+          "shortDescription": "Object has warnings",
+          "longDescription": "The displayed object has warnings.  Check the object properties or the message log for details.",
+          "bCanBeDismissed": false,
+          "bIsDismissed": false,
+          "location": {
+            "system": {
+              "refPath": "/Game/LostVanguard/Environment/SpaceImpact/FX/NS_ImpactFireVolume.NS_ImpactFireVolume"
+            },
+            "emitterName": "Grid3D_Gas_Master_Emitter",
+            "scriptName": "ENiagaraScriptUsage::ParticleSimulationStageScript",
+            "moduleName": "Grid3D_GetFluidAttribute002",
+            "rendererIndex": -1,
+            "inputNameStack": [
+              "GridToSampleTo"
+            ]
+          },
+          "stackDisplayPath": "/Project Pressure/Grid 3D Get Fluid Attribute 002//GridToSampleTo/",
+          "fixes": []
+        },
+        {
+          "issueId": "d90866edd97f25f6052f201a2401a6f4",
+          "severity": "Info",
+          "shortDescription": "Version upgrade note",
+          "longDescription": "The version of this script was recently upgraded; here is a list of changes:\n2.3: 5.2 finite volume\n",
+          "bCanBeDismissed": true,
+          "bIsDismissed": false,
+          "location": {
+            "system": {
+              "refPath": "/Game/LostVanguard/Environment/SpaceImpact/FX/NS_ImpactFireVolume.NS_ImpactFireVolume"
+            },
+            "emitterName": "Grid3D_Gas_Master_Emitter",
+            "scriptName": "ENiagaraScriptUsage::ParticleSimulationStageScript",
+            "moduleName": "Grid3D_ProjectPressure",
+            "rendererIndex": -1,
+            "inputNameStack": []
+          },
+          "stackDisplayPath": "/Project Pressure/Grid 3D Project Pressure",
+          "fixes": []
+        },
+        {
+          "issueId": "177eac894ee36d3e401828919fffa58e",
+          "severity": "Warning",
+          "shortDescription": "Object has warnings",
+          "longDescription": "The displayed object has warnings.  Check the object properties or the message log for details.",
+          "bCanBeDismissed": false,
+          "bIsDismissed": false,
+          "location": {
+            "system": {
+              "refPath": "/Game/LostVanguard/Environment/SpaceImpact/FX/NS_ImpactFireVolume.NS_ImpactFireVolume"
+            },
+            "emitterName": "Grid3D_Gas_Master_Emitter",
+            "scriptName": "ENiagaraScriptUsage::ParticleSimulationStageScript",
+            "moduleName": "Grid3D_ProjectPressure",
+            "rendererIndex": -1,
+            "inputNameStack": [
+              "FractionGrid"
+            ]
+          },
+          "stackDisplayPath": "/Project Pressure/Grid 3D Project Pressure//FractionGrid/",
+          "fixes": []
+        },
+        {
+          "issueId": "144850026437e0e793ef6132436f31e3",
+          "severity": "Info",
+          "shortDescription": "Version upgrade note",
+          "longDescription": "The version of this script was recently upgraded; here is a list of changes:\n1.1: Use function\n",
+          "bCanBeDismissed": true,
+          "bIsDismissed": false,
+          "location": {
+            "system": {
+              "refPath": "/Game/LostVanguard/Environment/SpaceImpact/FX/NS_ImpactFireVolume.NS_ImpactFireVolume"
+            },
+            "emitterName": "Grid3D_Gas_Master_Emitter",
+            "scriptName": "ENiagaraScriptUsage::ParticleSimulationStageScript",
+            "moduleName": "DissipateVector",
+            "rendererIndex": -1,
+            "inputNameStack": []
+          },
+          "stackDisplayPath": "/Project Pressure/Dissipate Vector",
+          "fixes": []
+        },
+        {
+          "issueId": "fabf0f82df4b31f8c3cd14fbb9212146",
+          "severity": "Info",
+          "shortDescription": "Version upgrade note",
+          "longDescription": "The version of this script was recently upgraded; here is a list of changes:\n2.0: Swap to the reduced fluid attribute list\n",
+          "bCanBeDismissed": true,
+          "bIsDismissed": false,
+          "location": {
+            "system": {
+              "refPath": "/Game/LostVanguard/Environment/SpaceImpact/FX/NS_ImpactFireVolume.NS_ImpactFireVolume"
+            },
+            "emitterName": "Grid3D_Gas_Master_Emitter",
+            "scriptName": "ENiagaraScriptUsage::ParticleSimulationStageScript",
+            "moduleName": "Grid3D_SetFluidAttribute013",
+            "rendererIndex": -1,
+            "inputNameStack": []
+          },
+          "stackDisplayPath": "/Project Pressure/Grid 3D Set Fluid Attribute 013",
+          "fixes": []
+        },
+        {
+          "issueId": "3692e869b5b4860310c9f333107a508e",
+          "severity": "Info",
+          "shortDescription": "Version upgrade note",
+          "longDescription": "The version of this script was recently upgraded; here is a list of changes:\n2.0: Switch to reduced fluid attribute list\n",
+          "bCanBeDismissed": true,
+          "bIsDismissed": false,
+          "location": {
+            "system": {
+              "refPath": "/Game/LostVanguard/Environment/SpaceImpact/FX/NS_ImpactFireVolume.NS_ImpactFireVolume"
+            },
+            "emitterName": "Grid3D_Gas_Master_Emitter",
+            "scriptName": "ENiagaraScriptUsage::ParticleSimulationStageScript",
+            "moduleName": "Grid3D_Advect_FluidAttribute",
+            "rendererIndex": -1,
+            "inputNameStack": []
+          },
+          "stackDisplayPath": "/Advect Scalars/Grid 3D Advect Fluid Attribute",
+          "fixes": []
+        },
+        {
+          "issueId": "b96494c6794b44e523c48396e604e321",
+          "severity": "Info",
+          "shortDescription": "Version upgrade note",
+          "longDescription": "The version of this script was recently upgraded; here is a list of changes:\n2.0: Swap to the reduced fluid attribute list\n",
+          "bCanBeDismissed": true,
+          "bIsDismissed": false,
+          "location": {
+            "system": {
+              "refPath": "/Game/LostVanguard/Environment/SpaceImpact/FX/NS_ImpactFireVolume.NS_ImpactFireVolume"
+            },
+            "emitterName": "Grid3D_Gas_Master_Emitter",
+            "scriptName": "ENiagaraScriptUsage::ParticleSimulationStageScript",
+            "moduleName": "Grid3D_SetFluidAttribute008",
+            "rendererIndex": -1,
+            "inputNameStack": []
+          },
+          "stackDisplayPath": "/Advect Scalars/Grid 3D Set Fluid Attribute 008",
+          "fixes": []
+        },
+        {
+          "issueId": "443c289270135eb63c549f21c7aaa6be",
+          "severity": "Info",
+          "shortDescription": "Version upgrade note",
+          "longDescription": "The version of this script was recently upgraded; here is a list of changes:\n3.0: Combine resample into the get module.\n",
+          "bCanBeDismissed": true,
+          "bIsDismissed": false,
+          "location": {
+            "system": {
+              "refPath": "/Game/LostVanguard/Environment/SpaceImpact/FX/NS_ImpactFireVolume.NS_ImpactFireVolume"
+            },
+            "emitterName": "Grid3D_Gas_Master_Emitter",
+            "scriptName": "ENiagaraScriptUsage::ParticleSimulationStageScript",
+            "moduleName": "Grid3D_GetFluidAttribute003",
+            "rendererIndex": -1,
+            "inputNameStack": []
+          },
+          "stackDisplayPath": "/Post Sim Scalars/Grid 3D Get Fluid Attribute 003",
+          "fixes": []
+        },
+        {
+          "issueId": "8caf4ccfaa85c4b85f1bb8f89bb81a45",
+          "severity": "Warning",
+          "shortDescription": "Object has warnings",
+          "longDescription": "The displayed object has warnings.  Check the object properties or the message log for details.",
+          "bCanBeDismissed": false,
+          "bIsDismissed": false,
+          "location": {
+            "system": {
+              "refPath": "/Game/LostVanguard/Environment/SpaceImpact/FX/NS_ImpactFireVolume.NS_ImpactFireVolume"
+            },
+            "emitterName": "Grid3D_Gas_Master_Emitter",
+            "scriptName": "ENiagaraScriptUsage::ParticleSimulationStageScript",
+            "moduleName": "Grid3D_GetFluidAttribute016",
+            "rendererIndex": -1,
+            "inputNameStack": [
+              "GridToSampleTo"
+            ]
+          },
+          "stackDisplayPath": "/Post Sim Scalars/Grid 3D Get Fluid Attribute 016//GridToSampleTo/",
+          "fixes": []
+        },
+        {
+          "issueId": "ac731ee6899f5b172d797dd907218f35",
+          "severity": "Info",
+          "shortDescription": "Version upgrade note",
+          "longDescription": "The version of this script was recently upgraded; here is a list of changes:\n1.1: Added enable switch\n",
+          "bCanBeDismissed": true,
+          "bIsDismissed": false,
+          "location": {
+            "system": {
+              "refPath": "/Game/LostVanguard/Environment/SpaceImpact/FX/NS_ImpactFireVolume.NS_ImpactFireVolume"
+            },
+            "emitterName": "Grid3D_Gas_Master_Emitter",
+            "scriptName": "ENiagaraScriptUsage::ParticleSimulationStageScript",
+            "moduleName": "Grid3D_SetRTValues",
+            "rendererIndex": -1,
+            "inputNameStack": []
+          },
+          "stackDisplayPath": "/Post Sim Scalars/Grid 3D Set RTValues",
+          "fixes": []
+        },
+        {
+          "issueId": "344c2073da3dffa40d35fb4ac14a9997",
+          "severity": "Info",
+          "shortDescription": "Version upgrade note",
+          "longDescription": "The version of this script was recently upgraded; here is a list of changes:\n3.0: Combine resample into the get module.\n",
+          "bCanBeDismissed": true,
+          "bIsDismissed": false,
+          "location": {
+            "system": {
+              "refPath": "/Game/LostVanguard/Environment/SpaceImpact/FX/NS_ImpactFireVolume.NS_ImpactFireVolume"
+            },
+            "emitterName": "Grid3D_Gas_Master_Emitter",
+            "scriptName": "ENiagaraScriptUsage::ParticleSimulationStageScript",
+            "moduleName": "Grid3D_GetFluidAttribute010",
+            "rendererIndex": -1,
+            "inputNameStack": []
+          },
+          "stackDisplayPath": "/Post Sim Scalars/Grid 3D Get Fluid Attribute 010",
+          "fixes": []
+        },
+        {
+          "issueId": "301afc0ba7b48030722bc41a7e68e02e",
+          "severity": "Warning",
+          "shortDescription": "Object has warnings",
+          "longDescription": "The displayed object has warnings.  Check the object properties or the message log for details.",
+          "bCanBeDismissed": false,
+          "bIsDismissed": false,
+          "location": {
+            "system": {
+              "refPath": "/Game/LostVanguard/Environment/SpaceImpact/FX/NS_ImpactFireVolume.NS_ImpactFireVolume"
+            },
+            "emitterName": "Grid3D_Gas_Master_Emitter",
+            "scriptName": "ENiagaraScriptUsage::ParticleSimulationStageScript",
+            "moduleName": "Grid3D_GetFluidAttribute010",
+            "rendererIndex": -1,
+            "inputNameStack": [
+              "GridToSampleTo"
+            ]
+          },
+          "stackDisplayPath": "/Post Sim Scalars/Grid 3D Get Fluid Attribute 010//GridToSampleTo/",
+          "fixes": []
+        },
+        {
+          "issueId": "d09882145a7763a9f3568df72a62676a",
+          "severity": "Warning",
+          "shortDescription": "Object has warnings",
+          "longDescription": "The displayed object has warnings.  Check the object properties or the message log for details.",
+          "bCanBeDismissed": false,
+          "bIsDismissed": false,
+          "location": {
+            "system": {
+              "refPath": "/Game/LostVanguard/Environment/SpaceImpact/FX/NS_ImpactFireVolume.NS_ImpactFireVolume"
+            },
+            "emitterName": "Grid3D_Gas_Master_Emitter",
+            "scriptName": "ENiagaraScriptUsage::ParticleSimulationStageScript",
+            "moduleName": "Grid3D_GetFluidAttribute015",
+            "rendererIndex": -1,
+            "inputNameStack": [
+              "GridToSampleTo"
+            ]
+          },
+          "stackDisplayPath": "/Baker Tools/Grid 3D Get Fluid Attribute 015//GridToSampleTo/",
+          "fixes": []
+        },
+        {
+          "issueId": "ddeb94cc8cfb01bc0d2638144212bf0a",
+          "severity": "Warning",
+          "shortDescription": "Object has warnings",
+          "longDescription": "The displayed object has warnings.  Check the object properties or the message log for details.",
+          "bCanBeDismissed": false,
+          "bIsDismissed": false,
+          "location": {
+            "system": {
+              "refPath": "/Game/LostVanguard/Environment/SpaceImpact/FX/NS_ImpactFireVolume.NS_ImpactFireVolume"
+            },
+            "emitterName": "Grid3D_Gas_Master_Emitter",
+            "scriptName": "ENiagaraScriptUsage::ParticleSimulationStageScript",
+            "moduleName": "Grid3D_GetFluidAttribute014",
+            "rendererIndex": -1,
+            "inputNameStack": [
+              "GridToSampleTo"
+            ]
+          },
+          "stackDisplayPath": "/Baker Tools/Grid 3D Get Fluid Attribute 014//GridToSampleTo/",
+          "fixes": []
+        },
+        {
+          "issueId": "72c06a54ce2f7224548a34b97b05732b",
+          "severity": "Info",
+          "shortDescription": "Version upgrade note",
+          "longDescription": "The version of this script was recently upgraded; here is a list of changes:\n1.1: Added enable switch\n",
+          "bCanBeDismissed": true,
+          "bIsDismissed": false,
+          "location": {
+            "system": {
+              "refPath": "/Game/LostVanguard/Environment/SpaceImpact/FX/NS_ImpactFireVolume.NS_ImpactFireVolume"
+            },
+            "emitterName": "Grid3D_Gas_Master_Emitter",
+            "scriptName": "ENiagaraScriptUsage::ParticleSimulationStageScript",
+            "moduleName": "Grid3D_SetRTValues001",
+            "rendererIndex": -1,
+            "inputNameStack": []
+          },
+          "stackDisplayPath": "/Debug Slice/Grid 3D Set RTValues 001",
+          "fixes": []
+        }
+      ]
+    }
+  },
+  "NS_ImpactEmbers": {
+    "summary": {
+      "systemName": "NS_ImpactEmbers",
+      "userVariables": [],
+      "emitters": [
+        {
+          "emitterName": "Sparks",
+          "bEnabled": true,
+          "simTarget": "CPUSim",
+          "rendererClasses": [
+            {
+              "refPath": "/Script/Niagara.NiagaraSpriteRendererProperties"
+            }
+          ]
+        }
+      ]
+    },
+    "compile": {
+      "aggregateStatus": "UpToDate",
+      "bIsCompiling": false,
+      "bIsStale": false,
+      "bHasErrors": false,
+      "bHasWarnings": false,
+      "scripts": [
+        {
+          "emitterName": "None",
+          "scriptName": "ENiagaraScriptUsage::SystemSpawnScript",
+          "lastCompileStatus": "UpToDate",
+          "errorSummary": "",
+          "compileEvents": []
+        },
+        {
+          "emitterName": "None",
+          "scriptName": "ENiagaraScriptUsage::SystemUpdateScript",
+          "lastCompileStatus": "UpToDate",
+          "errorSummary": "",
+          "compileEvents": []
+        },
+        {
+          "emitterName": "Sparks",
+          "scriptName": "ENiagaraScriptUsage::ParticleSpawnScriptInterpolated",
+          "lastCompileStatus": "UpToDate",
+          "errorSummary": "",
+          "compileEvents": []
+        },
+        {
+          "emitterName": "Sparks",
+          "scriptName": "ENiagaraScriptUsage::ParticleUpdateScript",
+          "lastCompileStatus": "UpToDate",
+          "errorSummary": "",
+          "compileEvents": []
+        }
+      ]
+    },
+    "issues": {
+      "numErrors": 0,
+      "numWarnings": 0,
+      "numInfos": 3,
+      "issues": [
+        {
+          "issueId": "f229ae5b2767ecb366ac16d3e2667e88",
+          "severity": "Info",
+          "shortDescription": "Version upgrade note",
+          "longDescription": "The version of this script was recently upgraded; here is a list of changes:\n1.1: Add support for an Inner Angle in Cone mode\r\n\r\nDefault Cone Orientation was off by 90 degrees, now all shapes match when transformed via axis/angle/Quat etc.\n",
+          "bCanBeDismissed": true,
+          "bIsDismissed": false,
+          "location": {
+            "system": {
+              "refPath": "/Game/LostVanguard/Environment/SpaceImpact/FX/NS_ImpactEmbers.NS_ImpactEmbers"
+            },
+            "emitterName": "Sparks",
+            "scriptName": "ENiagaraScriptUsage::ParticleSpawnScript",
+            "moduleName": "ShapeLocation",
+            "rendererIndex": -1,
+            "inputNameStack": []
+          },
+          "stackDisplayPath": "/Particle Spawn/Shape Location",
+          "fixes": []
+        },
+        {
+          "issueId": "56e772e668445de0592ef6d0bfe87151",
+          "severity": "Info",
+          "shortDescription": "Version upgrade note",
+          "longDescription": "The version of this script was recently upgraded; here is a list of changes:\n1.2: FirstFrame should now be more stable and don't produce double FirstFrames\n",
+          "bCanBeDismissed": true,
+          "bIsDismissed": false,
+          "location": {
+            "system": {
+              "refPath": "/Game/LostVanguard/Environment/SpaceImpact/FX/NS_ImpactEmbers.NS_ImpactEmbers"
+            },
+            "emitterName": "Sparks",
+            "scriptName": "ENiagaraScriptUsage::ParticleUpdateScript",
+            "moduleName": "ParticleState",
+            "rendererIndex": -1,
+            "inputNameStack": []
+          },
+          "stackDisplayPath": "/Particle Update/Particle State",
+          "fixes": []
+        },
+        {
+          "issueId": "270dbec6d8f820b670a80e854f7a4ba4",
+          "severity": "Info",
+          "shortDescription": "Version upgrade note",
+          "longDescription": "The version of this script was recently upgraded; here is a list of changes:\n1.1: Rotational Drag is now enabled by default\r\n\r\nRotational Drag amount is scaled to match the parameterization of Linear Drag\n",
+          "bCanBeDismissed": true,
+          "bIsDismissed": false,
+          "location": {
+            "system": {
+              "refPath": "/Game/LostVanguard/Environment/SpaceImpact/FX/NS_ImpactEmbers.NS_ImpactEmbers"
+            },
+            "emitterName": "Sparks",
+            "scriptName": "ENiagaraScriptUsage::ParticleUpdateScript",
+            "moduleName": "Drag",
+            "rendererIndex": -1,
+            "inputNameStack": []
+          },
+          "stackDisplayPath": "/Particle Update/Drag",
+          "fixes": []
+        }
+      ]
+    }
+  },
+  "actual_pie": true,
+  "render_screen_percentage": 100,
+  "editor_override_disabled": true,
+  "dynamic_resolution_disabled": true,
+  "camera_motion_evidence": {
+    "continuous_runtime_camera_motion": true,
+    "duration_seconds": 18.014999999999418,
+    "samples": 1091,
+    "start": {
+      "t": 0.125,
+      "position": [
+        -1344.1844970706159,
+        -2003.9303974527197,
+        340.0
+      ]
+    },
+    "end": {
+      "t": 18.014999999999418,
+      "position": [
+        -419.815569172722,
+        -2376.199462982892,
+        340.0
+      ]
+    }
+  },
+  "orbit_screenshots": [
+    "C:\\Users\\alexa\\Documents\\AI STUFF\\Project Big\\reports\\space_impact_v2_orbit_0.png",
+    "C:\\Users\\alexa\\Documents\\AI STUFF\\Project Big\\reports\\space_impact_v2_orbit_1.png",
+    "C:\\Users\\alexa\\Documents\\AI STUFF\\Project Big\\reports\\space_impact_v2_orbit_2.png",
+    "C:\\Users\\alexa\\Documents\\AI STUFF\\Project Big\\reports\\space_impact_v2_orbit_3.png",
+    "C:\\Users\\alexa\\Documents\\AI STUFF\\Project Big\\reports\\space_impact_v2_orbit_4.png",
+    "C:\\Users\\alexa\\Documents\\AI STUFF\\Project Big\\reports\\space_impact_v2_orbit_5.png"
+  ],
+  "visual_acceptance": "User rejected original; revised candidate requires user review",
+  "historical_live_material_update_crash": true
+}

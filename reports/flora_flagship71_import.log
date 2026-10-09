@@ -1,0 +1,341 @@
+Using bundled DotNet SDK version: 10.0 win-x64
+Running UnrealBuildTool: dotnet "..\..\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" -Mode=ValidatePlatforms -OutputSDKs  -AllPlatforms  -project="C:/Users/alexa/Documents/AI STUFF/Project Big/Unreal/LostVanguard 5.8/LostVanguard.uproject" -log="C:/Users/alexa/Documents/AI STUFF/Project Big/Unreal/LostVanguard 5.8/Saved/Logs/AutoSDKInfo.txt" -verbose -timestamps
+Log file: C:\Users\alexa\Documents\AI STUFF\Project Big\Unreal\LostVanguard 5.8\Saved\Logs\AutoSDKInfo.txt
+##PlatformValidate: Win64 INVALID 10.0.22621.0
+##PlatformValidate: Mac INVALID 26.1.1
+##PlatformValidate: IOS INVALID 26.1.1
+##PlatformValidate: Android INVALID r27c
+##PlatformValidate: Linux INVALID v26_clang-20.1.8-rockylinux8
+##PlatformValidate: LinuxArm64 INVALID <UNKNOWN>
+##PlatformValidate: TVOS INVALID 26.1.1
+##PlatformValidate: VisionOS INVALID <UNKNOWN>
+Unable to find required SDK version 'MainVersion' for platform LinuxArm64. Check your SDK.json files
+Unable to find required SDK version 'MainVersion' for platform VisionOS. Check your SDK.json files
+Trace written to file C:\Users\alexa\AppData\Local\UnrealBuildTool\Trace.uba with size 313b
+[2026.10.08-21.59.28:471][  0]LogInit: Display: Running engine for game: LostVanguard
+[2026.10.08-21.59.28:471][  0]LogCore: Display: Requested channels: 'cpu,gpu,frame,log,bookmark,screenshot,region'
+[2026.10.08-21.59.28:471][  0]LogTrace: Display: Control listening on port 36239
+[2026.10.08-21.59.28:471][  0]LogCsvProfiler: Display: Metadata set : platform="Windows"
+[2026.10.08-21.59.28:471][  0]LogCsvProfiler: Display: Metadata set : config="Development"
+[2026.10.08-21.59.28:471][  0]LogCsvProfiler: Display: Metadata set : buildversion="++UE5+Release-5.8-CL-58210709"
+[2026.10.08-21.59.28:471][  0]LogCsvProfiler: Display: Metadata set : engineversion="5.8.3-58210709+++UE5+Release-5.8"
+[2026.10.08-21.59.28:471][  0]LogCsvProfiler: Display: Metadata set : enginereleaseversion="5.8.3"
+[2026.10.08-21.59.28:471][  0]LogCsvProfiler: Display: Metadata set : os="Windows 11 (25H2) [10.0.26200.9457] "
+[2026.10.08-21.59.28:471][  0]LogCsvProfiler: Display: Metadata set : cpu="AuthenticAMD|AMD Ryzen 7 5800X 8-Core Processor"
+[2026.10.08-21.59.28:471][  0]LogCsvProfiler: Display: Metadata set : pgoenabled="0"
+[2026.10.08-21.59.28:471][  0]LogCsvProfiler: Display: Metadata set : pgoprofilingenabled="0"
+[2026.10.08-21.59.28:471][  0]LogCsvProfiler: Display: Metadata set : ltoenabled="0"
+[2026.10.08-21.59.28:471][  0]LogCsvProfiler: Display: Metadata set : asan="0"
+[2026.10.08-21.59.28:471][  0]LogCsvProfiler: Display: Metadata set : mergedmodules="0"
+[2026.10.08-21.59.28:471][  0]LogCsvProfiler: Display: Metadata set : compacttset="0"
+[2026.10.08-21.59.28:471][  0]LogCsvProfiler: Display: Metadata set : commandline="" "C:/Users/alexa/Documents/AI STUFF/Project Big/Unreal/LostVanguard 5.8/LostVanguard.uproject" -run=pythonscript -script="C:/Users/alexa/Documents/AI STUFF/Project Big/tools/import_flora_flagship.py" -unattended -nosplash -nullrhi""
+[2026.10.08-21.59.28:471][  0]LogCsvProfiler: Display: Metadata set : loginid="fdbf18bf467108c337edc4a1c5915edd"
+[2026.10.08-21.59.28:471][  0]LogCsvProfiler: Display: Metadata set : llm="0"
+[2026.10.08-21.59.28:471][  0]LogCsvProfiler: Display: Metadata set : zenstreaming="0"
+[2026.10.08-21.59.28:471][  0]LogCsvProfiler: Display: Metadata set : systemresolution.resx="1280"
+[2026.10.08-21.59.28:471][  0]LogCsvProfiler: Display: Metadata set : systemresolution.resy="720"
+[2026.10.08-21.59.28:471][  0]LogConfig: Display: Loading Android ini files took 0.06 seconds
+[2026.10.08-21.59.28:471][  0]LogConfig: Display: Loading VulkanPC ini files took 0.06 seconds
+[2026.10.08-21.59.28:471][  0]LogAudio: Display: Audio Device Manager not initializing due to all audio being disabled. If this is not intentional, please check command line arguments for "-nosound".
+[2026.10.08-21.59.28:471][  0]LogConfig: Display: Loading Mac ini files took 0.06 seconds
+[2026.10.08-21.59.28:471][  0]LogConfig: Display: Loading IOS ini files took 0.06 seconds
+[2026.10.08-21.59.28:471][  0]LogConfig: Display: Loading Unix ini files took 0.07 seconds
+[2026.10.08-21.59.28:471][  0]LogConfig: Display: Loading TVOS ini files took 0.07 seconds
+[2026.10.08-21.59.28:471][  0]LogConfig: Display: Loading VisionOS ini files took 0.07 seconds
+[2026.10.08-21.59.28:471][  0]LogConfig: Display: Loading Windows ini files took 0.07 seconds
+[2026.10.08-21.59.28:471][  0]LogConfig: Display: Loading Linux ini files took 0.08 seconds
+[2026.10.08-21.59.28:471][  0]RenderDocPlugin: Display: RenderDoc plugin will not be loaded. Use '-AttachRenderDoc' on the cmd line or enable 'renderdoc.AutoAttach' in the plugin settings.
+[2026.10.08-21.59.28:471][  0]LogAnalytics: Display: Provider StudioTelemetry.Provider.Log is disabled for this application
+[2026.10.08-21.59.28:471][  0]LogAnalytics: Display: Provider StudioTelemetry.Provider.CSV is disabled for this application
+[2026.10.08-21.59.28:471][  0]LogAnalytics: Display: Provider StudioTelemetry.Provider.Horde is disabled for this application
+[2026.10.08-21.59.28:471][  0]LogAnalytics: Display: Provider StudioTelemetry.Provider.Log is disabled for this application
+[2026.10.08-21.59.28:471][  0]LogAnalytics: Display: Provider StudioTelemetry.Provider.CSV is disabled for this application
+[2026.10.08-21.59.28:471][  0]LogAnalytics: Display: Provider StudioTelemetry.Provider.Horde is disabled for this application
+[2026.10.08-21.59.28:471][  0]LogAsyncCompilation: Display: MemorySharingInfo: UsedMemory=323MiB, MaxMemoryAvailable=52609MiB
+[2026.10.08-21.59.28:471][  0]LogStreaming: Display: AsyncLoading2 - Created: Async Loading Thread: false, Async Post Load: false, Multithreaded: false
+[2026.10.08-21.59.28:471][  0]LogHAL: Display: Platform has ~ 32 GB [34269593600 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2026.10.08-21.59.28:471][  0]LogCsvProfiler: Display: Metadata set : extradevelopmentmemorymb="0"
+[2026.10.08-21.59.28:471][  0]LogObj: Display: Attempting to load config data for Default__DownlinkBandwidthManagerConfig before the Class has been constructed/registered/linked (likely during module loading or early startup). This will result in the load silently failing and should be fixed.
+[2026.10.08-21.59.28:944][  0]LogObj: Display: Attempting to load config data for Default__SlateThemeManager before the Class has been constructed/registered/linked (likely during module loading or early startup). This will result in the load silently failing and should be fixed.
+[2026.10.08-21.59.29:250][  0]LogCsvProfiler: Display: Metadata set : verbatimrhiname="Null"
+[2026.10.08-21.59.29:250][  0]LogCsvProfiler: Display: Metadata set : rhiname="Null"
+[2026.10.08-21.59.29:250][  0]LogCsvProfiler: Display: Metadata set : rhifeaturelevel="SM6"
+[2026.10.08-21.59.29:250][  0]LogCsvProfiler: Display: Metadata set : shaderplatform="PCD3D_SM6"
+[2026.10.08-21.59.29:250][  0]LogCsvProfiler: Display: Metadata set : gpu=""
+[2026.10.08-21.59.29:250][  0]LogCsvProfiler: Display: Metadata set : gpudriver=""
+[2026.10.08-21.59.29:265][  0]LogTextureFormatASTC: Display: ASTCEnc version 5.0.1 library loaded
+[2026.10.08-21.59.29:265][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatASTC
+[2026.10.08-21.59.29:265][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatDXT
+[2026.10.08-21.59.29:265][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatETC2
+[2026.10.08-21.59.29:265][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatIntelISPCTexComp
+[2026.10.08-21.59.29:265][  0]LogTextureFormatOodle: Display: Oodle Texture TFO init; latest sdk version = 2.9.16
+[2026.10.08-21.59.29:265][  0]LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.16.dll
+[2026.10.08-21.59.29:266][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatOodle
+[2026.10.08-21.59.29:266][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatUncompressed
+[2026.10.08-21.59.29:328][  0]LogTargetPlatformManager: Display: Failed to SetupSDK for platform 'Android'
+[2026.10.08-21.59.29:367][  0]LogTargetPlatformManager: Display: Failed to SetupSDK for platform 'IOS'
+[2026.10.08-21.59.29:405][  0]LogTargetPlatformManager: Display: Failed to SetupSDK for platform 'Linux'
+[2026.10.08-21.59.29:448][  0]LogTargetPlatformManager: Display: Failed to SetupSDK for platform 'Mac'
+[2026.10.08-21.59.29:451][  0]LogTargetPlatformManager: Display: Failed to SetupSDK for platform 'TVOS'
+[2026.10.08-21.59.29:491][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2026.10.08-21.59.29:491][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsEditor'
+[2026.10.08-21.59.29:491][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2026.10.08-21.59.29:491][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2026.10.08-21.59.29:491][  0]LogTargetPlatformManager: Display: Building Assets For WindowsEditor
+[2026.10.08-21.59.29:499][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2026.10.08-21.59.29:874][  0]LogDerivedDataCache: Display: ../../../Engine/DerivedDataCache/Compressed.ddp: Opened pak cache for reading. (1670 MiB)
+[2026.10.08-21.59.29:878][  0]LogZenServiceInstance: Display: Launching zen utility 'C:/Program Files/Epic Games/UE_5.8/Engine/Binaries/Win64/zen.exe service status'.
+[2026.10.08-21.59.30:244][  0]LogZenServiceInstance: Display: Writing plugin version info to 'C:/Users/alexa/AppData/Local/UnrealEngine/Common/Zen/Install/zen_plugin_versions.json'
+[2026.10.08-21.59.30:246][  0]LogZenServiceInstance: Display: Read zen version cache file from 'C:/Users/alexa/AppData/Local/UnrealEngine/5.8/Saved/Zen/zen.version', version: '5.8.13-202605190912-windows-x64-release-094f62c2'
+[2026.10.08-21.59.30:246][  0]LogZenServiceInstance: Display: Read zen version cache file from 'C:/Users/alexa/AppData/Local/UnrealEngine/Common/Zen/Install/zen.version', version: '5.8.13-202605190912-windows-x64-release-094f62c2'
+[2026.10.08-21.59.30:247][  0]LogZenServiceInstance: Display: Installed service at 'C:/Users/alexa/AppData/Local/UnrealEngine/Common/Zen/Install/zenserver.exe' is up to date
+[2026.10.08-21.59.30:686][  0]LogZenServiceInstance: Display: Unreal Zen Storage Server HTTP service at http://[::1]:8558 status: OK!.
+[2026.10.08-21.59.30:689][  0]LogDerivedDataCache: Display: ZenLocal: Using ZenServer HTTP service at [::1] with namespace ue.ddc. Status: OK!.
+[2026.10.08-21.59.30:705][  0]LogDerivedDataCache: Display: C:/Users/alexa/AppData/Local/UnrealEngine/Common/DerivedDataCache: Performance: Latency=0.14ms. RandomReadSpeed=199.09MBs, RandomWriteSpeed=97.98MBs. Assigned SpeedClass 'Local'
+[2026.10.08-21.59.30:710][  0]LogUbaHorde: Display: UBA/Horde Configuration [Uba.Provider.Horde]: Not Enabled
+[2026.10.08-21.59.30:710][  0]LogShaderCompilers: Display: No distributed shader compiler controller found
+[2026.10.08-21.59.30:710][  0]LogShaderCompilers: Display: Using 13 local workers for shader compilation
+[2026.10.08-21.59.30:720][  0]LogShaderCompilers: Display: Compiling shader autogen file: ../../../../../../Users/alexa/Documents/AI STUFF/Project Big/Unreal/LostVanguard 5.8/Intermediate/ShaderAutogen/PCD3D_SM6/AutogenShaderHeaders.ush
+[2026.10.08-21.59.30:721][  0]LogShaderCompilers: Display: Autogen file is unchanged, skipping write.
+[2026.10.08-21.59.31:534][  0]LogEditorDomain: Display: EditorDomain is Disabled
+[2026.10.08-21.59.31:869][  0]LogDeviceProfileManager: Display: Deviceprofile LinuxArm64Editor not found.
+[2026.10.08-21.59.31:869][  0]LogDeviceProfileManager: Display: Deviceprofile LinuxArm64 not found.
+[2026.10.08-21.59.31:916][  0]LogCsvProfiler: Display: Metadata set : deviceprofile="WindowsEditor"
+[2026.10.08-21.59.31:919][  0]LogStreaming: Display: FlushAsyncLoading(1): 1 QueuedPackages, 0 AsyncPackages
+[2026.10.08-21.59.31:936][  0]LogTextureEncodingSettings: Display: Texture Encode Speed: Final (cook).
+[2026.10.08-21.59.31:936][  0]LogTextureEncodingSettings: Display: Oodle Texture Encode Speed settings: Fast: RDO Off Lambda=0, Effort=Normal Final: RDO Off Lambda=0, Effort=Normal
+[2026.10.08-21.59.31:936][  0]LogTextureEncodingSettings: Display: Shared linear texture encoding: Disabled
+[2026.10.08-21.59.31:965][  0]LogMeshReduction: Display: Using QuadricMeshReduction for automatic static mesh reduction
+[2026.10.08-21.59.31:965][  0]LogMeshReduction: Display: Using SkeletalMeshReduction for automatic skeletal mesh reduction
+[2026.10.08-21.59.31:965][  0]LogMeshReduction: Display: Using ProxyLODMeshReduction for automatic mesh merging
+[2026.10.08-21.59.31:965][  0]LogMeshReduction: Display: No distributed automatic mesh merging module available
+[2026.10.08-21.59.32:120][  0]LogShaderCompilers: Display: Compiling shader autogen file: ../../../../../../Users/alexa/Documents/AI STUFF/Project Big/Unreal/LostVanguard 5.8/Intermediate/ShaderAutogen/PCD3D_SM5/AutogenShaderHeaders.ush
+[2026.10.08-21.59.32:120][  0]LogShaderCompilers: Display: Autogen file is unchanged, skipping write.
+[2026.10.08-21.59.32:120][  0]LogVirtualization: Display: VirtualizationSystem name found in ini file: None
+[2026.10.08-21.59.32:120][  0]LogVirtualization: Display: FNullVirtualizationSystem mounted, virtualization will be disabled
+[2026.10.08-21.59.32:244][  0]LogWorldPartition: Display: FWorldPartitionClassDescRegistry::Initialize started...
+[2026.10.08-21.59.32:248][  0]LogWorldPartition: Display: FWorldPartitionClassDescRegistry::Initialize took 3.224 ms
+[2026.10.08-21.59.33:088][  0]LogMetaSound: Display: MetaSound Page Target Initialized to 'Default'
+[2026.10.08-21.59.33:091][  0]LogAudio: Display: Registering Engine Module Parameter Interfaces...
+[2026.10.08-21.59.33:961][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2026.10.08-21.59.33:961][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2026.10.08-21.59.34:288][  0]LogAssetEditorSubsystem: Display: Something went wrong while loading recent assets! Num Recent Assets  = 1, Num Recent Asset Editors = 0
+[2026.10.08-21.59.34:291][  0]LogToolsetRegistry: Display: Registering Toolset ToolsetRegistry.AgentSkillToolset
+[2026.10.08-21.59.34:320][  0]LogAssetRegistry: Display: PlatformFileJournal journal has wrapped for volume 'C:'. AssetRegistry discovery of files on this volume will be uncached. Notes on wrapping:
+
+NTFS Journal has wrapped for volume 'C:'; the number of files written to this volume exceeded the buffer size of the journal and some entries were dropped.
+
+If this happens frequently increase the buffer size of the journal:
+
+Launch cmd.exe as admin and run command `fsutil usn createJournal C: m=<SizeInBytes>`
+
+<SizeInBytes> defaults to 33554432 (32MB), Recommended <SizeInBytes> is 0x40000000 (1GB). You can see the current value via `fsutil usn queryJournal C:`, 'Maximum Size' field.
+[2026.10.08-21.59.34:324][  0]LogAssetRegistry: Display: CleanupOrphanedCacheFiles (PreLoad): 1 .ref files found, 1 referenced binaries
+[2026.10.08-21.59.34:324][  0]LogAssetRegistry: Display: CleanupOrphanedCacheFiles: 1 total binaries, 1 referenced (kept), 0 old-style pre-migration (kept), 0 orphans deleted, 0 orphans locked (kept)
+[2026.10.08-21.59.34:325][  0]LogAssetRegistry: Display: FindShardedCacheFiles: 1 via .ref, 0 via migration fallback, 1 total
+[2026.10.08-21.59.34:325][  0]LogAssetRegistry: Display: LoadCacheFiles: loading 1 cache files, memory-mapping=enabled
+[2026.10.08-21.59.34:422][  0]LogAssetRegistry: Display: Asset registry cache read as 119.8 MiB from ../../../../../../Users/alexa/Documents/AI STUFF/Project Big/Unreal/LostVanguard 5.8/Intermediate/CachedAssetRegistry/CachedAssetRegistry_0_3E7870EB40BB09D6DDD135922591D37E.bin (memory-mapped=yes)
+[2026.10.08-21.59.34:423][  0]LogAssetRegistry: Display: AssetDataGatherer spent 0.099s loading caches from ../../../../../../Users/alexa/Documents/AI STUFF/Project Big/Unreal/LostVanguard 5.8/Intermediate/CachedAssetRegistry.
+[2026.10.08-21.59.34:441][  0]LogGameFeatures: Display: Total built in plugin load time 0.0011s
+[2026.10.08-21.59.34:463][  0]LogCsvProfiler: Display: Metadata set : largeworldcoordinates="1"
+[2026.10.08-21.59.34:549][  0]LogPython: Display: No pip-enabled plugins with python dependencies found, skipping
+[2026.10.08-21.59.34:937][  0]LogCsvProfiler: Display: Metadata set : raytracing="0"
+[2026.10.08-21.59.35:117][  0]LogToolsetRegistry: Display: Registering Toolset ConfigSettingsToolset.ConfigSettingsToolset
+[2026.10.08-21.59.35:119][  0]LogToolsetRegistry: Display: Registering Toolset AutomationTestToolset.AutomationTestToolset
+[2026.10.08-21.59.35:120][  0]LogToolsetRegistry: Display: Registering Toolset GameplayTagsToolset.GameplayTagsToolset
+[2026.10.08-21.59.35:125][  0]LogToolsetRegistry: Display: Registering Toolset DataflowAgent.DataflowAgentToolset
+[2026.10.08-21.59.35:132][  0]LogToolsetRegistry: Display: Registering Toolset GameFeaturesToolset.GameFeaturesToolset
+[2026.10.08-21.59.35:135][  0]LogToolsetRegistry: Display: Registering Toolset DataRegistryToolset.DataRegistryTools
+[2026.10.08-21.59.35:141][  0]LogToolsetRegistry: Display: Registering Toolset EditorToolset.EditorAppToolset
+[2026.10.08-21.59.35:141][  0]LogToolsetRegistry: Display: Registering Toolset EditorToolset.LogsToolset
+[2026.10.08-21.59.35:146][  0]LogToolsetRegistry: Display: Registering Toolset GASToolsets.GameplayCueToolset
+[2026.10.08-21.59.35:146][  0]LogToolsetRegistry: Display: Registering Toolset GASToolsets.AttributeSetToolset
+[2026.10.08-21.59.35:146][  0]LogToolsetRegistry: Display: Registering Toolset GASToolsets.AbilitySystemInspectorToolset
+[2026.10.08-21.59.35:154][  0]LogToolsetRegistry: Display: Registering Toolset PCGToolset.PCGToolset
+[2026.10.08-21.59.35:154][  0]LogToolsetRegistry: Display: Registering Toolset PCGToolset.PCGSpatialToolset
+[2026.10.08-21.59.35:162][  0]LogToolsetRegistry: Display: Registering Toolset PhysicsToolsets.PhysicsAssetToolset
+[2026.10.08-21.59.35:168][  0]LogToolsetRegistry: Display: Registering Toolset NiagaraToolsets.NiagaraToolset_Info
+[2026.10.08-21.59.35:173][  0]LogToolsetRegistry: Display: Registering Toolset NiagaraToolsets.NiagaraToolset_Component
+[2026.10.08-21.59.35:173][  0]LogToolsetRegistry: Display: Registering Toolset NiagaraToolsets.NiagaraToolset_Blueprint
+[2026.10.08-21.59.35:197][  0]LogToolsetRegistry: Display: Registering Toolset NiagaraToolsets.NiagaraToolset_System
+[2026.10.08-21.59.35:198][  0]LogToolsetRegistry: Display: Registering Toolset NiagaraToolsets.NiagaraToolset_Assets
+[2026.10.08-21.59.35:201][  0]LogToolsetRegistry: Display: Registering Toolset SlateInspectorToolset.SlateInspectorToolset
+[2026.10.08-21.59.35:205][  0]LogToolsetRegistry: Display: Registering Toolset PluginToolset.PluginToolset
+[2026.10.08-21.59.35:208][  0]LogToolsetRegistry: Display: Registering Toolset SemanticSearchToolset.SemanticSearchToolset
+[2026.10.08-21.59.35:218][  0]LogToolsetRegistry: Display: Registering Toolset WorldConditionsToolset.WorldConditionTools
+[2026.10.08-21.59.35:224][  0]LogToolsetRegistry: Display: Registering Toolset UMGToolSet.UMGToolSet
+[2026.10.08-21.59.35:255][  0]LogPython: Display: Running start-up script C:/Program Files/Epic Games/UE_5.8/Engine/Plugins/Experimental/Toolsets/StateTreeToolset/Content/Python/init_unreal.py... started...
+[2026.10.08-21.59.35:376][  0]LogToolsetRegistry: Display: Registering Toolset state_tree_toolset.toolsets.state_tree.StateTreeTools
+[2026.10.08-21.59.35:376][  0]LogPython: Display: Running start-up script C:/Program Files/Epic Games/UE_5.8/Engine/Plugins/Experimental/Toolsets/StateTreeToolset/Content/Python/init_unreal.py... took 122.138 ms
+[2026.10.08-21.59.35:376][  0]LogPython: Display: Running start-up script C:/Program Files/Epic Games/UE_5.8/Engine/Plugins/Experimental/Toolsets/NiagaraToolsets/Content/Python/init_unreal.py... started...
+[2026.10.08-21.59.35:385][  0]LogPython: Display: Running start-up script C:/Program Files/Epic Games/UE_5.8/Engine/Plugins/Experimental/Toolsets/NiagaraToolsets/Content/Python/init_unreal.py... took 7.716 ms (total: 129.854 ms)
+[2026.10.08-21.59.35:385][  0]LogPython: Display: Running start-up script C:/Program Files/Epic Games/UE_5.8/Engine/Plugins/Experimental/Toolsets/EditorToolset/Content/Python/init_unreal.py... started...
+[2026.10.08-21.59.35:454][  0]LogToolsetRegistry: Display: Registering Toolset editor_toolset.toolsets.actor.ActorTools
+[2026.10.08-21.59.35:456][  0]LogToolsetRegistry: Display: Registering Toolset editor_toolset.toolsets.asset.AssetTools
+[2026.10.08-21.59.35:460][  0]LogToolsetRegistry: Display: Registering Toolset editor_toolset.toolsets.blueprint.BlueprintTools
+[2026.10.08-21.59.35:460][  0]LogToolsetRegistry: Display: Registering Toolset editor_toolset.toolsets.curve_table.CurveTableTools
+[2026.10.08-21.59.35:460][  0]LogToolsetRegistry: Display: Registering Toolset editor_toolset.toolsets.data_asset.DataAssetTools
+[2026.10.08-21.59.35:462][  0]LogToolsetRegistry: Display: Registering Toolset editor_toolset.toolsets.data_table.DataTableTools
+[2026.10.08-21.59.35:464][  0]LogToolsetRegistry: Display: Registering Toolset editor_toolset.toolsets.material.MaterialTools
+[2026.10.08-21.59.35:465][  0]LogToolsetRegistry: Display: Registering Toolset editor_toolset.toolsets.material_instance.MaterialInstanceTools
+[2026.10.08-21.59.35:465][  0]LogToolsetRegistry: Display: Registering Toolset editor_toolset.toolsets.object.ObjectTools
+[2026.10.08-21.59.35:465][  0]LogToolsetRegistry: Display: Registering Toolset editor_toolset.toolsets.primitive.PrimitiveTools
+[2026.10.08-21.59.35:467][  0]LogToolsetRegistry: Display: Registering Toolset editor_toolset.toolsets.scene.SceneTools
+[2026.10.08-21.59.35:469][  0]LogToolsetRegistry: Display: Registering Toolset editor_toolset.toolsets.skeletal_mesh.SkeletalMeshTools
+[2026.10.08-21.59.35:469][  0]LogToolsetRegistry: Display: Registering Toolset editor_toolset.toolsets.static_mesh.StaticMeshTools
+[2026.10.08-21.59.35:471][  0]LogToolsetRegistry: Display: Registering Toolset editor_toolset.toolsets.string_table.StringTableTools
+[2026.10.08-21.59.35:471][  0]LogToolsetRegistry: Display: Registering Toolset editor_toolset.toolsets.programmatic.ProgrammaticToolset
+[2026.10.08-21.59.35:471][  0]LogToolsetRegistry: Display: Registering Toolset editor_toolset.toolsets.texture.TextureTools
+[2026.10.08-21.59.35:471][  0]LogPython: Display: Running start-up script C:/Program Files/Epic Games/UE_5.8/Engine/Plugins/Experimental/Toolsets/EditorToolset/Content/Python/init_unreal.py... took 85.300 ms (total: 215.155 ms)
+[2026.10.08-21.59.35:471][  0]LogPython: Display: Running start-up script C:/Program Files/Epic Games/UE_5.8/Engine/Plugins/Experimental/Toolsets/ConversationToolset/Content/Python/init_unreal.py... started...
+[2026.10.08-21.59.35:477][  0]LogToolsetRegistry: Display: Registering Toolset conversation_toolset.toolsets.conversation.ConversationTools
+[2026.10.08-21.59.35:477][  0]LogPython: Display: Running start-up script C:/Program Files/Epic Games/UE_5.8/Engine/Plugins/Experimental/Toolsets/ConversationToolset/Content/Python/init_unreal.py... took 6.349 ms (total: 221.504 ms)
+[2026.10.08-21.59.35:477][  0]LogPython: Display: Running start-up script C:/Program Files/Epic Games/UE_5.8/Engine/Plugins/Experimental/Toolsets/AnimationAssistantToolset/Content/Python/init_unreal.py... started...
+[2026.10.08-21.59.35:517][  0]LogToolsetRegistry: Display: Registering Toolset animation_toolset.toolsets.controlrig.ControlRigTools
+[2026.10.08-21.59.35:524][  0]LogToolsetRegistry: Display: Registering Toolset animation_toolset.toolsets.sequencer.SequencerTools
+[2026.10.08-21.59.35:526][  0]LogToolsetRegistry: Display: Registering Toolset animation_toolset.toolsets.keyframing.SequencerKeyframingTools
+[2026.10.08-21.59.35:530][  0]LogToolsetRegistry: Display: Registering Toolset animation_toolset.toolsets.controlrig_sequencer.SequencerControlRigTools
+[2026.10.08-21.59.35:532][  0]LogToolsetRegistry: Display: Registering Toolset animation_toolset.toolsets.outliner.SequencerOutlinerTools
+[2026.10.08-21.59.35:532][  0]LogToolsetRegistry: Display: Registering Toolset animation_toolset.toolsets.conditions.SequencerConditionTools
+[2026.10.08-21.59.35:533][  0]LogToolsetRegistry: Display: Registering Toolset animation_toolset.toolsets.custom_bindings.SequencerCustomBindingTools
+[2026.10.08-21.59.35:533][  0]LogToolsetRegistry: Display: Registering Toolset animation_toolset.toolsets.import_export.SequencerImportExportTools
+[2026.10.08-21.59.35:571][  0]LogPython: Display: Running start-up script C:/Program Files/Epic Games/UE_5.8/Engine/Plugins/Experimental/Toolsets/AnimationAssistantToolset/Content/Python/init_unreal.py... took 93.908 ms (total: 315.412 ms)
+[2026.10.08-21.59.35:571][  0]LogPython: Display: Running start-up script C:/Program Files/Epic Games/UE_5.8/Engine/Plugins/Experimental/Toolsets/AIModuleToolset/Content/Python/init_unreal.py... started...
+[2026.10.08-21.59.35:577][  0]LogToolsetRegistry: Display: Registering Toolset aimodule_toolset.toolsets.behavior_tree.BehaviorTreeTools
+[2026.10.08-21.59.35:577][  0]LogPython: Display: Running start-up script C:/Program Files/Epic Games/UE_5.8/Engine/Plugins/Experimental/Toolsets/AIModuleToolset/Content/Python/init_unreal.py... took 5.274 ms (total: 320.687 ms)
+[2026.10.08-21.59.35:577][  0]LogPython: Display: Running start-up script C:/Program Files/Epic Games/UE_5.8/Engine/Plugins/Animation/IKRig/Content/Python/init_unreal.py... started...
+[2026.10.08-21.59.35:581][  0]LogPython: Display: Running start-up script C:/Program Files/Epic Games/UE_5.8/Engine/Plugins/Animation/IKRig/Content/Python/init_unreal.py... took 4.641 ms (total: 325.329 ms)
+[2026.10.08-21.59.35:582][  0]LogPython: Display: Running start-up script C:/Program Files/Epic Games/UE_5.8/Engine/Plugins/Animation/ControlRig/Content/Python/init_unreal.py... started...
+[2026.10.08-21.59.35:616][  0]LogPython: Display: Running start-up script C:/Program Files/Epic Games/UE_5.8/Engine/Plugins/Animation/ControlRig/Content/Python/init_unreal.py... took 34.322 ms (total: 359.651 ms)
+[2026.10.08-21.59.35:616][  0]LogPython: Display: Running start-up script C:/Program Files/Epic Games/UE_5.8/Engine/Plugins/Experimental/ToolsetRegistry/Content/Python/init_unreal.py... started...
+[2026.10.08-21.59.35:617][  0]LogPython: Display: Running start-up script C:/Program Files/Epic Games/UE_5.8/Engine/Plugins/Experimental/ToolsetRegistry/Content/Python/init_unreal.py... took 499 us (total: 360.151 ms)
+[2026.10.08-21.59.35:617][  0]LogPythonScriptCommandlet: Display: Running Python script: C:/Users/alexa/Documents/AI STUFF/Project Big/tools/import_flora_flagship.py
+[2026.10.08-21.59.35:717][  0]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/alexa/Documents/AI STUFF/Project Big/assets/models/forest_wreck/textures/T_Leaf_BaseColor.png]
+[2026.10.08-21.59.35:737][  0]LogInterchangeEngine: Display: Interchange import completed [C:/Users/alexa/Docum...orest_wreck/textures/T_Leaf_BaseColor.png]
+[2026.10.08-21.59.35:757][  0]LogSourceControl: Display: Uncontrolled Changelist persistency file loaded ../../../../../../Users/alexa/Documents/AI STUFF/Project Big/Unreal/LostVanguard 5.8/Saved/SourceControl/UncontrolledChangelists.json
+[2026.10.08-21.59.35:852][  0]LogInterchangeEngine: Display: Interchange import: Using stack [OverridePipeline] to import.
+[2026.10.08-21.59.35:852][  0]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/alexa/Documents/AI STUFF/Project Big/assets/models/forest_wreck/F01_Flagship71/export/SM_F01_Flagship71.fbx]
+[2026.10.08-21.59.36:077][  0]LogStaticMesh: Display: Building static mesh SM_F01_Flagship71 (Required Memory Estimate: 48.768953 MB)...
+[2026.10.08-21.59.36:514][  0]LogStaticMesh: Display: SM_F01_Flagship71 has some nearly zero tangents which can create some issues. (Tolerance of 1E-4)
+[2026.10.08-21.59.36:514][  0]LogStaticMesh: Display: SM_F01_Flagship71 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2026.10.08-21.59.36:660][  0]LogInterchangeEngine: Display: Interchange import completed [C:/Users/alexa/Docum...01_Flagship71/export/SM_F01_Flagship71.fbx]
+[2026.10.08-21.59.36:680][  0]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/LostVanguard/Environment/OpeningReview/Assets/FloraFlagship71/F01_Flagship71/SM_F01_Flagship71) ...
+[2026.10.08-21.59.36:748][  0]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/alexa/Documents/AI STUFF/Project Big/assets/models/forest_wreck/F01_Flagship71/source/meshy_original_textures/base_color.png]
+[2026.10.08-21.59.37:104][  0]LogInterchangeEngine: Display: Interchange import completed [C:/Users/alexa/Docum...hy_original_textures/base_color.png]
+[2026.10.08-21.59.37:501][  0]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/alexa/Documents/AI STUFF/Project Big/assets/models/forest_wreck/F01_Flagship71/source/meshy_original_textures/normal.png]
+[2026.10.08-21.59.37:819][  0]LogInterchangePipeline: Display: Auto-detected normal map
+[2026.10.08-21.59.37:819][  0]LogInterchangeEngine: Display: Interchange import completed [C:/Users/alexa/Docum...hy_original_textures/normal.png]
+[2026.10.08-21.59.38:301][  0]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/alexa/Documents/AI STUFF/Project Big/assets/models/forest_wreck/F01_Flagship71/source/meshy_original_textures/roughness.png]
+[2026.10.08-21.59.38:338][  0]LogInterchangeEngine: Display: Interchange import completed [C:/Users/alexa/Docum...hy_original_textures/roughness.png]
+[2026.10.08-21.59.38:402][  0]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/alexa/Documents/AI STUFF/Project Big/assets/models/forest_wreck/F01_Flagship71/source/meshy_original_textures/metallic.png]
+[2026.10.08-21.59.38:416][  0]LogInterchangeEngine: Display: Interchange import completed [C:/Users/alexa/Docum...hy_original_textures/metallic.png]
+[2026.10.08-21.59.38:504][  0]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/LostVanguard/Environment/OpeningReview/Assets/FloraFlagship71/F01_Flagship71/SM_F01_Flagship71) ...
+[2026.10.08-21.59.38:549][  0]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/LostVanguard/Environment/OpeningReview/Assets/FloraFlagship71/F01_Flagship71/SM_F01_Flagship71) ...
+[2026.10.08-21.59.38:626][  0]LogInterchangeEngine: Display: Interchange import: Using stack [OverridePipeline] to import.
+[2026.10.08-21.59.38:626][  0]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/alexa/Documents/AI STUFF/Project Big/assets/models/forest_wreck/F02_Flagship71/export/SM_F02_Flagship71.fbx]
+[2026.10.08-21.59.38:794][  0]LogStaticMesh: Display: Building static mesh SM_F02_Flagship71 (Required Memory Estimate: 36.360886 MB)...
+[2026.10.08-21.59.39:614][  0]LogStaticMesh: Display: SM_F02_Flagship71 has some nearly zero tangents which can create some issues. (Tolerance of 1E-4)
+[2026.10.08-21.59.39:614][  0]LogStaticMesh: Display: SM_F02_Flagship71 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2026.10.08-21.59.39:707][  0]LogInterchangeEngine: Display: Interchange import completed [C:/Users/alexa/Docum...02_Flagship71/export/SM_F02_Flagship71.fbx]
+[2026.10.08-21.59.39:728][  0]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/LostVanguard/Environment/OpeningReview/Assets/FloraFlagship71/F02_Flagship71/SM_F02_Flagship71) ...
+[2026.10.08-21.59.39:778][  0]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/alexa/Documents/AI STUFF/Project Big/assets/models/forest_wreck/F02_Flagship71/source/meshy_original_textures/base_color.png]
+[2026.10.08-21.59.40:111][  0]LogInterchangeEngine: Display: Interchange import completed [C:/Users/alexa/Docum...hy_original_textures/base_color.png]
+[2026.10.08-21.59.40:477][  0]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/alexa/Documents/AI STUFF/Project Big/assets/models/forest_wreck/F02_Flagship71/source/meshy_original_textures/normal.png]
+[2026.10.08-21.59.40:781][  0]LogInterchangePipeline: Display: Auto-detected normal map
+[2026.10.08-21.59.40:781][  0]LogInterchangeEngine: Display: Interchange import completed [C:/Users/alexa/Docum...hy_original_textures/normal.png]
+[2026.10.08-21.59.41:241][  0]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/alexa/Documents/AI STUFF/Project Big/assets/models/forest_wreck/F02_Flagship71/source/meshy_original_textures/roughness.png]
+[2026.10.08-21.59.41:275][  0]LogInterchangeEngine: Display: Interchange import completed [C:/Users/alexa/Docum...hy_original_textures/roughness.png]
+[2026.10.08-21.59.41:342][  0]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/alexa/Documents/AI STUFF/Project Big/assets/models/forest_wreck/F02_Flagship71/source/meshy_original_textures/metallic.png]
+[2026.10.08-21.59.41:354][  0]LogInterchangeEngine: Display: Interchange import completed [C:/Users/alexa/Docum...hy_original_textures/metallic.png]
+[2026.10.08-21.59.41:422][  0]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/LostVanguard/Environment/OpeningReview/Assets/FloraFlagship71/F02_Flagship71/SM_F02_Flagship71) ...
+[2026.10.08-21.59.41:504][  0]LogInterchangeEngine: Display: Interchange import: Using stack [OverridePipeline] to import.
+[2026.10.08-21.59.41:504][  0]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/alexa/Documents/AI STUFF/Project Big/assets/models/forest_wreck/F08_Flagship71/export/SM_F08_Flagship71.fbx]
+[2026.10.08-21.59.41:623][  0]LogStaticMesh: Display: Building static mesh SM_F08_Flagship71 (Required Memory Estimate: 26.365049 MB)...
+[2026.10.08-21.59.42:160][  0]LogStaticMesh: Display: SM_F08_Flagship71 has some nearly zero tangents which can create some issues. (Tolerance of 1E-4)
+[2026.10.08-21.59.42:160][  0]LogStaticMesh: Display: SM_F08_Flagship71 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2026.10.08-21.59.42:251][  0]LogInterchangeEngine: Display: Interchange import completed [C:/Users/alexa/Docum...08_Flagship71/export/SM_F08_Flagship71.fbx]
+[2026.10.08-21.59.42:276][  0]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/LostVanguard/Environment/OpeningReview/Assets/FloraFlagship71/F08_Flagship71/SM_F08_Flagship71) ...
+[2026.10.08-21.59.42:307][  0]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/alexa/Documents/AI STUFF/Project Big/assets/models/forest_wreck/F08_Flagship71/source/meshy_original_textures/base_color.png]
+[2026.10.08-21.59.42:495][  0]LogInterchangeEngine: Display: Interchange import completed [C:/Users/alexa/Docum...hy_original_textures/base_color.png]
+[2026.10.08-21.59.42:716][  0]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/alexa/Documents/AI STUFF/Project Big/assets/models/forest_wreck/F08_Flagship71/source/meshy_original_textures/normal.png]
+[2026.10.08-21.59.42:933][  0]LogInterchangePipeline: Display: Auto-detected normal map
+[2026.10.08-21.59.42:934][  0]LogInterchangeEngine: Display: Interchange import completed [C:/Users/alexa/Docum...hy_original_textures/normal.png]
+[2026.10.08-21.59.43:166][  0]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/alexa/Documents/AI STUFF/Project Big/assets/models/forest_wreck/F08_Flagship71/source/meshy_original_textures/roughness.png]
+[2026.10.08-21.59.43:184][  0]LogInterchangeEngine: Display: Interchange import completed [C:/Users/alexa/Docum...hy_original_textures/roughness.png]
+[2026.10.08-21.59.43:231][  0]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/alexa/Documents/AI STUFF/Project Big/assets/models/forest_wreck/F08_Flagship71/source/meshy_original_textures/metallic.png]
+[2026.10.08-21.59.43:244][  0]LogInterchangeEngine: Display: Interchange import completed [C:/Users/alexa/Docum...hy_original_textures/metallic.png]
+[2026.10.08-21.59.43:314][  0]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/LostVanguard/Environment/OpeningReview/Assets/FloraFlagship71/F08_Flagship71/SM_F08_Flagship71) ...
+[2026.10.08-21.59.43:379][  0]LogInterchangeEngine: Display: Interchange import: Using stack [OverridePipeline] to import.
+[2026.10.08-21.59.43:379][  0]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/alexa/Documents/AI STUFF/Project Big/assets/models/forest_wreck/F03_Flagship71/export/SM_F03_Flagship71.fbx]
+[2026.10.08-21.59.43:437][  0]LogStaticMesh: Display: Building static mesh SM_F03_Flagship71 (Required Memory Estimate: 12.058647 MB)...
+[2026.10.08-21.59.43:643][  0]LogInterchangeEngine: Display: Interchange import completed [C:/Users/alexa/Docum...03_Flagship71/export/SM_F03_Flagship71.fbx]
+[2026.10.08-21.59.43:680][  0]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/alexa/Documents/AI STUFF/Project Big/assets/models/forest_wreck/F03_Flagship71/source/meshy_original_textures/base_color.png]
+[2026.10.08-21.59.44:004][  0]LogInterchangeEngine: Display: Interchange import completed [C:/Users/alexa/Docum...hy_original_textures/base_color.png]
+[2026.10.08-21.59.44:381][  0]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/alexa/Documents/AI STUFF/Project Big/assets/models/forest_wreck/F03_Flagship71/source/meshy_original_textures/normal.png]
+[2026.10.08-21.59.44:692][  0]LogInterchangePipeline: Display: Auto-detected normal map
+[2026.10.08-21.59.44:693][  0]LogInterchangeEngine: Display: Interchange import completed [C:/Users/alexa/Docum...hy_original_textures/normal.png]
+[2026.10.08-21.59.45:143][  0]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/alexa/Documents/AI STUFF/Project Big/assets/models/forest_wreck/F03_Flagship71/source/meshy_original_textures/roughness.png]
+[2026.10.08-21.59.45:184][  0]LogInterchangeEngine: Display: Interchange import completed [C:/Users/alexa/Docum...hy_original_textures/roughness.png]
+[2026.10.08-21.59.45:251][  0]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/alexa/Documents/AI STUFF/Project Big/assets/models/forest_wreck/F03_Flagship71/source/meshy_original_textures/metallic.png]
+[2026.10.08-21.59.45:263][  0]LogInterchangeEngine: Display: Interchange import completed [C:/Users/alexa/Docum...hy_original_textures/metallic.png]
+[2026.10.08-21.59.45:373][  0]LogInterchangeEngine: Display: Interchange import: Using stack [OverridePipeline] to import.
+[2026.10.08-21.59.45:373][  0]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/alexa/Documents/AI STUFF/Project Big/assets/models/forest_wreck/F05_Flagship71/export/SM_F05_Flagship71.fbx]
+[2026.10.08-21.59.45:432][  0]LogStaticMesh: Display: Building static mesh SM_F05_Flagship71 (Required Memory Estimate: 8.409358 MB)...
+[2026.10.08-21.59.45:614][  0]LogInterchangeEngine: Display: Interchange import completed [C:/Users/alexa/Docum...05_Flagship71/export/SM_F05_Flagship71.fbx]
+[2026.10.08-21.59.45:641][  0]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/alexa/Documents/AI STUFF/Project Big/assets/models/forest_wreck/F05_Flagship71/source/meshy_original_textures/base_color.png]
+[2026.10.08-21.59.45:938][  0]LogInterchangeEngine: Display: Interchange import completed [C:/Users/alexa/Docum...hy_original_textures/base_color.png]
+[2026.10.08-21.59.46:313][  0]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/alexa/Documents/AI STUFF/Project Big/assets/models/forest_wreck/F05_Flagship71/source/meshy_original_textures/normal.png]
+[2026.10.08-21.59.46:597][  0]LogInterchangePipeline: Display: Auto-detected normal map
+[2026.10.08-21.59.46:598][  0]LogInterchangeEngine: Display: Interchange import completed [C:/Users/alexa/Docum...hy_original_textures/normal.png]
+[2026.10.08-21.59.47:057][  0]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/alexa/Documents/AI STUFF/Project Big/assets/models/forest_wreck/F05_Flagship71/source/meshy_original_textures/roughness.png]
+[2026.10.08-21.59.47:088][  0]LogInterchangeEngine: Display: Interchange import completed [C:/Users/alexa/Docum...hy_original_textures/roughness.png]
+[2026.10.08-21.59.47:148][  0]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/alexa/Documents/AI STUFF/Project Big/assets/models/forest_wreck/F05_Flagship71/source/meshy_original_textures/metallic.png]
+[2026.10.08-21.59.47:156][  0]LogInterchangeEngine: Display: Interchange import completed [C:/Users/alexa/Docum...hy_original_textures/metallic.png]
+[2026.10.08-21.59.47:243][  0]LogInterchangeEngine: Display: Interchange import: Using stack [OverridePipeline] to import.
+[2026.10.08-21.59.47:243][  0]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/alexa/Documents/AI STUFF/Project Big/assets/models/forest_wreck/F06_Flagship71/export/SM_F06_Flagship71.fbx]
+[2026.10.08-21.59.47:280][  0]LogStaticMesh: Display: Building static mesh SM_F06_Flagship71 (Required Memory Estimate: 6.599737 MB)...
+[2026.10.08-21.59.47:401][  0]LogStaticMesh: Display: SM_F06_Flagship71 has some nearly zero tangents which can create some issues. (Tolerance of 1E-4)
+[2026.10.08-21.59.47:401][  0]LogStaticMesh: Display: SM_F06_Flagship71 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2026.10.08-21.59.47:411][  0]LogInterchangeEngine: Display: Interchange import completed [C:/Users/alexa/Docum...06_Flagship71/export/SM_F06_Flagship71.fbx]
+[2026.10.08-21.59.47:436][  0]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/alexa/Documents/AI STUFF/Project Big/assets/models/forest_wreck/F06_Flagship71/source/meshy_original_textures/base_color.png]
+[2026.10.08-21.59.47:737][  0]LogInterchangeEngine: Display: Interchange import completed [C:/Users/alexa/Docum...hy_original_textures/base_color.png]
+[2026.10.08-21.59.48:150][  0]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/alexa/Documents/AI STUFF/Project Big/assets/models/forest_wreck/F06_Flagship71/source/meshy_original_textures/normal.png]
+[2026.10.08-21.59.48:447][  0]LogInterchangePipeline: Display: Auto-detected normal map
+[2026.10.08-21.59.48:448][  0]LogInterchangeEngine: Display: Interchange import completed [C:/Users/alexa/Docum...hy_original_textures/normal.png]
+[2026.10.08-21.59.48:862][  0]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/alexa/Documents/AI STUFF/Project Big/assets/models/forest_wreck/F06_Flagship71/source/meshy_original_textures/roughness.png]
+[2026.10.08-21.59.48:894][  0]LogInterchangeEngine: Display: Interchange import completed [C:/Users/alexa/Docum...hy_original_textures/roughness.png]
+[2026.10.08-21.59.48:956][  0]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/alexa/Documents/AI STUFF/Project Big/assets/models/forest_wreck/F06_Flagship71/source/meshy_original_textures/metallic.png]
+[2026.10.08-21.59.48:965][  0]LogInterchangeEngine: Display: Interchange import completed [C:/Users/alexa/Docum...hy_original_textures/metallic.png]
+[2026.10.08-21.59.49:052][  0]LogInterchangeEngine: Display: Interchange import: Using stack [OverridePipeline] to import.
+[2026.10.08-21.59.49:052][  0]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/alexa/Documents/AI STUFF/Project Big/assets/models/forest_wreck/F10_Flagship71/export/SM_F10_Flagship71.fbx]
+[2026.10.08-21.59.49:079][  0]LogStaticMesh: Display: Building static mesh SM_F10_Flagship71 (Required Memory Estimate: 3.417875 MB)...
+[2026.10.08-21.59.49:178][  0]LogInterchangeEngine: Display: Interchange import completed [C:/Users/alexa/Docum...10_Flagship71/export/SM_F10_Flagship71.fbx]
+[2026.10.08-21.59.49:198][  0]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/alexa/Documents/AI STUFF/Project Big/assets/models/forest_wreck/F10_Flagship71/source/meshy_original_textures/base_color.png]
+[2026.10.08-21.59.49:523][  0]LogInterchangeEngine: Display: Interchange import completed [C:/Users/alexa/Docum...hy_original_textures/base_color.png]
+[2026.10.08-21.59.49:909][  0]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/alexa/Documents/AI STUFF/Project Big/assets/models/forest_wreck/F10_Flagship71/source/meshy_original_textures/normal.png]
+[2026.10.08-21.59.50:232][  0]LogInterchangePipeline: Display: Auto-detected normal map
+[2026.10.08-21.59.50:232][  0]LogInterchangeEngine: Display: Interchange import completed [C:/Users/alexa/Docum...hy_original_textures/normal.png]
+[2026.10.08-21.59.50:721][  0]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/alexa/Documents/AI STUFF/Project Big/Unreal/LostVanguard 5.8/Content/LostVanguard/Environment/OpeningReview/Assets/FloraFlagship71/F10_Flagship71/T_F10_Flagship71_Normal.uasset' to '../../../../../../Users/alexa/Documents/AI STUFF/Project Big/Unreal/LostVanguard 5.8/Saved/T_F10_Flagship71_NormalE6E540204BE5A0D2F362E3BAD1633D80.tmp' (Error Code 32), retrying in .5s...
+[2026.10.08-21.59.51:231][  0]LogFileManager: Warning: MoveFile recovered during retry!
+[2026.10.08-21.59.51:237][  0]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/alexa/Documents/AI STUFF/Project Big/assets/models/forest_wreck/F10_Flagship71/source/meshy_original_textures/roughness.png]
+[2026.10.08-21.59.51:275][  0]LogInterchangeEngine: Display: Interchange import completed [C:/Users/alexa/Docum...hy_original_textures/roughness.png]
+[2026.10.08-21.59.51:343][  0]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/alexa/Documents/AI STUFF/Project Big/assets/models/forest_wreck/F10_Flagship71/source/meshy_original_textures/metallic.png]
+[2026.10.08-21.59.51:354][  0]LogInterchangeEngine: Display: Interchange import completed [C:/Users/alexa/Docum...hy_original_textures/metallic.png]
+[2026.10.08-21.59.51:649][  0]LogPythonScriptCommandlet: Display: Python script executed successfully
+[2026.10.08-21.59.51:649][  0]LogInit: Display: 
+[2026.10.08-21.59.51:649][  0]LogInit: Display: Warning/Error Summary (Unique only)
+[2026.10.08-21.59.51:649][  0]LogInit: Display: -----------------------------------
+[2026.10.08-21.59.51:649][  0]LogInit: Display: LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/alexa/Documents/AI STUFF/Project Big/Unreal/LostVanguard 5.8/Content/LostVanguard/Environment/OpeningReview/Assets/FloraFlagship71/F10_Flagship71/T_F10_Flagship71_Normal.uasset' to '../../../../../../Users/alexa/Documents/AI STUFF/Project Big/Unreal/LostVanguard 5.8/Saved/T_F10_Flagship71_NormalE6E540204BE5A0D2F362E3BAD1633D80.tmp' (Error Code 32), retrying in .5s...
+[2026.10.08-21.59.51:649][  0]LogInit: Display: LogFileManager: Warning: MoveFile recovered during retry!
+[2026.10.08-21.59.51:649][  0]LogInit: Display: 
+[2026.10.08-21.59.51:649][  0]LogInit: Display: Success - 0 error(s), 2 warning(s)
+[2026.10.08-21.59.51:649][  0]LogInit: Display: 
+
+Execution of commandlet took:  16.39 seconds, PeakPhysMemoryMB=3027 MB, PeakVirtMemoryMB=3003 MB
+[2026.10.08-21.59.51:663][  0]LogToolsetRegistry: Display: Unregistering Toolset ToolsetRegistry.AgentSkillToolset
+[2026.10.08-21.59.51:665][  0]LogToolsetRegistry: Display: Unregistering Toolset AutomationTestToolset.AutomationTestToolset
+[2026.10.08-21.59.51:665][  0]LogToolsetRegistry: Display: Unregistering Toolset SlateInspectorToolset.SlateInspectorToolset
+[2026.10.08-21.59.51:937][  0]LogAssetRegistry: Display: CleanupOrphanedCacheFiles (PostWrite): 1 .ref files found, 1 referenced binaries
+[2026.10.08-21.59.51:937][  0]LogAssetRegistry: Display: CleanupOrphanedCacheFiles: 1 total binaries, 1 referenced (kept), 0 old-style pre-migration (kept), 0 orphans deleted, 0 orphans locked (kept)
+[2026.10.08-21.59.52:659][  0]LogShaderCompilers: Display: Exiting ShaderCompilingThread
+[2026.10.08-21.59.52:760][  0]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../Users/alexa/Documents/AI STUFF/Project Big/Unreal/LostVanguard 5.8/Saved/SourceControl/UncontrolledChangelists.json

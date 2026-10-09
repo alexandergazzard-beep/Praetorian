@@ -1,0 +1,35 @@
+{
+  "connector_version": "0.6.0",
+  "generation_submitted": false,
+  "verified": true,
+  "server_version": "0.6.0",
+  "tools": [
+    "meshy_text_to_3d",
+    "meshy_image_to_3d",
+    "meshy_text_to_3d_refine",
+    "meshy_multi_image_to_3d",
+    "meshy_get_task_status",
+    "meshy_list_tasks",
+    "meshy_cancel_task",
+    "meshy_download_model",
+    "meshy_list_models",
+    "meshy_remesh",
+    "meshy_retexture",
+    "meshy_rig",
+    "meshy_animate",
+    "meshy_convert",
+    "meshy_resize",
+    "meshy_uv_unwrap",
+    "meshy_text_to_image",
+    "meshy_image_to_image",
+    "meshy_send_to_slicer",
+    "meshy_analyze_printability",
+    "meshy_repair_printability",
+    "meshy_process_multicolor",
+    "meshy_creative_lab",
+    "meshy_check_balance"
+  ],
+  "balance": [
+    "# Meshy Credit Balance\n\n**Balance**: 4190 credits"
+  ]
+}

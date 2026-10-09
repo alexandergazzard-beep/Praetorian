@@ -1,0 +1,50 @@
+Traceback (most recent call last):
+  File "C:\Program Files\Blender Foundation\Blender 5.2\5.2\scripts\modules\addon_utils.py", line 458, in enable
+    mod = importlib.import_module(module_name)
+  File "C:\Program Files\Blender Foundation\Blender 5.2\5.2\python\Lib\importlib\__init__.py", line 88, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1395, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 1023, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "C:\Users\alexa\AppData\Roaming\Blender Foundation\Blender\5.2\extensions\user_default\meshy\__init__.py", line 1, in <module>
+    from . import BridgePanel
+  File "C:\Users\alexa\AppData\Roaming\Blender Foundation\Blender\5.2\extensions\user_default\meshy\BridgePanel.py", line 15, in <module>
+    from .Utils import logger
+  File "C:\Users\alexa\AppData\Roaming\Blender Foundation\Blender\5.2\extensions\user_default\meshy\Utils.py", line 27, in <module>
+    logger = setup_logging()
+  File "C:\Users\alexa\AppData\Roaming\Blender Foundation\Blender\5.2\extensions\user_default\meshy\Utils.py", line 16, in setup_logging
+    file_handler = logging.FileHandler(os.path.join(addon_dir, "meshy.log"))
+  File "C:\Program Files\Blender Foundation\Blender 5.2\5.2\python\Lib\logging\__init__.py", line 1219, in __init__
+    StreamHandler.__init__(self, self._open())
+                                 ~~~~~~~~~~^^
+  File "C:\Program Files\Blender Foundation\Blender 5.2\5.2\python\Lib\logging\__init__.py", line 1248, in _open
+    return open_func(self.baseFilename, self.mode,
+                     encoding=self.encoding, errors=self.errors)
+PermissionError: [Errno 13] Permission denied: 'C:\\Users\\alexa\\AppData\\Roaming\\Blender Foundation\\Blender\\5.2\\extensions\\user_default\\meshy\\meshy.log'
+INFO:glTFImporter:Data are loaded, start creating Blender stuff
+Extensions: writing cache failed ([Errno 13] Permission denied: 'C:\\Users\\alexa\\AppData\\Roaming\\Blender Foundation\\Blender\\5.2\\extensions\\.cache\\compat.dat').
+BlenderMCP addon registered
+BlenderMCP addon unregistered
+17:29:27 | INFO: Data are loaded, start creating Blender stuff
+17:29:27 | INFO: Blender create Mesh node Mesh_0
+INFO:glTFImporter:Blender create Mesh node Mesh_0
+17:29:27 | INFO: glTF import finished in 0.08s
+INFO:glTFImporter:glTF import finished in 0.08s
+00:03.484  image.write      | ERROR OpenImageIO write failed: Could not open file "C:\Users\alexa\.thumbnails\large\blender_57144_b8d736c3c12a2c5b38a04e04286e137e.png.png"
+00:03.625  image.write      | ERROR OpenImageIO write failed: Could not open file "C:\Users\alexa\.thumbnails\large\blender_57144_a9735a3ae3c2ef9b914668c7e8c21999.png.png"
+00:09.844  render           | Saved: 'C:\Users\alexa\Documents\AI STUFF\Project Big\reports\F21_Expansion71_blender_0.png'
+00:15.906  render           | Saved: 'C:\Users\alexa\Documents\AI STUFF\Project Big\reports\F21_Expansion71_blender_1.png'
+Info: Saved as "meshy_source.blend"
+Warning: No mesh data to join
+Info: Saved as "prepared.blend"
+
+FBX export starting... 'C:\\Users\\alexa\\Documents\\AI STUFF\\Project Big\\assets\\models\\forest_wreck\\F21_Expansion71\\export\\SM_F21_Expansion71.fbx'
+export finished in 0.0315 sec.
+WRECK_PREPARATION_COMPLETE F21_Expansion71 {"triangles": 14150, "vertices": 6804, "vertices_removed": 18919, "nonmanifold_edges": 694, "uv_layers": 1, "material_slots": 1, "dimensions_m": [2.828706979751587, 1.1352263689041138, 2.0], "pivot": "centered bottom", "scale": "provisional production size; not story canon", "source_preserved": true}
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+
+Blender quit

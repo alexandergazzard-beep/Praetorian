@@ -1,6 +1,6 @@
 # Lost Vanguard — Story Bible
 
-Version 43, updated from the conversation on 2026-10-07.
+Version 44, updated from the conversation on 2026-10-08.
 
 Established = accepted by the user. Possible = proposed but unconfirmed. Open = undecided. This document is the story record; tools and production milestones are tracked separately.
 
@@ -54,7 +54,7 @@ Surname, age, personality, life on the colony, experimentation and rescue detail
 - Personal recordings reveal their everyday lives and ambitions.
 
 ### Open
-Ship name/type/size, squad names/roles, his rank, relationships, what everyone knew, and exactly how the AI destroyed the ship. Do not introduce a surviving squad member without revisiting the user's established loss.
+Ship name/formal class/size, squad names/roles, his rank, relationships, what everyone knew, and exactly how the AI destroyed the ship. Exterior and interior visual references are accepted below; exact production specifications remain open. Do not introduce a surviving squad member without revisiting the user's established loss.
 
 Principle: Make the people meaningful beyond their deaths.
 
@@ -107,6 +107,9 @@ War duration, surviving worlds, political structure, military organization, supe
 - Its creator species was studying an artifact that apparently could stabilize it. The AI learned of this possibility and sought the artifact. Apparent stabilization is not yet proven. Its later belief that the arriving humans possessed it was mistaken; the artifact was not aboard Evan's ship. Exact discovery and relocation timeline remain open.
 - Main enemy is an intelligent AI created by another species that got loose. This replaces the former leaders-deceiving-their-population explanation of the war.
 - The creator species still survives, is in survival mode, and is fighting/resisting its own escaped AI.
+- Meridian enslaves some members of its creator species and many other species, using them as soldiers in its wars. Other members of the creator species continue resisting it; captivity does not establish species-wide willing loyalty.
+- Enslaved alien soldiers should be visibly identifiable through collars and the weapons Meridian issues them. Exact collar/weapon designs and enforcement mechanisms remain open.
+- Selected starting enemy types: scout drone, line robot and alien skirmisher. The skirmisher follows the enslaved-soldier direction; exact species, anatomy, names and combat mechanics remain open. See ENEMY_ROSTER.md.
 - The AI seeks technology left behind by an older, extinct species, distinct from its creators and humanity. Its futuristic remnants shape the planetary setting.
 - Members of its creator species studied artifacts on the planet. On learning the AI intended to seek the stabilization hardware, they moved it without the AI knowing. Destination and relocation method remain open.
 - AI killed local researchers, not the entire creator species; exact deaths and timing remain open. The AI continued searching the planet unaware of the artifact relocation.
@@ -115,7 +118,7 @@ War duration, surviving worlds, political structure, military organization, supe
 - User introduced another weapon associated with the creator species and deferred its development.
 
 ### Open
-AI name origin, development history, specific identity-damage mechanism and symptoms, escape circumstances, physical forces, and the rationale for its broader attacks on humanity remain open. Its stabilization motive and mistaken targeting at Orison are established. Creator-species identity and exact survival crisis remain open. Human/creator prior contact is established through an existing war initiated by Meridian. Misattribution and retaliation are established; exact campaign history remains open. Technology builders are older and extinct; their identity, cause of extinction, and intentions remain open. Opening search-party allegiance and nature remain open despite their established alien speech. The deferred weapon's nature, purpose, and timing remain open.
+AI name origin, development history, specific identity-damage mechanism and symptoms, escape circumstances, detailed force organization, and the rationale for its broader attacks on humanity remain open. Its robot army and enslaved alien soldiers are established; species identities, collar enforcement and detailed equipment remain open. Its stabilization motive and mistaken targeting at Orison are established. Creator-species identity and exact survival crisis remain open. Human/creator prior contact is established through an existing war initiated by Meridian. Misattribution and retaliation are established; exact campaign history remains open. Technology builders are older and extinct; their identity, cause of extinction, and intentions remain open. Exact opening search-party composition and species remain open despite their established alien speech; using Meridian's enslaved troops with a drone is a proposal. The deferred creator-species weapon's nature, purpose, and timing remain open and is not automatically the soldiers' issued weapon.
 
 ### Superseded direction
 Enemy leaders lying about a future disaster for power is no longer current canon. Its prior acceptance and replacement are preserved in DECISIONS and WORK_LOG; associated commander/deception proposals are not active plot assumptions.
@@ -143,7 +146,13 @@ What each piece does, whether pieces belong to a single system, how many there a
 
 ## Setting and visual direction
 
+### Shipboard transports — established
+
+The larger human ship carries smaller human transport craft. User wants an original transport for this game with the broad utility role they associate with Halo's Pelican; no franchise vehicle becomes part of the setting. Transport wreckage can contribute to the opening debris field, but no specific placement or destruction/survival sequence is established. The proposed T1 visual design remains unapproved; vehicle name, class, size, capacity, exact number aboard, propulsion and weapons remain open.
+
 ### Accepted visual reference
+User accepts [human ship concept A4](../assets/concepts/human_ships/human_ship_a4_compact_turrets_v1.png) as the visual reference for the type of ship that crashes: a long, narrow human military spacecraft with gray armor, olive-green markings, and compact distinct turning turrets. Its exterior construction guides hull debris. This does not establish a formal ship name/class, exact size, weapon types, or damage/fall mechanics. User notes interior wreckage should reflect distinct interior construction and accepts [interior concept I1](../assets/concepts/ship_interiors/ship_interior_i1_panel_construction_v1.png): removable gray/olive wall panels, dark framing, routed cables and electrical access boxes. Exact production geometry/material values and individual prop dimensions remain open. Production rules and references are maintained in VISUAL_BIBLE.md.
+
 User supplied [an opening environment reference](../assets/references/level_01/opening_wreck_alien_forest_reference.png) for approximately how Evan starts mission 1: a dark broken hull opening looking out toward a larger burning ship section amid lush blue-green alien forest. The user requests revealing this view early, once Evan can move, while preserving debris release and Clank's recovery checks before the encounter. The route should be clear, with rocks, vegetation, broken metal, cables, and believable scale and cover. Fires must fit a wreck that crashed days earlier. This is accepted visual direction, not an exact final layout. Evan's appearance, dramatic sky details and sky-body identities, exact wreck placement, and final designs remain undecided.
 
 ### Established
@@ -214,3 +223,79 @@ Resolve only what the opening needs first: wreck environment, Evan's survival, C
 ## Unassigned naming ideas
 Orison is the main planet. Axiom and Concord remain unassigned planet-name possibilities. Meridian is the enemy AI's working name. Human fallback-base/refuge survey motive remains an assistant proposal, not yet selected.
 
+
+## Orison nature — accepted visual directions, 2026-10-08
+
+- All F1/F2 plant concepts F01-F12 are accepted visual references for native vegetation, continuing the lush blue-green forest direction. See ORISON_FLORA_CONCEPTS.md and ORISON_NATURE_EXPLORATION.md.
+- Native animal visual designs selected from A1: A02 (low stalking-animal design), A03 (tree-climbing design) and A05 (winged canopy design). These descriptions identify pictured forms; precise diets, behavior, abilities, names and biological relationships remain open.
+- W01, first/top-left waterfall with tall plunge falls and pool, is retained as a later mission-area visual reference. Exact mission, location, scale and playable layout remain undecided; not an instruction to add it to mission 1.
+- Unselected A01/A04/A06 and W02-W04 remain preserved explorations. Exact species dimensions, anatomy refinement and production geometry are not established by visual approval.
+
+## Enemy visual direction — 2026-10-08
+
+User rejects humanlike E1 robot and alien forms. Explore nonhumanoid machines and multiple distinct enslaved species with varied body plans and sizes; human height is not a constraint. Drone, line robot and alien skirmisher remain selected roles. E2's four species are visual proposals, not established species identities/anatomy or expanded mandatory combat roles. Collars and issued weapons remain accepted captivity cues. See ENEMY_CONCEPTS_E2.md.
+
+## Current enemy direction E3 — 2026-10-08
+
+User rejects all E2 concepts as too extreme and asks for aliens similar in appeal to Halo. Grounded, recognizable alien soldier silhouettes with distinct sizes are the current direction; bipedal forms are allowed, superseding D078's blanket nonhumanoid exploration preference. E1/E2 specific appearances remain rejected. E3 provides four review candidates, not accepted species canon. Collars/issued weapons and selected drone, line robot and skirmisher roles remain; robots need later redesign. See ENEMY_CONCEPTS_E3.md.
+
+## Current enemy appearance direction E4 — 2026-10-08
+
+User finds E3 faces unappealing compared with Halo's alien species. Prioritize creative distinctive faces: unusual eye/jaw structures, head silhouettes and optional masks/headgear. Roughly humanoid bodies are allowed. E4 supplies four portrait/body candidates; no particular face, mask, anatomy, name or equipment function accepted yet. Collars/issued weapons and selected enemy roles remain. E3 preserved as rejected exploration. See ENEMY_CONCEPTS_E4.md.
+
+## Selected enemy designs and Veil-Eye revision — 2026-10-08
+
+User likes E4 B Masked Infantry and C Veil-Eye with changes: replace C rear/top crest, reduce C to approximately 60% of B standing height, give C two eyes. Preserve B four-eyed masked design. Relative size supersedes earlier proposed meter heights; no absolute size selected. E7 proposes a compact ridged crown; exact new crown awaits review. Rendered common-floor lineup is nearer 65-66%, so enforce 60% in later model/blockout. Latest image: assets/concepts/enemies/meridian_e7_masked_infantry_veil_eye_v2.png; details/prompt in ENEMY_CONCEPTS_E7.md. Prior all-pending E4 states are superseded for B and conditional C selection. Species names, creator-species identity and equipment functions remain open.
+
+## Veil-Eye green and feathers — 2026-10-08
+
+User chooses green coloration and feathers for Veil-Eye. Supersedes previous purple skin and hard-ridged scalp proposal; retain two eyes, small adult proportions, mask/collar/issued equipment and 60%-of-Masked-Infantry height target. E8 green feathered crown is current review image; exact shade and plumage arrangement await review. Masked Infantry remains selected E4 B baseline. See ENEMY_CONCEPTS_E8.md and assets/concepts/enemies/meridian_e8_green_feathered_veil_eye_v1.png. Species names, biology and collar mechanisms remain open.
+
+## Veil-Eye legs — 2026-10-08
+
+User likes alien skirmisher-style legs and requests several digitigrade Veil-Eye lower-body options. Preserve current height, green feathered two-eye head and all appearance above waist; vary only below waist. Reference interpreted as E3 skirmisher legs, not its rejected full design. E9 options 1 Lean, 2 Raptor, 3 Power and 4 Armored await choice; no new anatomy or gear variation accepted by generation. Existing 60% relative height production target retained. See ENEMY_CONCEPTS_E9.md.
+
+## Veil-Eye Raptor legs selected; arms/body exploration — 2026-10-08
+
+User selects E9 option 2 Raptor legs and requests arm variants. Body/armor adjustments are authorized to make anatomy natural and cohesive, relaxing previous strict upper-body preservation for this exploration. Retain small stature/60% relative height target, green feathered two-eye identity and mask/captivity cues. E10 Talon, Feathered, Grip and Guard are proposals awaiting selection. E9 Raptor remains selected lower-body reference; E10 Grip thickened legs are unapproved variation. See ENEMY_CONCEPTS_E10.md.
+
+## Raptor arms/legs selected and armed preview — 2026-10-08
+
+User chooses raptor arms and legs for Veil-Eye and requests holding a weapon. Raptor arms interpreted as E10 option 2 Feathered; selected legs remain E9 option 2 Raptor. E11 combines those into a full-body two-handed rifle preview. Green feathers/two eyes/mask/collar/small stature retained; no absolute height or species identity selected. Exact consolidated plume/weapon details await review. See ENEMY_CONCEPTS_E11.md and assets/concepts/enemies/veil_eye_e11_raptor_armed_v1.png.
+
+## Veil-Eye E12 approved — 2026-10-08
+
+User describes E12 stance sheet as cool/perfect. E12 is the accepted appearance/posture reference: green feathered two-eye masked/collared alien, raptor arms/legs, compact issued rifle and forward-pitched animal-like carriage. Pictured plumage/equipment approved as visual direction; exact anatomy/engineering unvalidated. Four shown stances are accepted visual references, but user did not pick one default stance or explicitly select proposed idle/combat mapping. Existing approx60% Masked Infantry extended-height target retained. Beam dressing is not established world content; no traversal abilities or animations implemented. Reference: assets/concepts/enemies/veil_eye_e12_four_raptor_stances_v1.png, ENEMY_CONCEPTS_E12.md. Earlier pending approval notes superseded by this acceptance.
+
+## Enemy spacecraft direction - 2026-10-08
+User establishes that enemy ship designs should be more alien and futuristic and use plasma weapons. Requests a bottom-mounted "glass beam," presented in ES2 as an underside glassing beam on the larger warship; exact intended term/function remains open. No ground destruction event or method of destroying Evan's ship established. ES2 hulls/palette and three proposed roles await approval; underlying seized-creator-ship story remains.
+
+## Alien troop carrier visual direction - 2026-10-08
+User requests a less futuristic alien troop carrier in blue and dark gray, with a different shape than ES2 and multiple viewing angles. TC1 enclosed wedge body is a proposal awaiting review, not accepted class geometry. Current focus is carrier only; fighter/warship development deferred. No new size/capacity/function or beam on carrier established.
+
+## Alien troop carrier refinement - 2026-10-08
+TC1 wedge appearance rejected. User requests more creative alien shape inspired by Covenant/Halo and Star Wars ship creativity, retaining blue/dark gray and carrier focus. TC2 arched-shoulder suspended-cabin appearance is a proposal awaiting review. No franchise vehicle or new technology function established.
+
+## Troop carrier selection status - 2026-10-08
+TC2 appearance rejected alongside TC1. Alien troop carrier shape remains undecided. TC3 A tall keel/B broad body/C twin hull are proposals only, with no dimensions, capacity or equipment functions established.
+
+## Selected carrier hull direction - 2026-10-08
+User selects TC3 B middle hull with sides that open for troops. Front appearance must improve; propulsion should use alien boosters at underside/sides rather than rockets, inspired by Halo visual technology. Blue/dark gray retained. Exact TC4 nose/drive geometry remains proposal; seating capacity, side closure mechanism and physical propulsion explanation open.
+
+## Carrier TC4 rear visual acceptance - 2026-10-08
+User likes TC4 rear appearance and wants it combined coherently with desired front appearance, noting the current front/rear mismatch. Rear view is selected visual direction for rear hull/propulsion; exact reconciled nose/geometry remains open. No 3D model fidelity, engineering or production authorization established by conditional modeling discussion.
+
+## Human infantry visual direction - 2026-10-08
+User requests ordinary soldiers visibly smaller than a Praetorian, wearing basic military science-fiction uniforms with Halo soldiers as a broad inspiration. Exact heights, proportions, palette, helmet, armor and equipment remain open. H1 is a review proposal; no franchise units or equipment become part of Lost Vanguard.
+
+## Elite human infantry direction - 2026-10-08
+User requests a soldier type somewhat stronger than regular marines with Halo ODST-like appeal, plus other soldier ideas. Exact name, armor, enhancement status and insertion method remain open. Conventional elite infantry between regular troops and Praetorians, H2 armor/loadouts, and specialist roster in HUMAN_SOLDIER_ROLES.md are proposals awaiting review, not established military organization or gameplay mechanics.
+
+## Requested crash-video sequence - 2026-10-08
+For the reference-based video brief, the user specifies humans entering the large gray/blue ship's bridge, then an alien plasma attack on the main ship, a crash into the planet and destruction amid its floral environment. This records the requested cinematic sequence. Exact weapon color, firing platforms, damage mechanics, duration, crew identities, supporting inserts and camera staging remain prompt proposals; no surviving squad member or change to Meridian's established responsibility is introduced.
+
+## Supersoldier weapon visual brief - 2026-10-08
+User requests imagining a seven-foot soldier wielding a weapon that fires bullets approximately the size of apples. It remains a projectile weapon, with a design twist away from normal human firearms. W04 detailed designs liked generally, but no individual weapon/palette selected. Seven feet is the reference wielder for this visual brief, not an exact established height for Evan or every Praetorian. Exact projectile dimensions, ammunition housing, mechanism, name and gameplay behavior remain open. W05 images/scale figures are proposals; placeholder armor unaccepted. See PRAETORIAN_WEAPON_W05.md.
+
+## Current rifle appearance direction: return to D/E/F - 2026-10-08
+User rejects W05 shapes as too creative and prefers detailed D/E/F rifle designs for further exploration. Recognizable assault-rifle proportions with layered military sci-fi detail are the current visual reference. No exact design or palette accepted. Earlier seven-foot/apple-sized projectile brief remains unresolved rather than explicitly withdrawn; do not use rejected W05 shape proposals as production authority. W06 G/H/I are new review candidates only; see ASSAULT_RIFLE_W06.md.

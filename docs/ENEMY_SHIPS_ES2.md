@@ -1,0 +1,23 @@
+# Enemy ships ES2 - alien plasma revision
+
+2026-10-08 (America/Los_Angeles).
+
+User directs more alien and futuristic enemy ships, plasma weapons and a bottom-mounted "glass beam." Interpreted and announced as an underside glassing beam; exact terminology/function awaits confirmation. This is not a newly established planetary attack or opening-ship destruction mechanism.
+
+[ES2 concept sheet](../assets/concepts/enemy_ships/meridian_fleet_es2_alien_plasma_v1.png) edits ES1 through built-in imagegen. Preserves three proposed fleet roles/composition but replaces conventional hull engineering with curved layered iridescent shells, recessed dark structures and luminous blue emitters. ES1 preserved as history, no longer current intended visual direction.
+
+Inspection: three complete distinct hulls and readable labels. Fighter has twin forward charged emitters; carrier has side emitter and deployed ramp; warship has charged flank apertures and a clearly connected ventral ring projecting a vertical downward beam. Armor highlights retain readable structure. Weapon depiction is concept art, not simulated plasma. Carrier's ramp still uses recognizable mechanical construction. Exact silhouettes, silver-violet/blue palette, capacities, dimensions, origin assignments and beam strength/range/effects remain proposals. Independent display scales. No 3D asset, paid Meshy job or editor change.
+
+Next: user reviews alien form/palette and warship beam before isolated refinement.
+
+## Full prompt - built-in imagegen edit
+
+Use case: precise-object-edit / stylized-concept.
+Revise the supplied Lost Vanguard ES1 alien fleet concept sheet into ES2. User correction: MUCH MORE ALIEN AND FUTURISTIC, PLASMA WEAPONS, and a underside "glass beam" interpreted visually as a downward glassing beam on the large warship.
+Keep the three-row concept-sheet presentation, three distinct proposed roles A FIGHTER, B TROOP CARRIER, C WARSHIP, readable labels and fully framed hulls. The input is a composition/role reference, NOT an approved hull to preserve: radically redesign its too-human engineering and silhouettes.
+Original alien manufactured advanced technology: sculpted flowing overlapping carapace-like alloy shells, sweeping crescent forms, graceful elongated irregular negative spaces between substantial connected structural lobes, intricate recessed luminous circuitry, unfamiliar segmented propulsion apertures. Build coherent family with pearlescent silver/blue-violet iridescent metal, dark midnight structural gaps and brilliant restrained cyan/blue plasma. Alien machinery, not literal biological flesh. Sophisticated powerful believable mass, clean silhouette, no human cockpit glass, no gun barrels, ballistic naval turrets, riveted tank panels, jet exhaust cans, wheeled landing gear or industrial cargo boxes. Do not just repaint input.
+A: predatory compact swept crescent interceptor with luminous sensor slit, twin curved forward prongs containing visibly charged plasma emitters, integrated arc-like aft engine glow.
+B: broad sculpted alien troop carrier with protected central cargo volume, curved lateral floating-looking but visibly connected propulsion lobes and elegant ventral deployment opening, inset plasma-defense emitter nodes. No ground beam on carrier.
+C: impressive long capital warship, streamlined asymmetric surface detail over a balanced crescent/spindle outline, exotic dorsal arches and layered flowing hull. Several distinctive exposed glowing plasma weapon apertures in upper and flank recesses with bright charged cores, NO barrel-shaped guns. Strongly show its bottom: LOW front three-quarter view, hull elevated above scene floor, clearly visible ventral belly emitter consisting of a large recessed luminous ring and bright central core. Show one intense narrow cyan-white energy/glassing beam firing STRAIGHT DOWN from this belly emitter to below, with contained halo, softly diffused near bottom of row; not from nose or side, not a glass window, no planet destruction or cities. Keep beam source connection visible and do not crop the ship.
+Dark neutral studio background, premium realistic AAA sci-fi game concept rendering, clear rim lighting and surface illumination, glowing weapons legible but ship detail not obscured by bloom. Whole craft comfortably inside each row, separate display scales. No new names, dimensions or explanatory text. Avoid recognizable Halo Covenant hulls or any existing franchise ship, iconic purple organic cruiser shapes, saucers, decorative horns. User wants ORIGINAL clearly ALIEN space ships with advanced energy technology.
+

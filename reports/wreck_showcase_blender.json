@@ -1,0 +1,15 @@
+{
+  "file": "C:\\Users\\alexa\\Documents\\AI STUFF\\Project Big\\assets\\models\\wreck_showcase\\blender\\LargeWreck_Showcase.blend",
+  "render": "C:\\Users\\alexa\\Documents\\AI STUFF\\Project Big\\reports\\wreck_showcase_beauty.png",
+  "actual_3d_render": true,
+  "renderer": "Cycles",
+  "samples": 64,
+  "resolution": [
+    1920,
+    1080
+  ],
+  "paid_generations": 0,
+  "objects": 239,
+  "materials": "packed existing wreck/wood/foliage PBR and procedural ground/rocks/grass",
+  "interpretation": "presentation scene, not story canon or gameplay validation"
+}

@@ -1,0 +1,11 @@
+{
+  "before": {
+    "compression_settings": "<TextureCompressionSettings.TC_DEFAULT: 0>",
+    "mip_gen_settings": "<TextureMipGenSettings.TMGS_FROM_TEXTURE_GROUP: 0>",
+    "filter": "<TextureFilter.TF_DEFAULT: 3>",
+    "srgb": "True"
+  },
+  "ground_mips_fixed": true,
+  "camera_dependent_normal_removed": true,
+  "user_rejected_previous_visual_quality": true
+}

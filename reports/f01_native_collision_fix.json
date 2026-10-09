@@ -1,0 +1,14 @@
+[
+  {
+    "map": "/Game/LostVanguard/Environment/OpeningReview/Maps/L_ForestWreck_Inspection",
+    "tree_actor": "FWR_F01_LayeredCanopy",
+    "mesh_collision": "<CollisionEnabled.NO_COLLISION: 0>",
+    "trunk_collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+  },
+  {
+    "map": "/Game/LostVanguard/Environment/OpeningReview/Maps/L_ForestWreck_Review",
+    "tree_actor": "FWR_F01_LayeredCanopy",
+    "mesh_collision": "<CollisionEnabled.NO_COLLISION: 0>",
+    "trunk_collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+  }
+]

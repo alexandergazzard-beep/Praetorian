@@ -1,0 +1,44 @@
+{
+  "asset": "/Game/WreckagePrototype/Blueprints/BP_WreckagePlayer_Runtime.BP_WreckagePlayer_Runtime",
+  "character_movement": {
+    "MaxWalkSpeed": 450,
+    "MaxWalkSpeedCrouched": 220,
+    "MaxAcceleration": 2048,
+    "BrakingDecelerationWalking": 2048,
+    "GroundFriction": 8,
+    "BrakingFrictionFactor": 2,
+    "bUseSeparateBrakingFriction": false,
+    "JumpZVelocity": 450,
+    "GravityScale": 1.2000000476837158,
+    "AirControl": 0.05000000074505806,
+    "AirControlBoostMultiplier": 2,
+    "AirControlBoostVelocityThreshold": 25,
+    "FallingLateralFriction": 0,
+    "BrakingDecelerationFalling": 0,
+    "MaxStepHeight": 45,
+    "WalkableFloorAngle": 44.76508331298828,
+    "CrouchedHalfHeight": 44,
+    "bCanWalkOffLedges": true,
+    "bCanWalkOffLedgesWhenCrouching": false,
+    "PerchRadiusThreshold": 0,
+    "bApplyGravityWhileJumping": true,
+    "NavAgentProps": {
+      "agentRadius": -1,
+      "agentHeight": -1,
+      "agentStepHeight": -1,
+      "navWalkingSearchHeightScale": 0.5,
+      "preferredNavData": {
+        "refPath": ""
+      },
+      "bCanCrouch": true,
+      "bCanJump": true,
+      "bCanWalk": true,
+      "bCanSwim": true,
+      "bCanFly": false
+    }
+  },
+  "look_multiplier": {
+    "yaw": 0.6,
+    "pitch": -0.6
+  }
+}

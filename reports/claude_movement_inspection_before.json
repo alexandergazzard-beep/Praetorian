@@ -1,0 +1,100 @@
+{
+  "verified_target": {
+    "port": 8001,
+    "listener": "\"C:\\Program Files\\Epic Games\\UE_5.8\\Engine\\Binaries\\Win64\\UnrealEditor.exe\" \"C:/Users/alexa/Documents/AI STUFF/Project Big-movement/Unreal/LostVanguard 5.8/LostVanguard.uproject\" -ini:EditorPerProjectUserSettings:[/Script/ModelContextProtocolEngine.ModelContextProtocolSettings]:ServerPortNumber=8001 -log=MovementEditor.log",
+    "marker_token_matched": true
+  },
+  "cdo": {
+    "refPath": "/Game/WreckagePrototype/Blueprints/BP_WreckagePlayer_Runtime.Default__BP_WreckagePlayer_Runtime_C"
+  },
+  "cdo_properties": {
+    "CharacterMovement": {
+      "refPath": "/Game/WreckagePrototype/Blueprints/BP_WreckagePlayer_Runtime.Default__BP_WreckagePlayer_Runtime_C:CharMoveComp"
+    },
+    "CapsuleComponent": {
+      "refPath": "/Game/WreckagePrototype/Blueprints/BP_WreckagePlayer_Runtime.Default__BP_WreckagePlayer_Runtime_C:CollisionCylinder"
+    },
+    "bUseControllerRotationYaw": true,
+    "JumpMaxHoldTime": 0,
+    "JumpMaxCount": 1
+  },
+  "character_movement": {
+    "MaxWalkSpeed": 450,
+    "MaxWalkSpeedCrouched": 220,
+    "MaxAcceleration": 2048,
+    "BrakingDecelerationWalking": 2048,
+    "GroundFriction": 8,
+    "BrakingFrictionFactor": 2,
+    "bUseSeparateBrakingFriction": false,
+    "JumpZVelocity": 450,
+    "GravityScale": 1.2000000476837158,
+    "AirControl": 0.05000000074505806,
+    "AirControlBoostMultiplier": 2,
+    "AirControlBoostVelocityThreshold": 25,
+    "FallingLateralFriction": 0,
+    "BrakingDecelerationFalling": 0,
+    "MaxStepHeight": 45,
+    "WalkableFloorAngle": 44.76508331298828,
+    "CrouchedHalfHeight": 44,
+    "bCanWalkOffLedges": true,
+    "bCanWalkOffLedgesWhenCrouching": false,
+    "PerchRadiusThreshold": 0,
+    "bApplyGravityWhileJumping": true,
+    "NavAgentProps": {
+      "agentRadius": -1,
+      "agentHeight": -1,
+      "agentStepHeight": -1,
+      "navWalkingSearchHeightScale": 0.5,
+      "preferredNavData": {
+        "refPath": ""
+      },
+      "bCanCrouch": true,
+      "bCanJump": true,
+      "bCanWalk": true,
+      "bCanSwim": true,
+      "bCanFly": false
+    }
+  },
+  "capsule": {
+    "CapsuleHalfHeight": 88,
+    "CapsuleRadius": 34
+  },
+  "variables": [
+    "Step",
+    "Checkpoint",
+    "Health",
+    "Dead",
+    "HasWeapon",
+    "EvidenceRead",
+    "CommsRestored",
+    "Objective",
+    "Subtitle",
+    "SubtitleTime",
+    "LookTotal",
+    "ShotCooldown",
+    "DebugForward",
+    "DebugRight",
+    "DebugLook",
+    "DebugCrouch",
+    "RequestInteract",
+    "RequestJump",
+    "RequestFire",
+    "RequestRestart",
+    "SubtitleQueue",
+    "Cue0",
+    "Cue1",
+    "Cue2",
+    "Cue3",
+    "Cue4",
+    "Cue5",
+    "Cue6",
+    "Cue7",
+    "Cue8",
+    "Cue9",
+    "Cue10",
+    "DebugMoveTime"
+  ],
+  "current_level": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening",
+  "pie_running": false,
+  "event_graph_dsl": "(event EventBeginPlay\n  (Collision|SetCollisionResponseToChannel (Variables|Character|GetCapsuleComponent) \"ECC_Visibility\" \"ECR_Block\")\n  (CallFunction|SpawnSearchers)\n  (CallFunction|RefreshObjective))\n\n(event Collision|EventActorBeginOverlap (OtherActor))\n\n(event EventTick (DeltaSeconds)\n  (bind _returnvalue (Game|GetPlayerController 0))\n  (bind _deltax (Game|Player|GetInputMouseDelta _returnvalue))\n  (Variables|Default|SetDebugMoveTime (- (Variables|Default|GetDebugMoveTime) DeltaSeconds))\n  (if (<= (Variables|Default|GetDebugMoveTime) 0.0)\n    (Variables|Default|SetDebugForward 0.0)\n    (Variables|Default|SetDebugRight 0.0)\n    (Variables|Default|SetDebugLook 0.0))\n  (if (or (Game|Player|WasInputKeyJustPressed _returnvalue \"R\") (Variables|Default|GetRequestRestart))\n    (Variables|Default|SetRequestRestart false)\n    (CallFunction|Restart))\n  (if (not (Variables|Default|GetDead))\n    (Pawn|Input|AddControllerYawInput (+ (* _deltax 0.6) (* (Variables|Default|GetDebugLook) DeltaSeconds)))\n    (Pawn|Input|AddControllerPitchInput (* (Game|Player|GetInputMouseDelta _returnvalue) -0.6))\n    (Variables|Default|SetLookTotal (+ (Variables|Default|GetLookTotal) (+ (* _deltax _deltax) (* (Variables|Default|GetDebugLook) DeltaSeconds))))\n    (Pawn|Input|AddMovementInput (Transformation|GetActorForwardVector) (+ (Variables|Default|GetDebugForward) (- (select (Game|Player|IsInputKeyDown _returnvalue \"W\") 1.0 0.0) (select (Game|Player|IsInputKeyDown _returnvalue \"S\") 1.0 0.0))))\n    (Pawn|Input|AddMovementInput (Transformation|GetActorRightVector) (+ (Variables|Default|GetDebugRight) (- (select (Game|Player|IsInputKeyDown _returnvalue \"D\") 1.0 0.0) (select (Game|Player|IsInputKeyDown _returnvalue \"A\") 1.0 0.0))))\n    (if (or (Game|Player|IsInputKeyDown _returnvalue \"C\") (Variables|Default|GetDebugCrouch))\n      (Character|Crouch)\n      (else\n        (Character|UnCrouch)))\n    (if (or (Game|Player|WasInputKeyJustPressed _returnvalue \"SpaceBar\") (Variables|Default|GetRequestJump))\n      (Variables|Default|SetRequestJump false)\n      (Character|Jump))\n    (if (or (Game|Player|WasInputKeyJustPressed _returnvalue \"E\") (Variables|Default|GetRequestInteract))\n      (Variables|Default|SetRequestInteract false)\n      (CallFunction|Interact))\n    (Variables|Default|SetShotCooldown (- (Variables|Default|GetShotCooldown) DeltaSeconds))\n    (if (or (Game|Player|IsInputKeyDown _returnvalue \"LeftMouseButton\") (Variables|Default|GetRequestFire))\n      (CallFunction|Fire)\n      (Variables|Default|SetRequestFire false))\n    (CallFunction|RecoveryChecks))\n  (Variables|Default|SetSubtitleTime (- (Variables|Default|GetSubtitleTime) DeltaSeconds))\n  (if (<= (Variables|Default|GetSubtitleTime) 0.0)\n    (Variables|Default|SetSubtitle \"\")\n    (if (> (Utilities|Array|Length (Variables|Default|GetSubtitleQueue)) 0)\n      (Variables|Default|SetSubtitle (Utilities|Array|Get(acopy) (Variables|Default|GetSubtitleQueue)))\n      (Utilities|Array|RemoveIndex (Variables|Default|GetSubtitleQueue))\n      (Variables|Default|SetSubtitleTime 6.0))))\n\n(event Game|Damage|EventAnyDamage (Damage DamageType InstigatedBy DamageCauser)\n  (if (not (Variables|Default|GetDead))\n    (Variables|Default|SetHealth (- (Variables|Default|GetHealth) Damage))\n    (if (<= (Variables|Default|GetHealth) 0.0)\n      (Variables|Default|SetDead true)\n      (Variables|Default|SetObjective \"You died. Press R to restart at the checkpoint.\"))))\n"
+}

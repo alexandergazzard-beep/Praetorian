@@ -1,0 +1,21 @@
+BlenderMCP addon registered
+BlenderMCP addon unregistered
+14:49:37 | INFO: Data are loaded, start creating Blender stuff
+14:49:37 | INFO: Blender create Mesh node Mesh_0
+14:49:37 | INFO: glTF import finished in 0.11s
+00:08.235  render           | Saved: 'C:\Users\alexa\Documents\AI STUFF\Project Big\reports\F02_Flagship71_blender_0.png'
+00:13.016  render           | Saved: 'C:\Users\alexa\Documents\AI STUFF\Project Big\reports\F02_Flagship71_blender_1.png'
+Info: Saved as "meshy_source.blend"
+Warning: No mesh data to join
+Info: Saved as "prepared.blend"
+
+FBX export starting... 'C:\\Users\\alexa\\Documents\\AI STUFF\\Project Big\\assets\\models\\forest_wreck\\F02_Flagship71\\export\\SM_F02_Flagship71.fbx'
+export finished in 0.0509 sec.
+WRECK_PREPARATION_COMPLETE F02_Flagship71 {"triangles": 22847, "vertices": 11276, "vertices_removed": 28294, "nonmanifold_edges": 207, "uv_layers": 1, "material_slots": 1, "dimensions_m": [4.467052459716797, 2.86834716796875, 5.5], "pivot": "centered bottom", "scale": "provisional production size; not story canon", "source_preserved": true}
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+
+Blender quit
+
+INFO:glTFImporter:Data are loaded, start creating Blender stuff
+INFO:glTFImporter:Blender create Mesh node Mesh_0
+INFO:glTFImporter:glTF import finished in 0.11s

@@ -37,7 +37,7 @@ code='''(event DrawHUD (SizeX SizeY)
       (HUD|DrawRect :RectColor "(R=0.015,G=0.025,B=0.035,A=0.9)" :ScreenX 16.0 :ScreenY (- SizeY 106.0) :ScreenW (- SizeX 32.0) :ScreenH 90.0)
       (HUD|DrawText :Text subtitle :TextColor "(R=0.85,G=0.95,B=1,A=1)" :ScreenX 30.0 :ScreenY (- SizeY 94.0) :Scale 1.15)
       (bind pc (Game|GetPlayerController :PlayerIndex 0))
-      (if (and (LVPlayer|GetEvidenceRead :self p) (Game|Player|IsInputKeyDown :self pc :Key "(KeyName=Tab)"))
+      (if (and (LVPlayer|GetEvidenceRead :self p) (Game|Player|IsInputKeyDown :self pc :Key "Tab"))
         (HUD|DrawRect :RectColor "(R=0.01,G=0.04,B=0.05,A=0.95)" :ScreenX 30.0 :ScreenY 165.0 :ScreenW (- SizeX 60.0) :ScreenH 125.0)
         (HUD|DrawText :Text "SEARCH RECORD — fresh system access\\nA specific artifact is being sought.\\nThis ship is marked as a search site.\\nThe record does not identify it or prove it was aboard." :TextColor "(R=0.6,G=1,B=1,A=1)" :ScreenX 46.0 :ScreenY 178.0 :Scale 1.2)))
     (:CastFailed)))'''

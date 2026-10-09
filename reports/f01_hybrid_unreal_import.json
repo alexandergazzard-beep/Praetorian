@@ -1,0 +1,19 @@
+{
+  "mesh": "/Game/LostVanguard/Environment/OpeningReview/Assets/F01_HybridCanopy/SM_F01_HybridCanopy.SM_F01_HybridCanopy",
+  "materials": [
+    "/Game/LostVanguard/Environment/OpeningReview/Assets/F01_HybridCanopy/M_F01_WoodPBR.M_F01_WoodPBR",
+    "/Game/LostVanguard/Environment/OpeningReview/Assets/F01_HybridCanopy/M_F01_TaperedLeaf.M_F01_TaperedLeaf"
+  ],
+  "textures": {
+    "BaseColor": "/Game/LostVanguard/Environment/OpeningReview/Assets/F01_HybridCanopy/T_F01_Wood_BaseColor.T_F01_Wood_BaseColor",
+    "Normal": "/Game/LostVanguard/Environment/OpeningReview/Assets/F01_HybridCanopy/T_F01_Wood_Normal.T_F01_Wood_Normal",
+    "Roughness": "/Game/LostVanguard/Environment/OpeningReview/Assets/F01_HybridCanopy/T_F01_Wood_Roughness.T_F01_Wood_Roughness",
+    "Metallic": "/Game/LostVanguard/Environment/OpeningReview/Assets/F01_HybridCanopy/T_F01_Wood_Metallic.T_F01_Wood_Metallic"
+  },
+  "bounds_cm": "<Struct 'Box' (0x0000027521CA8540) {min: {x: -565.236145, y: -489.667755, z: 0.000000}, max: {x: 577.926208, y: 498.606232, z: 822.274414}, is_valid: True}>",
+  "project": "C:/Users/alexa/Documents/AI STUFF/Project Big/Unreal/LostVanguard 5.8/LostVanguard.uproject",
+  "engine": "5.8.3-58210709+++UE5+Release-5.8",
+  "imported": true,
+  "integrated": false,
+  "visual_acceptance": "pending Unreal inspection"
+}

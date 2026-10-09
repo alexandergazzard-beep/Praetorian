@@ -1,0 +1,421 @@
+{
+  "assets": [
+    {
+      "id": "F01_LayeredCanopy",
+      "reference": "F1/F01",
+      "source": "C:\\Users\\alexa\\Documents\\AI STUFF\\Project Big\\assets\\models\\forest_wreck\\F01_LayeredCanopy\\blender\\F01_LayeredCanopy.blend",
+      "export": "C:\\Users\\alexa\\Documents\\AI STUFF\\Project Big\\assets\\models\\forest_wreck\\F01_LayeredCanopy\\export\\SM_F01_LayeredCanopy.fbx",
+      "dimensions_m": [
+        9.29013442993164,
+        8.945846557617188,
+        8.320242881774902
+      ],
+      "triangles": 17286,
+      "materials": [
+        "Bark",
+        "Leaf"
+      ],
+      "uv_layers": 1,
+      "pivot": "ground at origin",
+      "produced": true,
+      "imported": true,
+      "integrated": false,
+      "verified": false,
+      "mesh": "/Game/LostVanguard/Environment/OpeningReview/Assets/Meshes/SM_F01_LayeredCanopy.SM_F01_LayeredCanopy",
+      "bounds_cm": "<Struct 'Box' (0x000001661FC6B040) {min: {x: -440.714355, y: -454.670898, z: -4.796557}, max: {x: 488.299072, y: 439.913788, z: 827.227661}, is_valid: True}>",
+      "collision": "pending live editor",
+      "lods": "pending live editor",
+      "lod_triangles": [
+        17286,
+        8643,
+        3803
+      ],
+      "material_slots": [
+        "Bark",
+        "Leaf"
+      ],
+      "bounds": {
+        "min": {
+          "x": -440.71435546875,
+          "y": -454.6708984375,
+          "z": -4.7965569496154785
+        },
+        "max": {
+          "x": 488.299072265625,
+          "y": 439.9137878417969,
+          "z": 827.2276611328125
+        },
+        "isValid": true
+      },
+      "nanite": false,
+      "body_setup": {
+        "BodySetup": {
+          "refPath": "/Game/LostVanguard/Environment/OpeningReview/Assets/Meshes/SM_F01_LayeredCanopy.SM_F01_LayeredCanopy:BodySetup_0"
+        }
+      },
+      "collision_geometry": {
+        "AggGeom": {
+          "sphereElems": [],
+          "boxElems": [
+            {
+              "center": {
+                "x": 0,
+                "y": 0,
+                "z": 205
+              },
+              "rotation": {
+                "pitch": 0,
+                "yaw": 0,
+                "roll": 0
+              },
+              "x": 86,
+              "y": 86,
+              "z": 410,
+              "restOffset": 0,
+              "bIsGenerated": false,
+              "name": "None",
+              "bContributeToMass": true,
+              "collisionEnabled": "QueryAndPhysics"
+            }
+          ],
+          "sphylElems": [],
+          "convexElems": [],
+          "taperedCapsuleElems": [],
+          "levelSetElems": [],
+          "skinnedLevelSetElems": [],
+          "mLLevelSetElems": [],
+          "skinnedTriangleMeshElems": []
+        },
+        "CollisionTraceFlag": "CTF_UseSimpleAsComplex"
+      }
+    },
+    {
+      "id": "Hull_ArmoredSection",
+      "reference": "A4/D5",
+      "source": "C:\\Users\\alexa\\Documents\\AI STUFF\\Project Big\\assets\\models\\forest_wreck\\Hull_ArmoredSection\\blender\\Hull_ArmoredSection.blend",
+      "export": "C:\\Users\\alexa\\Documents\\AI STUFF\\Project Big\\assets\\models\\forest_wreck\\Hull_ArmoredSection\\export\\SM_Hull_ArmoredSection.fbx",
+      "dimensions_m": [
+        12.149765014648438,
+        5.369999885559082,
+        3.5059850215911865
+      ],
+      "triangles": 12852,
+      "materials": [
+        "ArmorAtlas"
+      ],
+      "uv_layers": 1,
+      "pivot": "ground at origin",
+      "produced": true,
+      "imported": true,
+      "integrated": false,
+      "verified": false,
+      "mesh": "/Game/LostVanguard/Environment/OpeningReview/Assets/Meshes/SM_Hull_ArmoredSection.SM_Hull_ArmoredSection",
+      "bounds_cm": "<Struct 'Box' (0x00000165CA48FAA0) {min: {x: -600.000000, y: -268.500031, z: 0.000000}, max: {x: 614.976501, y: 268.500031, z: 350.598511}, is_valid: True}>",
+      "collision": "pending live editor",
+      "lods": "pending live editor",
+      "lod_triangles": [
+        12852,
+        6426,
+        2828
+      ],
+      "material_slots": [
+        "ArmorAtlas"
+      ],
+      "bounds": {
+        "min": {
+          "x": -600,
+          "y": -268.5000305175781,
+          "z": 0
+        },
+        "max": {
+          "x": 614.9765014648438,
+          "y": 268.5000305175781,
+          "z": 350.5985107421875
+        },
+        "isValid": true
+      },
+      "nanite": false,
+      "body_setup": {
+        "BodySetup": {
+          "refPath": "/Game/LostVanguard/Environment/OpeningReview/Assets/Meshes/SM_Hull_ArmoredSection.SM_Hull_ArmoredSection:BodySetup_0"
+        }
+      },
+      "collision_geometry": {
+        "AggGeom": {
+          "sphereElems": [],
+          "boxElems": [],
+          "sphylElems": [],
+          "convexElems": [
+            {
+              "vertexData": [
+                {
+                  "x": -403.8187561035156,
+                  "y": -237.91232299804688,
+                  "z": 147.9801483154297
+                },
+                {
+                  "x": 583.7106323242188,
+                  "y": -281.7950744628906,
+                  "z": 130.91384887695312
+                },
+                {
+                  "x": -379.49578857421875,
+                  "y": 206.36756896972656,
+                  "z": 328.99658203125
+                },
+                {
+                  "x": -548.5950317382812,
+                  "y": 172.33700561523438,
+                  "z": -2.842170943040401e-14
+                },
+                {
+                  "x": 582.3809204101562,
+                  "y": -50.48039627075195,
+                  "z": 369.4076232910156
+                },
+                {
+                  "x": -399.96697998046875,
+                  "y": -220.0314483642578,
+                  "z": 360.0047302246094
+                },
+                {
+                  "x": 550.7144165039062,
+                  "y": -215.1097869873047,
+                  "z": 0
+                },
+                {
+                  "x": -611.23583984375,
+                  "y": -214.4227294921875,
+                  "z": 16.943403244018555
+                },
+                {
+                  "x": 604.3764038085938,
+                  "y": 248.93125915527344,
+                  "z": 331.4775390625
+                },
+                {
+                  "x": -574.296630859375,
+                  "y": 175.11080932617188,
+                  "z": 292.9811706542969
+                },
+                {
+                  "x": -12.550711631774902,
+                  "y": 276.15484619140625,
+                  "z": 7.336654186248779
+                },
+                {
+                  "x": 582.4149169921875,
+                  "y": -263.3790588378906,
+                  "z": 323.3390808105469
+                },
+                {
+                  "x": -591.1937255859375,
+                  "y": -169.9103240966797,
+                  "z": 290.87738037109375
+                },
+                {
+                  "x": 585.2682495117188,
+                  "y": 275.3630065917969,
+                  "z": 11.437851905822754
+                },
+                {
+                  "x": -556.3147583007812,
+                  "y": 220.79351806640625,
+                  "z": 32.40562057495117
+                },
+                {
+                  "x": 539.8613891601562,
+                  "y": 77.5521011352539,
+                  "z": 371.1112060546875
+                }
+              ],
+              "indexData": [
+                8,
+                1,
+                13,
+                3,
+                13,
+                6,
+                0,
+                5,
+                7,
+                2,
+                5,
+                15,
+                6,
+                1,
+                7,
+                6,
+                13,
+                1,
+                2,
+                15,
+                8,
+                11,
+                5,
+                1,
+                4,
+                11,
+                8,
+                11,
+                1,
+                8,
+                4,
+                5,
+                11,
+                15,
+                4,
+                8,
+                15,
+                5,
+                4,
+                2,
+                9,
+                5,
+                12,
+                9,
+                7,
+                14,
+                9,
+                2,
+                10,
+                14,
+                2,
+                10,
+                2,
+                8,
+                14,
+                7,
+                9,
+                10,
+                3,
+                14,
+                3,
+                7,
+                14,
+                3,
+                6,
+                7,
+                10,
+                13,
+                3,
+                10,
+                8,
+                13,
+                12,
+                5,
+                9,
+                12,
+                7,
+                5,
+                0,
+                1,
+                5,
+                0,
+                7,
+                1
+              ],
+              "elemBox": {
+                "min": {
+                  "x": -611.23583984375,
+                  "y": -281.7950744628906,
+                  "z": -2.842170943040401e-14
+                },
+                "max": {
+                  "x": 604.3764038085938,
+                  "y": 276.15484619140625,
+                  "z": 371.1112060546875
+                },
+                "isValid": true
+              },
+              "transform": {
+                "location": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "rotation": {
+                  "pitch": 0,
+                  "yaw": 0,
+                  "roll": 0
+                },
+                "scale": {
+                  "x": 1,
+                  "y": 1,
+                  "z": 1
+                }
+              },
+              "restOffset": 0,
+              "bIsGenerated": false,
+              "name": "None",
+              "bContributeToMass": true,
+              "collisionEnabled": "QueryAndPhysics"
+            }
+          ],
+          "taperedCapsuleElems": [],
+          "levelSetElems": [],
+          "skinnedLevelSetElems": [],
+          "mLLevelSetElems": [],
+          "skinnedTriangleMeshElems": []
+        },
+        "CollisionTraceFlag": "CTF_UseDefault"
+      }
+    }
+  ],
+  "collision_traces": [
+    {
+      "check": "trunk",
+      "hit_distance_cm": 107
+    },
+    {
+      "check": "canopy",
+      "hit_distance_cm": null
+    },
+    {
+      "check": "hull",
+      "hit_distance_cm": 901.5496215820312
+    }
+  ],
+  "cameras": [
+    {
+      "location": {
+        "x": -1100,
+        "y": -1600,
+        "z": 164
+      },
+      "rotation": {
+        "pitch": 8,
+        "yaw": 60,
+        "roll": 0
+      }
+    },
+    {
+      "location": {
+        "x": -1400,
+        "y": -1800,
+        "z": 700
+      },
+      "rotation": {
+        "pitch": -5,
+        "yaw": 52,
+        "roll": 0
+      }
+    },
+    {
+      "location": {
+        "x": -2200,
+        "y": -3500,
+        "z": 164
+      },
+      "rotation": {
+        "pitch": 7,
+        "yaw": 58,
+        "roll": 0
+      }
+    }
+  ],
+  "performance": "unverified",
+  "visual_acceptance": "pending image inspection",
+  "simple_collision": "body shapes and trunk/canopy/hull traces checked; movement regression pending",
+  "batch_expansion": "not yet authorized by sample gate"
+}

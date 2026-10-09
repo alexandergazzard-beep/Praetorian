@@ -1,0 +1,26 @@
+[
+  {
+    "asset": "Medium_WreckPanel",
+    "path": "C:\\Users\\alexa\\Documents\\AI STUFF\\Project Big\\assets\\models\\forest_wreck\\Medium_WreckPanel\\export\\SM_Medium_WreckPanel.glb",
+    "bytes": 9526580,
+    "mesh_count": 1,
+    "embedded_images": 3,
+    "prepared_meter_scale": true
+  },
+  {
+    "asset": "Large_WreckModule",
+    "path": "C:\\Users\\alexa\\Documents\\AI STUFF\\Project Big\\assets\\models\\forest_wreck\\Large_WreckModule\\export\\SM_Large_WreckModule.glb",
+    "bytes": 10080228,
+    "mesh_count": 1,
+    "embedded_images": 3,
+    "prepared_meter_scale": true
+  },
+  {
+    "asset": "Engine_MeshyNacelle",
+    "path": "C:\\Users\\alexa\\Documents\\AI STUFF\\Project Big\\assets\\models\\forest_wreck\\Engine_MeshyNacelle\\export\\SM_Engine_MeshyNacelle.glb",
+    "bytes": 9006712,
+    "mesh_count": 1,
+    "embedded_images": 3,
+    "prepared_meter_scale": true
+  }
+]

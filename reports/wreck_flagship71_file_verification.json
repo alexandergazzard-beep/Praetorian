@@ -1,0 +1,116 @@
+[
+  {
+    "asset": "Medium_Flagship71",
+    "preferred_lod0_range": [
+      25000,
+      35000
+    ],
+    "game_glb": {
+      "triangles": 29950,
+      "meshes": 1,
+      "embedded_images": 3,
+      "bytes": 41732932
+    },
+    "high_detail_source": {
+      "triangles": 4290194,
+      "meshes": 1,
+      "embedded_images": 0,
+      "bytes": 102907968
+    },
+    "textures": {
+      "base_color.png": [
+        4096,
+        4096
+      ],
+      "metallic.png": [
+        2048,
+        2048
+      ],
+      "normal.png": [
+        4096,
+        4096
+      ],
+      "roughness.png": [
+        2048,
+        2048
+      ]
+    },
+    "original_smart_topology_preserved": true
+  },
+  {
+    "asset": "Large_Flagship71",
+    "preferred_lod0_range": [
+      55000,
+      75000
+    ],
+    "game_glb": {
+      "triangles": 66252,
+      "meshes": 1,
+      "embedded_images": 3,
+      "bytes": 48188720
+    },
+    "high_detail_source": {
+      "triangles": 6325202,
+      "meshes": 1,
+      "embedded_images": 0,
+      "bytes": 151558508
+    },
+    "textures": {
+      "base_color.png": [
+        4096,
+        4096
+      ],
+      "metallic.png": [
+        2048,
+        2048
+      ],
+      "normal.png": [
+        4096,
+        4096
+      ],
+      "roughness.png": [
+        2048,
+        2048
+      ]
+    },
+    "original_smart_topology_preserved": true
+  },
+  {
+    "asset": "Engine_Flagship71",
+    "preferred_lod0_range": [
+      35000,
+      55000
+    ],
+    "game_glb": {
+      "triangles": 44866,
+      "meshes": 1,
+      "embedded_images": 3,
+      "bytes": 40742660
+    },
+    "high_detail_source": {
+      "triangles": 5095510,
+      "meshes": 1,
+      "embedded_images": 0,
+      "bytes": 122111948
+    },
+    "textures": {
+      "base_color.png": [
+        4096,
+        4096
+      ],
+      "metallic.png": [
+        2048,
+        2048
+      ],
+      "normal.png": [
+        4096,
+        4096
+      ],
+      "roughness.png": [
+        2048,
+        2048
+      ]
+    },
+    "original_smart_topology_preserved": true
+  }
+]

@@ -1,0 +1,161 @@
+{
+  "map": "/Game/LostVanguard/Environment/OpeningReview/Maps/L_Flora_Flagship71_Inspection",
+  "assets": [
+    {
+      "id": "F01_Flagship71",
+      "mesh": "/Game/LostVanguard/Environment/OpeningReview/Assets/FloraFlagship71/F01_Flagship71/SM_F01_Flagship71.SM_F01_Flagship71",
+      "material": "/Game/LostVanguard/Environment/OpeningReview/Assets/FloraFlagship71/F01_Flagship71/MI_F01_Flagship71.MI_F01_Flagship71",
+      "textures": {
+        "BaseColor": "/Game/LostVanguard/Environment/OpeningReview/Assets/FloraFlagship71/F01_Flagship71/T_F01_Flagship71_BaseColor.T_F01_Flagship71_BaseColor",
+        "Normal": "/Game/LostVanguard/Environment/OpeningReview/Assets/FloraFlagship71/F01_Flagship71/T_F01_Flagship71_Normal.T_F01_Flagship71_Normal",
+        "Roughness": "/Game/LostVanguard/Environment/OpeningReview/Assets/FloraFlagship71/F01_Flagship71/T_F01_Flagship71_Roughness.T_F01_Flagship71_Roughness",
+        "Metallic": "/Game/LostVanguard/Environment/OpeningReview/Assets/FloraFlagship71/F01_Flagship71/T_F01_Flagship71_Metallic.T_F01_Flagship71_Metallic"
+      },
+      "bounds_cm": "<Struct 'Box' (0x000001DD264009C0) {min: {x: -575.495728, y: -474.506927, z: 0.000000}, max: {x: 575.607483, y: 474.506897, z: 900.000000}, is_valid: True}>",
+      "actor": "/Game/LostVanguard/Environment/OpeningReview/Maps/L_Flora_Flagship71_Inspection.L_Flora_Flagship71_Inspection:PersistentLevel.StaticMeshActor_1",
+      "location_cm": [
+        -1500,
+        0,
+        0
+      ],
+      "kind": "tree",
+      "trunk_collision_actor": "/Game/LostVanguard/Environment/OpeningReview/Maps/L_Flora_Flagship71_Inspection.L_Flora_Flagship71_Inspection:PersistentLevel.StaticMeshActor_2",
+      "trunk_collision_dimensions_cm": [
+        70,
+        70,
+        300
+      ]
+    },
+    {
+      "id": "F02_Flagship71",
+      "mesh": "/Game/LostVanguard/Environment/OpeningReview/Assets/FloraFlagship71/F02_Flagship71/SM_F02_Flagship71.SM_F02_Flagship71",
+      "material": "/Game/LostVanguard/Environment/OpeningReview/Assets/FloraFlagship71/F02_Flagship71/MI_F02_Flagship71.MI_F02_Flagship71",
+      "textures": {
+        "BaseColor": "/Game/LostVanguard/Environment/OpeningReview/Assets/FloraFlagship71/F02_Flagship71/T_F02_Flagship71_BaseColor.T_F02_Flagship71_BaseColor",
+        "Normal": "/Game/LostVanguard/Environment/OpeningReview/Assets/FloraFlagship71/F02_Flagship71/T_F02_Flagship71_Normal.T_F02_Flagship71_Normal",
+        "Roughness": "/Game/LostVanguard/Environment/OpeningReview/Assets/FloraFlagship71/F02_Flagship71/T_F02_Flagship71_Roughness.T_F02_Flagship71_Roughness",
+        "Metallic": "/Game/LostVanguard/Environment/OpeningReview/Assets/FloraFlagship71/F02_Flagship71/T_F02_Flagship71_Metallic.T_F02_Flagship71_Metallic"
+      },
+      "bounds_cm": "<Struct 'Box' (0x000001DD26400880) {min: {x: -223.352631, y: -143.417358, z: 0.000000}, max: {x: 223.352615, y: 143.417358, z: 550.000000}, is_valid: True}>",
+      "actor": "/Game/LostVanguard/Environment/OpeningReview/Maps/L_Flora_Flagship71_Inspection.L_Flora_Flagship71_Inspection:PersistentLevel.StaticMeshActor_3",
+      "location_cm": [
+        0,
+        0,
+        0
+      ],
+      "kind": "tree",
+      "trunk_collision_actor": "/Game/LostVanguard/Environment/OpeningReview/Maps/L_Flora_Flagship71_Inspection.L_Flora_Flagship71_Inspection:PersistentLevel.StaticMeshActor_4",
+      "trunk_collision_dimensions_cm": [
+        45,
+        45,
+        300
+      ]
+    },
+    {
+      "id": "F08_Flagship71",
+      "mesh": "/Game/LostVanguard/Environment/OpeningReview/Assets/FloraFlagship71/F08_Flagship71/SM_F08_Flagship71.SM_F08_Flagship71",
+      "material": "/Game/LostVanguard/Environment/OpeningReview/Assets/FloraFlagship71/F08_Flagship71/MI_F08_Flagship71.MI_F08_Flagship71",
+      "textures": {
+        "BaseColor": "/Game/LostVanguard/Environment/OpeningReview/Assets/FloraFlagship71/F08_Flagship71/T_F08_Flagship71_BaseColor.T_F08_Flagship71_BaseColor",
+        "Normal": "/Game/LostVanguard/Environment/OpeningReview/Assets/FloraFlagship71/F08_Flagship71/T_F08_Flagship71_Normal.T_F08_Flagship71_Normal",
+        "Roughness": "/Game/LostVanguard/Environment/OpeningReview/Assets/FloraFlagship71/F08_Flagship71/T_F08_Flagship71_Roughness.T_F08_Flagship71_Roughness",
+        "Metallic": "/Game/LostVanguard/Environment/OpeningReview/Assets/FloraFlagship71/F08_Flagship71/T_F08_Flagship71_Metallic.T_F08_Flagship71_Metallic"
+      },
+      "bounds_cm": "<Struct 'Box' (0x000001DC854F3DC0) {min: {x: -296.035919, y: -130.632645, z: 0.000000}, max: {x: 296.035950, y: 130.632614, z: 450.000000}, is_valid: True}>",
+      "actor": "/Game/LostVanguard/Environment/OpeningReview/Maps/L_Flora_Flagship71_Inspection.L_Flora_Flagship71_Inspection:PersistentLevel.StaticMeshActor_5",
+      "location_cm": [
+        1300,
+        0,
+        0
+      ],
+      "kind": "tree",
+      "trunk_collision_actor": "/Game/LostVanguard/Environment/OpeningReview/Maps/L_Flora_Flagship71_Inspection.L_Flora_Flagship71_Inspection:PersistentLevel.StaticMeshActor_6",
+      "trunk_collision_dimensions_cm": [
+        45,
+        45,
+        247.5
+      ]
+    },
+    {
+      "id": "F03_Flagship71",
+      "mesh": "/Game/LostVanguard/Environment/OpeningReview/Assets/FloraFlagship71/F03_Flagship71/SM_F03_Flagship71.SM_F03_Flagship71",
+      "material": "/Game/LostVanguard/Environment/OpeningReview/Assets/FloraFlagship71/F03_Flagship71/MI_F03_Flagship71.MI_F03_Flagship71",
+      "textures": {
+        "BaseColor": "/Game/LostVanguard/Environment/OpeningReview/Assets/FloraFlagship71/F03_Flagship71/T_F03_Flagship71_BaseColor.T_F03_Flagship71_BaseColor",
+        "Normal": "/Game/LostVanguard/Environment/OpeningReview/Assets/FloraFlagship71/F03_Flagship71/T_F03_Flagship71_Normal.T_F03_Flagship71_Normal",
+        "Roughness": "/Game/LostVanguard/Environment/OpeningReview/Assets/FloraFlagship71/F03_Flagship71/T_F03_Flagship71_Roughness.T_F03_Flagship71_Roughness",
+        "Metallic": "/Game/LostVanguard/Environment/OpeningReview/Assets/FloraFlagship71/F03_Flagship71/T_F03_Flagship71_Metallic.T_F03_Flagship71_Metallic"
+      },
+      "bounds_cm": "<Struct 'Box' (0x000001DD47642E90) {min: {x: -157.868515, y: -115.013222, z: 0.000000}, max: {x: 157.868515, y: 115.013222, z: 200.000000}, is_valid: True}>",
+      "actor": "/Game/LostVanguard/Environment/OpeningReview/Maps/L_Flora_Flagship71_Inspection.L_Flora_Flagship71_Inspection:PersistentLevel.StaticMeshActor_7",
+      "location_cm": [
+        -1500,
+        -1800,
+        0
+      ],
+      "kind": "plant"
+    },
+    {
+      "id": "F05_Flagship71",
+      "mesh": "/Game/LostVanguard/Environment/OpeningReview/Assets/FloraFlagship71/F05_Flagship71/SM_F05_Flagship71.SM_F05_Flagship71",
+      "material": "/Game/LostVanguard/Environment/OpeningReview/Assets/FloraFlagship71/F05_Flagship71/MI_F05_Flagship71.MI_F05_Flagship71",
+      "textures": {
+        "BaseColor": "/Game/LostVanguard/Environment/OpeningReview/Assets/FloraFlagship71/F05_Flagship71/T_F05_Flagship71_BaseColor.T_F05_Flagship71_BaseColor",
+        "Normal": "/Game/LostVanguard/Environment/OpeningReview/Assets/FloraFlagship71/F05_Flagship71/T_F05_Flagship71_Normal.T_F05_Flagship71_Normal",
+        "Roughness": "/Game/LostVanguard/Environment/OpeningReview/Assets/FloraFlagship71/F05_Flagship71/T_F05_Flagship71_Roughness.T_F05_Flagship71_Roughness",
+        "Metallic": "/Game/LostVanguard/Environment/OpeningReview/Assets/FloraFlagship71/F05_Flagship71/T_F05_Flagship71_Metallic.T_F05_Flagship71_Metallic"
+      },
+      "bounds_cm": "<Struct 'Box' (0x000001DD31DF1300) {min: {x: -104.348587, y: -89.570335, z: 0.000000}, max: {x: 104.348587, y: 89.570328, z: 120.000008}, is_valid: True}>",
+      "actor": "/Game/LostVanguard/Environment/OpeningReview/Maps/L_Flora_Flagship71_Inspection.L_Flora_Flagship71_Inspection:PersistentLevel.StaticMeshActor_8",
+      "location_cm": [
+        -650,
+        -1800,
+        0
+      ],
+      "kind": "plant"
+    },
+    {
+      "id": "F06_Flagship71",
+      "mesh": "/Game/LostVanguard/Environment/OpeningReview/Assets/FloraFlagship71/F06_Flagship71/SM_F06_Flagship71.SM_F06_Flagship71",
+      "material": "/Game/LostVanguard/Environment/OpeningReview/Assets/FloraFlagship71/F06_Flagship71/MI_F06_Flagship71.MI_F06_Flagship71",
+      "textures": {
+        "BaseColor": "/Game/LostVanguard/Environment/OpeningReview/Assets/FloraFlagship71/F06_Flagship71/T_F06_Flagship71_BaseColor.T_F06_Flagship71_BaseColor",
+        "Normal": "/Game/LostVanguard/Environment/OpeningReview/Assets/FloraFlagship71/F06_Flagship71/T_F06_Flagship71_Normal.T_F06_Flagship71_Normal",
+        "Roughness": "/Game/LostVanguard/Environment/OpeningReview/Assets/FloraFlagship71/F06_Flagship71/T_F06_Flagship71_Roughness.T_F06_Flagship71_Roughness",
+        "Metallic": "/Game/LostVanguard/Environment/OpeningReview/Assets/FloraFlagship71/F06_Flagship71/T_F06_Flagship71_Metallic.T_F06_Flagship71_Metallic"
+      },
+      "bounds_cm": "<Struct 'Box' (0x000001DD31DF3C00) {min: {x: -82.239082, y: -63.621552, z: 0.000000}, max: {x: 82.239075, y: 63.621555, z: 100.000000}, is_valid: True}>",
+      "actor": "/Game/LostVanguard/Environment/OpeningReview/Maps/L_Flora_Flagship71_Inspection.L_Flora_Flagship71_Inspection:PersistentLevel.StaticMeshActor_9",
+      "location_cm": [
+        150,
+        -1800,
+        0
+      ],
+      "kind": "plant"
+    },
+    {
+      "id": "F10_Flagship71",
+      "mesh": "/Game/LostVanguard/Environment/OpeningReview/Assets/FloraFlagship71/F10_Flagship71/SM_F10_Flagship71.SM_F10_Flagship71",
+      "material": "/Game/LostVanguard/Environment/OpeningReview/Assets/FloraFlagship71/F10_Flagship71/MI_F10_Flagship71.MI_F10_Flagship71",
+      "textures": {
+        "BaseColor": "/Game/LostVanguard/Environment/OpeningReview/Assets/FloraFlagship71/F10_Flagship71/T_F10_Flagship71_BaseColor.T_F10_Flagship71_BaseColor",
+        "Normal": "/Game/LostVanguard/Environment/OpeningReview/Assets/FloraFlagship71/F10_Flagship71/T_F10_Flagship71_Normal.T_F10_Flagship71_Normal",
+        "Roughness": "/Game/LostVanguard/Environment/OpeningReview/Assets/FloraFlagship71/F10_Flagship71/T_F10_Flagship71_Roughness.T_F10_Flagship71_Roughness",
+        "Metallic": "/Game/LostVanguard/Environment/OpeningReview/Assets/FloraFlagship71/F10_Flagship71/T_F10_Flagship71_Metallic.T_F10_Flagship71_Metallic"
+      },
+      "bounds_cm": "<Struct 'Box' (0x000001DD4A951740) {min: {x: -49.930908, y: -44.765743, z: 0.000000}, max: {x: 49.930912, y: 44.765743, z: 45.000000}, is_valid: True}>",
+      "actor": "/Game/LostVanguard/Environment/OpeningReview/Maps/L_Flora_Flagship71_Inspection.L_Flora_Flagship71_Inspection:PersistentLevel.StaticMeshActor_10",
+      "location_cm": [
+        900,
+        -1800,
+        0
+      ],
+      "kind": "plant"
+    }
+  ],
+  "project": "C:/Users/alexa/Documents/AI STUFF/Project Big/Unreal/LostVanguard 5.8/LostVanguard.uproject",
+  "engine": "5.8.3-58210709+++UE5+Release-5.8",
+  "original_and_review_maps_untouched": true,
+  "visual_acceptance": "pending live inspection",
+  "lods_collision": "pending native live setup"
+}

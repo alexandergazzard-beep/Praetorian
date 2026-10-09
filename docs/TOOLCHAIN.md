@@ -4,6 +4,10 @@ Researched 2026-10-07. Recommendations are project-specific, not a claim that an
 
 ## Recommended starting stack
 
+2026-10-08 current asset direction (D092): user explicitly rejects Smart Topology and requests flagship generation with controlled optimization. Current official API flagship is meshy-7.1; use explicit `ai_model: meshy-7.1`, `model_type: standard`. Triangle targets require `should_remesh: true`; do not set adaptive decimation_mode concurrently because it overrides target_polycount. Current three replacements use Ultra 4K geometry (+5 credits) and 4K PBR (30-credit generation), 35 each. Keep source/pre-remesh GLBs and separate prepared exports, inspect before quality claims, then four LODs. The prior meshy-t2 results below are preserved historical evidence, not the current production preference. Official docs/pricing checked 2026-10-08.
+
+2026-10-08 forest/wreck session: native Unreal MCP queries, review duplication, LOD/collision edits, viewport captures and PIE route tests work in active Unreal 5.8.3. Background Blender 5.2.1 preserves editable sources/FBX independently of GUI scenes. Official Meshy MCP 0.6.0 is freshly verified end-to-end after replacing unusable Windows DPAPI credential storage with masked AES setup and restricted local files outside the project. F01 and four wreck tasks succeeded/downloaded; fresh account balance 4,115, assignment spend 75 including superseded Very Large. User's direct three-model request resolved the earlier D5 review rejection. meshy-t2 smart-topology connector limit is 15,000 target faces; two local pre-submission rejections were zero-charge and corrected. Native component collision methods were needed because reflected BodyInstance edits reverted collisionEnabled to QueryAndPhysics; reload and world traces verify actual saved behavior. Selected trio has separate Blender/FBX sources and new isolated Unreal packages, with no binary filesystem edits.
+
 | Work | Tool | AI connection | Why use it here |
 | --- | --- | --- | --- |
 | Planning, story, code, coordination | Codex with workspace Markdown | Workspace files, shell, MCP | Already available; one assistant can maintain context and implement work |
@@ -82,6 +86,8 @@ Source: [ElevenLabs creative/agents MCP](https://elevenlabs.io/mcp).
 
 ## Repeatable production loop
 
+2026-10-08 verified production update: Meshy image-to-3D -> local GLB/PBR download -> separate background Blender 5.2.1 cleanup/export -> Unreal 5.8.3 asset import and live LOD/collision/placement completed for M17/S04. Live Blender bridge was unavailable; background operation preserved the open scene. Native Meshy and Unreal MCP tools are callable in this chat. **Current active project is Unreal/LostVanguard 5.8/LostVanguard.uproject**, superseding the older path for live work. See DEBRIS_FIRST_PAIR_BUILD_REPORT.md for source paths, results and remaining visual/performance checks.
+
 Brief -> story/design reference -> generate or reuse asset -> inspect in Blender -> clean up/scale/export -> import into Unreal -> implement gameplay -> inspect/play-test -> record outcome.
 
 Each asset should eventually track its name/ID, brief, prompt, source service/task, date, license/access evidence, generation settings, Blender source, export, Unreal destination, and QA result. Initial checks: correct scale, readable silhouette, triangle count, texture/material count, collision, and character skeleton/animation compatibility. A face-count limit alone is not a performance guarantee.
@@ -107,3 +113,7 @@ Global Codex unreal MCP registered at http://127.0.0.1:8000/mcp. The editor must
 Client: tools/unreal_mcp.py, MCP Python SDK 2.3.0 pinned in script metadata. Run with uv; calls must remain sequential. Report: reports/unreal_mcp_verification.json. Current chat uses this separate client because native Unreal tools were not dynamically loaded here.
 
 Initial AllToolsets startup warning required a GameFeatureData asset-manager scan rule. Added to DefaultGame.ini per installed GameFeaturesEditor source; validate next editor startup. SDK emits a session termination HTTP 202 warning despite successful requests. Save/reload, asset imports, packaged builds, and gameplay remain untested.
+
+
+## Flagship vegetation validation — 2026-10-08
+Seven Meshy7.1 Standard Ultra4K candidates succeeded; Blender5.2.1 packed preparation/FBX/GLB verified and native Unreal5.8.3 isolated import/LOD/reload/trunk-only collision/11focusedPIEchecks passed. Meshy standard remesh can collapse fine foliage: F01 returned nearly bare11,507 triangles despite28k target; retained source and repaired with authored curved reference leaves, no paid retry. Flagship generation and target counts do not establish foliage fidelity or performance. See FLORA_FLAGSHIP71_REPORT.md for actual counts and source/presentation/gameplay separation.

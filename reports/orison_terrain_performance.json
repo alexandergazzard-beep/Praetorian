@@ -1,0 +1,10 @@
+{
+  "context": "Unreal5.8.3 editor PIE, stationary starting view, local workstation, capped60, ten-second sample after three seconds warmup",
+  "samples": 31,
+  "mean_frame_ms": 333.33348266540037,
+  "median_frame_ms": 333.33349227905273,
+  "p95_frame_ms": 333.3336114883423,
+  "average_fps": 2.9999986560119987,
+  "previous_maxfps_restored": 0,
+  "limitation": "Inconclusive: uniform333ms/~3FPS despite MaxFPS60 request. Automation/editor rate limiting suspected, cause unverified. Not a terrain-cost verdict."
+}

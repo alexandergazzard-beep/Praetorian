@@ -1,0 +1,28 @@
+{
+  "FileVersion": 3,
+  "EngineAssociation": "{A111831D-469E-3E87-DA0D-D2B6719068BA}",
+  "Category": "Games",
+  "Description": "Lost Vanguard AI production setup project",
+  "Plugins": [
+    {
+      "Name": "ModelContextProtocol",
+      "Enabled": true
+    },
+    {
+      "Name": "AllToolsets",
+      "Enabled": true
+    },
+    {
+      "Name": "PythonScriptPlugin",
+      "Enabled": true
+    },
+    {
+      "Name": "EditorScriptingUtilities",
+      "Enabled": true
+    },
+    {
+      "Name": "NiagaraFluids",
+      "Enabled": true
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "purpose": "Rebuild check: run updated tools/build_wreckage_gameplay.py headless (UnrealEditor-Cmd -run=pythonscript) on a throwaway scratch copy of the baseline (pre-tuning) WreckagePrototype content, then tools/verify_movement_build.py.",
+  "scratch_project_outside_checkout": true,
+  "baseline_player_sha256": "cf5b0c9b01dd000587c04434fecea5488585d2f3e57cef8650fc4dfd3bfd7f89",
+  "builder_report": {
+    "compiled": [
+      "/Game/WreckagePrototype/Blueprints/BP_WreckagePlayer_Runtime.BP_WreckagePlayer_Runtime",
+      "/Game/WreckagePrototype/Blueprints/BP_SearcherPlaceholder_Runtime.BP_SearcherPlaceholder_Runtime"
+    ],
+    "errors": [],
+    "movement_profile": "reach"
+  },
+  "verification": {
+    "profile": "reach",
+    "values": {
+      "MaxWalkSpeed": 562.0,
+      "MaxWalkSpeedCrouched": 275.0,
+      "MaxAcceleration": 3750.0,
+      "JumpZVelocity": 557.2999877929688,
+      "GravityScale": 0.9477999806404114,
+      "AirControl": 0.30000001192092896
+    },
+    "matches_profile": true,
+    "look_sensitivity": 0.6,
+    "event_graph_nodes": 423,
+    "active_look_lines": [
+      "(Pawn|Input|AddControllerYawInput (+ (* _deltax (|GetLookSensitivity)) (* (|GetDebugLook) DeltaSeconds)))",
+      "(Pawn|Input|AddControllerPitchInput (* (Game|Player|GetInputMouseDelta _returnvalue) (* (|GetLookSensitivity) -1.0)))"
+    ],
+    "active_look_uses_sensitivity": true,
+    "compiled_warnings_as_errors": true
+  },
+  "note": "EventGraph grew 299 -> 423 nodes: the existing builder appends a new tick chain and leaves the previous one unconnected on every run (pre-existing behaviour, not introduced here)."
+}

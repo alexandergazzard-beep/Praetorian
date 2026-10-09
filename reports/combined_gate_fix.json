@@ -1,0 +1,17 @@
+[
+  {
+    "map": "/Game/WreckagePrototype/Maps/L_Wreckage_Playable",
+    "gate_top_cm": 450.0,
+    "tag_present": true
+  },
+  {
+    "map": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening",
+    "gate_top_cm": 450.0,
+    "tag_present": true
+  },
+  {
+    "map": "/Game/LostVanguard/Environment/OpeningReview/Maps/L_ForestWreck_Review",
+    "gate_top_cm": 450.0,
+    "tag_present": true
+  }
+]

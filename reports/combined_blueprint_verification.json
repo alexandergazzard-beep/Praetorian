@@ -1,0 +1,33 @@
+{
+  "blueprints": [
+    {
+      "path": "/Game/WreckagePrototype/Blueprints/BP_WreckagePlayer_Runtime",
+      "strict_compile": true
+    },
+    {
+      "path": "/Game/WreckagePrototype/Blueprints/BP_WreckageGameMode_Runtime",
+      "strict_compile": true
+    },
+    {
+      "path": "/Game/WreckagePrototype/Blueprints/BP_WreckageHUD",
+      "strict_compile": true
+    },
+    {
+      "path": "/Game/WreckagePrototype/Blueprints/BP_SearcherPlaceholder_Runtime",
+      "strict_compile": true
+    }
+  ],
+  "defaults": {
+    "Health": 100.0,
+    "Step": 0,
+    "LookSensitivity": 0.6
+  },
+  "profile": {
+    "MaxWalkSpeed": 562.0,
+    "MaxWalkSpeedCrouched": 275.0,
+    "MaxAcceleration": 3750.0,
+    "JumpZVelocity": 557.3,
+    "GravityScale": 0.9478,
+    "AirControl": 0.3
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "profile": "reach",
+  "target": {
+    "MaxWalkSpeed": 562.0,
+    "MaxWalkSpeedCrouched": 275.0,
+    "MaxAcceleration": 3750.0,
+    "JumpZVelocity": 557.3,
+    "GravityScale": 0.9478,
+    "AirControl": 0.3
+  },
+  "dry_run": false,
+  "steps": [
+    "Set CharacterMovement defaults on the Blueprint class default object",
+    "K2Node_PromotableOperator_33 already scaled by LookSensitivity",
+    "K2Node_PromotableOperator_30 already scaled by LookSensitivity"
+  ],
+  "verified_target": {
+    "port": 8001,
+    "listener": "\"C:\\Program Files\\Epic Games\\UE_5.8\\Engine\\Binaries\\Win64\\UnrealEditor.exe\" \"C:/Users/alexa/Documents/AI STUFF/Project Big-movement/Unreal/LostVanguard 5.8/LostVanguard.uproject\" -ini:EditorPerProjectUserSettings:[/Script/ModelContextProtocolEngine.ModelContextProtocolSettings]:ServerPortNumber=8001 -log=MovementEditor.log",
+    "marker_token_matched": true
+  },
+  "before": {
+    "MaxWalkSpeed": 450,
+    "MaxWalkSpeedCrouched": 220,
+    "MaxAcceleration": 2048,
+    "BrakingDecelerationWalking": 2048,
+    "GroundFriction": 8,
+    "BrakingFrictionFactor": 2,
+    "bUseSeparateBrakingFriction": false,
+    "JumpZVelocity": 450,
+    "GravityScale": 1.2000000476837158,
+    "AirControl": 0.05000000074505806,
+    "AirControlBoostMultiplier": 2,
+    "AirControlBoostVelocityThreshold": 25,
+    "FallingLateralFriction": 0,
+    "BrakingDecelerationFalling": 0,
+    "MaxStepHeight": 45,
+    "WalkableFloorAngle": 44.76508331298828,
+    "CrouchedHalfHeight": 44,
+    "bCanWalkOffLedges": true,
+    "bCanWalkOffLedgesWhenCrouching": false,
+    "PerchRadiusThreshold": 0,
+    "bApplyGravityWhileJumping": true,
+    "NavAgentProps": {
+      "agentRadius": -1,
+      "agentHeight": -1,
+      "agentStepHeight": -1,
+      "navWalkingSearchHeightScale": 0.5,
+      "preferredNavData": {
+        "refPath": ""
+      },
+      "bCanCrouch": true,
+      "bCanJump": true,
+      "bCanWalk": true,
+      "bCanSwim": true,
+      "bCanFly": false
+    }
+  },
+  "graph": {
+    "nodes": 301,
+    "exec_reachable": 47,
+    "look_multipliers": [
+      {
+        "call": "/Game/WreckagePrototype/Blueprints/BP_WreckagePlayer_Runtime.BP_WreckagePlayer_Runtime:EventGraph.K2Node_CallFunction_75",
+        "sign": -1.0,
+        "multiply": "/Game/WreckagePrototype/Blueprints/BP_WreckagePlayer_Runtime.BP_WreckagePlayer_Runtime:EventGraph.K2Node_PromotableOperator_33"
+      },
+      {
+        "call": "/Game/WreckagePrototype/Blueprints/BP_WreckagePlayer_Runtime.BP_WreckagePlayer_Runtime:EventGraph.K2Node_CallFunction_73",
+        "sign": 1.0,
+        "multiply": "/Game/WreckagePrototype/Blueprints/BP_WreckagePlayer_Runtime.BP_WreckagePlayer_Runtime:EventGraph.K2Node_PromotableOperator_30"
+      }
+    ]
+  },
+  "after": {
+    "MaxWalkSpeed": 562,
+    "MaxWalkSpeedCrouched": 275,
+    "MaxAcceleration": 3750,
+    "BrakingDecelerationWalking": 2048,
+    "GroundFriction": 8,
+    "BrakingFrictionFactor": 2,
+    "bUseSeparateBrakingFriction": false,
+    "JumpZVelocity": 557.2999877929688,
+    "GravityScale": 0.9477999806404114,
+    "AirControl": 0.30000001192092896,
+    "AirControlBoostMultiplier": 2,
+    "AirControlBoostVelocityThreshold": 25,
+    "FallingLateralFriction": 0,
+    "BrakingDecelerationFalling": 0,
+    "MaxStepHeight": 45,
+    "WalkableFloorAngle": 44.76508331298828,
+    "CrouchedHalfHeight": 44,
+    "bCanWalkOffLedges": true,
+    "bCanWalkOffLedgesWhenCrouching": false,
+    "PerchRadiusThreshold": 0,
+    "bApplyGravityWhileJumping": true,
+    "NavAgentProps": {
+      "agentRadius": -1,
+      "agentHeight": -1,
+      "agentStepHeight": -1,
+      "navWalkingSearchHeightScale": 0.5,
+      "preferredNavData": {
+        "refPath": ""
+      },
+      "bCanCrouch": true,
+      "bCanJump": true,
+      "bCanWalk": true,
+      "bCanSwim": true,
+      "bCanFly": false
+    }
+  },
+  "look": {
+    "LookSensitivity": 0.6
+  },
+  "mismatches": {},
+  "saved": "/Game/WreckagePrototype/Blueprints/BP_WreckagePlayer_Runtime",
+  "dirty_after_save": false
+}

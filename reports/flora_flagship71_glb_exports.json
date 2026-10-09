@@ -1,0 +1,58 @@
+[
+  {
+    "asset": "F01_Flagship71",
+    "path": "C:\\Users\\alexa\\Documents\\AI STUFF\\Project Big\\assets\\models\\forest_wreck\\F01_Flagship71\\export\\SM_F01_Flagship71.glb",
+    "bytes": 44998456,
+    "mesh_count": 1,
+    "embedded_images": 4,
+    "prepared_meter_scale": true
+  },
+  {
+    "asset": "F02_Flagship71",
+    "path": "C:\\Users\\alexa\\Documents\\AI STUFF\\Project Big\\assets\\models\\forest_wreck\\F02_Flagship71\\export\\SM_F02_Flagship71.glb",
+    "bytes": 42149624,
+    "mesh_count": 1,
+    "embedded_images": 3,
+    "prepared_meter_scale": true
+  },
+  {
+    "asset": "F08_Flagship71",
+    "path": "C:\\Users\\alexa\\Documents\\AI STUFF\\Project Big\\assets\\models\\forest_wreck\\F08_Flagship71\\export\\SM_F08_Flagship71.glb",
+    "bytes": 14657536,
+    "mesh_count": 1,
+    "embedded_images": 3,
+    "prepared_meter_scale": true
+  },
+  {
+    "asset": "F03_Flagship71",
+    "path": "C:\\Users\\alexa\\Documents\\AI STUFF\\Project Big\\assets\\models\\forest_wreck\\F03_Flagship71\\export\\SM_F03_Flagship71.glb",
+    "bytes": 40529712,
+    "mesh_count": 1,
+    "embedded_images": 3,
+    "prepared_meter_scale": true
+  },
+  {
+    "asset": "F05_Flagship71",
+    "path": "C:\\Users\\alexa\\Documents\\AI STUFF\\Project Big\\assets\\models\\forest_wreck\\F05_Flagship71\\export\\SM_F05_Flagship71.glb",
+    "bytes": 37651528,
+    "mesh_count": 1,
+    "embedded_images": 3,
+    "prepared_meter_scale": true
+  },
+  {
+    "asset": "F06_Flagship71",
+    "path": "C:\\Users\\alexa\\Documents\\AI STUFF\\Project Big\\assets\\models\\forest_wreck\\F06_Flagship71\\export\\SM_F06_Flagship71.glb",
+    "bytes": 35773252,
+    "mesh_count": 1,
+    "embedded_images": 3,
+    "prepared_meter_scale": true
+  },
+  {
+    "asset": "F10_Flagship71",
+    "path": "C:\\Users\\alexa\\Documents\\AI STUFF\\Project Big\\assets\\models\\forest_wreck\\F10_Flagship71\\export\\SM_F10_Flagship71.glb",
+    "bytes": 41730180,
+    "mesh_count": 1,
+    "embedded_images": 3,
+    "prepared_meter_scale": true
+  }
+]

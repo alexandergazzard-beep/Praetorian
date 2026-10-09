@@ -1,0 +1,26 @@
+[
+  {
+    "asset": "Medium_Flagship71",
+    "path": "C:\\Users\\alexa\\Documents\\AI STUFF\\Project Big\\assets\\models\\forest_wreck\\Medium_Flagship71\\export\\SM_Medium_Flagship71.glb",
+    "bytes": 41732932,
+    "mesh_count": 1,
+    "embedded_images": 3,
+    "prepared_meter_scale": true
+  },
+  {
+    "asset": "Large_Flagship71",
+    "path": "C:\\Users\\alexa\\Documents\\AI STUFF\\Project Big\\assets\\models\\forest_wreck\\Large_Flagship71\\export\\SM_Large_Flagship71.glb",
+    "bytes": 48188720,
+    "mesh_count": 1,
+    "embedded_images": 3,
+    "prepared_meter_scale": true
+  },
+  {
+    "asset": "Engine_Flagship71",
+    "path": "C:\\Users\\alexa\\Documents\\AI STUFF\\Project Big\\assets\\models\\forest_wreck\\Engine_Flagship71\\export\\SM_Engine_Flagship71.glb",
+    "bytes": 40742660,
+    "mesh_count": 1,
+    "embedded_images": 3,
+    "prepared_meter_scale": true
+  }
+]

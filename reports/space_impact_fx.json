@@ -1,0 +1,487 @@
+{
+  "compile": {
+    "aggregateStatus": "UpToDate",
+    "bIsCompiling": false,
+    "bIsStale": false,
+    "bHasErrors": false,
+    "bHasWarnings": false,
+    "scripts": [
+      {
+        "emitterName": "None",
+        "scriptName": "ENiagaraScriptUsage::SystemSpawnScript",
+        "lastCompileStatus": "UpToDate",
+        "errorSummary": "",
+        "compileEvents": []
+      },
+      {
+        "emitterName": "None",
+        "scriptName": "ENiagaraScriptUsage::SystemUpdateScript",
+        "lastCompileStatus": "UpToDate",
+        "errorSummary": "",
+        "compileEvents": []
+      },
+      {
+        "emitterName": "Fire",
+        "scriptName": "ENiagaraScriptUsage::ParticleSpawnScriptInterpolated",
+        "lastCompileStatus": "UpToDate",
+        "errorSummary": "",
+        "compileEvents": []
+      },
+      {
+        "emitterName": "Fire",
+        "scriptName": "ENiagaraScriptUsage::ParticleUpdateScript",
+        "lastCompileStatus": "UpToDate",
+        "errorSummary": "",
+        "compileEvents": []
+      },
+      {
+        "emitterName": "Smoke",
+        "scriptName": "ENiagaraScriptUsage::ParticleSpawnScriptInterpolated",
+        "lastCompileStatus": "UpToDate",
+        "errorSummary": "",
+        "compileEvents": []
+      },
+      {
+        "emitterName": "Smoke",
+        "scriptName": "ENiagaraScriptUsage::ParticleUpdateScript",
+        "lastCompileStatus": "UpToDate",
+        "errorSummary": "",
+        "compileEvents": []
+      },
+      {
+        "emitterName": "Sparks",
+        "scriptName": "ENiagaraScriptUsage::ParticleSpawnScriptInterpolated",
+        "lastCompileStatus": "UpToDate",
+        "errorSummary": "",
+        "compileEvents": []
+      },
+      {
+        "emitterName": "Sparks",
+        "scriptName": "ENiagaraScriptUsage::ParticleUpdateScript",
+        "lastCompileStatus": "UpToDate",
+        "errorSummary": "",
+        "compileEvents": []
+      }
+    ]
+  },
+  "issues": {
+    "numErrors": 0,
+    "numWarnings": 0,
+    "numInfos": 9,
+    "issues": [
+      {
+        "issueId": "f229ae5b2767ecb366ac16d3e2667e88",
+        "severity": "Info",
+        "shortDescription": "Version upgrade note",
+        "longDescription": "The version of this script was recently upgraded; here is a list of changes:\n1.1: Add support for an Inner Angle in Cone mode\r\n\r\nDefault Cone Orientation was off by 90 degrees, now all shapes match when transformed via axis/angle/Quat etc.\n",
+        "bCanBeDismissed": true,
+        "bIsDismissed": false,
+        "location": {
+          "system": {
+            "refPath": "/Game/LostVanguard/Environment/SpaceImpact/FX/NS_ImpactAtmosphere.NS_ImpactAtmosphere"
+          },
+          "emitterName": "Fire",
+          "scriptName": "ENiagaraScriptUsage::ParticleSpawnScript",
+          "moduleName": "ShapeLocation",
+          "rendererIndex": -1,
+          "inputNameStack": []
+        },
+        "stackDisplayPath": "/Particle Spawn/Shape Location",
+        "fixes": []
+      },
+      {
+        "issueId": "56e772e668445de0592ef6d0bfe87151",
+        "severity": "Info",
+        "shortDescription": "Version upgrade note",
+        "longDescription": "The version of this script was recently upgraded; here is a list of changes:\n1.2: FirstFrame should now be more stable and don't produce double FirstFrames\n",
+        "bCanBeDismissed": true,
+        "bIsDismissed": false,
+        "location": {
+          "system": {
+            "refPath": "/Game/LostVanguard/Environment/SpaceImpact/FX/NS_ImpactAtmosphere.NS_ImpactAtmosphere"
+          },
+          "emitterName": "Fire",
+          "scriptName": "ENiagaraScriptUsage::ParticleUpdateScript",
+          "moduleName": "ParticleState",
+          "rendererIndex": -1,
+          "inputNameStack": []
+        },
+        "stackDisplayPath": "/Particle Update/Particle State",
+        "fixes": []
+      },
+      {
+        "issueId": "270dbec6d8f820b670a80e854f7a4ba4",
+        "severity": "Info",
+        "shortDescription": "Version upgrade note",
+        "longDescription": "The version of this script was recently upgraded; here is a list of changes:\n1.1: Rotational Drag is now enabled by default\r\n\r\nRotational Drag amount is scaled to match the parameterization of Linear Drag\n",
+        "bCanBeDismissed": true,
+        "bIsDismissed": false,
+        "location": {
+          "system": {
+            "refPath": "/Game/LostVanguard/Environment/SpaceImpact/FX/NS_ImpactAtmosphere.NS_ImpactAtmosphere"
+          },
+          "emitterName": "Fire",
+          "scriptName": "ENiagaraScriptUsage::ParticleUpdateScript",
+          "moduleName": "Drag",
+          "rendererIndex": -1,
+          "inputNameStack": []
+        },
+        "stackDisplayPath": "/Particle Update/Drag",
+        "fixes": []
+      },
+      {
+        "issueId": "f229ae5b2767ecb366ac16d3e2667e88",
+        "severity": "Info",
+        "shortDescription": "Version upgrade note",
+        "longDescription": "The version of this script was recently upgraded; here is a list of changes:\n1.1: Add support for an Inner Angle in Cone mode\r\n\r\nDefault Cone Orientation was off by 90 degrees, now all shapes match when transformed via axis/angle/Quat etc.\n",
+        "bCanBeDismissed": true,
+        "bIsDismissed": false,
+        "location": {
+          "system": {
+            "refPath": "/Game/LostVanguard/Environment/SpaceImpact/FX/NS_ImpactAtmosphere.NS_ImpactAtmosphere"
+          },
+          "emitterName": "Smoke",
+          "scriptName": "ENiagaraScriptUsage::ParticleSpawnScript",
+          "moduleName": "ShapeLocation",
+          "rendererIndex": -1,
+          "inputNameStack": []
+        },
+        "stackDisplayPath": "/Particle Spawn/Shape Location",
+        "fixes": []
+      },
+      {
+        "issueId": "56e772e668445de0592ef6d0bfe87151",
+        "severity": "Info",
+        "shortDescription": "Version upgrade note",
+        "longDescription": "The version of this script was recently upgraded; here is a list of changes:\n1.2: FirstFrame should now be more stable and don't produce double FirstFrames\n",
+        "bCanBeDismissed": true,
+        "bIsDismissed": false,
+        "location": {
+          "system": {
+            "refPath": "/Game/LostVanguard/Environment/SpaceImpact/FX/NS_ImpactAtmosphere.NS_ImpactAtmosphere"
+          },
+          "emitterName": "Smoke",
+          "scriptName": "ENiagaraScriptUsage::ParticleUpdateScript",
+          "moduleName": "ParticleState",
+          "rendererIndex": -1,
+          "inputNameStack": []
+        },
+        "stackDisplayPath": "/Particle Update/Particle State",
+        "fixes": []
+      },
+      {
+        "issueId": "270dbec6d8f820b670a80e854f7a4ba4",
+        "severity": "Info",
+        "shortDescription": "Version upgrade note",
+        "longDescription": "The version of this script was recently upgraded; here is a list of changes:\n1.1: Rotational Drag is now enabled by default\r\n\r\nRotational Drag amount is scaled to match the parameterization of Linear Drag\n",
+        "bCanBeDismissed": true,
+        "bIsDismissed": false,
+        "location": {
+          "system": {
+            "refPath": "/Game/LostVanguard/Environment/SpaceImpact/FX/NS_ImpactAtmosphere.NS_ImpactAtmosphere"
+          },
+          "emitterName": "Smoke",
+          "scriptName": "ENiagaraScriptUsage::ParticleUpdateScript",
+          "moduleName": "Drag",
+          "rendererIndex": -1,
+          "inputNameStack": []
+        },
+        "stackDisplayPath": "/Particle Update/Drag",
+        "fixes": []
+      },
+      {
+        "issueId": "f229ae5b2767ecb366ac16d3e2667e88",
+        "severity": "Info",
+        "shortDescription": "Version upgrade note",
+        "longDescription": "The version of this script was recently upgraded; here is a list of changes:\n1.1: Add support for an Inner Angle in Cone mode\r\n\r\nDefault Cone Orientation was off by 90 degrees, now all shapes match when transformed via axis/angle/Quat etc.\n",
+        "bCanBeDismissed": true,
+        "bIsDismissed": false,
+        "location": {
+          "system": {
+            "refPath": "/Game/LostVanguard/Environment/SpaceImpact/FX/NS_ImpactAtmosphere.NS_ImpactAtmosphere"
+          },
+          "emitterName": "Sparks",
+          "scriptName": "ENiagaraScriptUsage::ParticleSpawnScript",
+          "moduleName": "ShapeLocation",
+          "rendererIndex": -1,
+          "inputNameStack": []
+        },
+        "stackDisplayPath": "/Particle Spawn/Shape Location",
+        "fixes": []
+      },
+      {
+        "issueId": "56e772e668445de0592ef6d0bfe87151",
+        "severity": "Info",
+        "shortDescription": "Version upgrade note",
+        "longDescription": "The version of this script was recently upgraded; here is a list of changes:\n1.2: FirstFrame should now be more stable and don't produce double FirstFrames\n",
+        "bCanBeDismissed": true,
+        "bIsDismissed": false,
+        "location": {
+          "system": {
+            "refPath": "/Game/LostVanguard/Environment/SpaceImpact/FX/NS_ImpactAtmosphere.NS_ImpactAtmosphere"
+          },
+          "emitterName": "Sparks",
+          "scriptName": "ENiagaraScriptUsage::ParticleUpdateScript",
+          "moduleName": "ParticleState",
+          "rendererIndex": -1,
+          "inputNameStack": []
+        },
+        "stackDisplayPath": "/Particle Update/Particle State",
+        "fixes": []
+      },
+      {
+        "issueId": "270dbec6d8f820b670a80e854f7a4ba4",
+        "severity": "Info",
+        "shortDescription": "Version upgrade note",
+        "longDescription": "The version of this script was recently upgraded; here is a list of changes:\n1.1: Rotational Drag is now enabled by default\r\n\r\nRotational Drag amount is scaled to match the parameterization of Linear Drag\n",
+        "bCanBeDismissed": true,
+        "bIsDismissed": false,
+        "location": {
+          "system": {
+            "refPath": "/Game/LostVanguard/Environment/SpaceImpact/FX/NS_ImpactAtmosphere.NS_ImpactAtmosphere"
+          },
+          "emitterName": "Sparks",
+          "scriptName": "ENiagaraScriptUsage::ParticleUpdateScript",
+          "moduleName": "Drag",
+          "rendererIndex": -1,
+          "inputNameStack": []
+        },
+        "stackDisplayPath": "/Particle Update/Drag",
+        "fixes": []
+      }
+    ]
+  },
+  "changes": [
+    [
+      "Fire",
+      "SpawnRate",
+      "SpawnRate",
+      15
+    ],
+    [
+      "Fire",
+      "InitializeParticle",
+      "Lifetime Min",
+      0.75
+    ],
+    [
+      "Fire",
+      "InitializeParticle",
+      "Lifetime Max",
+      1.2
+    ],
+    [
+      "Fire",
+      "InitializeParticle",
+      "Uniform Sprite Size Min",
+      160
+    ],
+    [
+      "Fire",
+      "InitializeParticle",
+      "Uniform Sprite Size Max",
+      225
+    ],
+    [
+      "Fire",
+      "InitializeParticle",
+      "Sprite Rotation Angle Min",
+      0
+    ],
+    [
+      "Fire",
+      "InitializeParticle",
+      "Sprite Rotation Angle Max",
+      0
+    ],
+    [
+      "Fire",
+      "ShapeLocation",
+      "Sphere Radius",
+      65
+    ],
+    [
+      "Fire",
+      "AddVelocity",
+      "Velocity Speed",
+      28
+    ],
+    [
+      "Fire",
+      "AddVelocity",
+      "Cone Angle",
+      14
+    ],
+    [
+      "Fire",
+      "GravityForce",
+      "Gravity",
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    [
+      "Fire",
+      "Drag",
+      "Drag",
+      0.3
+    ],
+    [
+      "Smoke",
+      "SpawnRate",
+      "SpawnRate",
+      3
+    ],
+    [
+      "Smoke",
+      "InitializeParticle",
+      "Lifetime Min",
+      5
+    ],
+    [
+      "Smoke",
+      "InitializeParticle",
+      "Lifetime Max",
+      7
+    ],
+    [
+      "Smoke",
+      "InitializeParticle",
+      "Uniform Sprite Size Min",
+      160
+    ],
+    [
+      "Smoke",
+      "InitializeParticle",
+      "Uniform Sprite Size Max",
+      260
+    ],
+    [
+      "Smoke",
+      "InitializeParticle",
+      "Sprite Rotation Angle Min",
+      0
+    ],
+    [
+      "Smoke",
+      "InitializeParticle",
+      "Sprite Rotation Angle Max",
+      360
+    ],
+    [
+      "Smoke",
+      "ShapeLocation",
+      "Sphere Radius",
+      70
+    ],
+    [
+      "Smoke",
+      "AddVelocity",
+      "Velocity Speed",
+      80
+    ],
+    [
+      "Smoke",
+      "AddVelocity",
+      "Cone Angle",
+      18
+    ],
+    [
+      "Smoke",
+      "GravityForce",
+      "Gravity",
+      [
+        12,
+        4,
+        8
+      ]
+    ],
+    [
+      "Smoke",
+      "Drag",
+      "Drag",
+      0.15
+    ],
+    [
+      "Sparks",
+      "SpawnRate",
+      "SpawnRate",
+      10
+    ],
+    [
+      "Sparks",
+      "InitializeParticle",
+      "Lifetime Min",
+      2
+    ],
+    [
+      "Sparks",
+      "InitializeParticle",
+      "Lifetime Max",
+      3.8
+    ],
+    [
+      "Sparks",
+      "InitializeParticle",
+      "Uniform Sprite Size Min",
+      2
+    ],
+    [
+      "Sparks",
+      "InitializeParticle",
+      "Uniform Sprite Size Max",
+      4
+    ],
+    [
+      "Sparks",
+      "InitializeParticle",
+      "Sprite Rotation Angle Min",
+      0
+    ],
+    [
+      "Sparks",
+      "InitializeParticle",
+      "Sprite Rotation Angle Max",
+      360
+    ],
+    [
+      "Sparks",
+      "ShapeLocation",
+      "Sphere Radius",
+      80
+    ],
+    [
+      "Sparks",
+      "AddVelocity",
+      "Velocity Speed",
+      210
+    ],
+    [
+      "Sparks",
+      "AddVelocity",
+      "Cone Angle",
+      50
+    ],
+    [
+      "Sparks",
+      "GravityForce",
+      "Gravity",
+      [
+        18,
+        7,
+        -55
+      ]
+    ],
+    [
+      "Sparks",
+      "Drag",
+      "Drag",
+      0.22
+    ]
+  ],
+  "estimated_max_particles_per_site": 77,
+  "sites": 3,
+  "estimated_average_particles_per_site": 61.625
+}

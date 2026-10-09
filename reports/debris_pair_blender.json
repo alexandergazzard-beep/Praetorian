@@ -1,0 +1,32 @@
+[
+  {
+    "id": "M17_supply_trunk",
+    "triangles": 4224,
+    "vertices": 2421,
+    "vertices_removed": 2643,
+    "material_slots": 1,
+    "uv_layers": 1,
+    "dimensions_m": [
+      1.7999999523162842,
+      0.7392653822898865,
+      0.6469758152961731
+    ],
+    "pivot": "centered bottom",
+    "source_preserved": true
+  },
+  {
+    "id": "S04_vent_grille",
+    "triangles": 1302,
+    "vertices": 677,
+    "vertices_removed": 1273,
+    "material_slots": 1,
+    "uv_layers": 1,
+    "dimensions_m": [
+      0.75,
+      0.14818724989891052,
+      0.4534147381782532
+    ],
+    "pivot": "centered bottom",
+    "source_preserved": true
+  }
+]

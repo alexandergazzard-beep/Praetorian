@@ -1,0 +1,21 @@
+{
+  "map": "/Game/LostVanguard/Environment/SpaceImpact/Maps/L_SpaceImpact_Cinematic",
+  "actor_count": 251,
+  "hero": "/Game/LostVanguard/Environment/OpeningReview/Assets/WreckFlagship71/Large_Flagship71/SM_Large_Flagship71",
+  "new_paid_generations": 0,
+  "preserved_existing_maps": true,
+  "effects_system": "/Game/LostVanguard/Environment/SpaceImpact/FX/NS_ImpactAtmosphere.NS_ImpactAtmosphere",
+  "camera_cm": [
+    -1350,
+    -2000,
+    340
+  ],
+  "verification": "Verified native Niagara compile UpToDate, no errors/warnings; actual PIE runs, three burn sites, changing motion samples and local CSV timing",
+  "camera_rotation_degrees": [
+    -1,
+    57,
+    0
+  ],
+  "effects": "Three infinite Niagara systems: fire/smoke/sparks; shader wind, flickering coals/firelight, pixel-normal heat refraction",
+  "new_stone_meshes": 3
+}

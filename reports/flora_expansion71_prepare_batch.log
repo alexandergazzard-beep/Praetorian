@@ -1,0 +1,84 @@
+Traceback (most recent call last):
+  File "C:\Program Files\Blender Foundation\Blender 5.2\5.2\scripts\modules\addon_utils.py", line 458, in enable
+    mod = importlib.import_module(module_name)
+  File "C:\Program Files\Blender Foundation\Blender 5.2\5.2\python\Lib\importlib\__init__.py", line 88, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1395, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 1023, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "C:\Users\alexa\AppData\Roaming\Blender Foundation\Blender\5.2\extensions\user_default\meshy\__init__.py", line 1, in <module>
+    from . import BridgePanel
+  File "C:\Users\alexa\AppData\Roaming\Blender Foundation\Blender\5.2\extensions\user_default\meshy\BridgePanel.py", line 15, in <module>
+    from .Utils import logger
+  File "C:\Users\alexa\AppData\Roaming\Blender Foundation\Blender\5.2\extensions\user_default\meshy\Utils.py", line 27, in <module>
+    logger = setup_logging()
+  File "C:\Users\alexa\AppData\Roaming\Blender Foundation\Blender\5.2\extensions\user_default\meshy\Utils.py", line 16, in setup_logging
+    file_handler = logging.FileHandler(os.path.join(addon_dir, "meshy.log"))
+  File "C:\Program Files\Blender Foundation\Blender 5.2\5.2\python\Lib\logging\__init__.py", line 1219, in __init__
+    StreamHandler.__init__(self, self._open())
+                                 ~~~~~~~~~~^^
+  File "C:\Program Files\Blender Foundation\Blender 5.2\5.2\python\Lib\logging\__init__.py", line 1248, in _open
+    return open_func(self.baseFilename, self.mode,
+                     encoding=self.encoding, errors=self.errors)
+PermissionError: [Errno 13] Permission denied: 'C:\\Users\\alexa\\AppData\\Roaming\\Blender Foundation\\Blender\\5.2\\extensions\\user_default\\meshy\\meshy.log'
+INFO:glTFImporter:Data are loaded, start creating Blender stuff
+Extensions: writing cache failed ([Errno 13] Permission denied: 'C:\\Users\\alexa\\AppData\\Roaming\\Blender Foundation\\Blender\\5.2\\extensions\\.cache\\compat.dat').
+BlenderMCP addon registered
+BlenderMCP addon unregistered
+17:32:28 | INFO: Data are loaded, start creating Blender stuff
+17:32:28 | INFO: Blender create Mesh node Mesh_0
+INFO:glTFImporter:Blender create Mesh node Mesh_0
+17:32:28 | INFO: glTF import finished in 0.24s
+INFO:glTFImporter:glTF import finished in 0.24s
+00:03.563  image.write      | ERROR OpenImageIO write failed: Could not open file "C:\Users\alexa\.thumbnails\large\blender_56900_181ffa90761666d7402c93a5d5c43711.png.png"
+00:04.219  image.write      | ERROR OpenImageIO write failed: Could not open file "C:\Users\alexa\.thumbnails\large\blender_56900_cdcee285541d4f57774499c553cfa5af.png.png"
+00:10.797  render           | Saved: 'C:\Users\alexa\Documents\AI STUFF\Project Big\reports\F13_Expansion71_blender_0.png'
+00:16.969  render           | Saved: 'C:\Users\alexa\Documents\AI STUFF\Project Big\reports\F13_Expansion71_blender_1.png'
+Info: Saved as "meshy_source.blend"
+Warning: No mesh data to join
+Info: Saved as "prepared.blend"
+
+FBX export starting... 'C:\\Users\\alexa\\Documents\\AI STUFF\\Project Big\\assets\\models\\forest_wreck\\F13_Expansion71\\export\\SM_F13_Expansion71.fbx'
+export finished in 0.0941 sec.
+WRECK_PREPARATION_COMPLETE F13_Expansion71 {"triangles": 47969, "vertices": 22363, "vertices_removed": 76824, "nonmanifold_edges": 11311, "uv_layers": 1, "material_slots": 1, "dimensions_m": [16.60458755493164, 13.616329193115234, 13.977812767028809], "pivot": "centered bottom", "scale": "provisional production size; not story canon", "source_preserved": true, "polish": "smooth normals, gentle geometry smoothing factor .12 x2"}
+17:32:42 | INFO: Data are loaded, start creating Blender stuff
+INFO:glTFImporter:Data are loaded, start creating Blender stuff
+17:32:42 | INFO: Blender create Mesh node Mesh_0
+INFO:glTFImporter:Blender create Mesh node Mesh_0
+17:32:42 | INFO: glTF import finished in 0.10s
+INFO:glTFImporter:glTF import finished in 0.10s
+00:17.297  image.write      | ERROR OpenImageIO write failed: Could not open file "C:\Users\alexa\.thumbnails\large\blender_56900_7549585b9553718cc5dc12548b45013d.png.png"
+00:17.516  image.write      | ERROR OpenImageIO write failed: Could not open file "C:\Users\alexa\.thumbnails\large\blender_56900_931c67e129c15965d5a6baf99ba5298b.png.png"
+00:24.250  render           | Saved: 'C:\Users\alexa\Documents\AI STUFF\Project Big\reports\F19_Expansion71_blender_0.png'
+00:30.672  render           | Saved: 'C:\Users\alexa\Documents\AI STUFF\Project Big\reports\F19_Expansion71_blender_1.png'
+Info: Saved as "meshy_source.blend"
+Warning: No mesh data to join
+Info: Saved as "prepared.blend"
+
+FBX export starting... 'C:\\Users\\alexa\\Documents\\AI STUFF\\Project Big\\assets\\models\\forest_wreck\\F19_Expansion71\\export\\SM_F19_Expansion71.fbx'
+export finished in 0.0380 sec.
+WRECK_PREPARATION_COMPLETE F19_Expansion71 {"triangles": 15948, "vertices": 7176, "vertices_removed": 25592, "nonmanifold_edges": 1530, "uv_layers": 1, "material_slots": 1, "dimensions_m": [2.400042772293091, 2.0864315032958984, 1.59249746799469], "pivot": "centered bottom", "scale": "provisional production size; not story canon", "source_preserved": true, "polish": "smooth normals, gentle geometry smoothing factor .12 x2"}
+INFO:glTFImporter:Data are loaded, start creating Blender stuff
+17:32:55 | INFO: Data are loaded, start creating Blender stuff
+17:32:55 | INFO: Blender create Mesh node Mesh_0
+INFO:glTFImporter:Blender create Mesh node Mesh_0
+17:32:55 | INFO: glTF import finished in 0.07s
+INFO:glTFImporter:glTF import finished in 0.07s
+00:30.875  image.write      | ERROR OpenImageIO write failed: Could not open file "C:\Users\alexa\.thumbnails\large\blender_56900_b8d736c3c12a2c5b38a04e04286e137e.png.png"
+00:31.094  image.write      | ERROR OpenImageIO write failed: Could not open file "C:\Users\alexa\.thumbnails\large\blender_56900_a9735a3ae3c2ef9b914668c7e8c21999.png.png"
+00:36.985  render           | Saved: 'C:\Users\alexa\Documents\AI STUFF\Project Big\reports\F21_Expansion71_blender_0.png'
+00:42.828  render           | Saved: 'C:\Users\alexa\Documents\AI STUFF\Project Big\reports\F21_Expansion71_blender_1.png'
+Info: Saved as "meshy_source.blend"
+Warning: No mesh data to join
+Info: Saved as "prepared.blend"
+
+FBX export starting... 'C:\\Users\\alexa\\Documents\\AI STUFF\\Project Big\\assets\\models\\forest_wreck\\F21_Expansion71\\export\\SM_F21_Expansion71.fbx'
+export finished in 0.0279 sec.
+WRECK_PREPARATION_COMPLETE F21_Expansion71 {"triangles": 14150, "vertices": 6804, "vertices_removed": 18919, "nonmanifold_edges": 694, "uv_layers": 1, "material_slots": 1, "dimensions_m": [2.8179945945739746, 1.129929780960083, 1.994048833847046], "pivot": "centered bottom", "scale": "provisional production size; not story canon", "source_preserved": true, "polish": "smooth normals, gentle geometry smoothing factor .12 x2"}
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+
+Blender quit

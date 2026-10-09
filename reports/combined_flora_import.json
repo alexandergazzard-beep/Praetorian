@@ -1,0 +1,94 @@
+{
+  "assets": [
+    {
+      "id": "F13_Expansion71",
+      "mesh": "/Game/LostVanguard/Environment/OpeningReview/Assets/FloraExpansion71/F13_Expansion71/SM_F13_Expansion71.SM_F13_Expansion71",
+      "material": "/Game/LostVanguard/Environment/OpeningReview/Assets/FloraExpansion71/F13_Expansion71/MI_F13_Expansion71.MI_F13_Expansion71",
+      "textures": {
+        "BaseColor": "/Game/LostVanguard/Environment/OpeningReview/Assets/FloraExpansion71/F13_Expansion71/T_F13_Expansion71_BaseColor.T_F13_Expansion71_BaseColor",
+        "Normal": "/Game/LostVanguard/Environment/OpeningReview/Assets/FloraExpansion71/F13_Expansion71/T_F13_Expansion71_Normal.T_F13_Expansion71_Normal",
+        "Roughness": "/Game/LostVanguard/Environment/OpeningReview/Assets/FloraExpansion71/F13_Expansion71/T_F13_Expansion71_Roughness.T_F13_Expansion71_Roughness",
+        "Metallic": "/Game/LostVanguard/Environment/OpeningReview/Assets/FloraExpansion71/F13_Expansion71/T_F13_Expansion71_Metallic.T_F13_Expansion71_Metallic"
+      },
+      "bounds_cm": "<Struct 'Box' (0x000002521E12E7C0) {min: {x: -829.892517, y: -680.857483, z: 0.527653}, max: {x: 830.566223, y: 680.775452, z: 1398.308960}, is_valid: True}>",
+      "triangles": [
+        47969,
+        23984,
+        10554,
+        3837
+      ]
+    },
+    {
+      "id": "F14_Expansion71",
+      "mesh": "/Game/LostVanguard/Environment/OpeningReview/Assets/FloraExpansion71/F14_Expansion71/SM_F14_Expansion71.SM_F14_Expansion71",
+      "material": "/Game/LostVanguard/Environment/OpeningReview/Assets/FloraExpansion71/F14_Expansion71/MI_F14_Expansion71.MI_F14_Expansion71",
+      "textures": {
+        "BaseColor": "/Game/LostVanguard/Environment/OpeningReview/Assets/FloraExpansion71/F14_Expansion71/T_F14_Expansion71_BaseColor.T_F14_Expansion71_BaseColor",
+        "Normal": "/Game/LostVanguard/Environment/OpeningReview/Assets/FloraExpansion71/F14_Expansion71/T_F14_Expansion71_Normal.T_F14_Expansion71_Normal",
+        "Roughness": "/Game/LostVanguard/Environment/OpeningReview/Assets/FloraExpansion71/F14_Expansion71/T_F14_Expansion71_Roughness.T_F14_Expansion71_Roughness",
+        "Metallic": "/Game/LostVanguard/Environment/OpeningReview/Assets/FloraExpansion71/F14_Expansion71/T_F14_Expansion71_Metallic.T_F14_Expansion71_Metallic"
+      },
+      "bounds_cm": "<Struct 'Box' (0x00000251F87CE0C0) {min: {x: -655.545532, y: -514.111328, z: 0.622939}, max: {x: 656.666565, y: 513.448547, z: 1598.601196}, is_valid: True}>",
+      "triangles": [
+        41594,
+        20796,
+        9150,
+        3325
+      ]
+    },
+    {
+      "id": "F16_Expansion71",
+      "mesh": "/Game/LostVanguard/Environment/OpeningReview/Assets/FloraExpansion71/F16_Expansion71/SM_F16_Expansion71.SM_F16_Expansion71",
+      "material": "/Game/LostVanguard/Environment/OpeningReview/Assets/FloraExpansion71/F16_Expansion71/MI_F16_Expansion71.MI_F16_Expansion71",
+      "textures": {
+        "BaseColor": "/Game/LostVanguard/Environment/OpeningReview/Assets/FloraExpansion71/F16_Expansion71/T_F16_Expansion71_BaseColor.T_F16_Expansion71_BaseColor",
+        "Normal": "/Game/LostVanguard/Environment/OpeningReview/Assets/FloraExpansion71/F16_Expansion71/T_F16_Expansion71_Normal.T_F16_Expansion71_Normal",
+        "Roughness": "/Game/LostVanguard/Environment/OpeningReview/Assets/FloraExpansion71/F16_Expansion71/T_F16_Expansion71_Roughness.T_F16_Expansion71_Roughness",
+        "Metallic": "/Game/LostVanguard/Environment/OpeningReview/Assets/FloraExpansion71/F16_Expansion71/T_F16_Expansion71_Metallic.T_F16_Expansion71_Metallic"
+      },
+      "bounds_cm": "<Struct 'Box' (0x00000251F4FF4C80) {min: {x: -699.121826, y: -740.992981, z: 1.410042}, max: {x: 700.413391, y: 739.076538, z: 1199.287964}, is_valid: True}>",
+      "triangles": [
+        55302,
+        27650,
+        12167,
+        4424
+      ]
+    },
+    {
+      "id": "F19_Expansion71",
+      "mesh": "/Game/LostVanguard/Environment/OpeningReview/Assets/FloraExpansion71/F19_Expansion71/SM_F19_Expansion71.SM_F19_Expansion71",
+      "material": "/Game/LostVanguard/Environment/OpeningReview/Assets/FloraExpansion71/F19_Expansion71/MI_F19_Expansion71.MI_F19_Expansion71",
+      "textures": {
+        "BaseColor": "/Game/LostVanguard/Environment/OpeningReview/Assets/FloraExpansion71/F19_Expansion71/T_F19_Expansion71_BaseColor.T_F19_Expansion71_BaseColor",
+        "Normal": "/Game/LostVanguard/Environment/OpeningReview/Assets/FloraExpansion71/F19_Expansion71/T_F19_Expansion71_Normal.T_F19_Expansion71_Normal",
+        "Roughness": "/Game/LostVanguard/Environment/OpeningReview/Assets/FloraExpansion71/F19_Expansion71/T_F19_Expansion71_Roughness.T_F19_Expansion71_Roughness",
+        "Metallic": "/Game/LostVanguard/Environment/OpeningReview/Assets/FloraExpansion71/F19_Expansion71/T_F19_Expansion71_Metallic.T_F19_Expansion71_Metallic"
+      },
+      "bounds_cm": "<Struct 'Box' (0x00000251FBACB800) {min: {x: -120.098587, y: -104.338348, z: 0.199481}, max: {x: 119.905685, y: 104.304817, z: 159.449234}, is_valid: True}>",
+      "triangles": [
+        15948,
+        7973,
+        3508,
+        1275
+      ]
+    },
+    {
+      "id": "F21_Expansion71",
+      "mesh": "/Game/LostVanguard/Environment/OpeningReview/Assets/FloraExpansion71/F21_Expansion71/SM_F21_Expansion71.SM_F21_Expansion71",
+      "material": "/Game/LostVanguard/Environment/OpeningReview/Assets/FloraExpansion71/F21_Expansion71/MI_F21_Expansion71.MI_F21_Expansion71",
+      "textures": {
+        "BaseColor": "/Game/LostVanguard/Environment/OpeningReview/Assets/FloraExpansion71/F21_Expansion71/T_F21_Expansion71_BaseColor.T_F21_Expansion71_BaseColor",
+        "Normal": "/Game/LostVanguard/Environment/OpeningReview/Assets/FloraExpansion71/F21_Expansion71/T_F21_Expansion71_Normal.T_F21_Expansion71_Normal",
+        "Roughness": "/Game/LostVanguard/Environment/OpeningReview/Assets/FloraExpansion71/F21_Expansion71/T_F21_Expansion71_Roughness.T_F21_Expansion71_Roughness",
+        "Metallic": "/Game/LostVanguard/Environment/OpeningReview/Assets/FloraExpansion71/F21_Expansion71/T_F21_Expansion71_Metallic.T_F21_Expansion71_Metallic"
+      },
+      "bounds_cm": "<Struct 'Box' (0x00000250980A3880) {min: {x: -140.797073, y: -56.402554, z: 0.154330}, max: {x: 141.002365, y: 56.590416, z: 199.559204}, is_valid: True}>",
+      "triangles": [
+        14150,
+        7074,
+        3112,
+        1132
+      ]
+    }
+  ]
+}

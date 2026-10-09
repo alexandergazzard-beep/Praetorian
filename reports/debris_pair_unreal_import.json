@@ -1,0 +1,28 @@
+[
+  {
+    "id": "M17_supply_trunk",
+    "mesh": "/Game/LostVanguard/Art/Debris/FirstPair/M17_supply_trunk/SM_M17_supply_trunk.SM_M17_supply_trunk",
+    "material": "/Game/LostVanguard/Art/Debris/FirstPair/M17_supply_trunk/MI_M17_supply_trunk.MI_M17_supply_trunk",
+    "textures": {
+      "BaseColor": "/Game/LostVanguard/Art/Debris/FirstPair/M17_supply_trunk/T_M17_supply_trunk_BaseColor.T_M17_supply_trunk_BaseColor",
+      "Normal": "/Game/LostVanguard/Art/Debris/FirstPair/M17_supply_trunk/T_M17_supply_trunk_Normal.T_M17_supply_trunk_Normal",
+      "Roughness": "/Game/LostVanguard/Art/Debris/FirstPair/M17_supply_trunk/T_M17_supply_trunk_Roughness.T_M17_supply_trunk_Roughness",
+      "Metallic": "/Game/LostVanguard/Art/Debris/FirstPair/M17_supply_trunk/T_M17_supply_trunk_Metallic.T_M17_supply_trunk_Metallic"
+    },
+    "collision_and_lods": "pending live editor setup",
+    "bounds_cm": "<Struct 'Box' (0x000001D325BBAF00) {min: {x: -90.000000, y: -36.963272, z: 0.000000}, max: {x: 90.000000, y: 36.963272, z: 64.697578}, is_valid: True}>"
+  },
+  {
+    "id": "S04_vent_grille",
+    "mesh": "/Game/LostVanguard/Art/Debris/FirstPair/S04_vent_grille/SM_S04_vent_grille.SM_S04_vent_grille",
+    "material": "/Game/LostVanguard/Art/Debris/FirstPair/S04_vent_grille/MI_S04_vent_grille.MI_S04_vent_grille",
+    "textures": {
+      "BaseColor": "/Game/LostVanguard/Art/Debris/FirstPair/S04_vent_grille/T_S04_vent_grille_BaseColor.T_S04_vent_grille_BaseColor",
+      "Normal": "/Game/LostVanguard/Art/Debris/FirstPair/S04_vent_grille/T_S04_vent_grille_Normal.T_S04_vent_grille_Normal",
+      "Roughness": "/Game/LostVanguard/Art/Debris/FirstPair/S04_vent_grille/T_S04_vent_grille_Roughness.T_S04_vent_grille_Roughness",
+      "Metallic": "/Game/LostVanguard/Art/Debris/FirstPair/S04_vent_grille/T_S04_vent_grille_Metallic.T_S04_vent_grille_Metallic"
+    },
+    "collision_and_lods": "pending live editor setup",
+    "bounds_cm": "<Struct 'Box' (0x000001D325BBE640) {min: {x: -37.500000, y: -7.409365, z: 0.000000}, max: {x: 37.500000, y: 7.409360, z: 45.341473}, is_valid: True}>"
+  }
+]

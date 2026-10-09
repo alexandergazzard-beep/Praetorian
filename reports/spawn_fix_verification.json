@@ -1,0 +1,57 @@
+{
+  "date": "2026-10-07",
+  "map": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening",
+  "problem": "Tall debris panel obscured entire fresh PIE view; observed spawn was outside panel.",
+  "panelBefore": {
+    "location": {
+      "x": -280,
+      "y": 0,
+      "z": 135
+    },
+    "scale": {
+      "x": 0.9,
+      "y": 1.8,
+      "z": 1.2
+    }
+  },
+  "panelAfter": {
+    "location": {
+      "x": -245,
+      "y": 0,
+      "z": 60
+    },
+    "scale": {
+      "x": 0.9,
+      "y": 1.8,
+      "z": 0.9
+    }
+  },
+  "verified": [
+    "Saved map reload retained new panel transform",
+    "Fresh PIE Step 0, Health 100; starting screenshot visually inspected with clear view",
+    "E removes LV_Debris actor and advances Step 0 to 1",
+    "Character moved from x=-390 to x=288.902 without teleporting or health loss",
+    "Player, searcher, GameMode and HUD strict compilation passed"
+  ],
+  "movement": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"returnValue\":{\"location\":{\"x\":288.90235907949358,\"y\":224.96394455911084,\"z\":90.149999618530273},\"rotation\":{\"pitch\":0,\"yaw\":18.333348751068126,\"roll\":-0},\"scale\":{\"x\":1,\"y\":1,\"z\":1}}}"
+      }
+    ]
+  },
+  "state": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"returnValue\":\"{\\\"Step\\\":1,\\\"Health\\\":100,\\\"Objective\\\":\\\"Look around to check suit response\\\"}\"}"
+      }
+    ]
+  },
+  "limitations": [
+    "Targeted spawn/release/movement check only; prior full route not repeated",
+    "Automated inputs; physical keyboard/mouse pass remains user task"
+  ],
+  "reference": "https://dev.epicgames.com/documentation/en-us/unreal-engine/unreal-mcp-in-unreal-editor?application_version=5.8"
+}

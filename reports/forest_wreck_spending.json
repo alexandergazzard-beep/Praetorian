@@ -1,0 +1,1035 @@
+{
+  "authorized_budget": 900,
+  "cost_source": "https://docs.meshy.ai/en/api/pricing",
+  "pricing_checked": "2026-10-08",
+  "actual_spending": 740,
+  "pending_jobs": 0,
+  "remaining_authorized_budget": 160,
+  "operations": [
+    {
+      "asset": "F01_MeshyCanopy",
+      "operation": "image-to-3d",
+      "ai_model": "meshy-t2",
+      "model_type": "smart-topology",
+      "texture_resolution": "2k",
+      "target_triangles": 15000,
+      "estimated_charge": 15,
+      "maximum_charge": 15,
+      "actual_charge": 15,
+      "outcome": "SUCCEEDED",
+      "task_id": "01a11cde-dd85-7624-91e1-b2694b1a4467",
+      "balance_before": [
+        "# Meshy Credit Balance\n\n**Balance**: 4190 credits"
+      ],
+      "progress": 100,
+      "local_paths": [
+        "C:\\Users\\alexa\\Documents\\AI STUFF\\Project Big\\assets\\models\\forest_wreck\\F01_MeshyCanopy\\source\\meshy_original.glb"
+      ],
+      "balance_after": [
+        "# Meshy Credit Balance\n\n**Balance**: 4175 credits"
+      ],
+      "latest_balance": [
+        "# Meshy Credit Balance\n\n**Balance**: 4175 credits"
+      ],
+      "observed_account_charge": 15,
+      "charge_evidence": "Fresh account balance decreased by quoted cost; no other assignment submissions intervened."
+    },
+    {
+      "asset": "Engine_MeshyNacelle",
+      "operation": "image-to-3d",
+      "ai_model": "meshy-t2",
+      "model_type": "smart-topology",
+      "texture_resolution": "2k",
+      "target_triangles": 14000,
+      "estimated_charge": 15,
+      "maximum_charge": 15,
+      "actual_charge": 15,
+      "outcome": "SUCCEEDED",
+      "task_id": "01a11d04-94c9-75c1-9170-7b60ae12675a",
+      "balance_before": [
+        "# Meshy Credit Balance\n\n**Balance**: 4175 credits"
+      ],
+      "progress": 100,
+      "latest_balance": [
+        "# Meshy Credit Balance\n\n**Balance**: 4115 credits"
+      ],
+      "observed_account_charge": 60,
+      "charge_evidence": "Balance decreased by quoted cost during this operation, before the next assignment submission. Charged pending tasks count toward spending.",
+      "local_paths": [
+        "C:\\Users\\alexa\\Documents\\AI STUFF\\Project Big\\assets\\models\\forest_wreck\\Engine_MeshyNacelle\\source\\meshy_original.glb"
+      ],
+      "texture_paths": [
+        "C:\\Users\\alexa\\Documents\\AI STUFF\\Project Big\\assets\\models\\forest_wreck\\Engine_MeshyNacelle\\source\\meshy_original_textures\\base_color.png",
+        "C:\\Users\\alexa\\Documents\\AI STUFF\\Project Big\\assets\\models\\forest_wreck\\Engine_MeshyNacelle\\source\\meshy_original_textures\\metallic.png",
+        "C:\\Users\\alexa\\Documents\\AI STUFF\\Project Big\\assets\\models\\forest_wreck\\Engine_MeshyNacelle\\source\\meshy_original_textures\\roughness.png",
+        "C:\\Users\\alexa\\Documents\\AI STUFF\\Project Big\\assets\\models\\forest_wreck\\Engine_MeshyNacelle\\source\\meshy_original_textures\\normal.png"
+      ],
+      "balance_after": [
+        "# Meshy Credit Balance\n\n**Balance**: 4115 credits"
+      ]
+    },
+    {
+      "asset": "Medium_WreckPanel",
+      "operation": "image-to-3d",
+      "ai_model": "meshy-t2",
+      "model_type": "smart-topology",
+      "texture_resolution": "2k",
+      "target_triangles": 18000,
+      "estimated_charge": 15,
+      "maximum_charge": 0,
+      "actual_charge": 0,
+      "outcome": "LOCAL_VALIDATION_REJECTED",
+      "task_id": null,
+      "balance_before": [
+        "# Meshy Credit Balance\n\n**Balance**: 4160 credits"
+      ],
+      "rejection_evidence": "Official connector resolveGenerationOptions rejects T2 target above 15000 before any API submission"
+    },
+    {
+      "asset": "VeryLarge_HullFace",
+      "operation": "image-to-3d",
+      "ai_model": "meshy-t2",
+      "model_type": "smart-topology",
+      "texture_resolution": "2k",
+      "target_triangles": 45000,
+      "estimated_charge": 15,
+      "maximum_charge": 0,
+      "actual_charge": 0,
+      "outcome": "LOCAL_VALIDATION_REJECTED",
+      "task_id": null,
+      "balance_before": [
+        "# Meshy Credit Balance\n\n**Balance**: 4160 credits"
+      ],
+      "rejection_evidence": "Official connector resolveGenerationOptions rejects T2 target above 15000 before any API submission"
+    },
+    {
+      "asset": "Medium_WreckPanel",
+      "operation": "image-to-3d",
+      "ai_model": "meshy-t2",
+      "model_type": "smart-topology",
+      "texture_resolution": "2k",
+      "target_triangles": 15000,
+      "estimated_charge": 15,
+      "maximum_charge": 15,
+      "actual_charge": 15,
+      "outcome": "SUCCEEDED",
+      "task_id": "01a11d08-266d-7034-9511-2e9bfe6fa3b3",
+      "balance_before": [
+        "# Meshy Credit Balance\n\n**Balance**: 4160 credits"
+      ],
+      "progress": 100,
+      "latest_balance": [
+        "# Meshy Credit Balance\n\n**Balance**: 4115 credits"
+      ],
+      "observed_account_charge": 45,
+      "charge_evidence": "Balance decreased by quoted cost during this operation, before the next assignment submission. Charged pending tasks count toward spending.",
+      "local_paths": [
+        "C:\\Users\\alexa\\Documents\\AI STUFF\\Project Big\\assets\\models\\forest_wreck\\Medium_WreckPanel\\source\\meshy_original.glb"
+      ],
+      "texture_paths": [
+        "C:\\Users\\alexa\\Documents\\AI STUFF\\Project Big\\assets\\models\\forest_wreck\\Medium_WreckPanel\\source\\meshy_original_textures\\base_color.png",
+        "C:\\Users\\alexa\\Documents\\AI STUFF\\Project Big\\assets\\models\\forest_wreck\\Medium_WreckPanel\\source\\meshy_original_textures\\metallic.png",
+        "C:\\Users\\alexa\\Documents\\AI STUFF\\Project Big\\assets\\models\\forest_wreck\\Medium_WreckPanel\\source\\meshy_original_textures\\roughness.png",
+        "C:\\Users\\alexa\\Documents\\AI STUFF\\Project Big\\assets\\models\\forest_wreck\\Medium_WreckPanel\\source\\meshy_original_textures\\normal.png"
+      ],
+      "balance_after": [
+        "# Meshy Credit Balance\n\n**Balance**: 4115 credits"
+      ]
+    },
+    {
+      "asset": "VeryLarge_HullFace",
+      "operation": "image-to-3d",
+      "ai_model": "meshy-t2",
+      "model_type": "smart-topology",
+      "texture_resolution": "2k",
+      "target_triangles": 15000,
+      "estimated_charge": 15,
+      "maximum_charge": 15,
+      "actual_charge": 15,
+      "outcome": "SUCCEEDED",
+      "task_id": "01a11d08-7d1a-73d7-b1f8-4ed5be67bd36",
+      "balance_before": [
+        "# Meshy Credit Balance\n\n**Balance**: 4145 credits"
+      ],
+      "progress": 100,
+      "latest_balance": [
+        "# Meshy Credit Balance\n\n**Balance**: 4115 credits"
+      ],
+      "observed_account_charge": 30,
+      "charge_evidence": "Balance decreased by quoted cost during this operation, before the next assignment submission. Charged pending tasks count toward spending.",
+      "superseded_by_user": "Large instead of Very Large",
+      "local_paths": [
+        "C:\\Users\\alexa\\Documents\\AI STUFF\\Project Big\\assets\\models\\forest_wreck\\VeryLarge_HullFace\\source\\meshy_original.glb"
+      ],
+      "texture_paths": [
+        "C:\\Users\\alexa\\Documents\\AI STUFF\\Project Big\\assets\\models\\forest_wreck\\VeryLarge_HullFace\\source\\meshy_original_textures\\base_color.png",
+        "C:\\Users\\alexa\\Documents\\AI STUFF\\Project Big\\assets\\models\\forest_wreck\\VeryLarge_HullFace\\source\\meshy_original_textures\\metallic.png",
+        "C:\\Users\\alexa\\Documents\\AI STUFF\\Project Big\\assets\\models\\forest_wreck\\VeryLarge_HullFace\\source\\meshy_original_textures\\roughness.png",
+        "C:\\Users\\alexa\\Documents\\AI STUFF\\Project Big\\assets\\models\\forest_wreck\\VeryLarge_HullFace\\source\\meshy_original_textures\\normal.png"
+      ],
+      "balance_after": [
+        "# Meshy Credit Balance\n\n**Balance**: 4115 credits"
+      ]
+    },
+    {
+      "asset": "Large_WreckModule",
+      "operation": "image-to-3d",
+      "ai_model": "meshy-t2",
+      "model_type": "smart-topology",
+      "texture_resolution": "2k",
+      "target_triangles": 15000,
+      "estimated_charge": 15,
+      "maximum_charge": 15,
+      "actual_charge": 15,
+      "outcome": "SUCCEEDED",
+      "task_id": "01a11d0e-655e-7754-a856-93f01cc2c04a",
+      "balance_before": [
+        "# Meshy Credit Balance\n\n**Balance**: 4130 credits"
+      ],
+      "progress": 100,
+      "latest_balance": [
+        "# Meshy Credit Balance\n\n**Balance**: 4115 credits"
+      ],
+      "observed_account_charge": 15,
+      "charge_evidence": "Balance decreased by quoted cost during this operation, before the next assignment submission. Charged pending tasks count toward spending.",
+      "local_paths": [
+        "C:\\Users\\alexa\\Documents\\AI STUFF\\Project Big\\assets\\models\\forest_wreck\\Large_WreckModule\\source\\meshy_original.glb"
+      ],
+      "texture_paths": [
+        "C:\\Users\\alexa\\Documents\\AI STUFF\\Project Big\\assets\\models\\forest_wreck\\Large_WreckModule\\source\\meshy_original_textures\\base_color.png",
+        "C:\\Users\\alexa\\Documents\\AI STUFF\\Project Big\\assets\\models\\forest_wreck\\Large_WreckModule\\source\\meshy_original_textures\\metallic.png",
+        "C:\\Users\\alexa\\Documents\\AI STUFF\\Project Big\\assets\\models\\forest_wreck\\Large_WreckModule\\source\\meshy_original_textures\\roughness.png",
+        "C:\\Users\\alexa\\Documents\\AI STUFF\\Project Big\\assets\\models\\forest_wreck\\Large_WreckModule\\source\\meshy_original_textures\\normal.png"
+      ],
+      "balance_after": [
+        "# Meshy Credit Balance\n\n**Balance**: 4115 credits"
+      ]
+    },
+    {
+      "asset": "Large_Flagship71",
+      "operation": "image-to-3d",
+      "ai_model": "meshy-7.1",
+      "model_type": "standard",
+      "geometry_resolution": "4k",
+      "texture_resolution": "4k",
+      "target_triangles": 65000,
+      "preferred_lod0_range": [
+        55000,
+        75000
+      ],
+      "estimated_charge": 35,
+      "maximum_charge": 35,
+      "actual_charge": 35,
+      "outcome": "SUCCEEDED",
+      "task_id": "01a11d60-edf0-70d0-81c4-6d17af39e6a2",
+      "balance_before": [
+        "**Balance**: 4115"
+      ],
+      "authorization": "Direct user request to recreate selected assets with flagship instead of Smart Topology; existing 600-credit assignment cap.",
+      "request": {
+        "file_path": "C:\\Users\\alexa\\Documents\\AI STUFF\\Project Big\\assets\\models\\forest_wreck\\references\\Large_wreck_isolated_v1.png",
+        "ai_model": "meshy-7.1",
+        "model_type": "standard",
+        "geometry_resolution": "4k",
+        "should_remesh": true,
+        "topology": "triangle",
+        "target_polycount": 65000,
+        "should_texture": true,
+        "enable_pbr": true,
+        "texture_resolution": "4k",
+        "image_enhancement": false,
+        "texture_prompt": "Weathered military ship exterior, gray painted armor with a clearly distinct muted olive stripe, exposed dark metallic frame and piping. Crisp readable armor seams, chipped edges, localized scorch. Retain the horizontal Large module silhouette and attached left machinery housing. No stacked decks, rooms, furniture or loose rubble.",
+        "save_pre_remeshed_model": true,
+        "target_formats": [
+          "glb"
+        ],
+        "response_format": "json"
+      },
+      "observed_account_charge": 35,
+      "charge_evidence": "Immediate account balance difference before next submission.",
+      "progress": 100,
+      "local_paths": [
+        "C:\\Users\\alexa\\Documents\\AI STUFF\\Project Big\\assets\\models\\forest_wreck\\Large_Flagship71\\source\\meshy_original.glb"
+      ],
+      "texture_paths": [
+        "C:\\Users\\alexa\\Documents\\AI STUFF\\Project Big\\assets\\models\\forest_wreck\\Large_Flagship71\\source\\meshy_original_textures\\base_color.png",
+        "C:\\Users\\alexa\\Documents\\AI STUFF\\Project Big\\assets\\models\\forest_wreck\\Large_Flagship71\\source\\meshy_original_textures\\metallic.png",
+        "C:\\Users\\alexa\\Documents\\AI STUFF\\Project Big\\assets\\models\\forest_wreck\\Large_Flagship71\\source\\meshy_original_textures\\roughness.png",
+        "C:\\Users\\alexa\\Documents\\AI STUFF\\Project Big\\assets\\models\\forest_wreck\\Large_Flagship71\\source\\meshy_original_textures\\normal.png"
+      ],
+      "pre_remeshed_path": "C:\\Users\\alexa\\Documents\\AI STUFF\\Project Big\\assets\\models\\forest_wreck\\Large_Flagship71\\source\\meshy_pre_remeshed.glb"
+    },
+    {
+      "asset": "Medium_Flagship71",
+      "operation": "image-to-3d",
+      "ai_model": "meshy-7.1",
+      "model_type": "standard",
+      "geometry_resolution": "4k",
+      "texture_resolution": "4k",
+      "target_triangles": 30000,
+      "preferred_lod0_range": [
+        25000,
+        35000
+      ],
+      "estimated_charge": 35,
+      "maximum_charge": 35,
+      "actual_charge": 35,
+      "outcome": "SUCCEEDED",
+      "task_id": "01a11d61-472e-776d-8af0-c0f71a0f265b",
+      "balance_before": [
+        "**Balance**: 4080"
+      ],
+      "authorization": "Direct user request to recreate selected assets with flagship instead of Smart Topology; existing 600-credit assignment cap.",
+      "request": {
+        "file_path": "C:\\Users\\alexa\\Documents\\AI STUFF\\Project Big\\assets\\models\\forest_wreck\\references\\Medium_wreck_isolated_v1.png",
+        "ai_model": "meshy-7.1",
+        "model_type": "standard",
+        "geometry_resolution": "4k",
+        "should_remesh": true,
+        "topology": "triangle",
+        "target_polycount": 30000,
+        "should_texture": true,
+        "enable_pbr": true,
+        "texture_resolution": "4k",
+        "image_enhancement": false,
+        "texture_prompt": "Gray painted military armor and distinct muted olive painted stripe. Crisp panel boundaries, dark recessed hoses, rigid structural rails, restrained edge wear and scorch. Preserve the selected upright shallow machinery wall, armor coverage and exterior shape. No extra rooms, floors or rubble.",
+        "save_pre_remeshed_model": true,
+        "target_formats": [
+          "glb"
+        ],
+        "response_format": "json"
+      },
+      "observed_account_charge": 35,
+      "charge_evidence": "Immediate account balance difference before next submission.",
+      "progress": 100,
+      "local_paths": [
+        "C:\\Users\\alexa\\Documents\\AI STUFF\\Project Big\\assets\\models\\forest_wreck\\Medium_Flagship71\\source\\meshy_original.glb"
+      ],
+      "texture_paths": [
+        "C:\\Users\\alexa\\Documents\\AI STUFF\\Project Big\\assets\\models\\forest_wreck\\Medium_Flagship71\\source\\meshy_original_textures\\base_color.png",
+        "C:\\Users\\alexa\\Documents\\AI STUFF\\Project Big\\assets\\models\\forest_wreck\\Medium_Flagship71\\source\\meshy_original_textures\\metallic.png",
+        "C:\\Users\\alexa\\Documents\\AI STUFF\\Project Big\\assets\\models\\forest_wreck\\Medium_Flagship71\\source\\meshy_original_textures\\roughness.png",
+        "C:\\Users\\alexa\\Documents\\AI STUFF\\Project Big\\assets\\models\\forest_wreck\\Medium_Flagship71\\source\\meshy_original_textures\\normal.png"
+      ],
+      "pre_remeshed_path": "C:\\Users\\alexa\\Documents\\AI STUFF\\Project Big\\assets\\models\\forest_wreck\\Medium_Flagship71\\source\\meshy_pre_remeshed.glb"
+    },
+    {
+      "asset": "Engine_Flagship71",
+      "operation": "image-to-3d",
+      "ai_model": "meshy-7.1",
+      "model_type": "standard",
+      "geometry_resolution": "4k",
+      "texture_resolution": "4k",
+      "target_triangles": 45000,
+      "preferred_lod0_range": [
+        35000,
+        55000
+      ],
+      "estimated_charge": 35,
+      "maximum_charge": 35,
+      "actual_charge": 35,
+      "outcome": "SUCCEEDED",
+      "task_id": "01a11d61-73b6-70cd-bcad-9a7c01bb258b",
+      "balance_before": [
+        "**Balance**: 4045"
+      ],
+      "authorization": "Direct user request to recreate selected assets with flagship instead of Smart Topology; existing 600-credit assignment cap.",
+      "request": {
+        "file_path": "C:\\Users\\alexa\\Documents\\AI STUFF\\Project Big\\assets\\models\\forest_wreck\\references\\D5_nacelle_isolated_v1.png",
+        "ai_model": "meshy-7.1",
+        "model_type": "standard",
+        "geometry_resolution": "4k",
+        "should_remesh": true,
+        "topology": "triangle",
+        "target_polycount": 45000,
+        "should_texture": true,
+        "enable_pbr": true,
+        "texture_resolution": "4k",
+        "image_enhancement": false,
+        "texture_prompt": "Armored military engine nacelle with gray paint, distinct muted olive armor band, dark exposed metal and pipes, localized chipped edges and soot around the short exhaust. Preserve the reference armored horizontal cylinder and nozzle silhouette. No glowing armor, complete engine internals, rooms, extra engines or ground.",
+        "save_pre_remeshed_model": true,
+        "target_formats": [
+          "glb"
+        ],
+        "response_format": "json"
+      },
+      "observed_account_charge": 35,
+      "charge_evidence": "Immediate account balance difference before next submission.",
+      "progress": 100,
+      "local_paths": [
+        "C:\\Users\\alexa\\Documents\\AI STUFF\\Project Big\\assets\\models\\forest_wreck\\Engine_Flagship71\\source\\meshy_original.glb"
+      ],
+      "texture_paths": [
+        "C:\\Users\\alexa\\Documents\\AI STUFF\\Project Big\\assets\\models\\forest_wreck\\Engine_Flagship71\\source\\meshy_original_textures\\base_color.png",
+        "C:\\Users\\alexa\\Documents\\AI STUFF\\Project Big\\assets\\models\\forest_wreck\\Engine_Flagship71\\source\\meshy_original_textures\\metallic.png",
+        "C:\\Users\\alexa\\Documents\\AI STUFF\\Project Big\\assets\\models\\forest_wreck\\Engine_Flagship71\\source\\meshy_original_textures\\roughness.png",
+        "C:\\Users\\alexa\\Documents\\AI STUFF\\Project Big\\assets\\models\\forest_wreck\\Engine_Flagship71\\source\\meshy_original_textures\\normal.png"
+      ],
+      "pre_remeshed_path": "C:\\Users\\alexa\\Documents\\AI STUFF\\Project Big\\assets\\models\\forest_wreck\\Engine_Flagship71\\source\\meshy_pre_remeshed.glb"
+    },
+    {
+      "asset": "F01_Flagship71",
+      "operation": "image-to-3d",
+      "ai_model": "meshy-7.1",
+      "model_type": "standard",
+      "geometry_resolution": "4k",
+      "texture_resolution": "4k",
+      "target_triangles": 28000,
+      "preferred_lod0_range": [
+        24000,
+        32000
+      ],
+      "estimated_charge": 35,
+      "maximum_charge": 35,
+      "actual_charge": 35,
+      "outcome": "SUCCEEDED",
+      "task_id": "01a11d79-3a8e-73ca-ac33-59f7aa21b441",
+      "balance_before": [
+        "**Balance**: 4010"
+      ],
+      "authorization": "Direct user request to recreate trees and reference vegetation with new flagship; seven opening flora assets, 245 credits within existing 600-credit cap.",
+      "request": {
+        "file_path": "C:\\Users\\alexa\\Documents\\AI STUFF\\Project Big\\assets\\models\\forest_wreck\\references\\F01_isolated_v1.png",
+        "ai_model": "meshy-7.1",
+        "model_type": "standard",
+        "geometry_resolution": "4k",
+        "should_remesh": true,
+        "topology": "triangle",
+        "target_polycount": 28000,
+        "should_texture": true,
+        "enable_pbr": true,
+        "texture_resolution": "4k",
+        "image_enhancement": false,
+        "texture_prompt": "Natural alien woodland plant matching the reference botanical shape. Dark rough woody bark where present, distinctly blue-green leathery ribbed leaves with muted violet undersides and restrained fresh green growth. Preserve open gaps between leaves, visible leaf outlines and natural branching. Nonmetallic organic surfaces, no glow, no labels, rocks, soil mound or companion weeds.",
+        "save_pre_remeshed_model": true,
+        "target_formats": [
+          "glb"
+        ],
+        "response_format": "json"
+      },
+      "observed_account_charge": 35,
+      "charge_evidence": "Immediate account balance difference before next submission.",
+      "progress": 100,
+      "local_paths": [
+        "C:\\Users\\alexa\\Documents\\AI STUFF\\Project Big\\assets\\models\\forest_wreck\\F01_Flagship71\\source\\meshy_original.glb"
+      ],
+      "texture_paths": [
+        "C:\\Users\\alexa\\Documents\\AI STUFF\\Project Big\\assets\\models\\forest_wreck\\F01_Flagship71\\source\\meshy_original_textures\\base_color.png",
+        "C:\\Users\\alexa\\Documents\\AI STUFF\\Project Big\\assets\\models\\forest_wreck\\F01_Flagship71\\source\\meshy_original_textures\\metallic.png",
+        "C:\\Users\\alexa\\Documents\\AI STUFF\\Project Big\\assets\\models\\forest_wreck\\F01_Flagship71\\source\\meshy_original_textures\\roughness.png",
+        "C:\\Users\\alexa\\Documents\\AI STUFF\\Project Big\\assets\\models\\forest_wreck\\F01_Flagship71\\source\\meshy_original_textures\\normal.png"
+      ],
+      "pre_remeshed_path": "C:\\Users\\alexa\\Documents\\AI STUFF\\Project Big\\assets\\models\\forest_wreck\\F01_Flagship71\\source\\meshy_pre_remeshed.glb"
+    },
+    {
+      "asset": "F02_Flagship71",
+      "operation": "image-to-3d",
+      "ai_model": "meshy-7.1",
+      "model_type": "standard",
+      "geometry_resolution": "4k",
+      "texture_resolution": "4k",
+      "target_triangles": 22000,
+      "preferred_lod0_range": [
+        18000,
+        26000
+      ],
+      "estimated_charge": 35,
+      "maximum_charge": 35,
+      "actual_charge": 35,
+      "outcome": "SUCCEEDED",
+      "task_id": "01a11d79-9bd6-70b9-9249-a609a2d46b72",
+      "balance_before": [
+        "**Balance**: 3975"
+      ],
+      "authorization": "Direct user request to recreate trees and reference vegetation with new flagship; seven opening flora assets, 245 credits within existing 600-credit cap.",
+      "request": {
+        "file_path": "C:\\Users\\alexa\\Documents\\AI STUFF\\Project Big\\assets\\models\\forest_wreck\\references\\F02_isolated_v1.png",
+        "ai_model": "meshy-7.1",
+        "model_type": "standard",
+        "geometry_resolution": "4k",
+        "should_remesh": true,
+        "topology": "triangle",
+        "target_polycount": 22000,
+        "should_texture": true,
+        "enable_pbr": true,
+        "texture_resolution": "4k",
+        "image_enhancement": false,
+        "texture_prompt": "Natural alien woodland plant matching the reference botanical shape. Dark rough woody bark where present, distinctly blue-green leathery ribbed leaves with muted violet undersides and restrained fresh green growth. Preserve open gaps between leaves, visible leaf outlines and natural branching. Nonmetallic organic surfaces, no glow, no labels, rocks, soil mound or companion weeds.",
+        "save_pre_remeshed_model": true,
+        "target_formats": [
+          "glb"
+        ],
+        "response_format": "json"
+      },
+      "observed_account_charge": 35,
+      "charge_evidence": "Immediate account balance difference before next submission.",
+      "progress": 100,
+      "local_paths": [
+        "C:\\Users\\alexa\\Documents\\AI STUFF\\Project Big\\assets\\models\\forest_wreck\\F02_Flagship71\\source\\meshy_original.glb"
+      ],
+      "texture_paths": [
+        "C:\\Users\\alexa\\Documents\\AI STUFF\\Project Big\\assets\\models\\forest_wreck\\F02_Flagship71\\source\\meshy_original_textures\\base_color.png",
+        "C:\\Users\\alexa\\Documents\\AI STUFF\\Project Big\\assets\\models\\forest_wreck\\F02_Flagship71\\source\\meshy_original_textures\\metallic.png",
+        "C:\\Users\\alexa\\Documents\\AI STUFF\\Project Big\\assets\\models\\forest_wreck\\F02_Flagship71\\source\\meshy_original_textures\\roughness.png",
+        "C:\\Users\\alexa\\Documents\\AI STUFF\\Project Big\\assets\\models\\forest_wreck\\F02_Flagship71\\source\\meshy_original_textures\\normal.png"
+      ],
+      "pre_remeshed_path": "C:\\Users\\alexa\\Documents\\AI STUFF\\Project Big\\assets\\models\\forest_wreck\\F02_Flagship71\\source\\meshy_pre_remeshed.glb"
+    },
+    {
+      "asset": "F08_Flagship71",
+      "operation": "image-to-3d",
+      "ai_model": "meshy-7.1",
+      "model_type": "standard",
+      "geometry_resolution": "4k",
+      "texture_resolution": "4k",
+      "target_triangles": 18000,
+      "preferred_lod0_range": [
+        14000,
+        22000
+      ],
+      "estimated_charge": 35,
+      "maximum_charge": 35,
+      "actual_charge": 35,
+      "outcome": "SUCCEEDED",
+      "task_id": "01a11d79-b6cf-7730-8a41-2e217a1c5c16",
+      "balance_before": [
+        "**Balance**: 3940"
+      ],
+      "authorization": "Direct user request to recreate trees and reference vegetation with new flagship; seven opening flora assets, 245 credits within existing 600-credit cap.",
+      "request": {
+        "file_path": "C:\\Users\\alexa\\Documents\\AI STUFF\\Project Big\\assets\\models\\forest_wreck\\references\\F08_isolated_v1.png",
+        "ai_model": "meshy-7.1",
+        "model_type": "standard",
+        "geometry_resolution": "4k",
+        "should_remesh": true,
+        "topology": "triangle",
+        "target_polycount": 18000,
+        "should_texture": true,
+        "enable_pbr": true,
+        "texture_resolution": "4k",
+        "image_enhancement": false,
+        "texture_prompt": "Natural alien woodland plant matching the reference botanical shape. Dark rough woody bark where present, distinctly blue-green leathery ribbed leaves with muted violet undersides and restrained fresh green growth. Preserve open gaps between leaves, visible leaf outlines and natural branching. Nonmetallic organic surfaces, no glow, no labels, rocks, soil mound or companion weeds.",
+        "save_pre_remeshed_model": true,
+        "target_formats": [
+          "glb"
+        ],
+        "response_format": "json"
+      },
+      "observed_account_charge": 35,
+      "charge_evidence": "Immediate account balance difference before next submission.",
+      "progress": 100,
+      "local_paths": [
+        "C:\\Users\\alexa\\Documents\\AI STUFF\\Project Big\\assets\\models\\forest_wreck\\F08_Flagship71\\source\\meshy_original.glb"
+      ],
+      "texture_paths": [
+        "C:\\Users\\alexa\\Documents\\AI STUFF\\Project Big\\assets\\models\\forest_wreck\\F08_Flagship71\\source\\meshy_original_textures\\base_color.png",
+        "C:\\Users\\alexa\\Documents\\AI STUFF\\Project Big\\assets\\models\\forest_wreck\\F08_Flagship71\\source\\meshy_original_textures\\metallic.png",
+        "C:\\Users\\alexa\\Documents\\AI STUFF\\Project Big\\assets\\models\\forest_wreck\\F08_Flagship71\\source\\meshy_original_textures\\roughness.png",
+        "C:\\Users\\alexa\\Documents\\AI STUFF\\Project Big\\assets\\models\\forest_wreck\\F08_Flagship71\\source\\meshy_original_textures\\normal.png"
+      ],
+      "pre_remeshed_path": "C:\\Users\\alexa\\Documents\\AI STUFF\\Project Big\\assets\\models\\forest_wreck\\F08_Flagship71\\source\\meshy_pre_remeshed.glb"
+    },
+    {
+      "asset": "F03_Flagship71",
+      "operation": "image-to-3d",
+      "ai_model": "meshy-7.1",
+      "model_type": "standard",
+      "geometry_resolution": "4k",
+      "texture_resolution": "4k",
+      "target_triangles": 8000,
+      "preferred_lod0_range": [
+        6000,
+        10000
+      ],
+      "estimated_charge": 35,
+      "maximum_charge": 35,
+      "actual_charge": 35,
+      "outcome": "SUCCEEDED",
+      "task_id": "01a11d79-d231-7594-8708-ba9a1c38a154",
+      "balance_before": [
+        "**Balance**: 3905"
+      ],
+      "authorization": "Direct user request to recreate trees and reference vegetation with new flagship; seven opening flora assets, 245 credits within existing 600-credit cap.",
+      "request": {
+        "file_path": "C:\\Users\\alexa\\Documents\\AI STUFF\\Project Big\\assets\\models\\forest_wreck\\references\\F03_isolated_v1.png",
+        "ai_model": "meshy-7.1",
+        "model_type": "standard",
+        "geometry_resolution": "4k",
+        "should_remesh": true,
+        "topology": "triangle",
+        "target_polycount": 8000,
+        "should_texture": true,
+        "enable_pbr": true,
+        "texture_resolution": "4k",
+        "image_enhancement": false,
+        "texture_prompt": "Natural alien woodland plant matching the reference botanical shape. Dark rough woody bark where present, distinctly blue-green leathery ribbed leaves with muted violet undersides and restrained fresh green growth. Preserve open gaps between leaves, visible leaf outlines and natural branching. Nonmetallic organic surfaces, no glow, no labels, rocks, soil mound or companion weeds.",
+        "save_pre_remeshed_model": true,
+        "target_formats": [
+          "glb"
+        ],
+        "response_format": "json"
+      },
+      "observed_account_charge": 35,
+      "charge_evidence": "Immediate account balance difference before next submission.",
+      "progress": 100,
+      "local_paths": [
+        "C:\\Users\\alexa\\Documents\\AI STUFF\\Project Big\\assets\\models\\forest_wreck\\F03_Flagship71\\source\\meshy_original.glb"
+      ],
+      "texture_paths": [
+        "C:\\Users\\alexa\\Documents\\AI STUFF\\Project Big\\assets\\models\\forest_wreck\\F03_Flagship71\\source\\meshy_original_textures\\base_color.png",
+        "C:\\Users\\alexa\\Documents\\AI STUFF\\Project Big\\assets\\models\\forest_wreck\\F03_Flagship71\\source\\meshy_original_textures\\metallic.png",
+        "C:\\Users\\alexa\\Documents\\AI STUFF\\Project Big\\assets\\models\\forest_wreck\\F03_Flagship71\\source\\meshy_original_textures\\roughness.png",
+        "C:\\Users\\alexa\\Documents\\AI STUFF\\Project Big\\assets\\models\\forest_wreck\\F03_Flagship71\\source\\meshy_original_textures\\normal.png"
+      ],
+      "pre_remeshed_path": "C:\\Users\\alexa\\Documents\\AI STUFF\\Project Big\\assets\\models\\forest_wreck\\F03_Flagship71\\source\\meshy_pre_remeshed.glb"
+    },
+    {
+      "asset": "F05_Flagship71",
+      "operation": "image-to-3d",
+      "ai_model": "meshy-7.1",
+      "model_type": "standard",
+      "geometry_resolution": "4k",
+      "texture_resolution": "4k",
+      "target_triangles": 6000,
+      "preferred_lod0_range": [
+        4000,
+        8000
+      ],
+      "estimated_charge": 35,
+      "maximum_charge": 35,
+      "actual_charge": 35,
+      "outcome": "SUCCEEDED",
+      "task_id": "01a11d79-f0c8-704f-8e84-eddac0dadd56",
+      "balance_before": [
+        "**Balance**: 3870"
+      ],
+      "authorization": "Direct user request to recreate trees and reference vegetation with new flagship; seven opening flora assets, 245 credits within existing 600-credit cap.",
+      "request": {
+        "file_path": "C:\\Users\\alexa\\Documents\\AI STUFF\\Project Big\\assets\\models\\forest_wreck\\references\\F05_isolated_v1.png",
+        "ai_model": "meshy-7.1",
+        "model_type": "standard",
+        "geometry_resolution": "4k",
+        "should_remesh": true,
+        "topology": "triangle",
+        "target_polycount": 6000,
+        "should_texture": true,
+        "enable_pbr": true,
+        "texture_resolution": "4k",
+        "image_enhancement": false,
+        "texture_prompt": "Natural alien woodland plant matching the reference botanical shape. Dark rough woody bark where present, distinctly blue-green leathery ribbed leaves with muted violet undersides and restrained fresh green growth. Preserve open gaps between leaves, visible leaf outlines and natural branching. Nonmetallic organic surfaces, no glow, no labels, rocks, soil mound or companion weeds.",
+        "save_pre_remeshed_model": true,
+        "target_formats": [
+          "glb"
+        ],
+        "response_format": "json"
+      },
+      "observed_account_charge": 35,
+      "charge_evidence": "Immediate account balance difference before next submission.",
+      "progress": 100,
+      "local_paths": [
+        "C:\\Users\\alexa\\Documents\\AI STUFF\\Project Big\\assets\\models\\forest_wreck\\F05_Flagship71\\source\\meshy_original.glb"
+      ],
+      "texture_paths": [
+        "C:\\Users\\alexa\\Documents\\AI STUFF\\Project Big\\assets\\models\\forest_wreck\\F05_Flagship71\\source\\meshy_original_textures\\base_color.png",
+        "C:\\Users\\alexa\\Documents\\AI STUFF\\Project Big\\assets\\models\\forest_wreck\\F05_Flagship71\\source\\meshy_original_textures\\metallic.png",
+        "C:\\Users\\alexa\\Documents\\AI STUFF\\Project Big\\assets\\models\\forest_wreck\\F05_Flagship71\\source\\meshy_original_textures\\roughness.png",
+        "C:\\Users\\alexa\\Documents\\AI STUFF\\Project Big\\assets\\models\\forest_wreck\\F05_Flagship71\\source\\meshy_original_textures\\normal.png"
+      ],
+      "pre_remeshed_path": "C:\\Users\\alexa\\Documents\\AI STUFF\\Project Big\\assets\\models\\forest_wreck\\F05_Flagship71\\source\\meshy_pre_remeshed.glb"
+    },
+    {
+      "asset": "F06_Flagship71",
+      "operation": "image-to-3d",
+      "ai_model": "meshy-7.1",
+      "model_type": "standard",
+      "geometry_resolution": "4k",
+      "texture_resolution": "4k",
+      "target_triangles": 4000,
+      "preferred_lod0_range": [
+        3000,
+        6000
+      ],
+      "estimated_charge": 35,
+      "maximum_charge": 35,
+      "actual_charge": 35,
+      "outcome": "SUCCEEDED",
+      "task_id": "01a11d7a-1023-7746-a45e-67082e1f2c45",
+      "balance_before": [
+        "**Balance**: 3835"
+      ],
+      "authorization": "Direct user request to recreate trees and reference vegetation with new flagship; seven opening flora assets, 245 credits within existing 600-credit cap.",
+      "request": {
+        "file_path": "C:\\Users\\alexa\\Documents\\AI STUFF\\Project Big\\assets\\models\\forest_wreck\\references\\F06_isolated_v1.png",
+        "ai_model": "meshy-7.1",
+        "model_type": "standard",
+        "geometry_resolution": "4k",
+        "should_remesh": true,
+        "topology": "triangle",
+        "target_polycount": 4000,
+        "should_texture": true,
+        "enable_pbr": true,
+        "texture_resolution": "4k",
+        "image_enhancement": false,
+        "texture_prompt": "Natural alien woodland plant matching the reference botanical shape. Dark rough woody bark where present, distinctly blue-green leathery ribbed leaves with muted violet undersides and restrained fresh green growth. Preserve open gaps between leaves, visible leaf outlines and natural branching. Nonmetallic organic surfaces, no glow, no labels, rocks, soil mound or companion weeds.",
+        "save_pre_remeshed_model": true,
+        "target_formats": [
+          "glb"
+        ],
+        "response_format": "json"
+      },
+      "observed_account_charge": 35,
+      "charge_evidence": "Immediate account balance difference before next submission.",
+      "progress": 100,
+      "local_paths": [
+        "C:\\Users\\alexa\\Documents\\AI STUFF\\Project Big\\assets\\models\\forest_wreck\\F06_Flagship71\\source\\meshy_original.glb"
+      ],
+      "texture_paths": [
+        "C:\\Users\\alexa\\Documents\\AI STUFF\\Project Big\\assets\\models\\forest_wreck\\F06_Flagship71\\source\\meshy_original_textures\\base_color.png",
+        "C:\\Users\\alexa\\Documents\\AI STUFF\\Project Big\\assets\\models\\forest_wreck\\F06_Flagship71\\source\\meshy_original_textures\\metallic.png",
+        "C:\\Users\\alexa\\Documents\\AI STUFF\\Project Big\\assets\\models\\forest_wreck\\F06_Flagship71\\source\\meshy_original_textures\\roughness.png",
+        "C:\\Users\\alexa\\Documents\\AI STUFF\\Project Big\\assets\\models\\forest_wreck\\F06_Flagship71\\source\\meshy_original_textures\\normal.png"
+      ],
+      "pre_remeshed_path": "C:\\Users\\alexa\\Documents\\AI STUFF\\Project Big\\assets\\models\\forest_wreck\\F06_Flagship71\\source\\meshy_pre_remeshed.glb"
+    },
+    {
+      "asset": "F10_Flagship71",
+      "operation": "image-to-3d",
+      "ai_model": "meshy-7.1",
+      "model_type": "standard",
+      "geometry_resolution": "4k",
+      "texture_resolution": "4k",
+      "target_triangles": 3000,
+      "preferred_lod0_range": [
+        2000,
+        4500
+      ],
+      "estimated_charge": 35,
+      "maximum_charge": 35,
+      "actual_charge": 35,
+      "outcome": "SUCCEEDED",
+      "task_id": "01a11d7a-39c4-71a4-9133-9fe036e839e8",
+      "balance_before": [
+        "**Balance**: 3800"
+      ],
+      "authorization": "Direct user request to recreate trees and reference vegetation with new flagship; seven opening flora assets, 245 credits within existing 600-credit cap.",
+      "request": {
+        "file_path": "C:\\Users\\alexa\\Documents\\AI STUFF\\Project Big\\assets\\models\\forest_wreck\\references\\F10_isolated_v1.png",
+        "ai_model": "meshy-7.1",
+        "model_type": "standard",
+        "geometry_resolution": "4k",
+        "should_remesh": true,
+        "topology": "triangle",
+        "target_polycount": 3000,
+        "should_texture": true,
+        "enable_pbr": true,
+        "texture_resolution": "4k",
+        "image_enhancement": false,
+        "texture_prompt": "Natural alien woodland plant matching the reference botanical shape. Dark rough woody bark where present, distinctly blue-green leathery ribbed leaves with muted violet undersides and restrained fresh green growth. Preserve open gaps between leaves, visible leaf outlines and natural branching. Nonmetallic organic surfaces, no glow, no labels, rocks, soil mound or companion weeds.",
+        "save_pre_remeshed_model": true,
+        "target_formats": [
+          "glb"
+        ],
+        "response_format": "json"
+      },
+      "observed_account_charge": 35,
+      "charge_evidence": "Immediate account balance difference before next submission.",
+      "progress": 100,
+      "local_paths": [
+        "C:\\Users\\alexa\\Documents\\AI STUFF\\Project Big\\assets\\models\\forest_wreck\\F10_Flagship71\\source\\meshy_original.glb"
+      ],
+      "texture_paths": [
+        "C:\\Users\\alexa\\Documents\\AI STUFF\\Project Big\\assets\\models\\forest_wreck\\F10_Flagship71\\source\\meshy_original_textures\\base_color.png",
+        "C:\\Users\\alexa\\Documents\\AI STUFF\\Project Big\\assets\\models\\forest_wreck\\F10_Flagship71\\source\\meshy_original_textures\\metallic.png",
+        "C:\\Users\\alexa\\Documents\\AI STUFF\\Project Big\\assets\\models\\forest_wreck\\F10_Flagship71\\source\\meshy_original_textures\\roughness.png",
+        "C:\\Users\\alexa\\Documents\\AI STUFF\\Project Big\\assets\\models\\forest_wreck\\F10_Flagship71\\source\\meshy_original_textures\\normal.png"
+      ],
+      "pre_remeshed_path": "C:\\Users\\alexa\\Documents\\AI STUFF\\Project Big\\assets\\models\\forest_wreck\\F10_Flagship71\\source\\meshy_pre_remeshed.glb"
+    },
+    {
+      "asset": "F13_Expansion71",
+      "operation": "image-to-3d",
+      "ai_model": "meshy-7.1",
+      "model_type": "standard",
+      "geometry_resolution": "4k",
+      "texture_resolution": "4k",
+      "target_triangles": 60000,
+      "preferred_lod0_range": [
+        40000,
+        75000
+      ],
+      "estimated_charge": 35,
+      "maximum_charge": 35,
+      "actual_charge": 35,
+      "outcome": "SUCCEEDED",
+      "task_id": "01a11e08-b608-74a9-8f5e-b94085c047b6",
+      "authorization": "User directly requests new flora models using best Meshy model; five specimens cost 175 within existing 600 cap, disclosed in chat.",
+      "balance_before": 3765,
+      "charge_evidence": "Immediate native connector account balance difference before next submission.",
+      "progress": 100,
+      "local_paths": [
+        "C:\\Users\\alexa\\Documents\\AI STUFF\\Project Big\\assets\\models\\forest_wreck\\F13_Expansion71\\source\\meshy_original.glb"
+      ],
+      "pre_remeshed_path": "C:\\Users\\alexa\\Documents\\AI STUFF\\Project Big\\assets\\models\\forest_wreck\\F13_Expansion71\\source\\meshy_pre_remeshed.glb",
+      "texture_paths": [
+        "C:\\Users\\alexa\\Documents\\AI STUFF\\Project Big\\assets\\models\\forest_wreck\\F13_Expansion71\\source\\meshy_original_textures\\base_color.png",
+        "C:\\Users\\alexa\\Documents\\AI STUFF\\Project Big\\assets\\models\\forest_wreck\\F13_Expansion71\\source\\meshy_original_textures\\metallic.png",
+        "C:\\Users\\alexa\\Documents\\AI STUFF\\Project Big\\assets\\models\\forest_wreck\\F13_Expansion71\\source\\meshy_original_textures\\normal.png",
+        "C:\\Users\\alexa\\Documents\\AI STUFF\\Project Big\\assets\\models\\forest_wreck\\F13_Expansion71\\source\\meshy_original_textures\\roughness.png"
+      ]
+    },
+    {
+      "asset": "F14_Expansion71",
+      "operation": "image-to-3d",
+      "ai_model": "meshy-7.1",
+      "model_type": "standard",
+      "geometry_resolution": "4k",
+      "texture_resolution": "4k",
+      "target_triangles": 45000,
+      "preferred_lod0_range": [
+        30000,
+        55000
+      ],
+      "estimated_charge": 35,
+      "maximum_charge": 35,
+      "actual_charge": 35,
+      "outcome": "SUCCEEDED",
+      "task_id": "01a11e09-1963-7750-b774-a8386b71d524",
+      "authorization": "User directly requests new flora models using best Meshy model; five specimens cost 175 within existing 600 cap, disclosed in chat.",
+      "balance_before": 3730,
+      "charge_evidence": "Immediate native connector account balance difference before next submission.",
+      "progress": 100,
+      "local_paths": [
+        "C:\\Users\\alexa\\Documents\\AI STUFF\\Project Big\\assets\\models\\forest_wreck\\F14_Expansion71\\source\\meshy_original.glb"
+      ],
+      "pre_remeshed_path": "C:\\Users\\alexa\\Documents\\AI STUFF\\Project Big\\assets\\models\\forest_wreck\\F14_Expansion71\\source\\meshy_pre_remeshed.glb",
+      "texture_paths": [
+        "C:\\Users\\alexa\\Documents\\AI STUFF\\Project Big\\assets\\models\\forest_wreck\\F14_Expansion71\\source\\meshy_original_textures\\base_color.png",
+        "C:\\Users\\alexa\\Documents\\AI STUFF\\Project Big\\assets\\models\\forest_wreck\\F14_Expansion71\\source\\meshy_original_textures\\metallic.png",
+        "C:\\Users\\alexa\\Documents\\AI STUFF\\Project Big\\assets\\models\\forest_wreck\\F14_Expansion71\\source\\meshy_original_textures\\normal.png",
+        "C:\\Users\\alexa\\Documents\\AI STUFF\\Project Big\\assets\\models\\forest_wreck\\F14_Expansion71\\source\\meshy_original_textures\\roughness.png"
+      ]
+    },
+    {
+      "asset": "F16_Expansion71",
+      "operation": "image-to-3d",
+      "ai_model": "meshy-7.1",
+      "model_type": "standard",
+      "geometry_resolution": "4k",
+      "texture_resolution": "4k",
+      "target_triangles": 60000,
+      "preferred_lod0_range": [
+        40000,
+        75000
+      ],
+      "estimated_charge": 35,
+      "maximum_charge": 35,
+      "actual_charge": 35,
+      "outcome": "SUCCEEDED",
+      "task_id": "01a11e09-c432-74c8-8c38-8c0b547bb4e9",
+      "authorization": "User directly requests new flora models using best Meshy model; five specimens cost 175 within existing 600 cap, disclosed in chat.",
+      "balance_before": 3695,
+      "charge_evidence": "Immediate native connector account balance difference before next submission.",
+      "progress": 100,
+      "local_paths": [
+        "C:\\Users\\alexa\\Documents\\AI STUFF\\Project Big\\assets\\models\\forest_wreck\\F16_Expansion71\\source\\meshy_original.glb"
+      ],
+      "pre_remeshed_path": "C:\\Users\\alexa\\Documents\\AI STUFF\\Project Big\\assets\\models\\forest_wreck\\F16_Expansion71\\source\\meshy_pre_remeshed.glb",
+      "texture_paths": [
+        "C:\\Users\\alexa\\Documents\\AI STUFF\\Project Big\\assets\\models\\forest_wreck\\F16_Expansion71\\source\\meshy_original_textures\\base_color.png",
+        "C:\\Users\\alexa\\Documents\\AI STUFF\\Project Big\\assets\\models\\forest_wreck\\F16_Expansion71\\source\\meshy_original_textures\\metallic.png",
+        "C:\\Users\\alexa\\Documents\\AI STUFF\\Project Big\\assets\\models\\forest_wreck\\F16_Expansion71\\source\\meshy_original_textures\\normal.png",
+        "C:\\Users\\alexa\\Documents\\AI STUFF\\Project Big\\assets\\models\\forest_wreck\\F16_Expansion71\\source\\meshy_original_textures\\roughness.png"
+      ]
+    },
+    {
+      "asset": "F19_Expansion71",
+      "operation": "image-to-3d",
+      "ai_model": "meshy-7.1",
+      "model_type": "standard",
+      "geometry_resolution": "4k",
+      "texture_resolution": "4k",
+      "target_triangles": 16000,
+      "preferred_lod0_range": [
+        10000,
+        22000
+      ],
+      "estimated_charge": 35,
+      "maximum_charge": 35,
+      "actual_charge": 35,
+      "outcome": "SUCCEEDED",
+      "task_id": "01a11e0a-74c2-7777-add3-0b079f302388",
+      "authorization": "User directly requests new flora models using best Meshy model; five specimens cost 175 within existing 600 cap, disclosed in chat.",
+      "balance_before": 3660,
+      "charge_evidence": "Immediate native connector account balance difference before next submission.",
+      "progress": 100,
+      "local_paths": [
+        "C:\\Users\\alexa\\Documents\\AI STUFF\\Project Big\\assets\\models\\forest_wreck\\F19_Expansion71\\source\\meshy_original.glb"
+      ],
+      "pre_remeshed_path": "C:\\Users\\alexa\\Documents\\AI STUFF\\Project Big\\assets\\models\\forest_wreck\\F19_Expansion71\\source\\meshy_pre_remeshed.glb",
+      "texture_paths": [
+        "C:\\Users\\alexa\\Documents\\AI STUFF\\Project Big\\assets\\models\\forest_wreck\\F19_Expansion71\\source\\meshy_original_textures\\base_color.png",
+        "C:\\Users\\alexa\\Documents\\AI STUFF\\Project Big\\assets\\models\\forest_wreck\\F19_Expansion71\\source\\meshy_original_textures\\metallic.png",
+        "C:\\Users\\alexa\\Documents\\AI STUFF\\Project Big\\assets\\models\\forest_wreck\\F19_Expansion71\\source\\meshy_original_textures\\normal.png",
+        "C:\\Users\\alexa\\Documents\\AI STUFF\\Project Big\\assets\\models\\forest_wreck\\F19_Expansion71\\source\\meshy_original_textures\\roughness.png"
+      ]
+    },
+    {
+      "asset": "F21_Expansion71",
+      "operation": "image-to-3d",
+      "ai_model": "meshy-7.1",
+      "model_type": "standard",
+      "geometry_resolution": "4k",
+      "texture_resolution": "4k",
+      "target_triangles": 14000,
+      "preferred_lod0_range": [
+        9000,
+        20000
+      ],
+      "estimated_charge": 35,
+      "maximum_charge": 35,
+      "actual_charge": 35,
+      "outcome": "SUCCEEDED",
+      "task_id": "01a11e0a-c476-7689-b1d7-756a67dfb084",
+      "authorization": "User directly requests new flora models using best Meshy model; five specimens cost 175 within existing 600 cap, disclosed in chat.",
+      "balance_before": 3625,
+      "charge_evidence": "Immediate native connector account balance difference before next submission.",
+      "progress": 100,
+      "local_paths": [
+        "C:\\Users\\alexa\\Documents\\AI STUFF\\Project Big\\assets\\models\\forest_wreck\\F21_Expansion71\\source\\meshy_original.glb"
+      ],
+      "pre_remeshed_path": "C:\\Users\\alexa\\Documents\\AI STUFF\\Project Big\\assets\\models\\forest_wreck\\F21_Expansion71\\source\\meshy_pre_remeshed.glb",
+      "texture_paths": [
+        "C:\\Users\\alexa\\Documents\\AI STUFF\\Project Big\\assets\\models\\forest_wreck\\F21_Expansion71\\source\\meshy_original_textures\\base_color.png",
+        "C:\\Users\\alexa\\Documents\\AI STUFF\\Project Big\\assets\\models\\forest_wreck\\F21_Expansion71\\source\\meshy_original_textures\\metallic.png",
+        "C:\\Users\\alexa\\Documents\\AI STUFF\\Project Big\\assets\\models\\forest_wreck\\F21_Expansion71\\source\\meshy_original_textures\\normal.png",
+        "C:\\Users\\alexa\\Documents\\AI STUFF\\Project Big\\assets\\models\\forest_wreck\\F21_Expansion71\\source\\meshy_original_textures\\roughness.png"
+      ]
+    },
+    {
+      "asset": "R01_Terrain71",
+      "operation": "image-to-3d",
+      "ai_model": "meshy-7.1",
+      "model_type": "standard",
+      "geometry_resolution": "4k",
+      "texture_resolution": "4k",
+      "target_triangles": 10000,
+      "maximum_charge": 35,
+      "estimated_charge": 35,
+      "actual_charge": 35,
+      "outcome": "SUCCEEDED",
+      "task_id": "01a11e1a-f2f1-7297-b195-818167e92146",
+      "balance_before": 3590,
+      "authorization": "Direct terrain proof approval and cap increase to900; four jobs140 disclosed.",
+      "charge_evidence": "Immediate account difference before next submission.",
+      "progress": 100,
+      "local_paths": [
+        "C:\\Users\\alexa\\Documents\\AI STUFF\\Project Big\\assets\\models\\orison_terrain\\R01_Terrain71\\source\\meshy_original.glb"
+      ]
+    },
+    {
+      "asset": "R02_Terrain71",
+      "operation": "image-to-3d",
+      "ai_model": "meshy-7.1",
+      "model_type": "standard",
+      "geometry_resolution": "4k",
+      "texture_resolution": "4k",
+      "target_triangles": 14000,
+      "maximum_charge": 35,
+      "estimated_charge": 35,
+      "actual_charge": 35,
+      "outcome": "SUCCEEDED",
+      "task_id": "01a11e1b-83f8-77bf-b36d-d738ce467e0b",
+      "balance_before": 3555,
+      "authorization": "User approves terrain proof and cap900; four models140 disclosed.",
+      "charge_evidence": "Immediate account difference before next submission.",
+      "progress": 100,
+      "local_paths": [
+        "C:\\Users\\alexa\\Documents\\AI STUFF\\Project Big\\assets\\models\\orison_terrain\\R02_Terrain71\\source\\meshy_original.glb"
+      ]
+    },
+    {
+      "asset": "R06_Terrain71",
+      "operation": "image-to-3d",
+      "ai_model": "meshy-7.1",
+      "model_type": "standard",
+      "geometry_resolution": "4k",
+      "texture_resolution": "4k",
+      "target_triangles": 14000,
+      "maximum_charge": 35,
+      "estimated_charge": 35,
+      "actual_charge": 35,
+      "outcome": "SUCCEEDED",
+      "task_id": "01a11e1b-e5dd-728a-8c68-ceb1902711a8",
+      "balance_before": 3520,
+      "authorization": "User approves terrain proof and cap900; four models140 disclosed.",
+      "charge_evidence": "Immediate account difference before next submission.",
+      "progress": 100,
+      "local_paths": [
+        "C:\\Users\\alexa\\Documents\\AI STUFF\\Project Big\\assets\\models\\orison_terrain\\R06_Terrain71\\source\\meshy_original.glb"
+      ]
+    },
+    {
+      "asset": "T02_Terrain71",
+      "operation": "image-to-3d",
+      "ai_model": "meshy-7.1",
+      "model_type": "standard",
+      "geometry_resolution": "4k",
+      "texture_resolution": "4k",
+      "target_triangles": 35000,
+      "maximum_charge": 35,
+      "estimated_charge": 35,
+      "actual_charge": 35,
+      "outcome": "SUCCEEDED",
+      "task_id": "01a11e1c-5e57-72f3-a7f9-b814067e3856",
+      "balance_before": 3485,
+      "authorization": "User approves terrain proof and cap900; four models140 disclosed.",
+      "charge_evidence": "Immediate account difference before next submission.",
+      "progress": 100,
+      "local_paths": [
+        "C:\\Users\\alexa\\Documents\\AI STUFF\\Project Big\\assets\\models\\orison_terrain\\T02_Terrain71\\source\\meshy_original.glb"
+      ]
+    }
+  ],
+  "authorized_next_operation": {
+    "asset": "F01_MeshyCanopy",
+    "reference": "assets/models/forest_wreck/references/F01_isolated_v1.png",
+    "destination": "Meshy image-to-3D API",
+    "model": "meshy-t2",
+    "texture_resolution": "2k",
+    "estimated_charge": 15,
+    "maximum_charge": 15,
+    "user_explicitly_approved_upload_and_charge": true,
+    "task_id": "01a11cde-dd85-7624-91e1-b2694b1a4467",
+    "outcome": "SUCCEEDED"
+  },
+  "account_balance": 3450,
+  "failures": [
+    {
+      "stage": "automatic approval review",
+      "outcome": "Submission rejected; user subsequently gave explicit F01 upload/15-credit approval",
+      "charged": 0
+    },
+    {
+      "stage": "local connector initialization",
+      "outcome": "Encrypted credential cannot decrypt in this session; server exits before initialization",
+      "charged": 0
+    },
+    {
+      "stage": "D5 automatic approval review",
+      "charged": 0,
+      "outcome": "Separate image submission rejected before execution; direct approval question pending at that time",
+      "resolved_by": "Subsequent direct user request selected the D5 engine with Medium and the corrected Large for 3D production. Authorized engine task succeeded."
+    }
+  ],
+  "reserved_or_spent": 740,
+  "next_candidate_requires_approval": {
+    "destination": "Meshy image-to-3D",
+    "maximum_charge": 15,
+    "reference": "assets/models/forest_wreck/references/D5_nacelle_isolated_v1.png",
+    "user_approved": true,
+    "outcome": "SUBMITTED following direct user request selecting all three wrecks",
+    "asset": "Engine_MeshyNacelle",
+    "task_id": "01a11d04-94c9-75c1-9170-7b60ae12675a"
+  },
+  "budget_increase_authorization": "2026-10-08: User directly authorizes small terrain proof and raises existing Meshy maximum by 300 credits, from 600 to 900."
+}

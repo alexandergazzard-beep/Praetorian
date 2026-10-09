@@ -1,0 +1,42 @@
+[
+  {
+    "asset": "F13_Expansion71",
+    "path": "C:\\Users\\alexa\\Documents\\AI STUFF\\Project Big\\assets\\models\\forest_wreck\\F13_Expansion71\\export\\SM_F13_Expansion71.glb",
+    "bytes": 51663360,
+    "mesh_count": 1,
+    "embedded_images": 3,
+    "prepared_meter_scale": true
+  },
+  {
+    "asset": "F14_Expansion71",
+    "path": "C:\\Users\\alexa\\Documents\\AI STUFF\\Project Big\\assets\\models\\forest_wreck\\F14_Expansion71\\export\\SM_F14_Expansion71.glb",
+    "bytes": 50677332,
+    "mesh_count": 1,
+    "embedded_images": 3,
+    "prepared_meter_scale": true
+  },
+  {
+    "asset": "F16_Expansion71",
+    "path": "C:\\Users\\alexa\\Documents\\AI STUFF\\Project Big\\assets\\models\\forest_wreck\\F16_Expansion71\\export\\SM_F16_Expansion71.glb",
+    "bytes": 49632260,
+    "mesh_count": 1,
+    "embedded_images": 3,
+    "prepared_meter_scale": true
+  },
+  {
+    "asset": "F19_Expansion71",
+    "path": "C:\\Users\\alexa\\Documents\\AI STUFF\\Project Big\\assets\\models\\forest_wreck\\F19_Expansion71\\export\\SM_F19_Expansion71.glb",
+    "bytes": 40902764,
+    "mesh_count": 1,
+    "embedded_images": 3,
+    "prepared_meter_scale": true
+  },
+  {
+    "asset": "F21_Expansion71",
+    "path": "C:\\Users\\alexa\\Documents\\AI STUFF\\Project Big\\assets\\models\\forest_wreck\\F21_Expansion71\\export\\SM_F21_Expansion71.glb",
+    "bytes": 38050948,
+    "mesh_count": 1,
+    "embedded_images": 3,
+    "prepared_meter_scale": true
+  }
+]

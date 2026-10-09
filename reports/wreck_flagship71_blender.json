@@ -1,0 +1,50 @@
+{
+  "Medium_Flagship71": {
+    "triangles": 29950,
+    "vertices": 14228,
+    "vertices_removed": 42924,
+    "nonmanifold_edges": 1099,
+    "uv_layers": 1,
+    "material_slots": 1,
+    "dimensions_m": [
+      6.4718546867370605,
+      1.5128402709960938,
+      4.5
+    ],
+    "pivot": "centered bottom",
+    "scale": "provisional production size; not story canon",
+    "source_preserved": true
+  },
+  "Large_Flagship71": {
+    "triangles": 66252,
+    "vertices": 29658,
+    "vertices_removed": 100895,
+    "nonmanifold_edges": 3886,
+    "uv_layers": 1,
+    "material_slots": 1,
+    "dimensions_m": [
+      12.0,
+      5.912900447845459,
+      5.669805526733398
+    ],
+    "pivot": "centered bottom",
+    "scale": "provisional production size; not story canon",
+    "source_preserved": true
+  },
+  "Engine_Flagship71": {
+    "triangles": 44866,
+    "vertices": 20379,
+    "vertices_removed": 62075,
+    "nonmanifold_edges": 2396,
+    "uv_layers": 1,
+    "material_slots": 1,
+    "dimensions_m": [
+      12.0,
+      4.365769863128662,
+      5.0640764236450195
+    ],
+    "pivot": "centered bottom",
+    "scale": "provisional production size; not story canon",
+    "source_preserved": true
+  }
+}

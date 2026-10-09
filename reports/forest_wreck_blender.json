@@ -1,0 +1,45 @@
+[
+  {
+    "id": "F01_LayeredCanopy",
+    "reference": "F1/F01",
+    "source": "C:\\Users\\alexa\\Documents\\AI STUFF\\Project Big\\assets\\models\\forest_wreck\\F01_LayeredCanopy\\blender\\F01_LayeredCanopy.blend",
+    "export": "C:\\Users\\alexa\\Documents\\AI STUFF\\Project Big\\assets\\models\\forest_wreck\\F01_LayeredCanopy\\export\\SM_F01_LayeredCanopy.fbx",
+    "dimensions_m": [
+      9.29013442993164,
+      8.945846557617188,
+      8.320242881774902
+    ],
+    "triangles": 17286,
+    "materials": [
+      "Bark",
+      "Leaf"
+    ],
+    "uv_layers": 1,
+    "pivot": "ground at origin",
+    "produced": true,
+    "imported": false,
+    "integrated": false,
+    "verified": false
+  },
+  {
+    "id": "Hull_ArmoredSection",
+    "reference": "A4/D5",
+    "source": "C:\\Users\\alexa\\Documents\\AI STUFF\\Project Big\\assets\\models\\forest_wreck\\Hull_ArmoredSection\\blender\\Hull_ArmoredSection.blend",
+    "export": "C:\\Users\\alexa\\Documents\\AI STUFF\\Project Big\\assets\\models\\forest_wreck\\Hull_ArmoredSection\\export\\SM_Hull_ArmoredSection.fbx",
+    "dimensions_m": [
+      12.149765014648438,
+      5.369999885559082,
+      3.5059850215911865
+    ],
+    "triangles": 12852,
+    "materials": [
+      "ArmorAtlas"
+    ],
+    "uv_layers": 1,
+    "pivot": "ground at origin",
+    "produced": true,
+    "imported": false,
+    "integrated": false,
+    "verified": false
+  }
+]

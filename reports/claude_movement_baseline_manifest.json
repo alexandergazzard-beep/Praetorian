@@ -1,0 +1,878 @@
+{
+  "created_utc": "2026-10-08T22:08:02.549099+00:00",
+  "source_checkout": "C:\\Users\\alexa\\Documents\\AI STUFF\\Project Big",
+  "destination_checkout": "C:\\Users\\alexa\\Documents\\AI STUFF\\Project Big-movement",
+  "excluded": [
+    "Saved/",
+    "Intermediate/",
+    "DerivedDataCache/"
+  ],
+  "files": [
+    {
+      "path": "Unreal/LostVanguard 5.8/LostVanguard.uproject",
+      "sha256": "93e455912e91346af7aaf098f666f9e629dfc0104646d60a48c525d48b4d71da",
+      "bytes": 453
+    },
+    {
+      "path": "Unreal/LostVanguard 5.8/Config/DefaultEditorPerProjectUserSettings.ini",
+      "sha256": "f91c698618d2162767854c3e2e0880a791463787e0e551e08765bcd27bf0eb68",
+      "bytes": 152
+    },
+    {
+      "path": "Unreal/LostVanguard 5.8/Config/DefaultEngine.ini",
+      "sha256": "71db3305474900e0872e70c046d21304b23d64e6583137e415a9e45f3115b48a",
+      "bytes": 612
+    },
+    {
+      "path": "Unreal/LostVanguard 5.8/Config/DefaultGame.ini",
+      "sha256": "d9d5d6b14838f5a98af2118ee419092b40e8f19dc37f9ed6c7e67c5a41f36f56",
+      "bytes": 308
+    },
+    {
+      "path": "Unreal/LostVanguard 5.8/Config/DefaultInput.ini",
+      "sha256": "61e3fb622f7ba0121c8036ac599acc7122bb3987a97b02b25ad13c56d5ce8e3a",
+      "bytes": 9574
+    },
+    {
+      "path": "Unreal/LostVanguard 5.8/Content/LostVanguard/Art/Debris/FirstPair/M17_supply_trunk/MI_M17_supply_trunk.uasset",
+      "sha256": "027a8aa55a00427b44023d806bc3451d2904a082091b35c66458bd53ab5576c5",
+      "bytes": 15506
+    },
+    {
+      "path": "Unreal/LostVanguard 5.8/Content/LostVanguard/Art/Debris/FirstPair/M17_supply_trunk/SM_M17_supply_trunk.uasset",
+      "sha256": "12505f2bf7a93f48a5399e6725e556a9d9e361ea15e9d3a30e0eadbea44dcf5b",
+      "bytes": 315966
+    },
+    {
+      "path": "Unreal/LostVanguard 5.8/Content/LostVanguard/Art/Debris/FirstPair/M17_supply_trunk/T_M17_supply_trunk_BaseColor.uasset",
+      "sha256": "0c86472eeb4cbb5e3eca9be6a0775d7f4dd7c767ec7a32338a90104506c90006",
+      "bytes": 4912839
+    },
+    {
+      "path": "Unreal/LostVanguard 5.8/Content/LostVanguard/Art/Debris/FirstPair/M17_supply_trunk/T_M17_supply_trunk_Metallic.uasset",
+      "sha256": "3f1378593eae433295e19f303891d1937c89bc55e9415cb4cc55334befaa5ddd",
+      "bytes": 1635670
+    },
+    {
+      "path": "Unreal/LostVanguard 5.8/Content/LostVanguard/Art/Debris/FirstPair/M17_supply_trunk/T_M17_supply_trunk_Normal.uasset",
+      "sha256": "d8fdcf225f51975f5b0a3eeb1db61b836a61785d177ef800826daa62381bcfe6",
+      "bytes": 4340174
+    },
+    {
+      "path": "Unreal/LostVanguard 5.8/Content/LostVanguard/Art/Debris/FirstPair/M17_supply_trunk/T_M17_supply_trunk_Roughness.uasset",
+      "sha256": "167a6d23b7a195662d601602f5d7e2450bbdb60827bea624e547884f2b0f7b45",
+      "bytes": 1400869
+    },
+    {
+      "path": "Unreal/LostVanguard 5.8/Content/LostVanguard/Art/Debris/FirstPair/M_Debris_PBR.uasset",
+      "sha256": "46c3e3d1eed0bfea59f1ec66cbd616e8f10a40ae45dc1d84a2b9d2df77679432",
+      "bytes": 19883
+    },
+    {
+      "path": "Unreal/LostVanguard 5.8/Content/LostVanguard/Art/Debris/FirstPair/M_Debris_PBR_Final.uasset",
+      "sha256": "0fe8f720ad5824f0608b84c29300d2a23f7244d70429590b44a0d35c195639b5",
+      "bytes": 19283
+    },
+    {
+      "path": "Unreal/LostVanguard 5.8/Content/LostVanguard/Art/Debris/FirstPair/S04_vent_grille/MI_S04_vent_grille.uasset",
+      "sha256": "e9aaa941e0f687f7a256e0d22472c96a765d23f709c04f45830ae31059efa03e",
+      "bytes": 15255
+    },
+    {
+      "path": "Unreal/LostVanguard 5.8/Content/LostVanguard/Art/Debris/FirstPair/S04_vent_grille/SM_S04_vent_grille.uasset",
+      "sha256": "c6a58cd125b43f1024975593559c909b5765a94e4f08d76f42b46df06b169866",
+      "bytes": 133544
+    },
+    {
+      "path": "Unreal/LostVanguard 5.8/Content/LostVanguard/Art/Debris/FirstPair/S04_vent_grille/T_S04_vent_grille_BaseColor.uasset",
+      "sha256": "f2d400a0f0e7c5eeb70797687489e124f7ed542302f2b989eaaa34b6a19b65d0",
+      "bytes": 5953999
+    },
+    {
+      "path": "Unreal/LostVanguard 5.8/Content/LostVanguard/Art/Debris/FirstPair/S04_vent_grille/T_S04_vent_grille_Metallic.uasset",
+      "sha256": "c354dfca9f50ff247d29280eb017a3ba1cb2479b22b63000415703314764b797",
+      "bytes": 1504844
+    },
+    {
+      "path": "Unreal/LostVanguard 5.8/Content/LostVanguard/Art/Debris/FirstPair/S04_vent_grille/T_S04_vent_grille_Normal.uasset",
+      "sha256": "66f043483d425151aa8c10c018d320aef6f9bf73076d3f2ef7cce9b1202e6e75",
+      "bytes": 5040450
+    },
+    {
+      "path": "Unreal/LostVanguard 5.8/Content/LostVanguard/Art/Debris/FirstPair/S04_vent_grille/T_S04_vent_grille_Roughness.uasset",
+      "sha256": "afca21e18d366b838dd9cb8b30b6a20fd40f7e371b849bdb09e50214088f6d47",
+      "bytes": 1355088
+    },
+    {
+      "path": "Unreal/LostVanguard 5.8/Content/LostVanguard/Art/Review/L_Debris_FirstPair_Review.umap",
+      "sha256": "6413fe0c554f25d78f5b63bee80a58b370c6e5b5a579a887ac06113ddd75b140",
+      "bytes": 30984
+    },
+    {
+      "path": "Unreal/LostVanguard 5.8/Content/LostVanguard/Environment/OpeningReview/Assets/F01_HybridCanopy/M_F01_TaperedLeaf.uasset",
+      "sha256": "ad831ad2df120cf4b5793a64037d56261b76d6d0d9fb1b8e226286be15d91ff5",
+      "bytes": 7665
+    },
+    {
+      "path": "Unreal/LostVanguard 5.8/Content/LostVanguard/Environment/OpeningReview/Assets/F01_HybridCanopy/M_F01_WoodPBR.uasset",
+      "sha256": "885e4be3cfde9956ea5815f9caddb2722783d690dbb6d7c205afb550af439ff0",
+      "bytes": 7383
+    },
+    {
+      "path": "Unreal/LostVanguard 5.8/Content/LostVanguard/Environment/OpeningReview/Assets/F01_HybridCanopy/SM_F01_HybridCanopy.uasset",
+      "sha256": "05f1b82848769c5ab4816c0ac84c3a02df283f394f203f865d32ee692aef4616",
+      "bytes": 641594
+    },
+    {
+      "path": "Unreal/LostVanguard 5.8/Content/LostVanguard/Environment/OpeningReview/Assets/F01_HybridCanopy/T_F01_Leaf_BaseColor.uasset",
+      "sha256": "618c8d35359cfe18a178b400363aa6a317544750931dcea95a135dac550ff469",
+      "bytes": 325271
+    },
+    {
+      "path": "Unreal/LostVanguard 5.8/Content/LostVanguard/Environment/OpeningReview/Assets/F01_HybridCanopy/T_F01_Wood_BaseColor.uasset",
+      "sha256": "0b7843213bbd998e4f740c2ccca0d73f65657fd426fc16df73ce7c93cda90dd7",
+      "bytes": 5279140
+    },
+    {
+      "path": "Unreal/LostVanguard 5.8/Content/LostVanguard/Environment/OpeningReview/Assets/F01_HybridCanopy/T_F01_Wood_Metallic.uasset",
+      "sha256": "1820cae071b19fb9d3fbd7637e33d62b450e5f27b2dbfa5e237d1d725b03b7ca",
+      "bytes": 123352
+    },
+    {
+      "path": "Unreal/LostVanguard 5.8/Content/LostVanguard/Environment/OpeningReview/Assets/F01_HybridCanopy/T_F01_Wood_Normal.uasset",
+      "sha256": "15cff66e3a8b8e8b865700da9b8fa808ca0ed772b0b4610815418cc04901e7ed",
+      "bytes": 4148137
+    },
+    {
+      "path": "Unreal/LostVanguard 5.8/Content/LostVanguard/Environment/OpeningReview/Assets/F01_HybridCanopy/T_F01_Wood_Roughness.uasset",
+      "sha256": "97113d80933e89058bb0630608a64a8451eb37b96f016462317d4d9246e3dbf2",
+      "bytes": 1686341
+    },
+    {
+      "path": "Unreal/LostVanguard 5.8/Content/LostVanguard/Environment/OpeningReview/Assets/FloraFlagship71/F01_Flagship71/MI_F01_Flagship71.uasset",
+      "sha256": "04602d3f4c90dd7d08c84127f36b898f33b2daf48aee3da5705d24e7bf085564",
+      "bytes": 5304
+    },
+    {
+      "path": "Unreal/LostVanguard 5.8/Content/LostVanguard/Environment/OpeningReview/Assets/FloraFlagship71/F01_Flagship71/SM_F01_Flagship71.uasset",
+      "sha256": "61b357551d5e74ac4a66848e223ca631903a264f47330ae7663bcd103486a429",
+      "bytes": 1255421
+    },
+    {
+      "path": "Unreal/LostVanguard 5.8/Content/LostVanguard/Environment/OpeningReview/Assets/FloraFlagship71/F01_Flagship71/T_F01_Flagship71_BaseColor.uasset",
+      "sha256": "51afa886cdd646b59fd4bb9f78b3b755b7a05a575e5270dc6ca3442513350ddb",
+      "bytes": 24161193
+    },
+    {
+      "path": "Unreal/LostVanguard 5.8/Content/LostVanguard/Environment/OpeningReview/Assets/FloraFlagship71/F01_Flagship71/T_F01_Flagship71_Metallic.uasset",
+      "sha256": "051c6862083c15b307b59c0a0ad8ca4b61adb8578a505a68b56e6d45221e1927",
+      "bytes": 149899
+    },
+    {
+      "path": "Unreal/LostVanguard 5.8/Content/LostVanguard/Environment/OpeningReview/Assets/FloraFlagship71/F01_Flagship71/T_F01_Flagship71_Normal.uasset",
+      "sha256": "6d9540ac24941fd58b415457f3a13cf5f758dd633c0a79c1bd6d5c00bec933e3",
+      "bytes": 32249818
+    },
+    {
+      "path": "Unreal/LostVanguard 5.8/Content/LostVanguard/Environment/OpeningReview/Assets/FloraFlagship71/F01_Flagship71/T_F01_Flagship71_Roughness.uasset",
+      "sha256": "3cb18f450dccbe02ac44aab0724081b971f95674d6153809ee5e5b7fb4b9bd3c",
+      "bytes": 1647955
+    },
+    {
+      "path": "Unreal/LostVanguard 5.8/Content/LostVanguard/Environment/OpeningReview/Assets/FloraFlagship71/F02_Flagship71/MI_F02_Flagship71.uasset",
+      "sha256": "ecee001631b6c26e1944bc649ea296bb56446072b27a5520026ec2bcccc0e39d",
+      "bytes": 5304
+    },
+    {
+      "path": "Unreal/LostVanguard 5.8/Content/LostVanguard/Environment/OpeningReview/Assets/FloraFlagship71/F02_Flagship71/SM_F02_Flagship71.uasset",
+      "sha256": "33edd2421e10fff7373738451d4de7259ec70838d909eb5f0252dbdb09f19d82",
+      "bytes": 1453002
+    },
+    {
+      "path": "Unreal/LostVanguard 5.8/Content/LostVanguard/Environment/OpeningReview/Assets/FloraFlagship71/F02_Flagship71/T_F02_Flagship71_BaseColor.uasset",
+      "sha256": "9dbcab19bf53df07d140bfada3f62b6a860ee8ab4fdd5930a511b7baacd09dfc",
+      "bytes": 22918951
+    },
+    {
+      "path": "Unreal/LostVanguard 5.8/Content/LostVanguard/Environment/OpeningReview/Assets/FloraFlagship71/F02_Flagship71/T_F02_Flagship71_Metallic.uasset",
+      "sha256": "17d5ccb60df32f0f872b5e02c6c9bca814ddaf12d760a0e26b6fd7797552098b",
+      "bytes": 110059
+    },
+    {
+      "path": "Unreal/LostVanguard 5.8/Content/LostVanguard/Environment/OpeningReview/Assets/FloraFlagship71/F02_Flagship71/T_F02_Flagship71_Normal.uasset",
+      "sha256": "cd6801daa6e1cc748fbe576e09dde9065b1919ae4b35e102d589ed644eaaa591",
+      "bytes": 29907523
+    },
+    {
+      "path": "Unreal/LostVanguard 5.8/Content/LostVanguard/Environment/OpeningReview/Assets/FloraFlagship71/F02_Flagship71/T_F02_Flagship71_Roughness.uasset",
+      "sha256": "8479b79f10cd752200078a586ee4406f576091e148a3dfa0d1e642202536ba8f",
+      "bytes": 1676243
+    },
+    {
+      "path": "Unreal/LostVanguard 5.8/Content/LostVanguard/Environment/OpeningReview/Assets/FloraFlagship71/F03_Flagship71/MI_F03_Flagship71.uasset",
+      "sha256": "351aaf5aea96d54f2add767b3dcc9b0c1ecf524417a73a1bb32d67ad3fb11600",
+      "bytes": 5304
+    },
+    {
+      "path": "Unreal/LostVanguard 5.8/Content/LostVanguard/Environment/OpeningReview/Assets/FloraFlagship71/F03_Flagship71/SM_F03_Flagship71.uasset",
+      "sha256": "12fb1d1dca12e8b35ddd1a7141456054ed38780d014039cff1aad99aeb05e654",
+      "bytes": 574254
+    },
+    {
+      "path": "Unreal/LostVanguard 5.8/Content/LostVanguard/Environment/OpeningReview/Assets/FloraFlagship71/F03_Flagship71/T_F03_Flagship71_BaseColor.uasset",
+      "sha256": "b232fd7560c105524465e0be791a9036ef570f6260d9909e515ed10542929195",
+      "bytes": 24404324
+    },
+    {
+      "path": "Unreal/LostVanguard 5.8/Content/LostVanguard/Environment/OpeningReview/Assets/FloraFlagship71/F03_Flagship71/T_F03_Flagship71_Metallic.uasset",
+      "sha256": "442b12ec6a26b0bc4905831749f54fa1648b30e2f31150fc691aeec22207f34f",
+      "bytes": 57434
+    },
+    {
+      "path": "Unreal/LostVanguard 5.8/Content/LostVanguard/Environment/OpeningReview/Assets/FloraFlagship71/F03_Flagship71/T_F03_Flagship71_Normal.uasset",
+      "sha256": "e28c5262b524162665f93fb56e77da95b68ee58ea60f95890ad01c62bfe57b25",
+      "bytes": 30673851
+    },
+    {
+      "path": "Unreal/LostVanguard 5.8/Content/LostVanguard/Environment/OpeningReview/Assets/FloraFlagship71/F03_Flagship71/T_F03_Flagship71_Roughness.uasset",
+      "sha256": "e8459b294f5f14f98d160be529987038b9cb33c32c3d58f65f9892f526f9b074",
+      "bytes": 1593902
+    },
+    {
+      "path": "Unreal/LostVanguard 5.8/Content/LostVanguard/Environment/OpeningReview/Assets/FloraFlagship71/F05_Flagship71/MI_F05_Flagship71.uasset",
+      "sha256": "af0f9578ef015dac108c7f499136c12494910697c6833ba65b60f97172810734",
+      "bytes": 5304
+    },
+    {
+      "path": "Unreal/LostVanguard 5.8/Content/LostVanguard/Environment/OpeningReview/Assets/FloraFlagship71/F05_Flagship71/SM_F05_Flagship71.uasset",
+      "sha256": "74cb56930f13c3af6f43106b4c144ebd272cb2a21c1f0d6f2c929a390af1decf",
+      "bytes": 430976
+    },
+    {
+      "path": "Unreal/LostVanguard 5.8/Content/LostVanguard/Environment/OpeningReview/Assets/FloraFlagship71/F05_Flagship71/T_F05_Flagship71_BaseColor.uasset",
+      "sha256": "b61b6fbfc57e10484ed79ce92fd8726935fd87fde9540d6a728f1f72280ad84f",
+      "bytes": 23414001
+    },
+    {
+      "path": "Unreal/LostVanguard 5.8/Content/LostVanguard/Environment/OpeningReview/Assets/FloraFlagship71/F05_Flagship71/T_F05_Flagship71_Metallic.uasset",
+      "sha256": "325beca0a0dc3ca732567614e4e3acbb3dcf2f139edb0d67f1bc5928cfb7be16",
+      "bytes": 59443
+    },
+    {
+      "path": "Unreal/LostVanguard 5.8/Content/LostVanguard/Environment/OpeningReview/Assets/FloraFlagship71/F05_Flagship71/T_F05_Flagship71_Normal.uasset",
+      "sha256": "66440fdab1ab0395f9c3fdd6c4f76bdf61f12bf77dc34b3d84a6359703d0f591",
+      "bytes": 28360814
+    },
+    {
+      "path": "Unreal/LostVanguard 5.8/Content/LostVanguard/Environment/OpeningReview/Assets/FloraFlagship71/F05_Flagship71/T_F05_Flagship71_Roughness.uasset",
+      "sha256": "3c94a48a0329ecabb1e474d878b61c7bd75ee4830eb721ec17afb0f6d0d80549",
+      "bytes": 1356862
+    },
+    {
+      "path": "Unreal/LostVanguard 5.8/Content/LostVanguard/Environment/OpeningReview/Assets/FloraFlagship71/F06_Flagship71/MI_F06_Flagship71.uasset",
+      "sha256": "d9368a4aaeafb267d053c8ed76ca1364d9028d5e4814e838c340878516211f57",
+      "bytes": 5304
+    },
+    {
+      "path": "Unreal/LostVanguard 5.8/Content/LostVanguard/Environment/OpeningReview/Assets/FloraFlagship71/F06_Flagship71/SM_F06_Flagship71.uasset",
+      "sha256": "954d9fb0543d47e3de5de5c4c9561e4451e5fba541d75c6174aaffb86a85644a",
+      "bytes": 337522
+    },
+    {
+      "path": "Unreal/LostVanguard 5.8/Content/LostVanguard/Environment/OpeningReview/Assets/FloraFlagship71/F06_Flagship71/T_F06_Flagship71_BaseColor.uasset",
+      "sha256": "a06643c137ab0de839c90b32be9d6bd0673105e467a960a9e2bf0b5dbabb37cf",
+      "bytes": 23419561
+    },
+    {
+      "path": "Unreal/LostVanguard 5.8/Content/LostVanguard/Environment/OpeningReview/Assets/FloraFlagship71/F06_Flagship71/T_F06_Flagship71_Metallic.uasset",
+      "sha256": "dae88bae3a747a2d1e131469a20cfc5e9b9f4a94f267462d506e06f42bbc644c",
+      "bytes": 27672
+    },
+    {
+      "path": "Unreal/LostVanguard 5.8/Content/LostVanguard/Environment/OpeningReview/Assets/FloraFlagship71/F06_Flagship71/T_F06_Flagship71_Normal.uasset",
+      "sha256": "b962d3956a29c347441d293c564c5c5f3aac1ba984eaa38e638e94b82cbb05aa",
+      "bytes": 25390189
+    },
+    {
+      "path": "Unreal/LostVanguard 5.8/Content/LostVanguard/Environment/OpeningReview/Assets/FloraFlagship71/F06_Flagship71/T_F06_Flagship71_Roughness.uasset",
+      "sha256": "fc1550fcb73a202d88381823ab68b5cc57e0715a60d9daa8f681e3a3cd223d9c",
+      "bytes": 1483183
+    },
+    {
+      "path": "Unreal/LostVanguard 5.8/Content/LostVanguard/Environment/OpeningReview/Assets/FloraFlagship71/F08_Flagship71/MI_F08_Flagship71.uasset",
+      "sha256": "6eab04468a7c0b06c72b73b2e341af2ed1bfe7b71cd4e41f8ccd46463dce7376",
+      "bytes": 5304
+    },
+    {
+      "path": "Unreal/LostVanguard 5.8/Content/LostVanguard/Environment/OpeningReview/Assets/FloraFlagship71/F08_Flagship71/SM_F08_Flagship71.uasset",
+      "sha256": "70fa5a22f6a2563cb35e3f767de69cdda82f9b729d13ff715e2b2de4680d41a8",
+      "bytes": 1124135
+    },
+    {
+      "path": "Unreal/LostVanguard 5.8/Content/LostVanguard/Environment/OpeningReview/Assets/FloraFlagship71/F08_Flagship71/T_F08_Flagship71_BaseColor.uasset",
+      "sha256": "c13a525db0acff337e507c24455e94785c0678dd44cf581ec05bc6101dcf10ca",
+      "bytes": 6558392
+    },
+    {
+      "path": "Unreal/LostVanguard 5.8/Content/LostVanguard/Environment/OpeningReview/Assets/FloraFlagship71/F08_Flagship71/T_F08_Flagship71_Metallic.uasset",
+      "sha256": "fcde8e8cb15fa8fa3a03e5db663e8a7165245fde9b60a292169f0b914e1da0ca",
+      "bytes": 179378
+    },
+    {
+      "path": "Unreal/LostVanguard 5.8/Content/LostVanguard/Environment/OpeningReview/Assets/FloraFlagship71/F08_Flagship71/T_F08_Flagship71_Normal.uasset",
+      "sha256": "4dde1cb596ff9cc09a2ce0a891e4a5f255a376fceffe1afe28890a4b7959c907",
+      "bytes": 9345942
+    },
+    {
+      "path": "Unreal/LostVanguard 5.8/Content/LostVanguard/Environment/OpeningReview/Assets/FloraFlagship71/F08_Flagship71/T_F08_Flagship71_Roughness.uasset",
+      "sha256": "4ea3a097ef96b74fd72d17f3347f19fbc3f82cb32af1ea88737bfab2348d6b2f",
+      "bytes": 573735
+    },
+    {
+      "path": "Unreal/LostVanguard 5.8/Content/LostVanguard/Environment/OpeningReview/Assets/FloraFlagship71/F10_Flagship71/MI_F10_Flagship71.uasset",
+      "sha256": "21edc19ae1e5bb2bce3141ec62c33dbff7fafe1acd191853311835970d6e55ab",
+      "bytes": 5304
+    },
+    {
+      "path": "Unreal/LostVanguard 5.8/Content/LostVanguard/Environment/OpeningReview/Assets/FloraFlagship71/F10_Flagship71/SM_F10_Flagship71.uasset",
+      "sha256": "4014796e9248953113674c8f5c6623e6cb0dad1b95cd7041070cf9a991fa93f4",
+      "bytes": 237941
+    },
+    {
+      "path": "Unreal/LostVanguard 5.8/Content/LostVanguard/Environment/OpeningReview/Assets/FloraFlagship71/F10_Flagship71/T_F10_Flagship71_BaseColor.uasset",
+      "sha256": "ab4318f6a227897379539d9c76e2a1778c70a0b57c782bc77789dfc6dea7ac0d",
+      "bytes": 26101574
+    },
+    {
+      "path": "Unreal/LostVanguard 5.8/Content/LostVanguard/Environment/OpeningReview/Assets/FloraFlagship71/F10_Flagship71/T_F10_Flagship71_Metallic.uasset",
+      "sha256": "131aa5a8ba37d06de59859fba7cc39f48909955fa0e551a3ae28378132006d55",
+      "bytes": 94794
+    },
+    {
+      "path": "Unreal/LostVanguard 5.8/Content/LostVanguard/Environment/OpeningReview/Assets/FloraFlagship71/F10_Flagship71/T_F10_Flagship71_Normal.uasset",
+      "sha256": "0b885211b9c0cddccdd3c33469cae87df28b2b66e03788ea6ff57b1786786ea8",
+      "bytes": 33754772
+    },
+    {
+      "path": "Unreal/LostVanguard 5.8/Content/LostVanguard/Environment/OpeningReview/Assets/FloraFlagship71/F10_Flagship71/T_F10_Flagship71_Roughness.uasset",
+      "sha256": "a93ab559d7ea4a7de4533c033464fea9d16b2e7c2593f14441b2e107fb9338b1",
+      "bytes": 1660814
+    },
+    {
+      "path": "Unreal/LostVanguard 5.8/Content/LostVanguard/Environment/OpeningReview/Assets/FloraFlagship71/M_F01_CurvedForkLeaf.uasset",
+      "sha256": "92457764e259aa4ef04a34cf787c23e944ea20eacf4a2c80c61ae964d6972664",
+      "bytes": 7669
+    },
+    {
+      "path": "Unreal/LostVanguard 5.8/Content/LostVanguard/Environment/OpeningReview/Assets/FloraFlagship71/M_FloraFlagship_PBR.uasset",
+      "sha256": "0f837e981f9a0c7f3116335f2ea146a9b8dd2e6e65e02274627570e684325c2f",
+      "bytes": 8224
+    },
+    {
+      "path": "Unreal/LostVanguard 5.8/Content/LostVanguard/Environment/OpeningReview/Assets/FloraFlagship71/T_F01_CurvedLeaf.uasset",
+      "sha256": "95fdccacfa2f163b5e5c98617c91e42ae3a36d7739a057c75eab5096e7853a4f",
+      "bytes": 325145
+    },
+    {
+      "path": "Unreal/LostVanguard 5.8/Content/LostVanguard/Environment/OpeningReview/Assets/Materials/M_ArmorAtlas.uasset",
+      "sha256": "7d4788c0405f5c9c567c07cad8f42c07c783f69c69512a48271039e84224e111",
+      "bytes": 6344
+    },
+    {
+      "path": "Unreal/LostVanguard 5.8/Content/LostVanguard/Environment/OpeningReview/Assets/Materials/M_Bark.uasset",
+      "sha256": "c7a99e5327f4e1390574196811beaa7705e9f7d99168c52af7e529622a0d956b",
+      "bytes": 6273
+    },
+    {
+      "path": "Unreal/LostVanguard 5.8/Content/LostVanguard/Environment/OpeningReview/Assets/Materials/M_Leaf.uasset",
+      "sha256": "fc75552b668dd98c71fcf3486e3abf154d1dec6e67b9467bac693645c25aa6f4",
+      "bytes": 6315
+    },
+    {
+      "path": "Unreal/LostVanguard 5.8/Content/LostVanguard/Environment/OpeningReview/Assets/Meshes/SM_F01_LayeredCanopy.uasset",
+      "sha256": "345bfcda078369e21d65a4d19659b8a039eeb94702eeee4224f30c390dcc51c5",
+      "bytes": 625500
+    },
+    {
+      "path": "Unreal/LostVanguard 5.8/Content/LostVanguard/Environment/OpeningReview/Assets/Meshes/SM_Hull_ArmoredSection.uasset",
+      "sha256": "e87fdfcf3b7cf9a9b4ffa9917bc5eaf2f28fa314a89e8350f1ced67b53e3b4a9",
+      "bytes": 376128
+    },
+    {
+      "path": "Unreal/LostVanguard 5.8/Content/LostVanguard/Environment/OpeningReview/Assets/Textures/T_ArmorAtlas.uasset",
+      "sha256": "f1413a2caa1b8666ae7c1c6c52673bd76052d8676730d8288766297c981eeb6e",
+      "bytes": 349593
+    },
+    {
+      "path": "Unreal/LostVanguard 5.8/Content/LostVanguard/Environment/OpeningReview/Assets/Textures/T_Bark.uasset",
+      "sha256": "0db993bf0170cb845eb615fb02a2b76fa4dbc51827327b8bb39ad3bd2f82cb5d",
+      "bytes": 332881
+    },
+    {
+      "path": "Unreal/LostVanguard 5.8/Content/LostVanguard/Environment/OpeningReview/Assets/Textures/T_Leaf.uasset",
+      "sha256": "e49122e5c077b4a93f492c1aeba9b7619fbb336d6cfd16b025d910d9d753ea12",
+      "bytes": 325075
+    },
+    {
+      "path": "Unreal/LostVanguard 5.8/Content/LostVanguard/Environment/OpeningReview/Assets/WreckFlagship71/Engine_Flagship71/MI_Engine_Flagship71.uasset",
+      "sha256": "40a8247b31bf3a33f7aaa9701e92d7a1f01dfcc62419ddb4e9b6470852b54575",
+      "bytes": 5282
+    },
+    {
+      "path": "Unreal/LostVanguard 5.8/Content/LostVanguard/Environment/OpeningReview/Assets/WreckFlagship71/Engine_Flagship71/SM_Engine_Flagship71.uasset",
+      "sha256": "57f6a92fde70de0e37b8d952fdef616bf05e430fc039083cc2ca8f44033b2602",
+      "bytes": 2773776
+    },
+    {
+      "path": "Unreal/LostVanguard 5.8/Content/LostVanguard/Environment/OpeningReview/Assets/WreckFlagship71/Engine_Flagship71/T_Engine_Flagship71_BaseColor.uasset",
+      "sha256": "54c7826ce38794aa11c03090599452f3260dcc62cc4cd02da99526a85b750692",
+      "bytes": 17910904
+    },
+    {
+      "path": "Unreal/LostVanguard 5.8/Content/LostVanguard/Environment/OpeningReview/Assets/WreckFlagship71/Engine_Flagship71/T_Engine_Flagship71_Metallic.uasset",
+      "sha256": "1feccefd7efd8a68e9373cd79bc11cc579365def73a396c2e3596d605fd35bb7",
+      "bytes": 1927248
+    },
+    {
+      "path": "Unreal/LostVanguard 5.8/Content/LostVanguard/Environment/OpeningReview/Assets/WreckFlagship71/Engine_Flagship71/T_Engine_Flagship71_Normal.uasset",
+      "sha256": "d019f610decf25a0255ed16c06f4171036ab8134f846201b1b891b5e45c0f9de",
+      "bytes": 29888721
+    },
+    {
+      "path": "Unreal/LostVanguard 5.8/Content/LostVanguard/Environment/OpeningReview/Assets/WreckFlagship71/Engine_Flagship71/T_Engine_Flagship71_Roughness.uasset",
+      "sha256": "938cc59d62a3d221aec5ed8d7b505fff4f5bca9172888c046d64b937df6febc0",
+      "bytes": 1622741
+    },
+    {
+      "path": "Unreal/LostVanguard 5.8/Content/LostVanguard/Environment/OpeningReview/Assets/WreckFlagship71/Large_Flagship71/MI_Large_Flagship71.uasset",
+      "sha256": "5914be2095ebd656317cba67ec37f9d0f1fd08bf8513b426db893b4bff7a195b",
+      "bytes": 5263
+    },
+    {
+      "path": "Unreal/LostVanguard 5.8/Content/LostVanguard/Environment/OpeningReview/Assets/WreckFlagship71/Large_Flagship71/SM_Large_Flagship71.uasset",
+      "sha256": "0fd9aea95ab40b7fcfcaa921ffb850b69ace1304168596870f32c49d9faa20c3",
+      "bytes": 4141595
+    },
+    {
+      "path": "Unreal/LostVanguard 5.8/Content/LostVanguard/Environment/OpeningReview/Assets/WreckFlagship71/Large_Flagship71/T_Large_Flagship71_BaseColor.uasset",
+      "sha256": "789fdb054ccb66b886d33691b0f3d8d9bd143135be0dc462c8a1eccec71808dc",
+      "bytes": 19865287
+    },
+    {
+      "path": "Unreal/LostVanguard 5.8/Content/LostVanguard/Environment/OpeningReview/Assets/WreckFlagship71/Large_Flagship71/T_Large_Flagship71_Metallic.uasset",
+      "sha256": "a6d05ed2a9b632b5899402409203fd63b77ec35bab5ff5563acded511cb3f088",
+      "bytes": 2226719
+    },
+    {
+      "path": "Unreal/LostVanguard 5.8/Content/LostVanguard/Environment/OpeningReview/Assets/WreckFlagship71/Large_Flagship71/T_Large_Flagship71_Normal.uasset",
+      "sha256": "988e2f55fdb78e8bbe6e56543a1e3379a0b09c89e474ee6a90638bd7df91fa45",
+      "bytes": 34191103
+    },
+    {
+      "path": "Unreal/LostVanguard 5.8/Content/LostVanguard/Environment/OpeningReview/Assets/WreckFlagship71/Large_Flagship71/T_Large_Flagship71_Roughness.uasset",
+      "sha256": "f5b48b18e5f03841b011ba2e9b572f914869a340f678bb365ba25f726691aea3",
+      "bytes": 1964555
+    },
+    {
+      "path": "Unreal/LostVanguard 5.8/Content/LostVanguard/Environment/OpeningReview/Assets/WreckFlagship71/M_WreckTrio_PBR.uasset",
+      "sha256": "1e79e9ae603e4a960b2d1ce9b0d405f7f38b55a217fb9f0f64c6ab78ef229879",
+      "bytes": 8198
+    },
+    {
+      "path": "Unreal/LostVanguard 5.8/Content/LostVanguard/Environment/OpeningReview/Assets/WreckFlagship71/Medium_Flagship71/MI_Medium_Flagship71.uasset",
+      "sha256": "0ec1833f395649f69914f07297b54e4bbdb7d121dc0dff585aebddc0cfc76587",
+      "bytes": 5282
+    },
+    {
+      "path": "Unreal/LostVanguard 5.8/Content/LostVanguard/Environment/OpeningReview/Assets/WreckFlagship71/Medium_Flagship71/SM_Medium_Flagship71.uasset",
+      "sha256": "d55e3d341c1afdca621c46069fc482835ec4146d494ce72c84749d530b8d424e",
+      "bytes": 1903186
+    },
+    {
+      "path": "Unreal/LostVanguard 5.8/Content/LostVanguard/Environment/OpeningReview/Assets/WreckFlagship71/Medium_Flagship71/T_Medium_Flagship71_BaseColor.uasset",
+      "sha256": "196e1adced97bbaaa678a09b08b920dc5e0081b8cc6b23bbbf180e2493e0c29e",
+      "bytes": 19858608
+    },
+    {
+      "path": "Unreal/LostVanguard 5.8/Content/LostVanguard/Environment/OpeningReview/Assets/WreckFlagship71/Medium_Flagship71/T_Medium_Flagship71_Metallic.uasset",
+      "sha256": "88e884f85ab895a74f0f9fff0749d016e962ac4ba33da587701347d8eb35d15f",
+      "bytes": 1815909
+    },
+    {
+      "path": "Unreal/LostVanguard 5.8/Content/LostVanguard/Environment/OpeningReview/Assets/WreckFlagship71/Medium_Flagship71/T_Medium_Flagship71_Normal.uasset",
+      "sha256": "0783e05bb745bf82697189fc415021a87d00dbf3abff6bca73aef4d65d200382",
+      "bytes": 30347478
+    },
+    {
+      "path": "Unreal/LostVanguard 5.8/Content/LostVanguard/Environment/OpeningReview/Assets/WreckFlagship71/Medium_Flagship71/T_Medium_Flagship71_Roughness.uasset",
+      "sha256": "bb6a76a598836fa0186557dc4f56b6c865c545e5cb50f125db2b49ec4a0b269f",
+      "bytes": 1875719
+    },
+    {
+      "path": "Unreal/LostVanguard 5.8/Content/LostVanguard/Environment/OpeningReview/Assets/WreckTrio/Engine_MeshyNacelle/MI_Engine_MeshyNacelle.uasset",
+      "sha256": "475629378abc9f06eefafd439eceb5935d199a3749ad3125fd84ae8e0bdd3f22",
+      "bytes": 5272
+    },
+    {
+      "path": "Unreal/LostVanguard 5.8/Content/LostVanguard/Environment/OpeningReview/Assets/WreckTrio/Engine_MeshyNacelle/SM_Engine_MeshyNacelle.uasset",
+      "sha256": "9e596fa64552a0f7f09fe71a307e849a682130b2eafa6ec4b68ad6b1e4a1c143",
+      "bytes": 765585
+    },
+    {
+      "path": "Unreal/LostVanguard 5.8/Content/LostVanguard/Environment/OpeningReview/Assets/WreckTrio/Engine_MeshyNacelle/T_Engine_MeshyNacelle_BaseColor.uasset",
+      "sha256": "ba2ed35322d892f5ced418447090151d6478b6df20a23cdcec954284e2511adf",
+      "bytes": 5172135
+    },
+    {
+      "path": "Unreal/LostVanguard 5.8/Content/LostVanguard/Environment/OpeningReview/Assets/WreckTrio/Engine_MeshyNacelle/T_Engine_MeshyNacelle_Metallic.uasset",
+      "sha256": "36dd9bae6d0e9c9869ab72bdfe7a401d80ef0822aeb514e9a6ac42418a0db036",
+      "bytes": 1907755
+    },
+    {
+      "path": "Unreal/LostVanguard 5.8/Content/LostVanguard/Environment/OpeningReview/Assets/WreckTrio/Engine_MeshyNacelle/T_Engine_MeshyNacelle_Normal.uasset",
+      "sha256": "2dfed2098ce62a0d932b3e2f0ac4ea1103664fa4fd51e9e548d7dd278f39b23c",
+      "bytes": 4502111
+    },
+    {
+      "path": "Unreal/LostVanguard 5.8/Content/LostVanguard/Environment/OpeningReview/Assets/WreckTrio/Engine_MeshyNacelle/T_Engine_MeshyNacelle_Roughness.uasset",
+      "sha256": "31abf99542eb7a782cb777ea111e0491b270021cbe4fddaccb6490eeec667435",
+      "bytes": 1669910
+    },
+    {
+      "path": "Unreal/LostVanguard 5.8/Content/LostVanguard/Environment/OpeningReview/Assets/WreckTrio/Large_WreckModule/MI_Large_WreckModule.uasset",
+      "sha256": "f0b0e4de7a310b2935767efa9bf3f841626468cb603ea1cef0927a6fe32eee40",
+      "bytes": 5234
+    },
+    {
+      "path": "Unreal/LostVanguard 5.8/Content/LostVanguard/Environment/OpeningReview/Assets/WreckTrio/Large_WreckModule/SM_Large_WreckModule.uasset",
+      "sha256": "ba96a056c0b4e5ebe92a029a35f03f211e433cdb4bdcab058747fadd045afcf5",
+      "bytes": 899518
+    },
+    {
+      "path": "Unreal/LostVanguard 5.8/Content/LostVanguard/Environment/OpeningReview/Assets/WreckTrio/Large_WreckModule/T_Large_WreckModule_BaseColor.uasset",
+      "sha256": "528eb137c79383fb7de4b535f4e4744dc6e7cf1598ae399f12084fe44e9885a6",
+      "bytes": 5677584
+    },
+    {
+      "path": "Unreal/LostVanguard 5.8/Content/LostVanguard/Environment/OpeningReview/Assets/WreckTrio/Large_WreckModule/T_Large_WreckModule_Metallic.uasset",
+      "sha256": "bd845cf9e860928c1d1a953a14302af56c552aa62670fce96bb1c222f85460b6",
+      "bytes": 1899831
+    },
+    {
+      "path": "Unreal/LostVanguard 5.8/Content/LostVanguard/Environment/OpeningReview/Assets/WreckTrio/Large_WreckModule/T_Large_WreckModule_Normal.uasset",
+      "sha256": "1df1702a5631dbe28f2a7d323706b8616c0ef5b316d2cbbb7cef9266efa28ba5",
+      "bytes": 5276288
+    },
+    {
+      "path": "Unreal/LostVanguard 5.8/Content/LostVanguard/Environment/OpeningReview/Assets/WreckTrio/Large_WreckModule/T_Large_WreckModule_Roughness.uasset",
+      "sha256": "49e11908e693a2e97efade4b908d9227e53e4443df9c5ce2f5d2daa02dc0c3dd",
+      "bytes": 1775838
+    },
+    {
+      "path": "Unreal/LostVanguard 5.8/Content/LostVanguard/Environment/OpeningReview/Assets/WreckTrio/M_WreckTrio_PBR.uasset",
+      "sha256": "1ea15fe3e50c9eaf002c1d7fcd62e7f0296ab32a75bb598a60688ebe77a5b162",
+      "bytes": 8162
+    },
+    {
+      "path": "Unreal/LostVanguard 5.8/Content/LostVanguard/Environment/OpeningReview/Assets/WreckTrio/Medium_WreckPanel/MI_Medium_WreckPanel.uasset",
+      "sha256": "3dd5ad7a16796c3a1f7c556e91650498813fb689d12fb9c612e96bb09159a829",
+      "bytes": 5234
+    },
+    {
+      "path": "Unreal/LostVanguard 5.8/Content/LostVanguard/Environment/OpeningReview/Assets/WreckTrio/Medium_WreckPanel/SM_Medium_WreckPanel.uasset",
+      "sha256": "05a913ca0e0add02ac86cbec1cebc554ca443627f3c5a262125d464ca41f38b2",
+      "bytes": 952347
+    },
+    {
+      "path": "Unreal/LostVanguard 5.8/Content/LostVanguard/Environment/OpeningReview/Assets/WreckTrio/Medium_WreckPanel/T_Medium_WreckPanel_BaseColor.uasset",
+      "sha256": "344a172226842f81aabe91aee050605ad1ec4cdf697a40182e1c3e6f59c5a174",
+      "bytes": 5670909
+    },
+    {
+      "path": "Unreal/LostVanguard 5.8/Content/LostVanguard/Environment/OpeningReview/Assets/WreckTrio/Medium_WreckPanel/T_Medium_WreckPanel_Metallic.uasset",
+      "sha256": "6a56c63506accceefb952f8bfa1e421321105aaac5a255536e8373d26ae39d3b",
+      "bytes": 1795493
+    },
+    {
+      "path": "Unreal/LostVanguard 5.8/Content/LostVanguard/Environment/OpeningReview/Assets/WreckTrio/Medium_WreckPanel/T_Medium_WreckPanel_Normal.uasset",
+      "sha256": "a1f39603ad714fbc59dc3e96cbf3f7214a6494b04465d0ba8f1ab10501140fc8",
+      "bytes": 5146543
+    },
+    {
+      "path": "Unreal/LostVanguard 5.8/Content/LostVanguard/Environment/OpeningReview/Assets/WreckTrio/Medium_WreckPanel/T_Medium_WreckPanel_Roughness.uasset",
+      "sha256": "ff2f750eed5cf09f00121c59f81f573478c0c0dddde949c6eae69787736c2376",
+      "bytes": 1591877
+    },
+    {
+      "path": "Unreal/LostVanguard 5.8/Content/LostVanguard/Environment/OpeningReview/Maps/L_Flora_Flagship71_Inspection.umap",
+      "sha256": "524903aef5cf5343dae2177b2c99e816dd7c6bc9411fbc70273a6badfcc88669",
+      "bytes": 43460
+    },
+    {
+      "path": "Unreal/LostVanguard 5.8/Content/LostVanguard/Environment/OpeningReview/Maps/L_ForestWreck_Inspection.umap",
+      "sha256": "e7cf565af36093879351ec7a239034b7600779da1e6e2f9d59a7d0a0cc8d60bc",
+      "bytes": 37208
+    },
+    {
+      "path": "Unreal/LostVanguard 5.8/Content/LostVanguard/Environment/OpeningReview/Maps/L_ForestWreck_Review.umap",
+      "sha256": "bd05dfce2048b80aae7488b802cc280039e4b5902ffa07b70e9d82dbe1e7d349",
+      "bytes": 1088596
+    },
+    {
+      "path": "Unreal/LostVanguard 5.8/Content/LostVanguard/Environment/OpeningReview/Maps/L_Wreck_Flagship71_Inspection.umap",
+      "sha256": "3630323a937a0fa7f73802624dba1a3002bdd6d8021a4140313916027ef8109f",
+      "bytes": 27933
+    },
+    {
+      "path": "Unreal/LostVanguard 5.8/Content/LostVanguard/Environment/OpeningReview/Maps/L_Wreck_Trio_Inspection.umap",
+      "sha256": "50bd48f057fd3190191cb1813069148876860da495c2087fdee793c9ea523bba",
+      "bytes": 27718
+    },
+    {
+      "path": "Unreal/LostVanguard 5.8/Content/LostVanguard/Environment/WreckShowcase/Assets/SM_ShowcasePlate_0.uasset",
+      "sha256": "c6232bcbc853b39ece481a66393201447d7d63185f5883514ce02a3f664c18f8",
+      "bytes": 69489
+    },
+    {
+      "path": "Unreal/LostVanguard 5.8/Content/LostVanguard/Environment/WreckShowcase/Assets/SM_ShowcasePlate_1.uasset",
+      "sha256": "c64a26a00f8ffcd8b80f6acd5a6c75c86c9f2288ed13cff3c5841212deefdad2",
+      "bytes": 69507
+    },
+    {
+      "path": "Unreal/LostVanguard 5.8/Content/LostVanguard/Environment/WreckShowcase/Assets/SM_ShowcasePlate_2.uasset",
+      "sha256": "6bdd6caa5bbff3546d45a5d85132e138648dbc96820a0cb255cf1ae1f09fa040",
+      "bytes": 69491
+    },
+    {
+      "path": "Unreal/LostVanguard 5.8/Content/LostVanguard/Environment/WreckShowcase/Assets/SM_ShowcaseRock_0.uasset",
+      "sha256": "66aa80cf2e04bf5e6ac2ea83c8c6d1531f19670d5553501cb5f9b5d85fa8975f",
+      "bytes": 72277
+    },
+    {
+      "path": "Unreal/LostVanguard 5.8/Content/LostVanguard/Environment/WreckShowcase/Assets/SM_ShowcaseRock_1.uasset",
+      "sha256": "5c2a5bba91ed9d756d7444c1c6fc2cfe6c729b39776d812e5c2191ff7585eae9",
+      "bytes": 72199
+    },
+    {
+      "path": "Unreal/LostVanguard 5.8/Content/LostVanguard/Environment/WreckShowcase/Assets/SM_ShowcaseRock_2.uasset",
+      "sha256": "ffc634cf778a67579379b815624223ae0060202b3d756ed88244715510f288d6",
+      "bytes": 72179
+    },
+    {
+      "path": "Unreal/LostVanguard 5.8/Content/LostVanguard/Environment/WreckShowcase/Assets/SM_ShowcaseTerrain.uasset",
+      "sha256": "4465a1517860ecc3d80b86de228216c9c67e987470797dc6f7de84314ae8c294",
+      "bytes": 616588
+    },
+    {
+      "path": "Unreal/LostVanguard 5.8/Content/LostVanguard/Environment/WreckShowcase/Maps/L_LargeWreck_Showcase.umap",
+      "sha256": "606ed3aa74b399bf66f59e8f2ec8b2920d9a6dbde93c269a6c8854b65dd9536c",
+      "bytes": 345888
+    },
+    {
+      "path": "Unreal/LostVanguard 5.8/Content/LostVanguard/Environment/WreckShowcase/Materials/M_AmberFault.uasset",
+      "sha256": "a0af373e73a08dfcf7b67d60b325489f67e54187262faea0b70be3db956d0344",
+      "bytes": 4692
+    },
+    {
+      "path": "Unreal/LostVanguard 5.8/Content/LostVanguard/Environment/WreckShowcase/Materials/M_DampAlienSoil.uasset",
+      "sha256": "c0275f433c5bdc9d1d96d88b11082e2bd7d3912d0296f7eef7ebc732cdd58cf0",
+      "bytes": 8663
+    },
+    {
+      "path": "Unreal/LostVanguard 5.8/Content/LostVanguard/Environment/WreckShowcase/Materials/M_FracturedStone.uasset",
+      "sha256": "4d1ae14b4ad270284aaa92aa9bf2adb7b9258033b3f772def5aa8c5aa76bcf5d",
+      "bytes": 8668
+    },
+    {
+      "path": "Unreal/LostVanguard 5.8/Content/WreckagePrototype/Blueprints/BP_SearcherPlaceholder.uasset",
+      "sha256": "c1c433fa34c4f2ab1bfc44c97a9a79303cfea49341aa4dff1ba8cca81731293f",
+      "bytes": 27594
+    },
+    {
+      "path": "Unreal/LostVanguard 5.8/Content/WreckagePrototype/Blueprints/BP_SearcherPlaceholder_Runtime.uasset",
+      "sha256": "b16f55c552157acc4b5a0c55074ffeee3e4f676ee8aa390a502d70ba6d77fc5f",
+      "bytes": 229438
+    },
+    {
+      "path": "Unreal/LostVanguard 5.8/Content/WreckagePrototype/Blueprints/BP_WreckageGameMode.uasset",
+      "sha256": "28a63a3aca9adeb813628ccd654c2eed54ea7bc91f03f323cce45c77075d2850",
+      "bytes": 21353
+    },
+    {
+      "path": "Unreal/LostVanguard 5.8/Content/WreckagePrototype/Blueprints/BP_WreckageGameMode_Runtime.uasset",
+      "sha256": "4c49ee16f17665bbf1d1e4f81918a9a7e9a1ee139d6bace46d6e6f829e629191",
+      "bytes": 21714
+    },
+    {
+      "path": "Unreal/LostVanguard 5.8/Content/WreckagePrototype/Blueprints/BP_WreckageHUD.uasset",
+      "sha256": "78fa0c79c8c0b9cd9d8cf808136b61fc46d82b19e5d286fe6ab0823bac58748c",
+      "bytes": 147235
+    },
+    {
+      "path": "Unreal/LostVanguard 5.8/Content/WreckagePrototype/Blueprints/BP_WreckagePlayer.uasset",
+      "sha256": "9367720b74e0bdb287a3aa50b026f337b9c18054e588e33478f42933b17def7d",
+      "bytes": 28714
+    },
+    {
+      "path": "Unreal/LostVanguard 5.8/Content/WreckagePrototype/Blueprints/BP_WreckagePlayer_Runtime.uasset",
+      "sha256": "cf5b0c9b01dd000587c04434fecea5488585d2f3e57cef8650fc4dfd3bfd7f89",
+      "bytes": 1300119
+    },
+    {
+      "path": "Unreal/LostVanguard 5.8/Content/WreckagePrototype/Maps/L_Wreckage.umap",
+      "sha256": "e5df704a31e1afe96b3abc7f8cbe90b178b853a5d4ae8d30536e149c295cd132",
+      "bytes": 79505
+    },
+    {
+      "path": "Unreal/LostVanguard 5.8/Content/WreckagePrototype/Maps/L_Wreckage_Opening.umap",
+      "sha256": "591b275a2efcaa0c2db69b930a4c7d32921cb74867cc5d47ef34af666e9332a3",
+      "bytes": 1069917
+    },
+    {
+      "path": "Unreal/LostVanguard 5.8/Content/WreckagePrototype/Maps/L_Wreckage_Playable.umap",
+      "sha256": "1f73141e0cecfad97bfe98d6cc161b6be69be772f753e7ee34acd9caf818729b",
+      "bytes": 80276
+    },
+    {
+      "path": "Unreal/LostVanguard 5.8/Content/WreckagePrototype/Materials/M_Cover.uasset",
+      "sha256": "ca57c6bbc87ba7bb7a39bdda9036ae896f70aeec4611ca8507a0b5106dec0781",
+      "bytes": 4684
+    },
+    {
+      "path": "Unreal/LostVanguard 5.8/Content/WreckagePrototype/Materials/M_Evidence.uasset",
+      "sha256": "92e840de9daf7821d61d03865c907125be9f353e35a32db1e9e7ec076777da6c",
+      "bytes": 4699
+    },
+    {
+      "path": "Unreal/LostVanguard 5.8/Content/WreckagePrototype/Materials/M_Floor.uasset",
+      "sha256": "caee4b67ab535402b64b1e42712b3744cf3f117904e8177ed619b051a3903125",
+      "bytes": 4684
+    },
+    {
+      "path": "Unreal/LostVanguard 5.8/Content/WreckagePrototype/Materials/M_OrisonGround.uasset",
+      "sha256": "0f35ba6ac16cdddf755f8690b393f64ee8792f4ad88798ae1a7d5cfeb179c7f5",
+      "bytes": 4719
+    },
+    {
+      "path": "Unreal/LostVanguard 5.8/Content/WreckagePrototype/Materials/M_Searcher.uasset",
+      "sha256": "b2d18dbeaa7dd6b46db25fcc35f3894a3b0824cfffc0ff37a86ac618e3ab37e2",
+      "bytes": 4699
+    },
+    {
+      "path": "Unreal/LostVanguard 5.8/Content/WreckagePrototype/Materials/M_WreckMetal.uasset",
+      "sha256": "bdc6eee0ad545551ea1f63ceacab1566e724b9b48f5e089957a2dc502af42c2e",
+      "bytes": 4709
+    },
+    {
+      "path": "Unreal/LostVanguard 5.8/Content/WreckagePrototype/OpeningVisuals/Materials/M_AlienBark.uasset",
+      "sha256": "5af1c9de1e14da7aca2dd7d0300582e1b9f4b78e6f3bf3d4ff3f672acd7cde63",
+      "bytes": 5356
+    },
+    {
+      "path": "Unreal/LostVanguard 5.8/Content/WreckagePrototype/OpeningVisuals/Materials/M_AlienLeafTips.uasset",
+      "sha256": "b7ac32459a270f53aed4a0cd9ad9104452d0e88dc7bed91b80da9559ea8deb01",
+      "bytes": 5376
+    },
+    {
+      "path": "Unreal/LostVanguard 5.8/Content/WreckagePrototype/OpeningVisuals/Materials/M_BlueGreenCanopy.uasset",
+      "sha256": "77f53dee280951a470c8a8cb25fac98164c5ade89752955b5faef2074ce27d72",
+      "bytes": 5386
+    },
+    {
+      "path": "Unreal/LostVanguard 5.8/Content/WreckagePrototype/OpeningVisuals/Materials/M_BurnedHull.uasset",
+      "sha256": "31888169a4513c09703f4e8c3177599374977f537ab69d34f885a0d9524d6953",
+      "bytes": 5361
+    },
+    {
+      "path": "Unreal/LostVanguard 5.8/Content/WreckagePrototype/OpeningVisuals/Materials/M_CoolSky.uasset",
+      "sha256": "b6cb613f9301c607d2c63624001a6852e67f839597d7422be7b3fb28ef44e785",
+      "bytes": 5681
+    },
+    {
+      "path": "Unreal/LostVanguard 5.8/Content/WreckagePrototype/OpeningVisuals/Materials/M_CrashSoil.uasset",
+      "sha256": "e2148f51efda6b1b0bbb44a6a8e5a3686bca883c7637183b48320e92b16e0fc3",
+      "bytes": 5356
+    },
+    {
+      "path": "Unreal/LostVanguard 5.8/Content/WreckagePrototype/OpeningVisuals/Materials/M_ForestRock.uasset",
+      "sha256": "576e82cb682efd2c888b18703a469f4b0b719dabfe2734f56c009d6e7efa5b2e",
+      "bytes": 5361
+    },
+    {
+      "path": "Unreal/LostVanguard 5.8/Content/WreckagePrototype/OpeningVisuals/Materials/M_FuelGlow.uasset",
+      "sha256": "3f0fdc95510478e8ecb7af6f860ef295600dbd264e64048f1f218e17c84fa3a0",
+      "bytes": 5686
+    },
+    {
+      "path": "Unreal/LostVanguard 5.8/Content/WreckagePrototype/OpeningVisuals/Materials/M_FuelGlowDim.uasset",
+      "sha256": "4de14bbcd40979f4d3894448a52bbac09fe2a5b2acc301ab26044e90d1f6a92f",
+      "bytes": 5701
+    },
+    {
+      "path": "Unreal/LostVanguard 5.8/Content/WreckagePrototype/OpeningVisuals/Materials/M_HullShadow.uasset",
+      "sha256": "817121e0349584bae0d5ebb343dc5d765097b7c7397943fd7284e78335008342",
+      "bytes": 5361
+    },
+    {
+      "path": "Unreal/LostVanguard 5.8/Content/WreckagePrototype/OpeningVisuals/Materials/M_LingeringFire.uasset",
+      "sha256": "b175a8a61a0c885e14f8a853473dabfed7b455f83a8a2a234bd6665b27c885d6",
+      "bytes": 5711
+    },
+    {
+      "path": "Unreal/LostVanguard 5.8/Content/WreckagePrototype/OpeningVisuals/Materials/M_LingeringFireDim.uasset",
+      "sha256": "c0fb5c57ee65f8ec9d949b533e1d6885734cb820ae5152cf9ec2fe232230d89d",
+      "bytes": 5726
+    },
+    {
+      "path": "Unreal/LostVanguard 5.8/Content/WreckagePrototype/OpeningVisuals/Materials/M_RisingSmokeProxy.uasset",
+      "sha256": "9eef39de8e839de3f68289fabc4b0213ef92c66bef9e65ddd74dd81552cd4159",
+      "bytes": 5968
+    },
+    {
+      "path": "Unreal/LostVanguard 5.8/Content/WreckagePrototype/OpeningVisuals/Materials/M_RisingSmokeProxy_v2.uasset",
+      "sha256": "34722f8c551ad0acb4da4b19de7b8d1a47cb977533d0644f3e9c1c56d3222173",
+      "bytes": 11499
+    },
+    {
+      "path": "Unreal/LostVanguard 5.8/Content/WreckagePrototype/OpeningVisuals/Materials/M_RisingSmokeProxy_v3.uasset",
+      "sha256": "eedb2d370cd7c813baa055d7031a44c9d23782851628bf934a693649e19fa430",
+      "bytes": 12794
+    },
+    {
+      "path": "Unreal/LostVanguard 5.8/Content/WreckagePrototype/OpeningVisuals/Materials/M_SmokeProxy.uasset",
+      "sha256": "310a0cb1722eb9c4a6dab8e4f72a5d892daf3ed37f6bb824aaf0d96c456ca368",
+      "bytes": 5938
+    },
+    {
+      "path": "Unreal/LostVanguard 5.8/Content/WreckagePrototype/OpeningVisuals/Materials/M_TealCanopy.uasset",
+      "sha256": "fef954c028786626ace1ef9756613badd1d3f842b8a78f9abd7592a5d82ab53f",
+      "bytes": 5361
+    },
+    {
+      "path": "Unreal/LostVanguard 5.8/Content/WreckagePrototype/OpeningVisuals/Materials/M_TornEdges.uasset",
+      "sha256": "9fa45c19f44aaf00e23cbb4077a22c119c092d4c6640fd4b7578ceca6fcdf670",
+      "bytes": 5356
+    },
+    {
+      "path": "tools/build_wreckage_gameplay.py",
+      "sha256": "71126e8d0f265d9024a38420450de3c89e9cbb0c3ff5f90eddefe187426989af",
+      "bytes": 16354
+    },
+    {
+      "path": "tools/build_wreckage_hud.py",
+      "sha256": "753c2fb0e0d968a2068a60bedab3dd478584eb32f3c4ab2575d52b06d2deb2ec",
+      "bytes": 3759
+    },
+    {
+      "path": "tools/build_wreckage_opening.py",
+      "sha256": "7e5b803a380b9c926449fba87b5ab75398563e47c3e3b4951f38990e17602d3e",
+      "bytes": 18018
+    },
+    {
+      "path": "tools/test_wreckage.py",
+      "sha256": "0d8cd4cb2968e9a29029a95eeabd2a5df81010c950b80f88c94fbfb541cfcbe7",
+      "bytes": 12601
+    }
+  ],
+  "changed_during_copy": []
+}

@@ -1,0 +1,459 @@
+{
+  "map": "/Game/MovementTest/Maps/L_Movement_Test",
+  "actors": [
+    {
+      "name": "MT_Floor",
+      "xform": {
+        "location": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": -50.0
+        },
+        "rotation": {
+          "pitch": 0.0,
+          "yaw": 0.0,
+          "roll": 0.0
+        },
+        "scale": {
+          "x": 120.0,
+          "y": 120.0,
+          "z": 1.0
+        }
+      }
+    },
+    {
+      "name": "MT_Step_20cm",
+      "xform": {
+        "location": {
+          "x": -3450.0,
+          "y": -1000.0,
+          "z": 10.0
+        },
+        "rotation": {
+          "pitch": 0.0,
+          "yaw": 0.0,
+          "roll": 0.0
+        },
+        "scale": {
+          "x": 3.0,
+          "y": 1.5,
+          "z": 0.2
+        }
+      }
+    },
+    {
+      "name": "MT_Step_35cm",
+      "xform": {
+        "location": {
+          "x": -3450.0,
+          "y": -1200.0,
+          "z": 17.5
+        },
+        "rotation": {
+          "pitch": 0.0,
+          "yaw": 0.0,
+          "roll": 0.0
+        },
+        "scale": {
+          "x": 3.0,
+          "y": 1.5,
+          "z": 0.35
+        }
+      }
+    },
+    {
+      "name": "MT_Step_44cm",
+      "xform": {
+        "location": {
+          "x": -3450.0,
+          "y": -1400.0,
+          "z": 22.0
+        },
+        "rotation": {
+          "pitch": 0.0,
+          "yaw": 0.0,
+          "roll": 0.0
+        },
+        "scale": {
+          "x": 3.0,
+          "y": 1.5,
+          "z": 0.44
+        }
+      }
+    },
+    {
+      "name": "MT_Step_46cm",
+      "xform": {
+        "location": {
+          "x": -3450.0,
+          "y": -1600.0,
+          "z": 23.0
+        },
+        "rotation": {
+          "pitch": 0.0,
+          "yaw": 0.0,
+          "roll": 0.0
+        },
+        "scale": {
+          "x": 3.0,
+          "y": 1.5,
+          "z": 0.46
+        }
+      }
+    },
+    {
+      "name": "MT_Step_55cm",
+      "xform": {
+        "location": {
+          "x": -3450.0,
+          "y": -1800.0,
+          "z": 27.5
+        },
+        "rotation": {
+          "pitch": 0.0,
+          "yaw": 0.0,
+          "roll": 0.0
+        },
+        "scale": {
+          "x": 3.0,
+          "y": 1.5,
+          "z": 0.55
+        }
+      }
+    },
+    {
+      "name": "MT_Slope_30deg",
+      "xform": {
+        "location": {
+          "x": -3335.192378864668,
+          "y": 1000.0,
+          "z": 149.99999999999997
+        },
+        "rotation": {
+          "pitch": 30.0,
+          "yaw": 0.0,
+          "roll": 0.0
+        },
+        "scale": {
+          "x": 6.0,
+          "y": 1.5,
+          "z": 0.2
+        }
+      }
+    },
+    {
+      "name": "MT_Slope_40deg",
+      "xform": {
+        "location": {
+          "x": -3363.758790967441,
+          "y": 1200.0,
+          "z": 192.83628290596178
+        },
+        "rotation": {
+          "pitch": 40.0,
+          "yaw": 0.0,
+          "roll": 0.0
+        },
+        "scale": {
+          "x": 6.0,
+          "y": 1.5,
+          "z": 0.2
+        }
+      }
+    },
+    {
+      "name": "MT_Slope_44deg",
+      "xform": {
+        "location": {
+          "x": -3377.2514761938146,
+          "y": 1400.0,
+          "z": 208.39751113769918
+        },
+        "rotation": {
+          "pitch": 44.0,
+          "yaw": 0.0,
+          "roll": 0.0
+        },
+        "scale": {
+          "x": 6.0,
+          "y": 1.5,
+          "z": 0.2
+        }
+      }
+    },
+    {
+      "name": "MT_Slope_46deg",
+      "xform": {
+        "location": {
+          "x": -3384.4090908589146,
+          "y": 1600.0,
+          "z": 215.80194010159536
+        },
+        "rotation": {
+          "pitch": 46.0,
+          "yaw": 0.0,
+          "roll": 0.0
+        },
+        "scale": {
+          "x": 6.0,
+          "y": 1.5,
+          "z": 0.2
+        }
+      }
+    },
+    {
+      "name": "MT_Slope_50deg",
+      "xform": {
+        "location": {
+          "x": -3399.5032726628483,
+          "y": 1800.0,
+          "z": 229.8133329356934
+        },
+        "rotation": {
+          "pitch": 50.0,
+          "yaw": 0.0,
+          "roll": 0.0
+        },
+        "scale": {
+          "x": 6.0,
+          "y": 1.5,
+          "z": 0.2
+        }
+      }
+    },
+    {
+      "name": "MT_CrouchBar_125cm",
+      "xform": {
+        "location": {
+          "x": -3510.0,
+          "y": -2400.0,
+          "z": 180.0
+        },
+        "rotation": {
+          "pitch": 0.0,
+          "yaw": 0.0,
+          "roll": 0.0
+        },
+        "scale": {
+          "x": 1.8,
+          "y": 4.0,
+          "z": 1.1
+        }
+      }
+    },
+    {
+      "name": "MT_Ledge_120cm",
+      "xform": {
+        "location": {
+          "x": -2850.0,
+          "y": -3200.0,
+          "z": 60.0
+        },
+        "rotation": {
+          "pitch": 0.0,
+          "yaw": 0.0,
+          "roll": 0.0
+        },
+        "scale": {
+          "x": 15.0,
+          "y": 1.5,
+          "z": 1.2
+        }
+      }
+    },
+    {
+      "name": "MT_Ledge_150cm",
+      "xform": {
+        "location": {
+          "x": -2850.0,
+          "y": -3400.0,
+          "z": 75.0
+        },
+        "rotation": {
+          "pitch": 0.0,
+          "yaw": 0.0,
+          "roll": 0.0
+        },
+        "scale": {
+          "x": 15.0,
+          "y": 1.5,
+          "z": 1.5
+        }
+      }
+    },
+    {
+      "name": "MT_Ledge_165cm",
+      "xform": {
+        "location": {
+          "x": -2850.0,
+          "y": -3600.0,
+          "z": 82.5
+        },
+        "rotation": {
+          "pitch": 0.0,
+          "yaw": 0.0,
+          "roll": 0.0
+        },
+        "scale": {
+          "x": 15.0,
+          "y": 1.5,
+          "z": 1.65
+        }
+      }
+    },
+    {
+      "name": "MT_Ledge_180cm",
+      "xform": {
+        "location": {
+          "x": -2850.0,
+          "y": -3800.0,
+          "z": 90.0
+        },
+        "rotation": {
+          "pitch": 0.0,
+          "yaw": 0.0,
+          "roll": 0.0
+        },
+        "scale": {
+          "x": 15.0,
+          "y": 1.5,
+          "z": 1.8
+        }
+      }
+    },
+    {
+      "name": "MT_Ledge_200cm",
+      "xform": {
+        "location": {
+          "x": -2850.0,
+          "y": -4000.0,
+          "z": 100.0
+        },
+        "rotation": {
+          "pitch": 0.0,
+          "yaw": 0.0,
+          "roll": 0.0
+        },
+        "scale": {
+          "x": 15.0,
+          "y": 1.5,
+          "z": 2.0
+        }
+      }
+    },
+    {
+      "name": "MT_Ledge_220cm",
+      "xform": {
+        "location": {
+          "x": -2850.0,
+          "y": -4200.0,
+          "z": 110.0
+        },
+        "rotation": {
+          "pitch": 0.0,
+          "yaw": 0.0,
+          "roll": 0.0
+        },
+        "scale": {
+          "x": 15.0,
+          "y": 1.5,
+          "z": 2.2
+        }
+      }
+    },
+    {
+      "name": "MT_Ledge_250cm",
+      "xform": {
+        "location": {
+          "x": -2850.0,
+          "y": -4400.0,
+          "z": 125.0
+        },
+        "rotation": {
+          "pitch": 0.0,
+          "yaw": 0.0,
+          "roll": 0.0
+        },
+        "scale": {
+          "x": 15.0,
+          "y": 1.5,
+          "z": 2.5
+        }
+      }
+    },
+    {
+      "name": "MT_Ledge_290cm",
+      "xform": {
+        "location": {
+          "x": -2850.0,
+          "y": -4600.0,
+          "z": 145.0
+        },
+        "rotation": {
+          "pitch": 0.0,
+          "yaw": 0.0,
+          "roll": 0.0
+        },
+        "scale": {
+          "x": 15.0,
+          "y": 1.5,
+          "z": 2.9
+        }
+      }
+    },
+    {
+      "name": "MT_Platform_10m",
+      "xform": {
+        "location": {
+          "x": -4000.0,
+          "y": 3000.0,
+          "z": 500.0
+        },
+        "rotation": {
+          "pitch": 0.0,
+          "yaw": 0.0,
+          "roll": 0.0
+        },
+        "scale": {
+          "x": 4.0,
+          "y": 4.0,
+          "z": 10.0
+        }
+      }
+    }
+  ],
+  "stations": {
+    "flat_start": [
+      -4000,
+      0
+    ],
+    "drop_column": [
+      -1000,
+      3500
+    ],
+    "enemy_fire": [
+      2000,
+      -480
+    ],
+    "off_map": [
+      0,
+      6800
+    ],
+    "platform_top": [
+      -4000,
+      3000
+    ]
+  },
+  "verified_target": {
+    "port": 8000,
+    "listener": "\"C:\\Program Files\\Epic Games\\UE_5.8\\Engine\\Binaries\\Win64\\UnrealEditor.exe\" \"C:/Users/alexa/Documents/AI STUFF/Project Big/Unreal/LostVanguard 5.8/LostVanguard.uproject\" /Game/LostVanguard/Environment/SpaceImpact/Maps/L_SpaceImpact_Cinematic -nosplash",
+    "marker_token_matched": true
+  },
+  "created_from": "/Engine/Maps/Templates/Template_Default",
+  "dirty_after_save": false,
+  "traces": {
+    "floor": 500,
+    "platform_top": 500,
+    "off_map_empty": null
+  }
+}

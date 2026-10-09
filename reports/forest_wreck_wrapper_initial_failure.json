@@ -1,0 +1,81 @@
+{
+  "map": "/Game/WreckagePrototype/Maps/L_Wreckage_Playable",
+  "checks": [
+    {
+      "name": "Fresh start at recovery",
+      "passed": true,
+      "observed": {
+        "Step": 0,
+        "Checkpoint": 0,
+        "Health": 100,
+        "Dead": false,
+        "HasWeapon": false,
+        "EvidenceRead": false,
+        "CommsRestored": false,
+        "Objective": "E: shift the wreckage",
+        "Subtitle": "Clank: Evan. Can you hear me?",
+        "SubtitleQueue": [],
+        "LookTotal": 0,
+        "DebugMoveTime": -1.6783484034240246,
+        "bIsCrouched": false,
+        "Cue0": true,
+        "Cue5": false,
+        "Cue6": false,
+        "Cue8": false,
+        "Cue9": false
+      }
+    }
+  ],
+  "actions": [
+    {
+      "label": "Fresh PIE start",
+      "properties": {
+        "Step": 0,
+        "Checkpoint": 0,
+        "Health": 100,
+        "Dead": false,
+        "HasWeapon": false,
+        "EvidenceRead": false,
+        "CommsRestored": false,
+        "Objective": "E: shift the wreckage",
+        "Subtitle": "Clank: Evan. Can you hear me?",
+        "SubtitleQueue": [],
+        "LookTotal": 0,
+        "DebugMoveTime": -1.6783484034240246,
+        "bIsCrouched": false,
+        "Cue0": true,
+        "Cue5": false,
+        "Cue6": false,
+        "Cue8": false,
+        "Cue9": false
+      },
+      "transform": {
+        "location": {
+          "x": -359.25,
+          "y": 0,
+          "z": 90.15000343322754
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      }
+    }
+  ],
+  "errors": [
+    "unhandled errors in a TaskGroup (1 sub-exception)"
+  ],
+  "limitations": [
+    "Automated editor input properties used; physical keyboard/mouse feel needs a human pass.",
+    "Fresh 100-health start and normal 100-health death/restart are tested. Slow remote movement/combat uses temporary 5000 health, restored to 100 before the death check and by checkpoint restart; saved defaults remain unchanged. Normal-health encounter balance is not verified."
+  ],
+  "player": {
+    "refPath": "/Game/WreckagePrototype/Maps/UEDPIE_0_L_Wreckage_Playable.L_Wreckage_Playable:PersistentLevel.BP_WreckagePlayer_Runtime_C_0"
+  }
+}

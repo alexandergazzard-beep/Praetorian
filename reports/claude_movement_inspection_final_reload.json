@@ -1,0 +1,102 @@
+{
+  "verified_target": {
+    "port": 8001,
+    "listener": "\"C:\\Program Files\\Epic Games\\UE_5.8\\Engine\\Binaries\\Win64\\UnrealEditor.exe\" \"C:/Users/alexa/Documents/AI STUFF/Project Big-movement/Unreal/LostVanguard 5.8/LostVanguard.uproject\" -ini:EditorPerProjectUserSettings:[/Script/ModelContextProtocolEngine.ModelContextProtocolSettings]:ServerPortNumber=8001 -log=MovementEditor_Final.log",
+    "marker_token_matched": true
+  },
+  "cdo": {
+    "refPath": "/Game/WreckagePrototype/Blueprints/BP_WreckagePlayer_Runtime.Default__BP_WreckagePlayer_Runtime_C"
+  },
+  "cdo_properties": {
+    "CharacterMovement": {
+      "refPath": "/Game/WreckagePrototype/Blueprints/BP_WreckagePlayer_Runtime.Default__BP_WreckagePlayer_Runtime_C:CharMoveComp"
+    },
+    "CapsuleComponent": {
+      "refPath": "/Game/WreckagePrototype/Blueprints/BP_WreckagePlayer_Runtime.Default__BP_WreckagePlayer_Runtime_C:CollisionCylinder"
+    },
+    "bUseControllerRotationYaw": true,
+    "JumpMaxHoldTime": 0,
+    "JumpMaxCount": 1
+  },
+  "character_movement": {
+    "MaxWalkSpeed": 562,
+    "MaxWalkSpeedCrouched": 275,
+    "MaxAcceleration": 3750,
+    "BrakingDecelerationWalking": 2048,
+    "GroundFriction": 8,
+    "BrakingFrictionFactor": 2,
+    "bUseSeparateBrakingFriction": false,
+    "JumpZVelocity": 557.2999877929688,
+    "GravityScale": 0.9477999806404114,
+    "AirControl": 0.30000001192092896,
+    "AirControlBoostMultiplier": 2,
+    "AirControlBoostVelocityThreshold": 25,
+    "FallingLateralFriction": 0,
+    "BrakingDecelerationFalling": 0,
+    "MaxStepHeight": 45,
+    "WalkableFloorAngle": 44.76508331298828,
+    "CrouchedHalfHeight": 44,
+    "bCanWalkOffLedges": true,
+    "bCanWalkOffLedgesWhenCrouching": false,
+    "PerchRadiusThreshold": 0,
+    "bApplyGravityWhileJumping": true,
+    "NavAgentProps": {
+      "agentRadius": -1,
+      "agentHeight": -1,
+      "agentStepHeight": -1,
+      "navWalkingSearchHeightScale": 0.5,
+      "preferredNavData": {
+        "refPath": ""
+      },
+      "bCanCrouch": true,
+      "bCanJump": true,
+      "bCanWalk": true,
+      "bCanSwim": true,
+      "bCanFly": false
+    }
+  },
+  "capsule": {
+    "CapsuleHalfHeight": 88,
+    "CapsuleRadius": 34
+  },
+  "variables": [
+    "Step",
+    "Checkpoint",
+    "Health",
+    "Dead",
+    "HasWeapon",
+    "EvidenceRead",
+    "CommsRestored",
+    "Objective",
+    "Subtitle",
+    "SubtitleTime",
+    "LookTotal",
+    "ShotCooldown",
+    "DebugForward",
+    "DebugRight",
+    "DebugLook",
+    "DebugCrouch",
+    "RequestInteract",
+    "RequestJump",
+    "RequestFire",
+    "RequestRestart",
+    "SubtitleQueue",
+    "Cue0",
+    "Cue1",
+    "Cue2",
+    "Cue3",
+    "Cue4",
+    "Cue5",
+    "Cue6",
+    "Cue7",
+    "Cue8",
+    "Cue9",
+    "Cue10",
+    "DebugMoveTime",
+    "LookSensitivity"
+  ],
+  "current_level": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening",
+  "pie_running": false,
+  "player_blueprint_dirty": false,
+  "event_graph_dsl": null
+}

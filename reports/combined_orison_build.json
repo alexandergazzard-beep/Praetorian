@@ -1,0 +1,195 @@
+{
+  "map": "/Game/LostVanguard/Environment/OrisonTerrain/Maps/L_Orison_Combined_Review",
+  "source_map": "/Game/LostVanguard/Environment/OrisonTerrain/Maps/L_OrisonTerrain_Review",
+  "new_plant_placements": [
+    {
+      "id": "F13_Expansion71",
+      "location": [
+        -1900,
+        -1900,
+        50.7806396484375
+      ]
+    },
+    {
+      "id": "F13_Expansion71",
+      "location": [
+        2050,
+        1400,
+        261.715576171875
+      ]
+    },
+    {
+      "id": "F14_Expansion71",
+      "location": [
+        2100,
+        -1750,
+        52.34375
+      ]
+    },
+    {
+      "id": "F14_Expansion71",
+      "location": [
+        -2300,
+        1850,
+        75.7802734375
+      ]
+    },
+    {
+      "id": "F16_Expansion71",
+      "location": [
+        -2100,
+        300,
+        155.4681396484375
+      ]
+    },
+    {
+      "id": "F16_Expansion71",
+      "location": [
+        1800,
+        2250,
+        280.9959716796875
+      ]
+    },
+    {
+      "id": "F19_Expansion71",
+      "location": [
+        -420,
+        -1500,
+        33.59375
+      ]
+    },
+    {
+      "id": "F19_Expansion71",
+      "location": [
+        550,
+        -400,
+        49.9993896484375
+      ]
+    },
+    {
+      "id": "F19_Expansion71",
+      "location": [
+        -650,
+        1500,
+        83.5916748046875
+      ]
+    },
+    {
+      "id": "F21_Expansion71",
+      "location": [
+        550,
+        -1800,
+        25.78076171875
+      ]
+    },
+    {
+      "id": "F21_Expansion71",
+      "location": [
+        -520,
+        200,
+        54.9984130859375
+      ]
+    },
+    {
+      "id": "F21_Expansion71",
+      "location": [
+        650,
+        1900,
+        54.6873779296875
+      ]
+    }
+  ],
+  "trunk_checks": [
+    {
+      "tree": "Terrain_Tree_0",
+      "passed": true,
+      "distance": 117.50000762939453
+    },
+    {
+      "tree": "Terrain_Tree_1",
+      "passed": true,
+      "distance": 117.50000762939453
+    },
+    {
+      "tree": "Terrain_Tree_2",
+      "passed": true,
+      "distance": 117.50000762939453
+    },
+    {
+      "tree": "Terrain_Tree_3",
+      "passed": true,
+      "distance": 117.50000762939453
+    },
+    {
+      "tree": "Terrain_Tree_4",
+      "passed": true,
+      "distance": 117.50000762939453
+    },
+    {
+      "tree": "Terrain_Tree_5",
+      "passed": true,
+      "distance": 117.50000762939453
+    },
+    {
+      "tree": "Terrain_Tree_6",
+      "passed": true,
+      "distance": 117.50000762939453
+    },
+    {
+      "tree": "Terrain_Tree_7",
+      "passed": true,
+      "distance": 117.50000762939453
+    },
+    {
+      "tree": "Terrain_Tree_8",
+      "passed": true,
+      "distance": 117.50000762939453
+    },
+    {
+      "tree": "Terrain_Tree_9",
+      "passed": true,
+      "distance": 117.50000762939453
+    },
+    {
+      "tree": "Combined_F13_Expansion71_0",
+      "passed": true,
+      "distance": 117.50000762939453
+    },
+    {
+      "tree": "Combined_F13_Expansion71_1",
+      "passed": true,
+      "distance": 117.50000762939453
+    },
+    {
+      "tree": "Combined_F14_Expansion71_0",
+      "passed": true,
+      "distance": 117.50000762939453
+    },
+    {
+      "tree": "Combined_F14_Expansion71_1",
+      "passed": true,
+      "distance": 117.50000762939453
+    },
+    {
+      "tree": "Combined_F16_Expansion71_0",
+      "passed": true,
+      "distance": 117.50000762939453
+    },
+    {
+      "tree": "Combined_F16_Expansion71_1",
+      "passed": true,
+      "distance": 117.50000762939453
+    }
+  ],
+  "profile": {
+    "MaxWalkSpeed": 562.0,
+    "MaxWalkSpeedCrouched": 275.0,
+    "MaxAcceleration": 3750.0,
+    "JumpZVelocity": 557.3,
+    "GravityScale": 0.9478,
+    "AirControl": 0.3
+  },
+  "player": "/Game/LostVanguard/Environment/OrisonTerrain/Blueprints/BP_CombinedTerrainPlayer.BP_CombinedTerrainPlayer",
+  "strict_compile": true,
+  "saved_reload": true
+}

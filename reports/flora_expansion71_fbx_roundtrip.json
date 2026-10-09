@@ -1,0 +1,182 @@
+[
+  {
+    "asset": "F13_Expansion71",
+    "lod": 0,
+    "triangles": 47969,
+    "pre_export_triangles": 47969,
+    "importer_removed_triangles": 0,
+    "uv_layers": 1,
+    "roundtrip": true
+  },
+  {
+    "asset": "F13_Expansion71",
+    "lod": 1,
+    "triangles": 26138,
+    "pre_export_triangles": 26366,
+    "importer_removed_triangles": 228,
+    "uv_layers": 1,
+    "roundtrip": true
+  },
+  {
+    "asset": "F13_Expansion71",
+    "lod": 2,
+    "triangles": 14193,
+    "pre_export_triangles": 14244,
+    "importer_removed_triangles": 51,
+    "uv_layers": 1,
+    "roundtrip": true
+  },
+  {
+    "asset": "F13_Expansion71",
+    "lod": 3,
+    "triangles": 3771,
+    "pre_export_triangles": 3781,
+    "importer_removed_triangles": 10,
+    "uv_layers": 1,
+    "roundtrip": true
+  },
+  {
+    "asset": "F14_Expansion71",
+    "lod": 0,
+    "triangles": 41594,
+    "pre_export_triangles": 41594,
+    "importer_removed_triangles": 0,
+    "uv_layers": 1,
+    "roundtrip": true
+  },
+  {
+    "asset": "F14_Expansion71",
+    "lod": 1,
+    "triangles": 20483,
+    "pre_export_triangles": 20686,
+    "importer_removed_triangles": 203,
+    "uv_layers": 1,
+    "roundtrip": true
+  },
+  {
+    "asset": "F14_Expansion71",
+    "lod": 2,
+    "triangles": 14124,
+    "pre_export_triangles": 14177,
+    "importer_removed_triangles": 53,
+    "uv_layers": 1,
+    "roundtrip": true
+  },
+  {
+    "asset": "F14_Expansion71",
+    "lod": 3,
+    "triangles": 4060,
+    "pre_export_triangles": 4067,
+    "importer_removed_triangles": 7,
+    "uv_layers": 1,
+    "roundtrip": true
+  },
+  {
+    "asset": "F16_Expansion71",
+    "lod": 0,
+    "triangles": 55302,
+    "pre_export_triangles": 55302,
+    "importer_removed_triangles": 0,
+    "uv_layers": 1,
+    "roundtrip": true
+  },
+  {
+    "asset": "F16_Expansion71",
+    "lod": 1,
+    "triangles": 30333,
+    "pre_export_triangles": 30556,
+    "importer_removed_triangles": 223,
+    "uv_layers": 1,
+    "roundtrip": true
+  },
+  {
+    "asset": "F16_Expansion71",
+    "lod": 2,
+    "triangles": 23344,
+    "pre_export_triangles": 23442,
+    "importer_removed_triangles": 98,
+    "uv_layers": 1,
+    "roundtrip": true
+  },
+  {
+    "asset": "F16_Expansion71",
+    "lod": 3,
+    "triangles": 6961,
+    "pre_export_triangles": 6963,
+    "importer_removed_triangles": 2,
+    "uv_layers": 1,
+    "roundtrip": true
+  },
+  {
+    "asset": "F19_Expansion71",
+    "lod": 0,
+    "triangles": 15948,
+    "pre_export_triangles": 15948,
+    "importer_removed_triangles": 0,
+    "uv_layers": 1,
+    "roundtrip": true
+  },
+  {
+    "asset": "F19_Expansion71",
+    "lod": 1,
+    "triangles": 7908,
+    "pre_export_triangles": 7973,
+    "importer_removed_triangles": 65,
+    "uv_layers": 1,
+    "roundtrip": true
+  },
+  {
+    "asset": "F19_Expansion71",
+    "lod": 2,
+    "triangles": 6257,
+    "pre_export_triangles": 6303,
+    "importer_removed_triangles": 46,
+    "uv_layers": 1,
+    "roundtrip": true
+  },
+  {
+    "asset": "F19_Expansion71",
+    "lod": 3,
+    "triangles": 4467,
+    "pre_export_triangles": 4471,
+    "importer_removed_triangles": 4,
+    "uv_layers": 1,
+    "roundtrip": true
+  },
+  {
+    "asset": "F21_Expansion71",
+    "lod": 0,
+    "triangles": 14150,
+    "pre_export_triangles": 14150,
+    "importer_removed_triangles": 0,
+    "uv_layers": 1,
+    "roundtrip": true
+  },
+  {
+    "asset": "F21_Expansion71",
+    "lod": 1,
+    "triangles": 6786,
+    "pre_export_triangles": 6789,
+    "importer_removed_triangles": 3,
+    "uv_layers": 1,
+    "roundtrip": true
+  },
+  {
+    "asset": "F21_Expansion71",
+    "lod": 2,
+    "triangles": 3307,
+    "pre_export_triangles": 3311,
+    "importer_removed_triangles": 4,
+    "uv_layers": 1,
+    "roundtrip": true
+  },
+  {
+    "asset": "F21_Expansion71",
+    "lod": 3,
+    "triangles": 2002,
+    "pre_export_triangles": 2006,
+    "importer_removed_triangles": 4,
+    "uv_layers": 1,
+    "roundtrip": true
+  }
+]

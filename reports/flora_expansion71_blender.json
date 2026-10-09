@@ -1,0 +1,87 @@
+{
+  "F21_Expansion71": {
+    "triangles": 14150,
+    "vertices": 6804,
+    "vertices_removed": 18919,
+    "nonmanifold_edges": 694,
+    "uv_layers": 1,
+    "material_slots": 1,
+    "dimensions_m": [
+      2.8179945945739746,
+      1.129929780960083,
+      1.994048833847046
+    ],
+    "pivot": "centered bottom",
+    "scale": "provisional production size; not story canon",
+    "source_preserved": true,
+    "polish": "smooth normals, gentle geometry smoothing factor .12 x2"
+  },
+  "F14_Expansion71": {
+    "triangles": 41594,
+    "vertices": 19438,
+    "vertices_removed": 66740,
+    "nonmanifold_edges": 6860,
+    "uv_layers": 1,
+    "material_slots": 1,
+    "dimensions_m": [
+      13.12212085723877,
+      10.275598526000977,
+      15.979782104492188
+    ],
+    "pivot": "centered bottom",
+    "scale": "provisional production size; not story canon",
+    "source_preserved": true,
+    "polish": "smooth normals, gentle geometry smoothing factor .12 x2"
+  },
+  "F13_Expansion71": {
+    "triangles": 47969,
+    "vertices": 22363,
+    "vertices_removed": 76824,
+    "nonmanifold_edges": 11311,
+    "uv_layers": 1,
+    "material_slots": 1,
+    "dimensions_m": [
+      16.60458755493164,
+      13.616329193115234,
+      13.977812767028809
+    ],
+    "pivot": "centered bottom",
+    "scale": "provisional production size; not story canon",
+    "source_preserved": true,
+    "polish": "smooth normals, gentle geometry smoothing factor .12 x2"
+  },
+  "F19_Expansion71": {
+    "triangles": 15948,
+    "vertices": 7176,
+    "vertices_removed": 25592,
+    "nonmanifold_edges": 1530,
+    "uv_layers": 1,
+    "material_slots": 1,
+    "dimensions_m": [
+      2.400042772293091,
+      2.0864315032958984,
+      1.59249746799469
+    ],
+    "pivot": "centered bottom",
+    "scale": "provisional production size; not story canon",
+    "source_preserved": true,
+    "polish": "smooth normals, gentle geometry smoothing factor .12 x2"
+  },
+  "F16_Expansion71": {
+    "triangles": 55302,
+    "vertices": 25026,
+    "vertices_removed": 89586,
+    "nonmanifold_edges": 10033,
+    "uv_layers": 1,
+    "material_slots": 1,
+    "dimensions_m": [
+      13.995351791381836,
+      14.800695419311523,
+      11.978779792785645
+    ],
+    "pivot": "centered bottom",
+    "scale": "provisional production size; not story canon",
+    "source_preserved": true,
+    "polish": "smooth normals, gentle geometry smoothing factor .12 x2"
+  }
+}

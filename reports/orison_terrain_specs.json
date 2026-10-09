@@ -1,0 +1,38 @@
+{
+  "R01_Terrain71": {
+    "reference": "R01.png",
+    "target": 10000,
+    "size": 2.0,
+    "range": [
+      7000,
+      13000
+    ]
+  },
+  "R02_Terrain71": {
+    "reference": "R02.png",
+    "target": 14000,
+    "size": 2.5,
+    "range": [
+      10000,
+      18000
+    ]
+  },
+  "R06_Terrain71": {
+    "reference": "R06.png",
+    "target": 14000,
+    "size": 3.5,
+    "range": [
+      10000,
+      18000
+    ]
+  },
+  "T02_Terrain71": {
+    "reference": "T02.png",
+    "target": 35000,
+    "size": 9.0,
+    "range": [
+      25000,
+      45000
+    ]
+  }
+}

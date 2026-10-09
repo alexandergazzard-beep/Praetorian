@@ -1,0 +1,809 @@
+{
+  "map": "/Game/LostVanguard/Environment/OrisonTerrain/Maps/L_OrisonTerrain_Review",
+  "placements": [
+    {
+      "label": "Terrain_T02_Terrain71_0",
+      "asset": "/Game/LostVanguard/Environment/OrisonTerrain/Assets/T02_Terrain71/SM_T02_Terrain71.SM_T02_Terrain71",
+      "location": [
+        1250.0,
+        800.0,
+        130.2595536607849
+      ],
+      "scale": 1.4
+    },
+    {
+      "label": "Terrain_T02_Terrain71_1",
+      "asset": "/Game/LostVanguard/Environment/OrisonTerrain/Assets/T02_Terrain71/SM_T02_Terrain71.SM_T02_Terrain71",
+      "location": [
+        -1500.0,
+        1550.0,
+        104.283985599918
+      ],
+      "scale": 1.1
+    },
+    {
+      "label": "Terrain_T02_Terrain71_2",
+      "asset": "/Game/LostVanguard/Environment/OrisonTerrain/Assets/T02_Terrain71/SM_T02_Terrain71.SM_T02_Terrain71",
+      "location": [
+        1700.0,
+        2200.0,
+        181.73444988389028
+      ],
+      "scale": 1.7
+    },
+    {
+      "label": "Terrain_T02_Terrain71_3",
+      "asset": "/Game/LostVanguard/Environment/OrisonTerrain/Assets/T02_Terrain71/SM_T02_Terrain71.SM_T02_Terrain71",
+      "location": [
+        -2100.0,
+        -500.0,
+        106.32539272861264
+      ],
+      "scale": 1.3
+    },
+    {
+      "label": "Terrain_R01_Terrain71_4",
+      "asset": "/Game/LostVanguard/Environment/OrisonTerrain/Assets/R01_Terrain71/SM_R01_Terrain71.SM_R01_Terrain71",
+      "location": [
+        557.4998266648388,
+        267.37246733681377,
+        49.13446700288023
+      ],
+      "scale": 0.668151983539961
+    },
+    {
+      "label": "Terrain_R02_Terrain71_5",
+      "asset": "/Game/LostVanguard/Environment/OrisonTerrain/Assets/R02_Terrain71/SM_R02_Terrain71.SM_R02_Terrain71",
+      "location": [
+        1943.6634084832467,
+        -2049.4510647342418,
+        45.50270303411169
+      ],
+      "scale": 1.1464768213919723
+    },
+    {
+      "label": "Terrain_R06_Terrain71_6",
+      "asset": "/Game/LostVanguard/Environment/OrisonTerrain/Assets/R06_Terrain71/SM_R06_Terrain71.SM_R06_Terrain71",
+      "location": [
+        -2192.3283597083787,
+        2499.418974599127,
+        46.65004991414759
+      ],
+      "scale": 1.125742569498146
+    },
+    {
+      "label": "Terrain_R01_Terrain71_7",
+      "asset": "/Game/LostVanguard/Environment/OrisonTerrain/Assets/R01_Terrain71/SM_R01_Terrain71.SM_R01_Terrain71",
+      "location": [
+        -1033.2109561577179,
+        -143.87522068300495,
+        94.2408945198976
+      ],
+      "scale": 0.7937634758460459
+    },
+    {
+      "label": "Terrain_R02_Terrain71_8",
+      "asset": "/Game/LostVanguard/Environment/OrisonTerrain/Assets/R02_Terrain71/SM_R02_Terrain71.SM_R02_Terrain71",
+      "location": [
+        -562.1001718604338,
+        328.8922519740495,
+        50.879447188409145
+      ],
+      "scale": 0.8838025038314945
+    },
+    {
+      "label": "Terrain_R06_Terrain71_9",
+      "asset": "/Game/LostVanguard/Environment/OrisonTerrain/Assets/R06_Terrain71/SM_R06_Terrain71.SM_R06_Terrain71",
+      "location": [
+        561.4328162541134,
+        1117.0093167509199,
+        45.15325108708787
+      ],
+      "scale": 1.462132109498512
+    },
+    {
+      "label": "Terrain_R01_Terrain71_10",
+      "asset": "/Game/LostVanguard/Environment/OrisonTerrain/Assets/R01_Terrain71/SM_R01_Terrain71.SM_R01_Terrain71",
+      "location": [
+        837.9911908277962,
+        2030.4178884144021,
+        74.9154816621171
+      ],
+      "scale": 1.0381317389458822
+    },
+    {
+      "label": "Terrain_R02_Terrain71_11",
+      "asset": "/Game/LostVanguard/Environment/OrisonTerrain/Assets/R02_Terrain71/SM_R02_Terrain71.SM_R02_Terrain71",
+      "location": [
+        1205.9036531391566,
+        -1610.097315182893,
+        26.696131895523433
+      ],
+      "scale": 0.8482382652164098
+    },
+    {
+      "label": "Terrain_R06_Terrain71_12",
+      "asset": "/Game/LostVanguard/Environment/OrisonTerrain/Assets/R06_Terrain71/SM_R06_Terrain71.SM_R06_Terrain71",
+      "location": [
+        2432.741403385407,
+        83.86312538908805,
+        63.31400630992561
+      ],
+      "scale": 1.2850911564765943
+    },
+    {
+      "label": "Terrain_R01_Terrain71_13",
+      "asset": "/Game/LostVanguard/Environment/OrisonTerrain/Assets/R01_Terrain71/SM_R01_Terrain71.SM_R01_Terrain71",
+      "location": [
+        -2324.1634389330216,
+        683.2775772697455,
+        124.50071386942184
+      ],
+      "scale": 1.4946427535439892
+    },
+    {
+      "label": "Terrain_R02_Terrain71_14",
+      "asset": "/Game/LostVanguard/Environment/OrisonTerrain/Assets/R02_Terrain71/SM_R02_Terrain71.SM_R02_Terrain71",
+      "location": [
+        -1495.3116982860754,
+        -1496.5967517609279,
+        63.44374665948805
+      ],
+      "scale": 0.647840917326149
+    },
+    {
+      "label": "Terrain_R06_Terrain71_15",
+      "asset": "/Game/LostVanguard/Environment/OrisonTerrain/Assets/R06_Terrain71/SM_R06_Terrain71.SM_R06_Terrain71",
+      "location": [
+        -592.9354502794744,
+        -1315.1200042948446,
+        43.347868293509585
+      ],
+      "scale": 1.2960225795515408
+    },
+    {
+      "label": "Terrain_R01_Terrain71_16",
+      "asset": "/Game/LostVanguard/Environment/OrisonTerrain/Assets/R01_Terrain71/SM_R01_Terrain71.SM_R01_Terrain71",
+      "location": [
+        1508.7515142787802,
+        -1628.1086852462704,
+        28.540877203814084
+      ],
+      "scale": 1.2538753111071743
+    },
+    {
+      "label": "Terrain_R02_Terrain71_17",
+      "asset": "/Game/LostVanguard/Environment/OrisonTerrain/Assets/R02_Terrain71/SM_R02_Terrain71.SM_R02_Terrain71",
+      "location": [
+        -1325.8700681545229,
+        1769.2203510595718,
+        103.33988103614335
+      ],
+      "scale": 0.8468390645627917
+    },
+    {
+      "label": "Terrain_R06_Terrain71_18",
+      "asset": "/Game/LostVanguard/Environment/OrisonTerrain/Assets/R06_Terrain71/SM_R06_Terrain71.SM_R06_Terrain71",
+      "location": [
+        -1062.5997832770681,
+        -401.63013571258466,
+        86.9976676568242
+      ],
+      "scale": 1.205315967891381
+    },
+    {
+      "label": "Terrain_R01_Terrain71_19",
+      "asset": "/Game/LostVanguard/Environment/OrisonTerrain/Assets/R01_Terrain71/SM_R01_Terrain71.SM_R01_Terrain71",
+      "location": [
+        -2425.3462381787413,
+        -258.32485636815363,
+        106.59974907084691
+      ],
+      "scale": 0.7932696995187088
+    },
+    {
+      "label": "Terrain_R02_Terrain71_20",
+      "asset": "/Game/LostVanguard/Environment/OrisonTerrain/Assets/R02_Terrain71/SM_R02_Terrain71.SM_R02_Terrain71",
+      "location": [
+        2379.019847054161,
+        1016.8712689965469,
+        186.8342799156221
+      ],
+      "scale": 0.9040651618333302
+    },
+    {
+      "label": "Terrain_R06_Terrain71_21",
+      "asset": "/Game/LostVanguard/Environment/OrisonTerrain/Assets/R06_Terrain71/SM_R06_Terrain71.SM_R06_Terrain71",
+      "location": [
+        1259.5998352007937,
+        1903.6037780214892,
+        159.00439001277837
+      ],
+      "scale": 0.8029701013085817
+    },
+    {
+      "label": "Terrain_R01_Terrain71_22",
+      "asset": "/Game/LostVanguard/Environment/OrisonTerrain/Assets/R01_Terrain71/SM_R01_Terrain71.SM_R01_Terrain71",
+      "location": [
+        1844.0481860907857,
+        -729.7023170975938,
+        40.152611895658495
+      ],
+      "scale": 1.2831657275174293
+    },
+    {
+      "label": "Terrain_R02_Terrain71_23",
+      "asset": "/Game/LostVanguard/Environment/OrisonTerrain/Assets/R02_Terrain71/SM_R02_Terrain71.SM_R02_Terrain71",
+      "location": [
+        1294.0899601077492,
+        -1426.6664563477193,
+        24.615022248582402
+      ],
+      "scale": 0.6296622290454504
+    },
+    {
+      "label": "Terrain_R06_Terrain71_24",
+      "asset": "/Game/LostVanguard/Environment/OrisonTerrain/Assets/R06_Terrain71/SM_R06_Terrain71.SM_R06_Terrain71",
+      "location": [
+        -2308.7576394587413,
+        292.62755243034917,
+        129.46221310841588
+      ],
+      "scale": 1.604870686694059
+    },
+    {
+      "label": "Terrain_R01_Terrain71_25",
+      "asset": "/Game/LostVanguard/Environment/OrisonTerrain/Assets/R01_Terrain71/SM_R01_Terrain71.SM_R01_Terrain71",
+      "location": [
+        -2037.587388392817,
+        1408.4198853380303,
+        103.37512784581564
+      ],
+      "scale": 1.4005709194017357
+    },
+    {
+      "label": "Terrain_R02_Terrain71_26",
+      "asset": "/Game/LostVanguard/Environment/OrisonTerrain/Assets/R02_Terrain71/SM_R02_Terrain71.SM_R02_Terrain71",
+      "location": [
+        947.4636403899435,
+        -28.868015056261356,
+        70.2674870696384
+      ],
+      "scale": 0.8310219209862275
+    },
+    {
+      "label": "Terrain_R06_Terrain71_27",
+      "asset": "/Game/LostVanguard/Environment/OrisonTerrain/Assets/R06_Terrain71/SM_R06_Terrain71.SM_R06_Terrain71",
+      "location": [
+        -1997.5906168323645,
+        -1062.556962726324,
+        81.68327114550398
+      ],
+      "scale": 1.6252232754715548
+    },
+    {
+      "label": "Terrain_R01_Terrain71_28",
+      "asset": "/Game/LostVanguard/Environment/OrisonTerrain/Assets/R01_Terrain71/SM_R01_Terrain71.SM_R01_Terrain71",
+      "location": [
+        -1153.2267540337957,
+        96.06881260994078,
+        111.62023536223373
+      ],
+      "scale": 1.2349416566544984
+    },
+    {
+      "label": "Terrain_R02_Terrain71_29",
+      "asset": "/Game/LostVanguard/Environment/OrisonTerrain/Assets/R02_Terrain71/SM_R02_Terrain71.SM_R02_Terrain71",
+      "location": [
+        -1517.7581705067116,
+        -435.3656387369813,
+        118.37054819171325
+      ],
+      "scale": 0.7217641586329706
+    },
+    {
+      "label": "Terrain_R06_Terrain71_30",
+      "asset": "/Game/LostVanguard/Environment/OrisonTerrain/Assets/R06_Terrain71/SM_R06_Terrain71.SM_R06_Terrain71",
+      "location": [
+        -1673.5079345258773,
+        2123.8689687335554,
+        79.5934120944251
+      ],
+      "scale": 1.5361888598855427
+    },
+    {
+      "label": "Terrain_R01_Terrain71_31",
+      "asset": "/Game/LostVanguard/Environment/OrisonTerrain/Assets/R01_Terrain71/SM_R01_Terrain71.SM_R01_Terrain71",
+      "location": [
+        -917.4869313980435,
+        -783.5944974805595,
+        65.59482401130465
+      ],
+      "scale": 0.7484479278529921
+    },
+    {
+      "label": "Terrain_R02_Terrain71_32",
+      "asset": "/Game/LostVanguard/Environment/OrisonTerrain/Assets/R02_Terrain71/SM_R02_Terrain71.SM_R02_Terrain71",
+      "location": [
+        895.6634800327993,
+        -1408.4360957456151,
+        22.253012368210236
+      ],
+      "scale": 1.5825993715569977
+    },
+    {
+      "label": "Terrain_R06_Terrain71_33",
+      "asset": "/Game/LostVanguard/Environment/OrisonTerrain/Assets/R06_Terrain71/SM_R06_Terrain71.SM_R06_Terrain71",
+      "location": [
+        -2216.8293526841744,
+        2183.717287048694,
+        61.93629761071109
+      ],
+      "scale": 1.5937574707898052
+    },
+    {
+      "label": "Terrain_R01_Terrain71_34",
+      "asset": "/Game/LostVanguard/Environment/OrisonTerrain/Assets/R01_Terrain71/SM_R01_Terrain71.SM_R01_Terrain71",
+      "location": [
+        1867.0969983101152,
+        1706.4404465278167,
+        250.14276226376424
+      ],
+      "scale": 0.993238414155668
+    },
+    {
+      "label": "Terrain_R02_Terrain71_35",
+      "asset": "/Game/LostVanguard/Environment/OrisonTerrain/Assets/R02_Terrain71/SM_R02_Terrain71.SM_R02_Terrain71",
+      "location": [
+        -2173.950686099067,
+        1699.4278629736268,
+        78.58739301766894
+      ],
+      "scale": 1.2776857260150596
+    },
+    {
+      "label": "Terrain_Tree_0",
+      "asset": "/Game/LostVanguard/Environment/OpeningReview/Assets/FloraFlagship71/F01_Flagship71/SM_F01_Flagship71.SM_F01_Flagship71",
+      "location": [
+        -900.0,
+        -1750.0,
+        64.85188045135291
+      ],
+      "scale": 0.7203818129529413
+    },
+    {
+      "label": "Terrain_Tree_1",
+      "asset": "/Game/LostVanguard/Environment/OpeningReview/Assets/FloraFlagship71/F02_Flagship71/SM_F02_Flagship71.SM_F02_Flagship71",
+      "location": [
+        1000.0,
+        -1500.0,
+        30.457043163491555
+      ],
+      "scale": 1.0638754100850085
+    },
+    {
+      "label": "Terrain_Tree_2",
+      "asset": "/Game/LostVanguard/Environment/OpeningReview/Assets/FloraFlagship71/F08_Flagship71/SM_F08_Flagship71.SM_F08_Flagship71",
+      "location": [
+        -1200.0,
+        -500.0,
+        104.38993226563198
+      ],
+      "scale": 0.9375712977562951
+    },
+    {
+      "label": "Terrain_Tree_3",
+      "asset": "/Game/LostVanguard/Environment/OpeningReview/Assets/FloraFlagship71/F01_Flagship71/SM_F01_Flagship71.SM_F01_Flagship71",
+      "location": [
+        1350.0,
+        -100.0,
+        82.10647523886502
+      ],
+      "scale": 0.760176265528044
+    },
+    {
+      "label": "Terrain_Tree_4",
+      "asset": "/Game/LostVanguard/Environment/OpeningReview/Assets/FloraFlagship71/F02_Flagship71/SM_F02_Flagship71.SM_F02_Flagship71",
+      "location": [
+        -900.0,
+        700.0,
+        102.79476448288759
+      ],
+      "scale": 0.7013754507740311
+    },
+    {
+      "label": "Terrain_Tree_5",
+      "asset": "/Game/LostVanguard/Environment/OpeningReview/Assets/FloraFlagship71/F08_Flagship71/SM_F08_Flagship71.SM_F08_Flagship71",
+      "location": [
+        1600.0,
+        1400.0,
+        240.4166682427698
+      ],
+      "scale": 0.7415660026224009
+    },
+    {
+      "label": "Terrain_Tree_6",
+      "asset": "/Game/LostVanguard/Environment/OpeningReview/Assets/FloraFlagship71/F01_Flagship71/SM_F01_Flagship71.SM_F01_Flagship71",
+      "location": [
+        -1450.0,
+        1900.0,
+        105.80618298399862
+      ],
+      "scale": 0.7758389565373154
+    },
+    {
+      "label": "Terrain_Tree_7",
+      "asset": "/Game/LostVanguard/Environment/OpeningReview/Assets/FloraFlagship71/F02_Flagship71/SM_F02_Flagship71.SM_F02_Flagship71",
+      "location": [
+        750.0,
+        2450.0,
+        57.08828884613118
+      ],
+      "scale": 0.9849750555969413
+    },
+    {
+      "label": "Terrain_Tree_8",
+      "asset": "/Game/LostVanguard/Environment/OpeningReview/Assets/FloraFlagship71/F08_Flagship71/SM_F08_Flagship71.SM_F08_Flagship71",
+      "location": [
+        -2300.0,
+        2500.0,
+        56.18727279412418
+      ],
+      "scale": 1.0363070504447462
+    },
+    {
+      "label": "Terrain_Tree_9",
+      "asset": "/Game/LostVanguard/Environment/OpeningReview/Assets/FloraFlagship71/F01_Flagship71/SM_F01_Flagship71.SM_F01_Flagship71",
+      "location": [
+        2400.0,
+        2400.0,
+        157.53926893088072
+      ],
+      "scale": 0.6551464076160556
+    },
+    {
+      "label": "Terrain_Understory_0",
+      "asset": "/Game/LostVanguard/Environment/OpeningReview/Assets/FloraFlagship71/F03_Flagship71/SM_F03_Flagship71.SM_F03_Flagship71",
+      "location": [
+        1213.3885882181091,
+        1317.0209597253574,
+        167.9338312613185
+      ],
+      "scale": 0.7192673570752056
+    },
+    {
+      "label": "Terrain_Understory_1",
+      "asset": "/Game/LostVanguard/Environment/OpeningReview/Assets/FloraFlagship71/F05_Flagship71/SM_F05_Flagship71.SM_F05_Flagship71",
+      "location": [
+        -2132.5541793185785,
+        1451.4814734808601,
+        107.5113217922485
+      ],
+      "scale": 0.8039940712384905
+    },
+    {
+      "label": "Terrain_Understory_2",
+      "asset": "/Game/LostVanguard/Environment/OpeningReview/Assets/FloraFlagship71/F06_Flagship71/SM_F06_Flagship71.SM_F06_Flagship71",
+      "location": [
+        1827.5625134834575,
+        -288.1250507598179,
+        65.40130593954515
+      ],
+      "scale": 0.9781263719386897
+    },
+    {
+      "label": "Terrain_Understory_3",
+      "asset": "/Game/LostVanguard/Environment/OpeningReview/Assets/FloraFlagship71/F10_Flagship71/SM_F10_Flagship71.SM_F10_Flagship71",
+      "location": [
+        1725.0693213903432,
+        1885.4568837278512,
+        238.93239263520636
+      ],
+      "scale": 0.6813435022415504
+    },
+    {
+      "label": "Terrain_Understory_4",
+      "asset": "/Game/LostVanguard/Environment/OpeningReview/Assets/FloraFlagship71/F03_Flagship71/SM_F03_Flagship71.SM_F03_Flagship71",
+      "location": [
+        2130.8756204824363,
+        -404.2164679297821,
+        52.628596326197474
+      ],
+      "scale": 0.7107002004487082
+    },
+    {
+      "label": "Terrain_Understory_5",
+      "asset": "/Game/LostVanguard/Environment/OpeningReview/Assets/FloraFlagship71/F05_Flagship71/SM_F05_Flagship71.SM_F05_Flagship71",
+      "location": [
+        -515.0814034999948,
+        -1143.3092474730556,
+        40.498740790474045
+      ],
+      "scale": 0.6794182840239966
+    },
+    {
+      "label": "Terrain_Understory_6",
+      "asset": "/Game/LostVanguard/Environment/OpeningReview/Assets/FloraFlagship71/F06_Flagship71/SM_F06_Flagship71.SM_F06_Flagship71",
+      "location": [
+        1873.496581274034,
+        1112.784583445814,
+        241.9602743283097
+      ],
+      "scale": 0.9817819870554827
+    },
+    {
+      "label": "Terrain_Understory_7",
+      "asset": "/Game/LostVanguard/Environment/OpeningReview/Assets/FloraFlagship71/F10_Flagship71/SM_F10_Flagship71.SM_F10_Flagship71",
+      "location": [
+        883.3256688305612,
+        1865.5883283515168,
+        91.1569306439916
+      ],
+      "scale": 0.9261413082349439
+    },
+    {
+      "label": "Terrain_Understory_8",
+      "asset": "/Game/LostVanguard/Environment/OpeningReview/Assets/FloraFlagship71/F03_Flagship71/SM_F03_Flagship71.SM_F03_Flagship71",
+      "location": [
+        -818.6012881208137,
+        -1274.3654840245415,
+        63.90695664743237
+      ],
+      "scale": 0.6764857032906211
+    },
+    {
+      "label": "Terrain_Understory_9",
+      "asset": "/Game/LostVanguard/Environment/OpeningReview/Assets/FloraFlagship71/F05_Flagship71/SM_F05_Flagship71.SM_F05_Flagship71",
+      "location": [
+        -326.8853624196172,
+        -199.0185391204559,
+        32.31439681897226
+      ],
+      "scale": 0.8483289366391653
+    },
+    {
+      "label": "Terrain_Understory_10",
+      "asset": "/Game/LostVanguard/Environment/OpeningReview/Assets/FloraFlagship71/F06_Flagship71/SM_F06_Flagship71.SM_F06_Flagship71",
+      "location": [
+        1443.247832788477,
+        -1047.4553235667333,
+        42.456995421020345
+      ],
+      "scale": 0.6094218274052942
+    },
+    {
+      "label": "Terrain_Understory_11",
+      "asset": "/Game/LostVanguard/Environment/OpeningReview/Assets/FloraFlagship71/F10_Flagship71/SM_F10_Flagship71.SM_F10_Flagship71",
+      "location": [
+        1816.9857352483818,
+        1130.3658557036579,
+        242.1937765550605
+      ],
+      "scale": 0.8812740934542314
+    },
+    {
+      "label": "Terrain_Understory_12",
+      "asset": "/Game/LostVanguard/Environment/OpeningReview/Assets/FloraFlagship71/F03_Flagship71/SM_F03_Flagship71.SM_F03_Flagship71",
+      "location": [
+        -2026.6835917728276,
+        -138.58287056451763,
+        147.44448025332107
+      ],
+      "scale": 0.978493571992551
+    },
+    {
+      "label": "Terrain_Understory_13",
+      "asset": "/Game/LostVanguard/Environment/OpeningReview/Assets/FloraFlagship71/F05_Flagship71/SM_F05_Flagship71.SM_F05_Flagship71",
+      "location": [
+        -1389.8812252706362,
+        837.6245934661615,
+        144.78536131269854
+      ],
+      "scale": 0.9913707543053785
+    },
+    {
+      "label": "Terrain_Understory_14",
+      "asset": "/Game/LostVanguard/Environment/OpeningReview/Assets/FloraFlagship71/F06_Flagship71/SM_F06_Flagship71.SM_F06_Flagship71",
+      "location": [
+        881.2386563414567,
+        596.260628837716,
+        92.61196379714178
+      ],
+      "scale": 0.602009204546673
+    },
+    {
+      "label": "Terrain_Understory_15",
+      "asset": "/Game/LostVanguard/Environment/OpeningReview/Assets/FloraFlagship71/F10_Flagship71/SM_F10_Flagship71.SM_F10_Flagship71",
+      "location": [
+        -441.3464798874306,
+        -1626.7383992494397,
+        33.860891517662644
+      ],
+      "scale": 0.9617948227562516
+    },
+    {
+      "label": "Terrain_Understory_16",
+      "asset": "/Game/LostVanguard/Environment/OpeningReview/Assets/FloraFlagship71/F03_Flagship71/SM_F03_Flagship71.SM_F03_Flagship71",
+      "location": [
+        1756.5271043876228,
+        -1204.3624279939813,
+        43.74584458573608
+      ],
+      "scale": 0.859396665584372
+    },
+    {
+      "label": "Terrain_Understory_17",
+      "asset": "/Game/LostVanguard/Environment/OpeningReview/Assets/FloraFlagship71/F05_Flagship71/SM_F05_Flagship71.SM_F05_Flagship71",
+      "location": [
+        -707.5573710697176,
+        -415.4974151373449,
+        62.15653894424008
+      ],
+      "scale": 0.9324156520074921
+    },
+    {
+      "label": "Terrain_Understory_18",
+      "asset": "/Game/LostVanguard/Environment/OpeningReview/Assets/FloraFlagship71/F06_Flagship71/SM_F06_Flagship71.SM_F06_Flagship71",
+      "location": [
+        837.1833353430935,
+        -1001.4133371688758,
+        40.19334543822408
+      ],
+      "scale": 0.6647408352648239
+    },
+    {
+      "label": "Terrain_Understory_19",
+      "asset": "/Game/LostVanguard/Environment/OpeningReview/Assets/FloraFlagship71/F10_Flagship71/SM_F10_Flagship71.SM_F10_Flagship71",
+      "location": [
+        1476.5707252743114,
+        -802.4276531132214,
+        47.79659693097174
+      ],
+      "scale": 0.9752277126486117
+    },
+    {
+      "label": "Terrain_Understory_20",
+      "asset": "/Game/LostVanguard/Environment/OpeningReview/Assets/FloraFlagship71/F03_Flagship71/SM_F03_Flagship71.SM_F03_Flagship71",
+      "location": [
+        -840.0221910799931,
+        -348.5104209578062,
+        75.54909454704945
+      ],
+      "scale": 0.5458799161951045
+    },
+    {
+      "label": "Terrain_Understory_21",
+      "asset": "/Game/LostVanguard/Environment/OpeningReview/Assets/FloraFlagship71/F05_Flagship71/SM_F05_Flagship71.SM_F05_Flagship71",
+      "location": [
+        -1486.137415866012,
+        2166.983526310042,
+        90.406384555373
+      ],
+      "scale": 0.968327348031326
+    },
+    {
+      "label": "Terrain_Understory_22",
+      "asset": "/Game/LostVanguard/Environment/OpeningReview/Assets/FloraFlagship71/F06_Flagship71/SM_F06_Flagship71.SM_F06_Flagship71",
+      "location": [
+        -1275.7054663169135,
+        -1667.0791864788723,
+        70.50191371149138
+      ],
+      "scale": 0.9612791916174739
+    },
+    {
+      "label": "Terrain_Understory_23",
+      "asset": "/Game/LostVanguard/Environment/OpeningReview/Assets/FloraFlagship71/F10_Flagship71/SM_F10_Flagship71.SM_F10_Flagship71",
+      "location": [
+        1264.7316044756135,
+        2222.9669723064117,
+        138.6352983995605
+      ],
+      "scale": 0.8247119453670023
+    },
+    {
+      "label": "Terrain_Understory_24",
+      "asset": "/Game/LostVanguard/Environment/OpeningReview/Assets/FloraFlagship71/F03_Flagship71/SM_F03_Flagship71.SM_F03_Flagship71",
+      "location": [
+        -1887.331217036337,
+        1798.817193801433,
+        99.68966837101794
+      ],
+      "scale": 0.7627975468517407
+    },
+    {
+      "label": "Terrain_Understory_25",
+      "asset": "/Game/LostVanguard/Environment/OpeningReview/Assets/FloraFlagship71/F05_Flagship71/SM_F05_Flagship71.SM_F05_Flagship71",
+      "location": [
+        1550.7092654221485,
+        -66.89948597461853,
+        85.16745487373828
+      ],
+      "scale": 0.5664073784145317
+    },
+    {
+      "label": "Terrain_Understory_26",
+      "asset": "/Game/LostVanguard/Environment/OpeningReview/Assets/FloraFlagship71/F06_Flagship71/SM_F06_Flagship71.SM_F06_Flagship71",
+      "location": [
+        1381.8884915263197,
+        -964.9197468083144,
+        43.79015993987687
+      ],
+      "scale": 0.5646167327050259
+    },
+    {
+      "label": "Terrain_Understory_27",
+      "asset": "/Game/LostVanguard/Environment/OpeningReview/Assets/FloraFlagship71/F10_Flagship71/SM_F10_Flagship71.SM_F10_Flagship71",
+      "location": [
+        672.3830309218172,
+        -1960.0457645128083,
+        23.93732698084894
+      ],
+      "scale": 0.7503442028621681
+    },
+    {
+      "label": "Terrain_Understory_28",
+      "asset": "/Game/LostVanguard/Environment/OpeningReview/Assets/FloraFlagship71/F03_Flagship71/SM_F03_Flagship71.SM_F03_Flagship71",
+      "location": [
+        -1640.1317710581998,
+        -1213.262263427133,
+        86.60187550253873
+      ],
+      "scale": 0.8359678160940838
+    },
+    {
+      "label": "Terrain_Understory_29",
+      "asset": "/Game/LostVanguard/Environment/OpeningReview/Assets/FloraFlagship71/F05_Flagship71/SM_F05_Flagship71.SM_F05_Flagship71",
+      "location": [
+        1080.1537983987587,
+        1192.7915325519766,
+        139.45436188065986
+      ],
+      "scale": 0.7434325075835242
+    },
+    {
+      "label": "Terrain_Understory_30",
+      "asset": "/Game/LostVanguard/Environment/OpeningReview/Assets/FloraFlagship71/F06_Flagship71/SM_F06_Flagship71.SM_F06_Flagship71",
+      "location": [
+        -580.5924709369499,
+        -938.8027430978862,
+        46.68701282174892
+      ],
+      "scale": 0.9480044624082641
+    },
+    {
+      "label": "Terrain_Understory_31",
+      "asset": "/Game/LostVanguard/Environment/OpeningReview/Assets/FloraFlagship71/F10_Flagship71/SM_F10_Flagship71.SM_F10_Flagship71",
+      "location": [
+        -1336.1323921135715,
+        213.86580389706023,
+        137.46729105884242
+      ],
+      "scale": 0.8580381144657172
+    },
+    {
+      "label": "Terrain_Understory_32",
+      "asset": "/Game/LostVanguard/Environment/OpeningReview/Assets/FloraFlagship71/F03_Flagship71/SM_F03_Flagship71.SM_F03_Flagship71",
+      "location": [
+        1375.0579297054442,
+        -2141.7045388353044,
+        33.57796983357968
+      ],
+      "scale": 0.9258097010403883
+    },
+    {
+      "label": "Terrain_Understory_33",
+      "asset": "/Game/LostVanguard/Environment/OpeningReview/Assets/FloraFlagship71/F05_Flagship71/SM_F05_Flagship71.SM_F05_Flagship71",
+      "location": [
+        859.5162682698337,
+        -1435.809890105516,
+        29.58754447834253
+      ],
+      "scale": 0.722790816683353
+    }
+  ],
+  "player": "/Game/LostVanguard/Environment/OrisonTerrain/Blueprints/BP_TerrainPlayer.BP_TerrainPlayer",
+  "game_mode": "/Game/LostVanguard/Environment/OrisonTerrain/Blueprints/BP_TerrainGameMode.BP_TerrainGameMode",
+  "landscape": true,
+  "gameplay_originals_preserved": true
+}

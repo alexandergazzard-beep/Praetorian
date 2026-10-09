@@ -1,0 +1,61 @@
+{
+  "mesh": "/Game/LostVanguard/Environment/OpeningReview/Assets/F01_HybridCanopy/SM_F01_HybridCanopy.SM_F01_HybridCanopy",
+  "materials": [
+    "/Game/LostVanguard/Environment/OpeningReview/Assets/F01_HybridCanopy/M_F01_WoodPBR.M_F01_WoodPBR",
+    "/Game/LostVanguard/Environment/OpeningReview/Assets/F01_HybridCanopy/M_F01_TaperedLeaf.M_F01_TaperedLeaf"
+  ],
+  "textures": {
+    "BaseColor": "/Game/LostVanguard/Environment/OpeningReview/Assets/F01_HybridCanopy/T_F01_Wood_BaseColor.T_F01_Wood_BaseColor",
+    "Normal": "/Game/LostVanguard/Environment/OpeningReview/Assets/F01_HybridCanopy/T_F01_Wood_Normal.T_F01_Wood_Normal",
+    "Roughness": "/Game/LostVanguard/Environment/OpeningReview/Assets/F01_HybridCanopy/T_F01_Wood_Roughness.T_F01_Wood_Roughness",
+    "Metallic": "/Game/LostVanguard/Environment/OpeningReview/Assets/F01_HybridCanopy/T_F01_Wood_Metallic.T_F01_Wood_Metallic"
+  },
+  "bounds_cm": "<Struct 'Box' (0x0000027521CA8540) {min: {x: -565.236145, y: -489.667755, z: 0.000000}, max: {x: 577.926208, y: 498.606232, z: 822.274414}, is_valid: True}>",
+  "project": "C:/Users/alexa/Documents/AI STUFF/Project Big/Unreal/LostVanguard 5.8/LostVanguard.uproject",
+  "engine": "5.8.3-58210709+++UE5+Release-5.8",
+  "imported": true,
+  "integrated": true,
+  "visual_acceptance": "Unresolved: foliage flatness, representative lighting/shading and companion hull fidelity need review",
+  "lod_triangles": [
+    14949,
+    7474,
+    3289
+  ],
+  "material_slots": [
+    "Material_0",
+    "M_F01_TaperedLeaf"
+  ],
+  "bounds": {
+    "min": {
+      "x": -565.2361450195312,
+      "y": -489.6677551269531,
+      "z": 0
+    },
+    "max": {
+      "x": 577.9262084960938,
+      "y": 498.6062316894531,
+      "z": 822.2744140625
+    },
+    "isValid": true
+  },
+  "collision_traces": [
+    {
+      "check": "trunk",
+      "hit_distance_cm": 107
+    },
+    {
+      "check": "canopy",
+      "hit_distance_cm": null
+    },
+    {
+      "check": "hull",
+      "hit_distance_cm": 901.5496215820312
+    }
+  ],
+  "review_map": "/Game/LostVanguard/Environment/OpeningReview/Maps/L_ForestWreck_Review",
+  "inspection_map": "/Game/LostVanguard/Environment/OpeningReview/Maps/L_ForestWreck_Inspection",
+  "performance": "unverified",
+  "gameplay_regression": "19/19 passed, no errors, including saved-map reload",
+  "reusable_collision": "per-actor trunk component; reusable Blueprint pending",
+  "inspection_lighting": "Saved SkyAtmosphere, live sky capture and exposure/fill adjustments. Final daylight capture inspected; foliage flatness and shadow readability still need polish."
+}

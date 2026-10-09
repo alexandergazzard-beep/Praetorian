@@ -1,0 +1,158 @@
+{
+  "date": "2026-10-07",
+  "problem": "FKey defaults imported '(KeyName=W)' as '('; all polled keyboard keys invalid.",
+  "fixed": [
+    {
+      "node": {
+        "refPath": "/Game/WreckagePrototype/Blueprints/BP_WreckagePlayer_Runtime.BP_WreckagePlayer_Runtime:EventGraph.K2Node_CallFunction_6"
+      },
+      "key": "R"
+    },
+    {
+      "node": {
+        "refPath": "/Game/WreckagePrototype/Blueprints/BP_WreckagePlayer_Runtime.BP_WreckagePlayer_Runtime:EventGraph.K2Node_CallFunction_15"
+      },
+      "key": "W"
+    },
+    {
+      "node": {
+        "refPath": "/Game/WreckagePrototype/Blueprints/BP_WreckagePlayer_Runtime.BP_WreckagePlayer_Runtime:EventGraph.K2Node_CallFunction_18"
+      },
+      "key": "S"
+    },
+    {
+      "node": {
+        "refPath": "/Game/WreckagePrototype/Blueprints/BP_WreckagePlayer_Runtime.BP_WreckagePlayer_Runtime:EventGraph.K2Node_CallFunction_23"
+      },
+      "key": "D"
+    },
+    {
+      "node": {
+        "refPath": "/Game/WreckagePrototype/Blueprints/BP_WreckagePlayer_Runtime.BP_WreckagePlayer_Runtime:EventGraph.K2Node_CallFunction_26"
+      },
+      "key": "A"
+    },
+    {
+      "node": {
+        "refPath": "/Game/WreckagePrototype/Blueprints/BP_WreckagePlayer_Runtime.BP_WreckagePlayer_Runtime:EventGraph.K2Node_CallFunction_30"
+      },
+      "key": "C"
+    },
+    {
+      "node": {
+        "refPath": "/Game/WreckagePrototype/Blueprints/BP_WreckagePlayer_Runtime.BP_WreckagePlayer_Runtime:EventGraph.K2Node_CallFunction_33"
+      },
+      "key": "SpaceBar"
+    },
+    {
+      "node": {
+        "refPath": "/Game/WreckagePrototype/Blueprints/BP_WreckagePlayer_Runtime.BP_WreckagePlayer_Runtime:EventGraph.K2Node_CallFunction_35"
+      },
+      "key": "E"
+    },
+    {
+      "node": {
+        "refPath": "/Game/WreckagePrototype/Blueprints/BP_WreckagePlayer_Runtime.BP_WreckagePlayer_Runtime:EventGraph.K2Node_CallFunction_37"
+      },
+      "key": "LeftMouseButton"
+    },
+    {
+      "node": {
+        "refPath": "/Game/WreckagePrototype/Blueprints/BP_WreckagePlayer_Runtime.BP_WreckagePlayer_Runtime:EventGraph.K2Node_CallFunction_60"
+      },
+      "key": "LeftMouseButton"
+    },
+    {
+      "node": {
+        "refPath": "/Game/WreckagePrototype/Blueprints/BP_WreckagePlayer_Runtime.BP_WreckagePlayer_Runtime:EventGraph.K2Node_CallFunction_68"
+      },
+      "key": "R"
+    },
+    {
+      "node": {
+        "refPath": "/Game/WreckagePrototype/Blueprints/BP_WreckagePlayer_Runtime.BP_WreckagePlayer_Runtime:EventGraph.K2Node_CallFunction_77"
+      },
+      "key": "W"
+    },
+    {
+      "node": {
+        "refPath": "/Game/WreckagePrototype/Blueprints/BP_WreckagePlayer_Runtime.BP_WreckagePlayer_Runtime:EventGraph.K2Node_CallFunction_80"
+      },
+      "key": "S"
+    },
+    {
+      "node": {
+        "refPath": "/Game/WreckagePrototype/Blueprints/BP_WreckagePlayer_Runtime.BP_WreckagePlayer_Runtime:EventGraph.K2Node_CallFunction_85"
+      },
+      "key": "D"
+    },
+    {
+      "node": {
+        "refPath": "/Game/WreckagePrototype/Blueprints/BP_WreckagePlayer_Runtime.BP_WreckagePlayer_Runtime:EventGraph.K2Node_CallFunction_88"
+      },
+      "key": "A"
+    },
+    {
+      "node": {
+        "refPath": "/Game/WreckagePrototype/Blueprints/BP_WreckagePlayer_Runtime.BP_WreckagePlayer_Runtime:EventGraph.K2Node_CallFunction_92"
+      },
+      "key": "C"
+    },
+    {
+      "node": {
+        "refPath": "/Game/WreckagePrototype/Blueprints/BP_WreckagePlayer_Runtime.BP_WreckagePlayer_Runtime:EventGraph.K2Node_CallFunction_95"
+      },
+      "key": "SpaceBar"
+    },
+    {
+      "node": {
+        "refPath": "/Game/WreckagePrototype/Blueprints/BP_WreckagePlayer_Runtime.BP_WreckagePlayer_Runtime:EventGraph.K2Node_CallFunction_97"
+      },
+      "key": "E"
+    },
+    {
+      "node": {
+        "refPath": "/Game/WreckagePrototype/Blueprints/BP_WreckagePlayer_Runtime.BP_WreckagePlayer_Runtime:EventGraph.K2Node_CallFunction_99"
+      },
+      "key": "LeftMouseButton"
+    }
+  ],
+  "sourceFixes": [
+    "tools/build_wreckage_gameplay.py bare FKey names",
+    "tools/build_wreckage_hud.py bare Tab name"
+  ],
+  "savedAssets": [
+    "BP_WreckagePlayer_Runtime",
+    "BP_WreckageHUD"
+  ],
+  "checks": [
+    "Player and HUD strict compilation passed",
+    "All 19 player key pins read back as expected bare names",
+    "HUD Tab pin corrected",
+    "Fresh PIE actual Windows E key removed panel and changed Step 0 to 1",
+    "Actual Windows Space key visibly jumped",
+    "Actual Windows R key visibly returned to recovery restart position",
+    "Post-repair automated movement reached x=265.04 with Health 100"
+  ],
+  "movement": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"returnValue\":{\"location\":{\"x\":265.04239204099321,\"y\":0,\"z\":90.149999618530273},\"rotation\":{\"pitch\":0,\"yaw\":0,\"roll\":-0},\"scale\":{\"x\":1,\"y\":1,\"z\":1}}}"
+      }
+    ]
+  },
+  "state": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"returnValue\":\"{\\\"Step\\\":1,\\\"Health\\\":100,\\\"DebugForward\\\":0,\\\"DebugRight\\\":0,\\\"DebugMoveTime\\\":-5.1389971002936363}\"}"
+      }
+    ]
+  },
+  "limitations": [
+    "Windows computer-use API taps keys without a hold-duration option; W taps produced no measurable movement, so sustained physical WASD remains user verification",
+    "Full mission route, shooting, crouch and Tab display not replayed"
+  ],
+  "source": "Installed UE 5.8 InputCoreTypes.cpp FKey::ImportTextItem/ExportTextItem, and https://dev.epicgames.com/documentation/en-us/unreal-engine/API/Runtime/InputCore/FKey"
+}

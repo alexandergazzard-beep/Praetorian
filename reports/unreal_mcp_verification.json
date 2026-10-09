@@ -102,14 +102,5 @@
     ],
     "result_type": "complete"
   },
-  "verified": "MCP initialization, tool discovery, live level query, temporary actor creation at (100,200,300), discovery, removal, and confirmed absence",
-  "project": "Unreal/LostVanguard/LostVanguard.uproject",
-  "endpoint": "http://127.0.0.1:8000/mcp",
-  "local_bind_verified": "127.0.0.1:8000",
-  "limitations": [
-    "No gameplay, asset import, save/reload, or packaged build tested",
-    "Tools registered in global Codex configuration; current chat exposure may require a new session",
-    "Client logs session termination HTTP 202 warning despite successful tool results",
-    "GameFeatureData scan rule added after initial startup warning; requires next editor startup validation"
-  ]
+  "verified": "MCP initialization and tool discovery only"
 }

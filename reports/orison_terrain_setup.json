@@ -1,0 +1,11 @@
+{
+  "map": "/Game/LostVanguard/Environment/OrisonTerrain/Maps/L_OrisonTerrain_Review",
+  "material": "/Game/LostVanguard/Environment/OrisonTerrain/Materials/M_OrisonLandscape.M_OrisonLandscape",
+  "textures": {
+    "Dirt": "/Game/LostVanguard/Environment/OrisonTerrain/Textures/T_Dirt_BaseColor.T_Dirt_BaseColor",
+    "Gravel": "/Game/LostVanguard/Environment/OrisonTerrain/Textures/T_Gravel_BaseColor.T_Gravel_BaseColor",
+    "Stone": "/Game/LostVanguard/Environment/OrisonTerrain/Textures/T_Stone_BaseColor.T_Stone_BaseColor"
+  },
+  "landscape_pending": false,
+  "ground_blending": "automatic world-space; painting layer-info not configured"
+}

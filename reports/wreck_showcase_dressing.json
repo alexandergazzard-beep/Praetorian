@@ -1,0 +1,30 @@
+[
+  {
+    "name": "SM_ShowcaseTerrain",
+    "triangles": 30752
+  },
+  {
+    "name": "SM_ShowcaseRock_0",
+    "triangles": 80
+  },
+  {
+    "name": "SM_ShowcasePlate_0",
+    "triangles": 12
+  },
+  {
+    "name": "SM_ShowcaseRock_1",
+    "triangles": 80
+  },
+  {
+    "name": "SM_ShowcasePlate_1",
+    "triangles": 12
+  },
+  {
+    "name": "SM_ShowcaseRock_2",
+    "triangles": 80
+  },
+  {
+    "name": "SM_ShowcasePlate_2",
+    "triangles": 12
+  }
+]

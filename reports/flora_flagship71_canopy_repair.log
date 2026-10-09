@@ -1,0 +1,12 @@
+00:02.547  blend            | Read blend: "C:\Users\alexa\Documents\AI STUFF\Project Big\assets\models\forest_wreck\F01_Flagship71\blender\prepared.blend"
+C:\Users\alexa\Documents\AI STUFF\Project Big\tools\repair_flora_flagship_canopy.py:17: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  leaf=bpy.data.materials.new('M_F01_CurvedForkLeaf');leaf.use_nodes=True
+00:02.922  image.write      | ERROR OpenImageIO write failed: Could not open file "C:\Users\alexa\.thumbnails\large\blender_12588_c74a57ecb40aa7db78e5f3212a1d34b1.png.png"
+Info: Saved as "prepared.blend"
+
+FBX export starting... 'C:\\Users\\alexa\\Documents\\AI STUFF\\Project Big\\assets\\models\\forest_wreck\\F01_Flagship71\\export\\SM_F01_Flagship71.fbx'
+export finished in 0.0548 sec.
+FLAGSHIP_CANOPY_REPAIRED {"triangles": 25907, "vertices": 5985, "vertices_removed": 17803, "nonmanifold_edges": 1824, "uv_layers": 1, "material_slots": 2, "dimensions_m": [11.511032104492188, 9.490138053894043, 9.0], "pivot": "centered bottom", "scale": "provisional production size; not story canon", "source_preserved": true, "canopy_repair": {"reason": "flagship remesh returned bare tree with 11507 triangles; foliage reference not met", "method": "retained new generated trunk; 3D branch-anchored curved forked leaf geometry, teal texture/violet reverse", "anchors": 60, "leaves": 600, "original_meshy_source_preserved": true, "extra_meshy_credits": 0}}
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+
+Blender quit

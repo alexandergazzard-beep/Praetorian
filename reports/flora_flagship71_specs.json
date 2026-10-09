@@ -1,0 +1,72 @@
+{
+  "F01_Flagship71": {
+    "reference": "F01_isolated_v1.png",
+    "target": 28000,
+    "range": [
+      24000,
+      32000
+    ],
+    "height": 9.0,
+    "kind": "tree"
+  },
+  "F02_Flagship71": {
+    "reference": "F02_isolated_v1.png",
+    "target": 22000,
+    "range": [
+      18000,
+      26000
+    ],
+    "height": 5.5,
+    "kind": "tree"
+  },
+  "F08_Flagship71": {
+    "reference": "F08_isolated_v1.png",
+    "target": 18000,
+    "range": [
+      14000,
+      22000
+    ],
+    "height": 4.5,
+    "kind": "tree"
+  },
+  "F03_Flagship71": {
+    "reference": "F03_isolated_v1.png",
+    "target": 8000,
+    "range": [
+      6000,
+      10000
+    ],
+    "height": 2.0,
+    "kind": "plant"
+  },
+  "F05_Flagship71": {
+    "reference": "F05_isolated_v1.png",
+    "target": 6000,
+    "range": [
+      4000,
+      8000
+    ],
+    "height": 1.2,
+    "kind": "plant"
+  },
+  "F06_Flagship71": {
+    "reference": "F06_isolated_v1.png",
+    "target": 4000,
+    "range": [
+      3000,
+      6000
+    ],
+    "height": 1.0,
+    "kind": "plant"
+  },
+  "F10_Flagship71": {
+    "reference": "F10_isolated_v1.png",
+    "target": 3000,
+    "range": [
+      2000,
+      4500
+    ],
+    "height": 0.45,
+    "kind": "plant"
+  }
+}

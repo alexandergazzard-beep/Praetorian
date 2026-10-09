@@ -1,0 +1,20 @@
+{
+  "model": "nano-banana-pro",
+  "task_type": "text-to-image",
+  "prompt": "Original military sci-fi troop/cargo dropship: bulky armored cabin, faceted cockpit glass, detailed gray hull, olive markings, rear loading ramp. Moderate straight wings with two integrated engines, bilateral symmetry, landing gear. Fresh design, no franchise logos. Two-view sheet on neutral background: LEFT centered orthographic TOP view, nose up; RIGHT front THREE-QUARTER view of the SAME craft. Match hull, wings, engines and details across views. Realistic game concept art, crisp mechanical detail, entire craft visible in both views. No wreckage or extra views.",
+  "expected_credits": 9,
+  "authorized_images": 1,
+  "balance_before": [
+    "# Meshy Credit Balance\n\n**Balance**: 4229 credits"
+  ],
+  "submission_started": true,
+  "task_id": "01a11a2e-be38-7699-8df9-4b52dd9cda15",
+  "status": "SUCCEEDED",
+  "progress": 100,
+  "local_paths": [
+    "C:\\Users\\alexa\\Documents\\AI STUFF\\Project Big\\assets\\concepts\\transports\\transport_t6_nano_banana_pro_two_views_v1.png"
+  ],
+  "balance_after": [
+    "# Meshy Credit Balance\n\n**Balance**: 4220 credits"
+  ]
+}

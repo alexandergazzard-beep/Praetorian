@@ -1,11 +1,14 @@
 """Author editable runtime Blueprints for the Wreckage blockout."""
 import json
+import sys
 import textwrap
 from pathlib import Path
 import unreal
 import toolset_registry
 from editor_toolset.toolsets.blueprint import BlueprintTools as BP, ContainerType
 from editor_toolset.toolsets import blueprint_dsl
+sys.path.insert(0,str(Path(__file__).parent))
+from movement_profiles import ACTIVE_PROFILE, LOOK_SENSITIVITY_DEFAULT, PROFILES
 
 # Native tool decorators log some Python exceptions instead of raising by default.
 # Authoring must fail visibly rather than reporting an unchanged graph as compiled.
@@ -62,10 +65,10 @@ def queue(text): return f'(Utilities|Array|Add :TargetArray {g("SubtitleQueue")}
 
 try:
     defaults={'Step':('int',0),'Checkpoint':('int',0),'Health':('float',100.0),'Dead':('bool',False),'HasWeapon':('bool',False),'EvidenceRead':('bool',False),'CommsRestored':('bool',False),'Objective':('string','E: shift the wreckage'),'Subtitle':('string',''),'SubtitleTime':('float',0.0),'LookTotal':('float',0.0),'ShotCooldown':('float',0.0),
-              'DebugForward':('float',0.0),'DebugRight':('float',0.0),'DebugLook':('float',0.0),'DebugMoveTime':('float',0.0),'DebugCrouch':('bool',False),'RequestInteract':('bool',False),'RequestJump':('bool',False),'RequestFire':('bool',False),'RequestRestart':('bool',False)}
+              'DebugForward':('float',0.0),'DebugRight':('float',0.0),'DebugLook':('float',0.0),'DebugMoveTime':('float',0.0),'DebugCrouch':('bool',False),'RequestInteract':('bool',False),'RequestJump':('bool',False),'RequestFire':('bool',False),'RequestRestart':('bool',False),'LookSensitivity':('float',LOOK_SENSITIVITY_DEFAULT)}
     for name,(typ,default) in defaults.items():var(player,name,typ,default)
     for name in defaults:
-        if name.startswith('Debug') or name.startswith('Request') or name=='Health':
+        if name.startswith('Debug') or name.startswith('Request') or name in ('Health','LookSensitivity'):
             BP.set_variable_instance_editable(player,name,True)
     var(player,'SubtitleQueue','string',array=True)
     for i in range(11):var(player,'Cue'+str(i),'bool',False)
@@ -146,9 +149,9 @@ try:
         (:5)
         (:6 (bind remaining (Actor|GetAllActorswithTag :Tag "LV_Searcher")) (if (== (Utilities|Array|Length remaining) 0) {advance}))))''')
     graph=BP.get_graph(player,'EventGraph'); call=lambda fn,**kw:function_call(player,graph,fn,**kw)
-    # Key structures use native import-text syntax, avoiding changes to global input configuration.
-    down=lambda key: f'(Game|Player|IsInputKeyDown :self pc :Key "(KeyName={key})")'
-    pressed=lambda key: f'(Game|Player|WasInputKeyJustPressed :self pc :Key "(KeyName={key})")'
+    # FKey's custom text importer expects a bare key name, not a struct literal.
+    down=lambda key: f'(Game|Player|IsInputKeyDown :self pc :Key "{key}")'
+    pressed=lambda key: f'(Game|Player|WasInputKeyJustPressed :self pc :Key "{key}")'
     tick=f'''(event EventBeginPlay
       (Collision|SetCollisionResponsetoChannel :self (Variables|Character|GetCapsuleComponent) :Channel "ECC_Visibility" :NewResponse "ECR_Block")
       {spawn} {refresh})
@@ -162,8 +165,8 @@ try:
       (if (or {pressed('R')} {g('RequestRestart')}) {s('RequestRestart','false')} {call('Restart')})
       (if (not {g('Dead')})
         (bind (dx dy) (Game|Player|GetInputMouseDelta :self pc))
-        (Pawn|Input|AddControllerYawInput :Val (+ (* dx 0.6) (* {g('DebugLook')} DeltaSeconds)))
-        (Pawn|Input|AddControllerPitchInput :Val (* dy -0.6))
+        (Pawn|Input|AddControllerYawInput :Val (+ (* dx {g('LookSensitivity')}) (* {g('DebugLook')} DeltaSeconds)))
+        (Pawn|Input|AddControllerPitchInput :Val (* dy (* {g('LookSensitivity')} -1.0)))
         {s('LookTotal','(+ '+g('LookTotal')+' (+ (* dx dx) (* '+g('DebugLook')+' DeltaSeconds)))')}
         (Pawn|Input|AddMovementInput :WorldDirection (Transformation|GetActorForwardVector) :ScaleValue (+ {g('DebugForward')} (- (select {down('W')} 1.0 0.0) (select {down('S')} 1.0 0.0))))
         (Pawn|Input|AddMovementInput :WorldDirection (Transformation|GetActorRightVector) :ScaleValue (+ {g('DebugRight')} (- (select {down('D')} 1.0 0.0) (select {down('A')} 1.0 0.0))))
@@ -183,6 +186,12 @@ try:
     tick=tick.replace('(:1 (if (> '+g('LookTotal'),'(:0) (:1 (if (> '+g('LookTotal')).replace('(:6 (bind remaining','(:5) (:6 (bind remaining')
     write(player,'EventGraph',tick)
     for name,(typ,value) in defaults.items():BP.get_default_object(player).set_editor_property(name,value)
+    # Movement tuning lives in movement_profiles.py (Halo: Reach-derived; 'original' restores the pre-tuning values).
+    move_names={'MaxWalkSpeed':'max_walk_speed','MaxWalkSpeedCrouched':'max_walk_speed_crouched','MaxAcceleration':'max_acceleration',
+                'JumpZVelocity':'jump_z_velocity','GravityScale':'gravity_scale','AirControl':'air_control'}
+    for name,value in PROFILES[ACTIVE_PROFILE].items():
+        BP.get_default_object(player).character_movement.set_editor_property(move_names[name],value)
+    report['movement_profile']=ACTIVE_PROFILE
     for name,typ,value in [('Health','float',100.0),('AttackCooldown','float',1.0)]:var(enemy,name,typ,value)
     egraph=BP.get_graph(enemy,'EventGraph')
     # Readable stationary sentries; genuine traces block attacks behind structural cover.

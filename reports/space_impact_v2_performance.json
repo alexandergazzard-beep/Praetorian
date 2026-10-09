@@ -1,0 +1,46 @@
+{
+  "source_csv": "C:\\Users\\alexa\\Documents\\AI STUFF\\Project Big\\Unreal\\LostVanguard 5.8\\Saved\\Profiling\\CSV\\Profile(20261008_171913).csv",
+  "hardware": {
+    "cpu": "Ryzen 7 5800X",
+    "gpu": "RTX 3080 Ti"
+  },
+  "viewport_pixels": [
+    1526,
+    862
+  ],
+  "screen_percentage_command": 100,
+  "kind": "Actual PIE with continuously moving camera, three GPU fluid volumes, embers and wind",
+  "historical_material_edit_crash": true,
+  "background_throttle_restored": true,
+  "sample_frames": 2334,
+  "FrameTime": {
+    "mean": 9.797643144815767,
+    "median": 9.392399999999999,
+    "p95": 12.6137
+  },
+  "average_fps": 102.06536257948225,
+  "GPUTime": {
+    "mean": 7.904608954584404,
+    "median": 7.67675,
+    "p95": 9.6009
+  },
+  "GameThreadTime": {
+    "mean": 9.62014884318766,
+    "median": 9.39065,
+    "p95": 12.3464
+  },
+  "RenderThreadTime": {
+    "mean": 6.594388346186804,
+    "median": 6.0987,
+    "p95": 9.8399
+  },
+  "RHI/DrawCalls": {
+    "mean": 313.82176520994,
+    "median": 313.0,
+    "p95": 327.0
+  },
+  "editor_pie_resolution_override_disabled": true,
+  "dynamic_resolution_disabled": true,
+  "background_throttle_disabled_before_capture": true,
+  "quality_scope": "1526x862 full-resolution editor viewport; not native 1080p packaged-game guarantee"
+}

@@ -1,0 +1,47 @@
+[
+  {
+    "name": "R01_Terrain71 isolated collision trace",
+    "passed": true,
+    "distance": 302.9324951171875
+  },
+  {
+    "name": "R02_Terrain71 isolated collision trace",
+    "passed": true,
+    "distance": 313.766357421875
+  },
+  {
+    "name": "R06_Terrain71 isolated collision trace",
+    "passed": true,
+    "distance": 308.57012939453125
+  },
+  {
+    "name": "T02_Terrain71 isolated collision trace",
+    "passed": true,
+    "distance": 354.1250305175781
+  },
+  {
+    "name": "Landscape ground at y=-2300",
+    "passed": true,
+    "distance": 979.6881103515625
+  },
+  {
+    "name": "Landscape ground at y=-1000",
+    "passed": true,
+    "distance": 977.3438110351562
+  },
+  {
+    "name": "Landscape ground at y=0",
+    "passed": true,
+    "distance": 976.56298828125
+  },
+  {
+    "name": "Landscape ground at y=1500",
+    "passed": true,
+    "distance": 972.6572265625
+  },
+  {
+    "name": "Landscape ground at y=2500",
+    "passed": true,
+    "distance": 977.3458862304688
+  }
+]

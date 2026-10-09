@@ -204,6 +204,10 @@ try:
         shape('CrashSupportMound_'+str(i),'Sphere',(x,y,20),(900,850,480),rock,collision=True)
     existing['RecoveryStart'].set_actor_rotation(unreal.Rotator(0,0,0),False)
     existing['RecoveryStart'].set_actor_location(unreal.Vector(-390,0,100),False,False)
+    # Keep the recovery panel below the eye line and clear of the spawn capsule.
+    # The original tall panel filled the entire fresh-start camera view.
+    existing['DamagedPanel'].set_actor_location(unreal.Vector(-245,0,60),False,False)
+    existing['DamagedPanel'].set_actor_scale3d(unreal.Vector(.9,1.8,.9))
     shape('SkyDome','Sphere',(2000,0,0),(140000,140000,140000),sky)
     # Keep illumination cool outside and much dimmer inside.
     for a in existing.values():

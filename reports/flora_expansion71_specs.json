@@ -1,0 +1,7 @@
+{
+  "F13_Expansion71": {"reference":"F13_isolated_v1.png","target":60000,"range":[40000,75000],"height":14.0},
+  "F14_Expansion71": {"reference":"F14_isolated_v1.png","target":45000,"range":[30000,55000],"height":16.0},
+  "F16_Expansion71": {"reference":"F16_isolated_v1.png","target":60000,"range":[40000,75000],"height":12.0},
+  "F19_Expansion71": {"reference":"F19_isolated_v1.png","target":16000,"range":[10000,22000],"height":1.6},
+  "F21_Expansion71": {"reference":"F21_isolated_v1.png","target":14000,"range":[9000,20000],"height":2.0}
+}

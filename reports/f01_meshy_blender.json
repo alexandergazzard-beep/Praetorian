@@ -1,0 +1,63 @@
+{
+  "id": "F01_MeshyCanopy",
+  "triangles": 11492,
+  "vertices": 9118,
+  "vertices_removed": 8366,
+  "nonmanifold_edges": 1402,
+  "uv_layers": 1,
+  "material_slots": 1,
+  "materials": [
+    {
+      "name": "Material_0",
+      "images": [
+        {
+          "node": "Image Texture",
+          "image": "Image_0"
+        },
+        {
+          "node": "Image Texture.001",
+          "image": "Image_1"
+        },
+        {
+          "node": "Image Texture.002",
+          "image": "Image_2"
+        }
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "name": "Image_0",
+      "path": "C:\\Users\\alexa\\Documents\\AI STUFF\\Project Big\\assets\\models\\forest_wreck\\F01_MeshyCanopy\\textures\\Image_0.png",
+      "size": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "name": "Image_1",
+      "path": "C:\\Users\\alexa\\Documents\\AI STUFF\\Project Big\\assets\\models\\forest_wreck\\F01_MeshyCanopy\\textures\\Image_1.png",
+      "size": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "name": "Image_2",
+      "path": "C:\\Users\\alexa\\Documents\\AI STUFF\\Project Big\\assets\\models\\forest_wreck\\F01_MeshyCanopy\\textures\\Image_2.png",
+      "size": [
+        2048,
+        2048
+      ]
+    }
+  ],
+  "dimensions_m": [
+    11.23394775390625,
+    10.030904769897461,
+    8.300000190734863
+  ],
+  "pivot": "centered bottom",
+  "source_preserved": true,
+  "visual_acceptance": "Rejected opaque rectangular foliage; generated wood used by hybrid repair",
+  "scale": "provisional 8.3m tree height; species scale not canon"
+}

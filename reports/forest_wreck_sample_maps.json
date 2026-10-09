@@ -1,0 +1,7 @@
+{
+  "review_map": "/Game/LostVanguard/Environment/OpeningReview/Maps/L_ForestWreck_Review",
+  "inspection_map": "/Game/LostVanguard/Environment/OpeningReview/Maps/L_ForestWreck_Inspection",
+  "samples_integrated": 2,
+  "original_unchanged": true,
+  "sample_acceptance": "pending live inspection, collision, LOD and gameplay checks"
+}

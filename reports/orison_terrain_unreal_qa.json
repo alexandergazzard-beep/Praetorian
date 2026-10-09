@@ -1,0 +1,55 @@
+{
+  "assets": [
+    {
+      "id": "R01_Terrain71",
+      "triangles": [
+        10224,
+        5112,
+        2249,
+        818
+      ],
+      "convex_hulls": 1
+    },
+    {
+      "id": "R02_Terrain71",
+      "triangles": [
+        14353,
+        7176,
+        3158,
+        1148
+      ],
+      "convex_hulls": 2
+    },
+    {
+      "id": "R06_Terrain71",
+      "triangles": [
+        14326,
+        7163,
+        3151,
+        1146
+      ],
+      "convex_hulls": 2
+    },
+    {
+      "id": "T02_Terrain71",
+      "triangles": [
+        36450,
+        18224,
+        8018,
+        2916
+      ],
+      "convex_hulls": 4
+    }
+  ],
+  "landscape": [
+    {
+      "label": "Terrain_Landscape",
+      "scale": [
+        50.0,
+        50.0,
+        100.0
+      ],
+      "material": "/Game/LostVanguard/Environment/OrisonTerrain/Materials/M_OrisonLandscape.M_OrisonLandscape"
+    }
+  ]
+}

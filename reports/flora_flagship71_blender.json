@@ -1,0 +1,122 @@
+{
+  "F02_Flagship71": {
+    "triangles": 22847,
+    "vertices": 11276,
+    "vertices_removed": 28294,
+    "nonmanifold_edges": 207,
+    "uv_layers": 1,
+    "material_slots": 1,
+    "dimensions_m": [
+      4.467052459716797,
+      2.86834716796875,
+      5.5
+    ],
+    "pivot": "centered bottom",
+    "scale": "provisional production size; not story canon",
+    "source_preserved": true
+  },
+  "F08_Flagship71": {
+    "triangles": 16443,
+    "vertices": 7846,
+    "vertices_removed": 25250,
+    "nonmanifold_edges": 2700,
+    "uv_layers": 1,
+    "material_slots": 1,
+    "dimensions_m": [
+      5.920718669891357,
+      2.612652540206909,
+      4.5
+    ],
+    "pivot": "centered bottom",
+    "scale": "provisional production size; not story canon",
+    "source_preserved": true
+  },
+  "F03_Flagship71": {
+    "triangles": 7501,
+    "vertices": 3697,
+    "vertices_removed": 11501,
+    "nonmanifold_edges": 1373,
+    "uv_layers": 1,
+    "material_slots": 1,
+    "dimensions_m": [
+      3.1573703289031982,
+      2.300264358520508,
+      2.0
+    ],
+    "pivot": "centered bottom",
+    "scale": "provisional production size; not story canon",
+    "source_preserved": true
+  },
+  "F05_Flagship71": {
+    "triangles": 5249,
+    "vertices": 2585,
+    "vertices_removed": 7668,
+    "nonmanifold_edges": 1589,
+    "uv_layers": 1,
+    "material_slots": 1,
+    "dimensions_m": [
+      2.0869717597961426,
+      1.7914067506790161,
+      1.2000000476837158
+    ],
+    "pivot": "centered bottom",
+    "scale": "provisional production size; not story canon",
+    "source_preserved": true
+  },
+  "F06_Flagship71": {
+    "triangles": 4138,
+    "vertices": 2021,
+    "vertices_removed": 5330,
+    "nonmanifold_edges": 58,
+    "uv_layers": 1,
+    "material_slots": 1,
+    "dimensions_m": [
+      1.6447815895080566,
+      1.2724310159683228,
+      1.0
+    ],
+    "pivot": "centered bottom",
+    "scale": "provisional production size; not story canon",
+    "source_preserved": true
+  },
+  "F01_Flagship71": {
+    "triangles": 25907,
+    "vertices": 18585,
+    "vertices_removed": 17803,
+    "nonmanifold_edges": 11424,
+    "uv_layers": 2,
+    "material_slots": 2,
+    "dimensions_m": [
+      11.511032104492188,
+      9.490138053894043,
+      9.0
+    ],
+    "pivot": "centered bottom",
+    "scale": "provisional production size; not story canon",
+    "source_preserved": true,
+    "canopy_repair": {
+      "reason": "flagship remesh returned bare tree with 11507 triangles; foliage reference not met",
+      "method": "retained new generated trunk; 3D branch-anchored curved forked leaf geometry, teal texture/violet reverse",
+      "anchors": 60,
+      "leaves": 600,
+      "original_meshy_source_preserved": true,
+      "extra_meshy_credits": 0
+    }
+  },
+  "F10_Flagship71": {
+    "triangles": 2076,
+    "vertices": 1279,
+    "vertices_removed": 3767,
+    "nonmanifold_edges": 1152,
+    "uv_layers": 1,
+    "material_slots": 1,
+    "dimensions_m": [
+      0.9986181855201721,
+      0.8953148722648621,
+      0.44999998807907104
+    ],
+    "pivot": "centered bottom",
+    "scale": "provisional production size; not story canon",
+    "source_preserved": true
+  }
+}

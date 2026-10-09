@@ -1,0 +1,652 @@
+{
+  "map": "/Game/WreckagePrototype/Maps/L_Wreckage_Opening",
+  "reach_cm": {
+    "original": {
+      "standing": 96.1,
+      "crouch_jump": 140.1
+    },
+    "reach": {
+      "standing": 177.2,
+      "crouch_jump": 221.2
+    }
+  },
+  "props": [
+    {
+      "label": "Recovery_BackWall",
+      "top_cm": 360.0,
+      "top_source": "collision top from downward trace",
+      "center": [
+        -525,
+        0
+      ],
+      "footprint": [
+        -550,
+        -500,
+        -425,
+        425
+      ],
+      "climbable_original": "no",
+      "climbable_reach": "no"
+    },
+    {
+      "label": "Recovery_Ceiling",
+      "top_cm": 420.0,
+      "top_source": "collision top from downward trace",
+      "center": [
+        -300,
+        0
+      ],
+      "footprint": [
+        -500,
+        -100,
+        -425,
+        425
+      ],
+      "climbable_original": "no",
+      "climbable_reach": "no"
+    },
+    {
+      "label": "DamagedPanel",
+      "top_cm": 105,
+      "top_source": "centre trace hit another surface; using bounds top",
+      "center": [
+        -245,
+        0
+      ],
+      "footprint": [
+        -290,
+        -200,
+        -90,
+        90
+      ],
+      "climbable_original": "crouch_jump",
+      "climbable_reach": "standing"
+    },
+    {
+      "label": "Recovery_Wall_-1",
+      "top_cm": 360,
+      "top_source": "centre trace hit another surface; using bounds top",
+      "center": [
+        -200,
+        -425
+      ],
+      "footprint": [
+        -500,
+        100,
+        -450,
+        -400
+      ],
+      "climbable_original": "no",
+      "climbable_reach": "no"
+    },
+    {
+      "label": "Recovery_Wall_1",
+      "top_cm": 360,
+      "top_source": "centre trace hit another surface; using bounds top",
+      "center": [
+        -200,
+        425
+      ],
+      "footprint": [
+        -500,
+        100,
+        400,
+        450
+      ],
+      "climbable_original": "no",
+      "climbable_reach": "no"
+    },
+    {
+      "label": "OV_BreachRib_-1",
+      "top_cm": 488.8,
+      "top_source": "centre trace hit another surface; using bounds top",
+      "center": [
+        145,
+        -415
+      ],
+      "footprint": [
+        45,
+        245,
+        -486,
+        -344
+      ],
+      "climbable_original": "no",
+      "climbable_reach": "no"
+    },
+    {
+      "label": "OV_BreachRib_1",
+      "top_cm": 490.8,
+      "top_source": "collision top from downward trace",
+      "center": [
+        145,
+        415
+      ],
+      "footprint": [
+        45,
+        245,
+        344,
+        486
+      ],
+      "climbable_original": "no",
+      "climbable_reach": "no"
+    },
+    {
+      "label": "OV_RimLip_-1",
+      "top_cm": 70.2,
+      "top_source": "centre trace hit another surface; using bounds top",
+      "center": [
+        150,
+        -350
+      ],
+      "footprint": [
+        50,
+        250,
+        -415,
+        -285
+      ],
+      "climbable_original": "standing",
+      "climbable_reach": "standing"
+    },
+    {
+      "label": "OV_RimLip_1",
+      "top_cm": 70.2,
+      "top_source": "centre trace hit another surface; using bounds top",
+      "center": [
+        150,
+        350
+      ],
+      "footprint": [
+        50,
+        250,
+        285,
+        415
+      ],
+      "climbable_original": "standing",
+      "climbable_reach": "standing"
+    },
+    {
+      "label": "OV_JaggedHull_-1",
+      "top_cm": 499.7,
+      "top_source": "centre trace hit another surface; using bounds top",
+      "center": [
+        160,
+        -420
+      ],
+      "footprint": [
+        70,
+        250,
+        -523,
+        -317
+      ],
+      "climbable_original": "no",
+      "climbable_reach": "no"
+    },
+    {
+      "label": "OV_JaggedHull_1",
+      "top_cm": 499.7,
+      "top_source": "centre trace hit another surface; using bounds top",
+      "center": [
+        160,
+        420
+      ],
+      "footprint": [
+        65,
+        255,
+        336,
+        504
+      ],
+      "climbable_original": "no",
+      "climbable_reach": "no"
+    },
+    {
+      "label": "LV_Art_M17_supply_trunk",
+      "top_cm": 64.7,
+      "top_source": "centre trace hit another surface; using bounds top",
+      "center": [
+        350,
+        250
+      ],
+      "footprint": [
+        254,
+        446,
+        195,
+        305
+      ],
+      "climbable_original": "standing",
+      "climbable_reach": "standing"
+    },
+    {
+      "label": "OV_TreeTrunk_0",
+      "top_cm": 205.9,
+      "top_source": "centre trace hit another surface; using bounds top",
+      "center": [
+        650,
+        -680
+      ],
+      "footprint": [
+        277,
+        1023,
+        -739,
+        -621
+      ],
+      "climbable_original": "no",
+      "climbable_reach": "crouch_jump"
+    },
+    {
+      "label": "OV_TreeTrunk_1",
+      "top_cm": 335.7,
+      "top_source": "centre trace hit another surface; using bounds top",
+      "center": [
+        750,
+        850
+      ],
+      "footprint": [
+        330,
+        1170,
+        787,
+        913
+      ],
+      "climbable_original": "no",
+      "climbable_reach": "no"
+    },
+    {
+      "label": "Passage_Wall_-1",
+      "top_cm": 70.0,
+      "top_source": "collision top from downward trace",
+      "center": [
+        800,
+        -205
+      ],
+      "footprint": [
+        500,
+        1100,
+        -230,
+        -180
+      ],
+      "climbable_original": "standing",
+      "climbable_reach": "standing"
+    },
+    {
+      "label": "Passage_Wall_1",
+      "top_cm": 70.0,
+      "top_source": "collision top from downward trace",
+      "center": [
+        800,
+        205
+      ],
+      "footprint": [
+        500,
+        1100,
+        180,
+        230
+      ],
+      "climbable_original": "standing",
+      "climbable_reach": "standing"
+    },
+    {
+      "label": "Crouch_Beam",
+      "top_cm": 235.0,
+      "top_source": "collision top from downward trace",
+      "center": [
+        850,
+        0
+      ],
+      "footprint": [
+        760,
+        940,
+        -180,
+        180
+      ],
+      "climbable_original": "no",
+      "climbable_reach": "no"
+    },
+    {
+      "label": "Landing_Wall_1",
+      "top_cm": 80.0,
+      "top_source": "collision top from downward trace",
+      "center": [
+        1400,
+        205
+      ],
+      "footprint": [
+        1200,
+        1600,
+        180,
+        230
+      ],
+      "climbable_original": "standing",
+      "climbable_reach": "standing"
+    },
+    {
+      "label": "Landing_Wall_-1",
+      "top_cm": 80.0,
+      "top_source": "collision top from downward trace",
+      "center": [
+        1400,
+        -205
+      ],
+      "footprint": [
+        1200,
+        1600,
+        -230,
+        -180
+      ],
+      "climbable_original": "standing",
+      "climbable_reach": "standing"
+    },
+    {
+      "label": "WeaponLocker",
+      "top_cm": 150.0,
+      "top_source": "collision top from downward trace",
+      "center": [
+        1530,
+        -130
+      ],
+      "footprint": [
+        1475,
+        1585,
+        -175,
+        -85
+      ],
+      "climbable_original": "no",
+      "climbable_reach": "standing"
+    },
+    {
+      "label": "Bay_Cover_A",
+      "top_cm": 130.0,
+      "top_source": "collision top from downward trace",
+      "center": [
+        2050,
+        170
+      ],
+      "footprint": [
+        1940,
+        2160,
+        80,
+        260
+      ],
+      "climbable_original": "crouch_jump",
+      "climbable_reach": "standing"
+    },
+    {
+      "label": "Bay_FlankDivider",
+      "top_cm": 240.0,
+      "top_source": "collision top from downward trace",
+      "center": [
+        2340,
+        380
+      ],
+      "footprint": [
+        2040,
+        2640,
+        345,
+        415
+      ],
+      "climbable_original": "no",
+      "climbable_reach": "no"
+    },
+    {
+      "label": "Bay_Wall_1",
+      "top_cm": 360.0,
+      "top_source": "collision top from downward trace",
+      "center": [
+        2350,
+        725
+      ],
+      "footprint": [
+        1600,
+        3100,
+        700,
+        750
+      ],
+      "climbable_original": "no",
+      "climbable_reach": "no"
+    },
+    {
+      "label": "Bay_Wall_-1",
+      "top_cm": 360.0,
+      "top_source": "collision top from downward trace",
+      "center": [
+        2350,
+        -725
+      ],
+      "footprint": [
+        1600,
+        3100,
+        -750,
+        -700
+      ],
+      "climbable_original": "no",
+      "climbable_reach": "no"
+    },
+    {
+      "label": "Bay_Cover_B",
+      "top_cm": 130.0,
+      "top_source": "collision top from downward trace",
+      "center": [
+        2460,
+        -170
+      ],
+      "footprint": [
+        2350,
+        2570,
+        -260,
+        -80
+      ],
+      "climbable_original": "crouch_jump",
+      "climbable_reach": "standing"
+    },
+    {
+      "label": "SearchTerminal",
+      "top_cm": 150,
+      "top_source": "centre trace hit another surface; using bounds top",
+      "center": [
+        2920,
+        420
+      ],
+      "footprint": [
+        2860,
+        2980,
+        375,
+        465
+      ],
+      "climbable_original": "no",
+      "climbable_reach": "standing"
+    },
+    {
+      "label": "Comms_Wall_-1",
+      "top_cm": 360.0,
+      "top_source": "collision top from downward trace",
+      "center": [
+        3550,
+        -425
+      ],
+      "footprint": [
+        3100,
+        4000,
+        -450,
+        -400
+      ],
+      "climbable_original": "no",
+      "climbable_reach": "no"
+    },
+    {
+      "label": "Comms_Wall_1",
+      "top_cm": 360,
+      "top_source": "centre trace hit another surface; using bounds top",
+      "center": [
+        3550,
+        425
+      ],
+      "footprint": [
+        3100,
+        4000,
+        400,
+        450
+      ],
+      "climbable_original": "no",
+      "climbable_reach": "no"
+    },
+    {
+      "label": "CommsPanel",
+      "top_cm": 150,
+      "top_source": "centre trace hit another surface; using bounds top",
+      "center": [
+        3710,
+        -240
+      ],
+      "footprint": [
+        3650,
+        3770,
+        -285,
+        -195
+      ],
+      "climbable_original": "no",
+      "climbable_reach": "standing"
+    },
+    {
+      "label": "OV_SplitForwardPlate",
+      "top_cm": 496.7,
+      "top_source": "centre trace hit another surface; using bounds top",
+      "center": [
+        3887,
+        -499
+      ],
+      "footprint": [
+        3672,
+        4102,
+        -766,
+        -233
+      ],
+      "climbable_original": "no",
+      "climbable_reach": "no"
+    },
+    {
+      "label": "ExitGate",
+      "top_cm": 290,
+      "top_source": "centre trace hit another surface; using bounds top",
+      "center": [
+        4040,
+        0
+      ],
+      "footprint": [
+        4018,
+        4062,
+        -305,
+        305
+      ],
+      "climbable_original": "no",
+      "climbable_reach": "no"
+    },
+    {
+      "label": "Exit_Wall_1",
+      "top_cm": 360,
+      "top_source": "centre trace hit another surface; using bounds top",
+      "center": [
+        4250,
+        325
+      ],
+      "footprint": [
+        4000,
+        4500,
+        300,
+        350
+      ],
+      "climbable_original": "no",
+      "climbable_reach": "no"
+    },
+    {
+      "label": "Exit_Wall_-1",
+      "top_cm": 360.0,
+      "top_source": "collision top from downward trace",
+      "center": [
+        4250,
+        -325
+      ],
+      "footprint": [
+        4000,
+        4500,
+        -350,
+        -300
+      ],
+      "climbable_original": "no",
+      "climbable_reach": "no"
+    }
+  ],
+  "risks": [
+    {
+      "prop": "OV_TreeTrunk_0",
+      "risk": "could reach 360 cm wall tops if within ~1 m of a wall",
+      "prop_top": 205.9,
+      "crouch_jump_reach_from_top": 427.1
+    },
+    {
+      "prop": "CommsPanel",
+      "risk": "launch point over exit gate",
+      "prop_top": 150,
+      "crouch_jump_reach_from_top": 371.2,
+      "horizontal_gap_cm": 248
+    },
+    {
+      "prop": "CommsPanel",
+      "risk": "could reach 360 cm wall tops if within ~1 m of a wall",
+      "prop_top": 150,
+      "crouch_jump_reach_from_top": 371.2
+    },
+    {
+      "prop": "WeaponLocker",
+      "risk": "could reach 360 cm wall tops if within ~1 m of a wall",
+      "prop_top": 150.0,
+      "crouch_jump_reach_from_top": 371.2
+    },
+    {
+      "prop": "SearchTerminal",
+      "risk": "could reach 360 cm wall tops if within ~1 m of a wall",
+      "prop_top": 150,
+      "crouch_jump_reach_from_top": 371.2
+    }
+  ],
+  "live_attempt": {
+    "panel": {
+      "label": "CommsPanel",
+      "top_cm": 150,
+      "top_source": "centre trace hit another surface; using bounds top",
+      "center": [
+        3710,
+        -240
+      ],
+      "footprint": [
+        3650,
+        3770,
+        -285,
+        -195
+      ],
+      "climbable_original": "no",
+      "climbable_reach": "standing"
+    },
+    "start": {
+      "x": 3689.137465754274,
+      "y": -235.56264673169565,
+      "z": 240.15000058939526
+    },
+    "end": {
+      "x": 4068.6214247919793,
+      "y": 55.39508106331756,
+      "z": 379.5954078376035
+    },
+    "peak_center_z": 381.8,
+    "state_after": {
+      "Step": 0,
+      "CommsRestored": false,
+      "Health": 100,
+      "Dead": false
+    },
+    "crossed_gate": false
+  },
+  "verified_target": {
+    "port": 8001,
+    "listener": "\"C:\\Program Files\\Epic Games\\UE_5.8\\Engine\\Binaries\\Win64\\UnrealEditor.exe\" \"C:/Users/alexa/Documents/AI STUFF/Project Big-movement/Unreal/LostVanguard 5.8/LostVanguard.uproject\" -ini:EditorPerProjectUserSettings:[/Script/ModelContextProtocolEngine.ModelContextProtocolSettings]:ServerPortNumber=8001 -log=MovementEditor.log",
+    "marker_token_matched": true
+  },
+  "map_dirty_after": false
+}

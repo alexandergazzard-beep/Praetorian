@@ -1,0 +1,103 @@
+Traceback (most recent call last):
+  File "C:\Program Files\Blender Foundation\Blender 5.2\5.2\scripts\modules\addon_utils.py", line 458, in enable
+    mod = importlib.import_module(module_name)
+  File "C:\Program Files\Blender Foundation\Blender 5.2\5.2\python\Lib\importlib\__init__.py", line 88, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1395, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 1023, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "C:\Users\alexa\AppData\Roaming\Blender Foundation\Blender\5.2\extensions\user_default\meshy\__init__.py", line 1, in <module>
+    from . import BridgePanel
+  File "C:\Users\alexa\AppData\Roaming\Blender Foundation\Blender\5.2\extensions\user_default\meshy\BridgePanel.py", line 15, in <module>
+    from .Utils import logger
+  File "C:\Users\alexa\AppData\Roaming\Blender Foundation\Blender\5.2\extensions\user_default\meshy\Utils.py", line 27, in <module>
+    logger = setup_logging()
+  File "C:\Users\alexa\AppData\Roaming\Blender Foundation\Blender\5.2\extensions\user_default\meshy\Utils.py", line 16, in setup_logging
+    file_handler = logging.FileHandler(os.path.join(addon_dir, "meshy.log"))
+  File "C:\Program Files\Blender Foundation\Blender 5.2\5.2\python\Lib\logging\__init__.py", line 1219, in __init__
+    StreamHandler.__init__(self, self._open())
+                                 ~~~~~~~~~~^^
+  File "C:\Program Files\Blender Foundation\Blender 5.2\5.2\python\Lib\logging\__init__.py", line 1248, in _open
+    return open_func(self.baseFilename, self.mode,
+                     encoding=self.encoding, errors=self.errors)
+PermissionError: [Errno 13] Permission denied: 'C:\\Users\\alexa\\AppData\\Roaming\\Blender Foundation\\Blender\\5.2\\extensions\\user_default\\meshy\\meshy.log'
+00:02.750  blend            | Read blend: "C:\Users\alexa\Documents\AI STUFF\Project Big\assets\models\forest_wreck\F13_Expansion71\blender\prepared.blend"
+Extensions: writing cache failed ([Errno 13] Permission denied: 'C:\\Users\\alexa\\AppData\\Roaming\\Blender Foundation\\Blender\\5.2\\extensions\\.cache\\compat.dat').
+BlenderMCP addon registered
+
+FBX export starting... 'C:\\Users\\alexa\\Documents\\AI STUFF\\Project Big\\assets\\models\\forest_wreck\\F13_Expansion71\\export\\SM_F13_Expansion71_LOD0.fbx'
+export finished in 0.1022 sec.
+
+FBX export starting... 'C:\\Users\\alexa\\Documents\\AI STUFF\\Project Big\\assets\\models\\forest_wreck\\F13_Expansion71\\export\\SM_F13_Expansion71_LOD1.fbx'
+export finished in 0.0646 sec.
+
+FBX export starting... 'C:\\Users\\alexa\\Documents\\AI STUFF\\Project Big\\assets\\models\\forest_wreck\\F13_Expansion71\\export\\SM_F13_Expansion71_LOD2.fbx'
+export finished in 0.0356 sec.
+
+FBX export starting... 'C:\\Users\\alexa\\Documents\\AI STUFF\\Project Big\\assets\\models\\forest_wreck\\F13_Expansion71\\export\\SM_F13_Expansion71_LOD3.fbx'
+export finished in 0.0151 sec.
+LOD_EXPORT F13_Expansion71 [47969, 26366, 14244, 3781]
+00:04.593  blend            | Read blend: "C:\Users\alexa\Documents\AI STUFF\Project Big\assets\models\forest_wreck\F14_Expansion71\blender\prepared.blend"
+
+FBX export starting... 'C:\\Users\\alexa\\Documents\\AI STUFF\\Project Big\\assets\\models\\forest_wreck\\F14_Expansion71\\export\\SM_F14_Expansion71_LOD0.fbx'
+export finished in 0.0897 sec.
+
+FBX export starting... 'C:\\Users\\alexa\\Documents\\AI STUFF\\Project Big\\assets\\models\\forest_wreck\\F14_Expansion71\\export\\SM_F14_Expansion71_LOD1.fbx'
+export finished in 0.0452 sec.
+
+FBX export starting... 'C:\\Users\\alexa\\Documents\\AI STUFF\\Project Big\\assets\\models\\forest_wreck\\F14_Expansion71\\export\\SM_F14_Expansion71_LOD2.fbx'
+export finished in 0.0377 sec.
+
+FBX export starting... 'C:\\Users\\alexa\\Documents\\AI STUFF\\Project Big\\assets\\models\\forest_wreck\\F14_Expansion71\\export\\SM_F14_Expansion71_LOD3.fbx'
+export finished in 0.0142 sec.
+LOD_EXPORT F14_Expansion71 [41594, 20686, 14177, 4067]
+00:05.828  blend            | Read blend: "C:\Users\alexa\Documents\AI STUFF\Project Big\assets\models\forest_wreck\F16_Expansion71\blender\prepared.blend"
+
+FBX export starting... 'C:\\Users\\alexa\\Documents\\AI STUFF\\Project Big\\assets\\models\\forest_wreck\\F16_Expansion71\\export\\SM_F16_Expansion71_LOD0.fbx'
+export finished in 0.1161 sec.
+
+FBX export starting... 'C:\\Users\\alexa\\Documents\\AI STUFF\\Project Big\\assets\\models\\forest_wreck\\F16_Expansion71\\export\\SM_F16_Expansion71_LOD1.fbx'
+export finished in 0.0849 sec.
+
+FBX export starting... 'C:\\Users\\alexa\\Documents\\AI STUFF\\Project Big\\assets\\models\\forest_wreck\\F16_Expansion71\\export\\SM_F16_Expansion71_LOD2.fbx'
+export finished in 0.0831 sec.
+
+FBX export starting... 'C:\\Users\\alexa\\Documents\\AI STUFF\\Project Big\\assets\\models\\forest_wreck\\F16_Expansion71\\export\\SM_F16_Expansion71_LOD3.fbx'
+export finished in 0.0304 sec.
+LOD_EXPORT F16_Expansion71 [55302, 30556, 23442, 6963]
+00:08.265  blend            | Read blend: "C:\Users\alexa\Documents\AI STUFF\Project Big\assets\models\forest_wreck\F19_Expansion71\blender\prepared.blend"
+
+FBX export starting... 'C:\\Users\\alexa\\Documents\\AI STUFF\\Project Big\\assets\\models\\forest_wreck\\F19_Expansion71\\export\\SM_F19_Expansion71_LOD0.fbx'
+export finished in 0.0472 sec.
+
+FBX export starting... 'C:\\Users\\alexa\\Documents\\AI STUFF\\Project Big\\assets\\models\\forest_wreck\\F19_Expansion71\\export\\SM_F19_Expansion71_LOD1.fbx'
+export finished in 0.0227 sec.
+
+FBX export starting... 'C:\\Users\\alexa\\Documents\\AI STUFF\\Project Big\\assets\\models\\forest_wreck\\F19_Expansion71\\export\\SM_F19_Expansion71_LOD2.fbx'
+export finished in 0.0185 sec.
+
+FBX export starting... 'C:\\Users\\alexa\\Documents\\AI STUFF\\Project Big\\assets\\models\\forest_wreck\\F19_Expansion71\\export\\SM_F19_Expansion71_LOD3.fbx'
+export finished in 0.0195 sec.
+LOD_EXPORT F19_Expansion71 [15948, 7973, 6303, 4471]
+00:08.937  blend            | Read blend: "C:\Users\alexa\Documents\AI STUFF\Project Big\assets\models\forest_wreck\F21_Expansion71\blender\prepared.blend"
+
+FBX export starting... 'C:\\Users\\alexa\\Documents\\AI STUFF\\Project Big\\assets\\models\\forest_wreck\\F21_Expansion71\\export\\SM_F21_Expansion71_LOD0.fbx'
+export finished in 0.0302 sec.
+
+FBX export starting... 'C:\\Users\\alexa\\Documents\\AI STUFF\\Project Big\\assets\\models\\forest_wreck\\F21_Expansion71\\export\\SM_F21_Expansion71_LOD1.fbx'
+export finished in 0.0213 sec.
+
+FBX export starting... 'C:\\Users\\alexa\\Documents\\AI STUFF\\Project Big\\assets\\models\\forest_wreck\\F21_Expansion71\\export\\SM_F21_Expansion71_LOD2.fbx'
+export finished in 0.0175 sec.
+
+FBX export starting... 'C:\\Users\\alexa\\Documents\\AI STUFF\\Project Big\\assets\\models\\forest_wreck\\F21_Expansion71\\export\\SM_F21_Expansion71_LOD3.fbx'
+export finished in 0.0170 sec.
+LOD_EXPORT F21_Expansion71 [14150, 6789, 3311, 2006]
+BlenderMCP addon unregistered
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+
+Blender quit

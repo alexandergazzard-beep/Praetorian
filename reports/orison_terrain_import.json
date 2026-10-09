@@ -1,0 +1,45 @@
+{
+  "assets": [
+    {
+      "id": "R01_Terrain71",
+      "mesh": "/Game/LostVanguard/Environment/OrisonTerrain/Assets/R01_Terrain71/SM_R01_Terrain71.SM_R01_Terrain71",
+      "material": "/Game/LostVanguard/Environment/OrisonTerrain/Assets/R01_Terrain71/MI_R01_Terrain71.MI_R01_Terrain71",
+      "textures": {
+        "BaseColor": "/Game/LostVanguard/Environment/OrisonTerrain/Assets/R01_Terrain71/T_R01_Terrain71_BaseColor.T_R01_Terrain71_BaseColor",
+        "Normal": "/Game/LostVanguard/Environment/OrisonTerrain/Assets/R01_Terrain71/T_R01_Terrain71_Normal.T_R01_Terrain71_Normal",
+        "Roughness": "/Game/LostVanguard/Environment/OrisonTerrain/Assets/R01_Terrain71/T_R01_Terrain71_Roughness.T_R01_Terrain71_Roughness"
+      }
+    },
+    {
+      "id": "R02_Terrain71",
+      "mesh": "/Game/LostVanguard/Environment/OrisonTerrain/Assets/R02_Terrain71/SM_R02_Terrain71.SM_R02_Terrain71",
+      "material": "/Game/LostVanguard/Environment/OrisonTerrain/Assets/R02_Terrain71/MI_R02_Terrain71.MI_R02_Terrain71",
+      "textures": {
+        "BaseColor": "/Game/LostVanguard/Environment/OrisonTerrain/Assets/R02_Terrain71/T_R02_Terrain71_BaseColor.T_R02_Terrain71_BaseColor",
+        "Normal": "/Game/LostVanguard/Environment/OrisonTerrain/Assets/R02_Terrain71/T_R02_Terrain71_Normal.T_R02_Terrain71_Normal",
+        "Roughness": "/Game/LostVanguard/Environment/OrisonTerrain/Assets/R02_Terrain71/T_R02_Terrain71_Roughness.T_R02_Terrain71_Roughness"
+      }
+    },
+    {
+      "id": "R06_Terrain71",
+      "mesh": "/Game/LostVanguard/Environment/OrisonTerrain/Assets/R06_Terrain71/SM_R06_Terrain71.SM_R06_Terrain71",
+      "material": "/Game/LostVanguard/Environment/OrisonTerrain/Assets/R06_Terrain71/MI_R06_Terrain71.MI_R06_Terrain71",
+      "textures": {
+        "BaseColor": "/Game/LostVanguard/Environment/OrisonTerrain/Assets/R06_Terrain71/T_R06_Terrain71_BaseColor.T_R06_Terrain71_BaseColor",
+        "Normal": "/Game/LostVanguard/Environment/OrisonTerrain/Assets/R06_Terrain71/T_R06_Terrain71_Normal.T_R06_Terrain71_Normal",
+        "Roughness": "/Game/LostVanguard/Environment/OrisonTerrain/Assets/R06_Terrain71/T_R06_Terrain71_Roughness.T_R06_Terrain71_Roughness"
+      }
+    },
+    {
+      "id": "T02_Terrain71",
+      "mesh": "/Game/LostVanguard/Environment/OrisonTerrain/Assets/T02_Terrain71/SM_T02_Terrain71.SM_T02_Terrain71",
+      "material": "/Game/LostVanguard/Environment/OrisonTerrain/Assets/T02_Terrain71/MI_T02_Terrain71.MI_T02_Terrain71",
+      "textures": {
+        "BaseColor": "/Game/LostVanguard/Environment/OrisonTerrain/Assets/T02_Terrain71/T_T02_Terrain71_BaseColor.T_T02_Terrain71_BaseColor",
+        "Normal": "/Game/LostVanguard/Environment/OrisonTerrain/Assets/T02_Terrain71/T_T02_Terrain71_Normal.T_T02_Terrain71_Normal",
+        "Roughness": "/Game/LostVanguard/Environment/OrisonTerrain/Assets/T02_Terrain71/T_T02_Terrain71_Roughness.T_T02_Terrain71_Roughness"
+      }
+    }
+  ],
+  "map": "/Game/LostVanguard/Environment/OrisonTerrain/Maps/L_OrisonTerrain_Review"
+}

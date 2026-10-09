@@ -1,0 +1,10 @@
+C:\Users\alexa\Documents\AI STUFF\Project Big\tools\render_flora_flagship.py:17: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  mat=bpy.data.materials.get('Label') or bpy.data.materials.new('Label');mat.use_nodes=True;shader=next(n for n in mat.node_tree.nodes if n.type=='BSDF_PRINCIPLED');shader.inputs['Base Color'].default_value=(.015,.02,.025,1);shader.inputs['Roughness'].default_value=.9;text.data.materials.append(mat)
+00:05.062  image.write      | ERROR OpenImageIO write failed: Could not open file "C:\Users\alexa\.thumbnails\large\blender_54564_8e04b654933b6cbfa3208782b1f6b331.png.png"
+00:27.984  render           | Saved: 'C:\Users\alexa\Documents\AI STUFF\Project Big\reports\flora_flagship71_overview.png'
+Extensions: writing cache failed ([Errno 13] Permission denied: 'C:\\Users\\alexa\\AppData\\Roaming\\Blender Foundation\\Blender\\5.2\\extensions\\.cache\\compat.dat').
+Info: Saved as "Flora_Flagship71_Presentation.blend"
+FLORA_ACTUAL_MODEL_OVERVIEW_COMPLETE
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+
+Blender quit

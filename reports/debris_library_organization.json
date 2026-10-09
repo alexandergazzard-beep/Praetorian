@@ -1,0 +1,128 @@
+{
+  "catalogue_candidates": 40,
+  "copied_images": 24,
+  "all_copy_hashes_verified": true,
+  "originals_preserved": true,
+  "checks": [
+    {
+      "source": "assets\\concepts\\debris\\debris_d6_small_scatter_six_v1.png",
+      "copy": "assets\\concepts\\debris\\by_size\\01_small\\debris_d6_small_scatter_six_v1.png",
+      "sha256": "6d77c5ded113a83ac0264290d83d19f27e012c4d5ba9f703c0f44158fbaa4c3f"
+    },
+    {
+      "source": "assets\\concepts\\debris\\debris_d7_medium_parts_six_v1.png",
+      "copy": "assets\\concepts\\debris\\by_size\\02_medium\\debris_d7_medium_parts_six_v1.png",
+      "sha256": "0ffb953c711ae171a69fbe402cc7d16a2011cdb046a35623f24ca1ae9d2ef6d1"
+    },
+    {
+      "source": "assets\\concepts\\debris\\debris_d2_ship_transport_six_pieces_v1.png",
+      "copy": "assets\\concepts\\debris\\by_size\\02_medium\\d2_USE_TOP_ROW_AND_BOTTOM_LEFT.png",
+      "sha256": "031af61429c9323ab5da415dee9103d6af76e69e264bfa8e10383f87cbbf8d61"
+    },
+    {
+      "source": "assets\\concepts\\debris\\debris_d2_ship_transport_six_pieces_v1.png",
+      "copy": "assets\\concepts\\debris\\by_size\\03_large\\d2_USE_BOTTOM_MIDDLE_AND_RIGHT.png",
+      "sha256": "031af61429c9323ab5da415dee9103d6af76e69e264bfa8e10383f87cbbf8d61"
+    },
+    {
+      "source": "assets\\concepts\\debris\\debris_d5_armored_exterior_engines_v1.png",
+      "copy": "assets\\concepts\\debris\\by_size\\04_very_large\\d5_USE_TOP_ROW.png",
+      "sha256": "8c1bcf8be7165d2119370cabb4075e0ab35f0b98dcde7fd6c992a1b29a003904"
+    },
+    {
+      "source": "assets\\concepts\\debris\\debris_d5_armored_exterior_engines_v1.png",
+      "copy": "assets\\concepts\\debris\\by_size\\05_enormous\\d5_USE_BOTTOM_ROW.png",
+      "sha256": "8c1bcf8be7165d2119370cabb4075e0ab35f0b98dcde7fd6c992a1b29a003904"
+    },
+    {
+      "source": "assets\\concepts\\debris\\debris_d8_medium_mechanical_six_v1.png",
+      "copy": "assets\\concepts\\debris\\by_size\\02_medium\\debris_d8_medium_mechanical_six_v1.png",
+      "sha256": "9ee5ead1f3de5ec9ef7af868457dd11b64f6c2e539d4ea1b045b72f558b9f152"
+    },
+    {
+      "source": "assets\\concepts\\debris\\debris_d9_cargo_hangar_six_v1.png",
+      "copy": "assets\\concepts\\debris\\by_size\\02_medium\\debris_d9_cargo_hangar_six_v1.png",
+      "sha256": "6e09e87ab2654a35fb0a02b4be0f4fc61277f445b40ffb6a33b125d593e815ce"
+    },
+    {
+      "source": "assets\\concepts\\debris\\debris_d10_ground_electronics_six_v1.png",
+      "copy": "assets\\concepts\\debris\\by_size\\01_small\\d10_USE_TOP_LEFT_RIGHT_AND_BOTTOM_MIDDLE_RIGHT.png",
+      "sha256": "5668bcbfbf677bc55cdf18ce0d219cc57d54f604c85ec67cbf8fe2655a3be2d6"
+    },
+    {
+      "source": "assets\\concepts\\debris\\debris_d10_ground_electronics_six_v1.png",
+      "copy": "assets\\concepts\\debris\\by_size\\02_medium\\d10_USE_TOP_MIDDLE_AND_BOTTOM_LEFT.png",
+      "sha256": "5668bcbfbf677bc55cdf18ce0d219cc57d54f604c85ec67cbf8fe2655a3be2d6"
+    },
+    {
+      "source": "assets\\concepts\\debris\\debris_d10_ground_electronics_six_v1.png",
+      "copy": "assets\\concepts\\debris\\by_size\\06_ground_scatter\\debris_d10_ground_electronics_six_v1.png",
+      "sha256": "5668bcbfbf677bc55cdf18ce0d219cc57d54f604c85ec67cbf8fe2655a3be2d6"
+    },
+    {
+      "source": "assets\\concepts\\debris\\debris_d10_ground_electronics_six_v1.png",
+      "copy": "assets\\concepts\\debris\\by_size\\00_master_sheets\\debris_d10_ground_electronics_six_v1.png",
+      "sha256": "5668bcbfbf677bc55cdf18ce0d219cc57d54f604c85ec67cbf8fe2655a3be2d6"
+    },
+    {
+      "source": "assets\\concepts\\debris\\debris_d1_ship_starter_v1.png",
+      "copy": "assets\\concepts\\debris\\by_size\\00_master_sheets\\debris_d1_ship_starter_v1.png",
+      "sha256": "e1f7168016259c1a2d91a15bc7288c4e1360e9ef46d724b72ef441fa99b6418c"
+    },
+    {
+      "source": "assets\\concepts\\debris\\debris_d2_ship_transport_six_pieces_v1.png",
+      "copy": "assets\\concepts\\debris\\by_size\\00_master_sheets\\debris_d2_ship_transport_six_pieces_v1.png",
+      "sha256": "031af61429c9323ab5da415dee9103d6af76e69e264bfa8e10383f87cbbf8d61"
+    },
+    {
+      "source": "assets\\concepts\\debris\\debris_d3_five_scale_tiers_v1.png",
+      "copy": "assets\\concepts\\debris\\by_size\\00_master_sheets\\debris_d3_five_scale_tiers_v1.png",
+      "sha256": "e3a88b745f4b391113ad9767e176bbf12d378dbf77158ab212f4f6f34ac6fd34"
+    },
+    {
+      "source": "assets\\concepts\\debris\\debris_d4_aft_engine_wreckage_v1.png",
+      "copy": "assets\\concepts\\debris\\by_size\\00_master_sheets\\debris_d4_aft_engine_wreckage_v1.png",
+      "sha256": "63d4c6efc72d43144b73942826ecab2e108c3a7c73a3fc6a7b1b9ed5c5ae6736"
+    },
+    {
+      "source": "assets\\concepts\\debris\\debris_d5_armored_exterior_engines_v1.png",
+      "copy": "assets\\concepts\\debris\\by_size\\00_master_sheets\\debris_d5_armored_exterior_engines_v1.png",
+      "sha256": "8c1bcf8be7165d2119370cabb4075e0ab35f0b98dcde7fd6c992a1b29a003904"
+    },
+    {
+      "source": "assets\\concepts\\debris\\debris_d6_small_scatter_six_v1.png",
+      "copy": "assets\\concepts\\debris\\by_size\\00_master_sheets\\debris_d6_small_scatter_six_v1.png",
+      "sha256": "6d77c5ded113a83ac0264290d83d19f27e012c4d5ba9f703c0f44158fbaa4c3f"
+    },
+    {
+      "source": "assets\\concepts\\debris\\debris_d7_medium_parts_six_v1.png",
+      "copy": "assets\\concepts\\debris\\by_size\\00_master_sheets\\debris_d7_medium_parts_six_v1.png",
+      "sha256": "0ffb953c711ae171a69fbe402cc7d16a2011cdb046a35623f24ca1ae9d2ef6d1"
+    },
+    {
+      "source": "assets\\concepts\\debris\\debris_d8_medium_mechanical_six_v1.png",
+      "copy": "assets\\concepts\\debris\\by_size\\00_master_sheets\\debris_d8_medium_mechanical_six_v1.png",
+      "sha256": "9ee5ead1f3de5ec9ef7af868457dd11b64f6c2e539d4ea1b045b72f558b9f152"
+    },
+    {
+      "source": "assets\\concepts\\debris\\debris_d9_cargo_hangar_six_v1.png",
+      "copy": "assets\\concepts\\debris\\by_size\\00_master_sheets\\debris_d9_cargo_hangar_six_v1.png",
+      "sha256": "6e09e87ab2654a35fb0a02b4be0f4fc61277f445b40ffb6a33b125d593e815ce"
+    },
+    {
+      "source": "assets\\concepts\\debris\\debris_d1_ship_starter_v1.png",
+      "copy": "assets\\concepts\\debris\\by_size\\99_earlier_explorations\\debris_d1_ship_starter_v1.png",
+      "sha256": "e1f7168016259c1a2d91a15bc7288c4e1360e9ef46d724b72ef441fa99b6418c"
+    },
+    {
+      "source": "assets\\concepts\\debris\\debris_d3_five_scale_tiers_v1.png",
+      "copy": "assets\\concepts\\debris\\by_size\\99_earlier_explorations\\debris_d3_five_scale_tiers_v1.png",
+      "sha256": "e3a88b745f4b391113ad9767e176bbf12d378dbf77158ab212f4f6f34ac6fd34"
+    },
+    {
+      "source": "assets\\concepts\\debris\\debris_d4_aft_engine_wreckage_v1.png",
+      "copy": "assets\\concepts\\debris\\by_size\\99_earlier_explorations\\debris_d4_aft_engine_wreckage_v1.png",
+      "sha256": "63d4c6efc72d43144b73942826ecab2e108c3a7c73a3fc6a7b1b9ed5c5ae6736"
+    }
+  ]
+}

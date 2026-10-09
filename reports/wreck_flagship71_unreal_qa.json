@@ -1,0 +1,168 @@
+{
+  "map": "/Game/LostVanguard/Environment/OpeningReview/Maps/L_Wreck_Flagship71_Inspection",
+  "assets": [
+    {
+      "id": "Medium_Flagship71",
+      "mesh": "/Game/LostVanguard/Environment/OpeningReview/Assets/WreckFlagship71/Medium_Flagship71/SM_Medium_Flagship71.SM_Medium_Flagship71",
+      "material": "/Game/LostVanguard/Environment/OpeningReview/Assets/WreckFlagship71/Medium_Flagship71/MI_Medium_Flagship71.MI_Medium_Flagship71",
+      "textures": {
+        "BaseColor": "/Game/LostVanguard/Environment/OpeningReview/Assets/WreckFlagship71/Medium_Flagship71/T_Medium_Flagship71_BaseColor.T_Medium_Flagship71_BaseColor",
+        "Normal": "/Game/LostVanguard/Environment/OpeningReview/Assets/WreckFlagship71/Medium_Flagship71/T_Medium_Flagship71_Normal.T_Medium_Flagship71_Normal",
+        "Roughness": "/Game/LostVanguard/Environment/OpeningReview/Assets/WreckFlagship71/Medium_Flagship71/T_Medium_Flagship71_Roughness.T_Medium_Flagship71_Roughness",
+        "Metallic": "/Game/LostVanguard/Environment/OpeningReview/Assets/WreckFlagship71/Medium_Flagship71/T_Medium_Flagship71_Metallic.T_Medium_Flagship71_Metallic"
+      },
+      "bounds_cm": "<Struct 'Box' (0x0000020CD8C43800) {min: {x: -323.592743, y: -75.641998, z: 0.000000}, max: {x: 323.592743, y: 75.642021, z: 450.000000}, is_valid: True}>",
+      "actor": "/Game/LostVanguard/Environment/OpeningReview/Maps/L_Wreck_Flagship71_Inspection.L_Wreck_Flagship71_Inspection:PersistentLevel.StaticMeshActor_1",
+      "location_cm": [
+        -1500,
+        0,
+        0
+      ],
+      "lod_triangles": [
+        29950,
+        14975,
+        6588,
+        2393
+      ],
+      "bounds": {
+        "min": {
+          "x": -324.52452087402344,
+          "y": -76.61970520019531,
+          "z": -1.2935791015625
+        },
+        "max": {
+          "x": 324.07557678222656,
+          "y": 77.32302856445312,
+          "z": 450.04437255859375
+        },
+        "isValid": true
+      },
+      "material_slots": [
+        "Material_0"
+      ],
+      "simple_convexes": 1
+    },
+    {
+      "id": "Large_Flagship71",
+      "mesh": "/Game/LostVanguard/Environment/OpeningReview/Assets/WreckFlagship71/Large_Flagship71/SM_Large_Flagship71.SM_Large_Flagship71",
+      "material": "/Game/LostVanguard/Environment/OpeningReview/Assets/WreckFlagship71/Large_Flagship71/MI_Large_Flagship71.MI_Large_Flagship71",
+      "textures": {
+        "BaseColor": "/Game/LostVanguard/Environment/OpeningReview/Assets/WreckFlagship71/Large_Flagship71/T_Large_Flagship71_BaseColor.T_Large_Flagship71_BaseColor",
+        "Normal": "/Game/LostVanguard/Environment/OpeningReview/Assets/WreckFlagship71/Large_Flagship71/T_Large_Flagship71_Normal.T_Large_Flagship71_Normal",
+        "Roughness": "/Game/LostVanguard/Environment/OpeningReview/Assets/WreckFlagship71/Large_Flagship71/T_Large_Flagship71_Roughness.T_Large_Flagship71_Roughness",
+        "Metallic": "/Game/LostVanguard/Environment/OpeningReview/Assets/WreckFlagship71/Large_Flagship71/T_Large_Flagship71_Metallic.T_Large_Flagship71_Metallic"
+      },
+      "bounds_cm": "<Struct 'Box' (0x0000020CD8C44A00) {min: {x: -600.000000, y: -295.644989, z: 0.000000}, max: {x: 600.000000, y: 295.645050, z: 566.980530}, is_valid: True}>",
+      "actor": "/Game/LostVanguard/Environment/OpeningReview/Maps/L_Wreck_Flagship71_Inspection.L_Wreck_Flagship71_Inspection:PersistentLevel.StaticMeshActor_2",
+      "location_cm": [
+        0,
+        0,
+        0
+      ],
+      "lod_triangles": [
+        66252,
+        33126,
+        14576,
+        5301
+      ],
+      "bounds": {
+        "min": {
+          "x": -617.1003723144531,
+          "y": -296.1458740234375,
+          "z": -8.34991455078125
+        },
+        "max": {
+          "x": 605.4859619140625,
+          "y": 295.6450500488281,
+          "z": 566.9805297851562
+        },
+        "isValid": true
+      },
+      "material_slots": [
+        "Material_0"
+      ],
+      "simple_convexes": 1
+    },
+    {
+      "id": "Engine_Flagship71",
+      "mesh": "/Game/LostVanguard/Environment/OpeningReview/Assets/WreckFlagship71/Engine_Flagship71/SM_Engine_Flagship71.SM_Engine_Flagship71",
+      "material": "/Game/LostVanguard/Environment/OpeningReview/Assets/WreckFlagship71/Engine_Flagship71/MI_Engine_Flagship71.MI_Engine_Flagship71",
+      "textures": {
+        "BaseColor": "/Game/LostVanguard/Environment/OpeningReview/Assets/WreckFlagship71/Engine_Flagship71/T_Engine_Flagship71_BaseColor.T_Engine_Flagship71_BaseColor",
+        "Normal": "/Game/LostVanguard/Environment/OpeningReview/Assets/WreckFlagship71/Engine_Flagship71/T_Engine_Flagship71_Normal.T_Engine_Flagship71_Normal",
+        "Roughness": "/Game/LostVanguard/Environment/OpeningReview/Assets/WreckFlagship71/Engine_Flagship71/T_Engine_Flagship71_Roughness.T_Engine_Flagship71_Roughness",
+        "Metallic": "/Game/LostVanguard/Environment/OpeningReview/Assets/WreckFlagship71/Engine_Flagship71/T_Engine_Flagship71_Metallic.T_Engine_Flagship71_Metallic"
+      },
+      "bounds_cm": "<Struct 'Box' (0x0000020CE67D2F80) {min: {x: -600.000000, y: -218.288528, z: 0.000000}, max: {x: 600.000000, y: 218.288467, z: 506.407654}, is_valid: True}>",
+      "actor": "/Game/LostVanguard/Environment/OpeningReview/Maps/L_Wreck_Flagship71_Inspection.L_Wreck_Flagship71_Inspection:PersistentLevel.StaticMeshActor_3",
+      "location_cm": [
+        1800,
+        0,
+        0
+      ],
+      "lod_triangles": [
+        44866,
+        22432,
+        9871,
+        3587
+      ],
+      "bounds": {
+        "min": {
+          "x": -606.6680908203125,
+          "y": -218.2885284423828,
+          "z": -4.554779052734375
+        },
+        "max": {
+          "x": 600,
+          "y": 219.40076446533203,
+          "z": 506.6756286621094
+        },
+        "isValid": true
+      },
+      "material_slots": [
+        "Material_0"
+      ],
+      "simple_convexes": 1
+    }
+  ],
+  "project": "C:/Users/alexa/Documents/AI STUFF/Project Big/Unreal/LostVanguard 5.8/LostVanguard.uproject",
+  "engine": "5.8.3-58210709+++UE5+Release-5.8",
+  "original_and_review_maps_untouched": true,
+  "visual_acceptance": "3D candidates reviewed in Blender and Unreal; generated soft edges and unseen-side interpretation remain; full environment gate open",
+  "lods_collision": "four LODs and one convex collider per mesh; saved reload/traces and PIE state checked",
+  "saved_map_reload": true,
+  "collision_traces": [
+    {
+      "asset": "Medium_Flagship71",
+      "player_height_hit_cm": 1931.5264892578125
+    },
+    {
+      "asset": "Large_Flagship71",
+      "player_height_hit_cm": 1902.011474609375
+    },
+    {
+      "asset": "Engine_Flagship71",
+      "player_height_hit_cm": 1815.6851806640625
+    }
+  ],
+  "performance": "unverified",
+  "review_integration": false,
+  "pie_smoke_checks": [
+    {
+      "name": "inspection PIE runs",
+      "passed": true
+    },
+    {
+      "name": "Medium_Flagship71 mesh/collision in PIE",
+      "passed": true
+    },
+    {
+      "name": "Large_Flagship71 mesh/collision in PIE",
+      "passed": true
+    },
+    {
+      "name": "Engine_Flagship71 mesh/collision in PIE",
+      "passed": true
+    }
+  ]
+}

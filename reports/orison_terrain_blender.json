@@ -1,0 +1,66 @@
+{
+  "R01_Terrain71": {
+    "triangles": 10224,
+    "vertices": 5118,
+    "vertices_removed": 11992,
+    "nonmanifold_edges": 253,
+    "uv_layers": 1,
+    "material_slots": 1,
+    "dimensions_m": [
+      2.0,
+      1.2016658782958984,
+      0.9776376485824585
+    ],
+    "pivot": "centered bottom",
+    "scale": "provisional production size; not story canon",
+    "source_preserved": true
+  },
+  "R02_Terrain71": {
+    "triangles": 14353,
+    "vertices": 7160,
+    "vertices_removed": 16478,
+    "nonmanifold_edges": 332,
+    "uv_layers": 1,
+    "material_slots": 1,
+    "dimensions_m": [
+      2.5,
+      1.639573097229004,
+      1.6175384521484375
+    ],
+    "pivot": "centered bottom",
+    "scale": "provisional production size; not story canon",
+    "source_preserved": true
+  },
+  "R06_Terrain71": {
+    "triangles": 14326,
+    "vertices": 7117,
+    "vertices_removed": 12984,
+    "nonmanifold_edges": 298,
+    "uv_layers": 1,
+    "material_slots": 1,
+    "dimensions_m": [
+      3.5,
+      2.3191044330596924,
+      1.3771779537200928
+    ],
+    "pivot": "centered bottom",
+    "scale": "provisional production size; not story canon",
+    "source_preserved": true
+  },
+  "T02_Terrain71": {
+    "triangles": 36450,
+    "vertices": 18227,
+    "vertices_removed": 28323,
+    "nonmanifold_edges": 22,
+    "uv_layers": 1,
+    "material_slots": 1,
+    "dimensions_m": [
+      5.26995849609375,
+      9.0,
+      1.9907355308532715
+    ],
+    "pivot": "centered bottom",
+    "scale": "provisional production size; not story canon",
+    "source_preserved": true
+  }
+}

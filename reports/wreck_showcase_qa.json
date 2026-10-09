@@ -1,0 +1,39 @@
+{
+  "map": "/Game/LostVanguard/Environment/WreckShowcase/Maps/L_LargeWreck_Showcase",
+  "project": "C:/Users/alexa/Documents/AI STUFF/Project Big/Unreal/LostVanguard 5.8/LostVanguard.uproject",
+  "engine": "5.8.3-58210709+++UE5+Release-5.8",
+  "actor_count": 154,
+  "hero": "selected Large module (two placements); Medium and D5 supporting",
+  "new_meshes": [
+    "SM_ShowcaseTerrain",
+    "SM_ShowcaseRock_0",
+    "SM_ShowcasePlate_0",
+    "SM_ShowcaseRock_1",
+    "SM_ShowcasePlate_1",
+    "SM_ShowcaseRock_2",
+    "SM_ShowcasePlate_2"
+  ],
+  "new_paid_generations": 0,
+  "original_maps_preserved": true,
+  "lighting": "cool forest rim, warm fault lights, low volumetric mist",
+  "verification": "saved reload, player-start terrain trace and actual PIE startup/hero presence passed after live lighting refinement",
+  "checks": [
+    {
+      "name": "saved showcase reload",
+      "passed": true,
+      "showcase_actor_count": 154
+    },
+    {
+      "name": "start terrain collision",
+      "passed": true,
+      "hit_cm": 430.5279846191406
+    },
+    {
+      "name": "PIE runs with hero wreck present",
+      "passed": true
+    }
+  ],
+  "visual_acceptance": "refined captures inspected; practical scene demonstration complete, user style approval and production quality gate remain open",
+  "performance": "unverified",
+  "piestopped": true
+}

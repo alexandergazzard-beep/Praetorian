@@ -1,0 +1,14 @@
+{
+  "Albedo": 1.0,
+  "ConstantExtinction": 0.0,
+  "DensityGain": 1.0,
+  "DensityOffset": 0.0,
+  "FireOpacityGain": 1.0,
+  "TemperatureOffset": 0.0,
+  "TemperatureRange": 1.0,
+  "DensityRange": 0.0,
+  "FireGain": 1.0,
+  "ScatterMaskPosition": 0.30000001192092896,
+  "ScatterMaskWidth": 0.30000001192092896,
+  "ScatterMaskContribution": 0.8999999761581421
+}

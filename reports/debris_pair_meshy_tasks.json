@@ -1,0 +1,21 @@
+{
+  "date": "2026-10-08",
+  "balance_before": 4220,
+  "expected_total_credits": 30,
+  "crate": {
+    "task_id": "01a11a81-d75d-7713-a07e-c3ee4ff0dd5a",
+    "status": "SUCCEEDED",
+    "message": "3D generation task created successfully. Task ID: 01a11a81-d75d-7713-a07e-c3ee4ff0dd5a",
+    "estimated_time": "2-3 minutes",
+    "consumed_credits": 15
+  },
+  "grille": {
+    "task_id": "01a11a83-5a57-7471-a6ee-a502fdf8f28c",
+    "status": "SUCCEEDED",
+    "message": "3D generation task created successfully. Task ID: 01a11a83-5a57-7471-a6ee-a502fdf8f28c",
+    "estimated_time": "2-3 minutes",
+    "consumed_credits": 15
+  },
+  "actual_total_credits": 30,
+  "balance_after": 4190
+}

@@ -1,0 +1,165 @@
+{
+  "map": "/Game/LostVanguard/Environment/OpeningReview/Maps/L_Wreck_Trio_Inspection",
+  "assets": [
+    {
+      "id": "Medium_WreckPanel",
+      "mesh": "/Game/LostVanguard/Environment/OpeningReview/Assets/WreckTrio/Medium_WreckPanel/SM_Medium_WreckPanel.SM_Medium_WreckPanel",
+      "material": "/Game/LostVanguard/Environment/OpeningReview/Assets/WreckTrio/Medium_WreckPanel/MI_Medium_WreckPanel.MI_Medium_WreckPanel",
+      "textures": {
+        "BaseColor": "/Game/LostVanguard/Environment/OpeningReview/Assets/WreckTrio/Medium_WreckPanel/T_Medium_WreckPanel_BaseColor.T_Medium_WreckPanel_BaseColor",
+        "Normal": "/Game/LostVanguard/Environment/OpeningReview/Assets/WreckTrio/Medium_WreckPanel/T_Medium_WreckPanel_Normal.T_Medium_WreckPanel_Normal",
+        "Roughness": "/Game/LostVanguard/Environment/OpeningReview/Assets/WreckTrio/Medium_WreckPanel/T_Medium_WreckPanel_Roughness.T_Medium_WreckPanel_Roughness",
+        "Metallic": "/Game/LostVanguard/Environment/OpeningReview/Assets/WreckTrio/Medium_WreckPanel/T_Medium_WreckPanel_Metallic.T_Medium_WreckPanel_Metallic"
+      },
+      "bounds_cm": "<Struct 'Box' (0x000001B124090C40) {min: {x: -275.972961, y: -69.357872, z: 0.000000}, max: {x: 275.972961, y: 69.357887, z: 450.000000}, is_valid: True}>",
+      "actor": "/Game/LostVanguard/Environment/OpeningReview/Maps/L_Wreck_Trio_Inspection.L_Wreck_Trio_Inspection:PersistentLevel.StaticMeshActor_1",
+      "location_cm": [
+        -1500,
+        0,
+        0
+      ],
+      "lod_triangles": [
+        15037,
+        7518,
+        3309
+      ],
+      "bounds": {
+        "min": {
+          "x": -279.8282012939453,
+          "y": -69.49358749389648,
+          "z": -1.832489013671875
+        },
+        "max": {
+          "x": 279.9283905029297,
+          "y": 69.3578872680664,
+          "z": 451.82989501953125
+        },
+        "isValid": true
+      },
+      "material_slots": [
+        "Material_0"
+      ],
+      "simple_convexes": 1
+    },
+    {
+      "id": "Large_WreckModule",
+      "mesh": "/Game/LostVanguard/Environment/OpeningReview/Assets/WreckTrio/Large_WreckModule/SM_Large_WreckModule.SM_Large_WreckModule",
+      "material": "/Game/LostVanguard/Environment/OpeningReview/Assets/WreckTrio/Large_WreckModule/MI_Large_WreckModule.MI_Large_WreckModule",
+      "textures": {
+        "BaseColor": "/Game/LostVanguard/Environment/OpeningReview/Assets/WreckTrio/Large_WreckModule/T_Large_WreckModule_BaseColor.T_Large_WreckModule_BaseColor",
+        "Normal": "/Game/LostVanguard/Environment/OpeningReview/Assets/WreckTrio/Large_WreckModule/T_Large_WreckModule_Normal.T_Large_WreckModule_Normal",
+        "Roughness": "/Game/LostVanguard/Environment/OpeningReview/Assets/WreckTrio/Large_WreckModule/T_Large_WreckModule_Roughness.T_Large_WreckModule_Roughness",
+        "Metallic": "/Game/LostVanguard/Environment/OpeningReview/Assets/WreckTrio/Large_WreckModule/T_Large_WreckModule_Metallic.T_Large_WreckModule_Metallic"
+      },
+      "bounds_cm": "<Struct 'Box' (0x000001B124098200) {min: {x: -600.000000, y: -485.298035, z: 0.000000}, max: {x: 600.000000, y: 485.298004, z: 688.489258}, is_valid: True}>",
+      "actor": "/Game/LostVanguard/Environment/OpeningReview/Maps/L_Wreck_Trio_Inspection.L_Wreck_Trio_Inspection:PersistentLevel.StaticMeshActor_2",
+      "location_cm": [
+        0,
+        0,
+        0
+      ],
+      "lod_triangles": [
+        14501,
+        7250,
+        3190
+      ],
+      "bounds": {
+        "min": {
+          "x": -606.9808959960938,
+          "y": -485.2980499267578,
+          "z": -4.64215087890625
+        },
+        "max": {
+          "x": 600,
+          "y": 485.2980194091797,
+          "z": 688.4892578125
+        },
+        "isValid": true
+      },
+      "material_slots": [
+        "Material_0"
+      ],
+      "simple_convexes": 1
+    },
+    {
+      "id": "Engine_MeshyNacelle",
+      "mesh": "/Game/LostVanguard/Environment/OpeningReview/Assets/WreckTrio/Engine_MeshyNacelle/SM_Engine_MeshyNacelle.SM_Engine_MeshyNacelle",
+      "material": "/Game/LostVanguard/Environment/OpeningReview/Assets/WreckTrio/Engine_MeshyNacelle/MI_Engine_MeshyNacelle.MI_Engine_MeshyNacelle",
+      "textures": {
+        "BaseColor": "/Game/LostVanguard/Environment/OpeningReview/Assets/WreckTrio/Engine_MeshyNacelle/T_Engine_MeshyNacelle_BaseColor.T_Engine_MeshyNacelle_BaseColor",
+        "Normal": "/Game/LostVanguard/Environment/OpeningReview/Assets/WreckTrio/Engine_MeshyNacelle/T_Engine_MeshyNacelle_Normal.T_Engine_MeshyNacelle_Normal",
+        "Roughness": "/Game/LostVanguard/Environment/OpeningReview/Assets/WreckTrio/Engine_MeshyNacelle/T_Engine_MeshyNacelle_Roughness.T_Engine_MeshyNacelle_Roughness",
+        "Metallic": "/Game/LostVanguard/Environment/OpeningReview/Assets/WreckTrio/Engine_MeshyNacelle/T_Engine_MeshyNacelle_Metallic.T_Engine_MeshyNacelle_Metallic"
+      },
+      "bounds_cm": "<Struct 'Box' (0x000001B12409E600) {min: {x: -600.000000, y: -272.200836, z: 0.000000}, max: {x: 600.000000, y: 272.200775, z: 560.264404}, is_valid: True}>",
+      "actor": "/Game/LostVanguard/Environment/OpeningReview/Maps/L_Wreck_Trio_Inspection.L_Wreck_Trio_Inspection:PersistentLevel.StaticMeshActor_3",
+      "location_cm": [
+        1800,
+        0,
+        0
+      ],
+      "lod_triangles": [
+        12952,
+        6476,
+        2850
+      ],
+      "bounds": {
+        "min": {
+          "x": -605.4324035644531,
+          "y": -272.2041015625,
+          "z": 0
+        },
+        "max": {
+          "x": 602.6249694824219,
+          "y": 273.562255859375,
+          "z": 560.264404296875
+        },
+        "isValid": true
+      },
+      "material_slots": [
+        "Material_0"
+      ],
+      "simple_convexes": 1
+    }
+  ],
+  "project": "C:/Users/alexa/Documents/AI STUFF/Project Big/Unreal/LostVanguard 5.8/LostVanguard.uproject",
+  "engine": "5.8.3-58210709+++UE5+Release-5.8",
+  "original_and_review_maps_untouched": true,
+  "visual_acceptance": "3D candidates reviewed in Blender and Unreal; generated soft edges and unseen-side interpretation remain; full environment gate open",
+  "lods_collision": "three LODs and one convex collider per mesh; saved reload/traces and PIE state checked",
+  "saved_map_reload": true,
+  "collision_traces": [
+    {
+      "asset": "Medium_WreckPanel",
+      "player_height_hit_cm": 1939.7569580078125
+    },
+    {
+      "asset": "Large_WreckModule",
+      "player_height_hit_cm": 1647.8458251953125
+    },
+    {
+      "asset": "Engine_MeshyNacelle",
+      "player_height_hit_cm": 1862.1290283203125
+    }
+  ],
+  "performance": "unverified",
+  "review_integration": false,
+  "pie_smoke_checks": [
+    {
+      "name": "inspection PIE runs",
+      "passed": true
+    },
+    {
+      "name": "Medium_WreckPanel mesh/collision in PIE",
+      "passed": true
+    },
+    {
+      "name": "Large_WreckModule mesh/collision in PIE",
+      "passed": true
+    },
+    {
+      "name": "Engine_MeshyNacelle mesh/collision in PIE",
+      "passed": true
+    }
+  ]
+}

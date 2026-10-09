@@ -1,0 +1,649 @@
+{
+  "label": "reach",
+  "map": "/Game/MovementTest/Maps/L_Movement_Test",
+  "expected_profile": {
+    "MaxWalkSpeed": 562.0,
+    "MaxWalkSpeedCrouched": 275.0,
+    "MaxAcceleration": 3750.0,
+    "JumpZVelocity": 557.3,
+    "GravityScale": 0.9478,
+    "AirControl": 0.3
+  },
+  "checks": [
+    {
+      "name": "Runtime movement equals saved profile",
+      "passed": true,
+      "observed": {
+        "MaxWalkSpeed": 562.0,
+        "MaxWalkSpeedCrouched": 275.0,
+        "MaxAcceleration": 3750.0,
+        "JumpZVelocity": 557.3,
+        "GravityScale": 0.9478,
+        "AirControl": 0.3
+      }
+    },
+    {
+      "name": "Look sensitivity variable present at runtime (default 0.6)",
+      "passed": true,
+      "observed": 0.6
+    },
+    {
+      "name": "Top walk speed within 2% of profile",
+      "passed": true,
+      "observed": {
+        "top_speed_cm_s": 562.0,
+        "time_to_90pct_s": 0.1283947005867958,
+        "stop_time_s": 0.1,
+        "stop_distance_cm": 10.7,
+        "sample_spacing_s": 0.0253
+      }
+    },
+    {
+      "name": "Stops within 0.4 s of releasing input",
+      "passed": true,
+      "observed": {
+        "top_speed_cm_s": 562.0,
+        "time_to_90pct_s": 0.1283947005867958,
+        "stop_time_s": 0.1,
+        "stop_distance_cm": 10.7,
+        "sample_spacing_s": 0.0253
+      }
+    },
+    {
+      "name": "Jump apex within 5% of prediction",
+      "passed": true,
+      "observed": {
+        "apex_cm": 167.2,
+        "airtime_s": 1.217,
+        "sample_spacing_s": 0.0254,
+        "health_after": 100,
+        "predicted": {
+          "apex_cm": 167.188,
+          "airtime_s": 1.2
+        }
+      }
+    },
+    {
+      "name": "Jump airtime within one-sample tolerance of prediction",
+      "passed": true,
+      "observed": {
+        "apex_cm": 167.2,
+        "airtime_s": 1.217,
+        "sample_spacing_s": 0.0254,
+        "health_after": 100,
+        "predicted": {
+          "apex_cm": 167.188,
+          "airtime_s": 1.2
+        }
+      }
+    },
+    {
+      "name": "Crouch speed within 2% of profile",
+      "passed": true,
+      "observed": {
+        "top_speed_cm_s": 275.0,
+        "half_height": 44,
+        "crouched": true
+      }
+    },
+    {
+      "name": "Standing player is blocked by 125 cm bar",
+      "passed": true,
+      "observed": {
+        "final_x": -3634.1,
+        "bar_back_x": -3420
+      }
+    },
+    {
+      "name": "Crouched player passes under 125 cm bar",
+      "passed": true,
+      "observed": {
+        "final_x": -3173.0,
+        "bar_back_x": -3420
+      }
+    },
+    {
+      "name": "Steps of 20/35 cm climb; 46/55 cm block (MaxStepHeight 45)",
+      "passed": true,
+      "observed": {
+        "limit_cm": 45,
+        "steps": {
+          "20": {
+            "climbed": true,
+            "peak_z": 110.0,
+            "final_x": -3352.3
+          },
+          "35": {
+            "climbed": true,
+            "peak_z": 125.2,
+            "final_x": -3342.1
+          },
+          "44": {
+            "climbed": true,
+            "peak_z": 134.2,
+            "final_x": -3338.5
+          },
+          "46": {
+            "climbed": false,
+            "peak_z": 90,
+            "final_x": -3634.0
+          },
+          "55": {
+            "climbed": false,
+            "peak_z": 90,
+            "final_x": -3634.1
+          }
+        }
+      }
+    },
+    {
+      "name": "Slopes walkable exactly up to WalkableFloorAngle",
+      "passed": true,
+      "observed": {
+        "limit_deg": 44.76508331298828,
+        "slopes": {
+          "30": {
+            "height_gained_cm": 308.2,
+            "ramp_height_cm": 300.0,
+            "walkable": true
+          },
+          "40": {
+            "height_gained_cm": 393.5,
+            "ramp_height_cm": 385.7,
+            "walkable": true
+          },
+          "44": {
+            "height_gained_cm": 424.0,
+            "ramp_height_cm": 416.8,
+            "walkable": true
+          },
+          "46": {
+            "height_gained_cm": 0.0,
+            "ramp_height_cm": 431.6,
+            "walkable": false
+          },
+          "50": {
+            "height_gained_cm": 0.0,
+            "ramp_height_cm": 459.6,
+            "walkable": false
+          }
+        }
+      }
+    },
+    {
+      "name": "Ledge reach matches jump clearance (+44 crouch, +~10 capsule), boundary cases excluded",
+      "passed": true,
+      "observed": {
+        "clearance_cm": 167.2,
+        "expected": {
+          "120": true,
+          "150": true,
+          "165": true,
+          "200": false,
+          "220": false,
+          "250": false,
+          "290": false,
+          "crouch_120": true,
+          "crouch_150": true,
+          "crouch_165": true,
+          "crouch_180": true,
+          "crouch_200": true,
+          "crouch_250": false,
+          "crouch_290": false
+        },
+        "ledges": {
+          "120": {
+            "reached_top": true,
+            "final_z": 210.2,
+            "peak_feet_cm": 168.6
+          },
+          "150": {
+            "reached_top": true,
+            "final_z": 240.1,
+            "peak_feet_cm": 168.3
+          },
+          "165": {
+            "reached_top": true,
+            "final_z": 255.2,
+            "peak_feet_cm": 168.0
+          },
+          "180": {
+            "reached_top": true,
+            "final_z": 270.1,
+            "peak_feet_cm": 182.1
+          },
+          "200": {
+            "reached_top": false,
+            "final_z": 90.1,
+            "peak_feet_cm": 166.8
+          },
+          "220": {
+            "reached_top": false,
+            "final_z": 90.2,
+            "peak_feet_cm": 166.7
+          },
+          "250": {
+            "reached_top": false,
+            "final_z": 90.2,
+            "peak_feet_cm": 166.2
+          },
+          "290": {
+            "reached_top": false,
+            "final_z": 90.1,
+            "peak_feet_cm": 167.0
+          },
+          "crouch_120": {
+            "reached_top": true,
+            "final_z": 210.2,
+            "peak_feet_cm": 213.0
+          },
+          "crouch_150": {
+            "reached_top": true,
+            "final_z": 240.2,
+            "peak_feet_cm": 212.4
+          },
+          "crouch_165": {
+            "reached_top": true,
+            "final_z": 255.2,
+            "peak_feet_cm": 212.6
+          },
+          "crouch_180": {
+            "reached_top": true,
+            "final_z": 270.2,
+            "peak_feet_cm": 212.5
+          },
+          "crouch_200": {
+            "reached_top": true,
+            "final_z": 290.2,
+            "peak_feet_cm": 212.1
+          },
+          "crouch_220": {
+            "reached_top": true,
+            "final_z": 310.0,
+            "peak_feet_cm": 222.0
+          },
+          "crouch_250": {
+            "reached_top": false,
+            "final_z": 90.2,
+            "peak_feet_cm": 210.4
+          },
+          "crouch_290": {
+            "reached_top": false,
+            "final_z": 90.2,
+            "peak_feet_cm": 210.9
+          }
+        }
+      }
+    },
+    {
+      "name": "No jump or crouch-jump reaches the 290 cm exit-gate height",
+      "passed": true,
+      "observed": {
+        "290": {
+          "reached_top": false,
+          "final_z": 90.1,
+          "peak_feet_cm": 167.0
+        },
+        "crouch_290": {
+          "reached_top": false,
+          "final_z": 90.2,
+          "peak_feet_cm": 210.9
+        },
+        "crouch_250": {
+          "reached_top": false,
+          "final_z": 90.2,
+          "peak_feet_cm": 210.4
+        }
+      }
+    },
+    {
+      "name": "No fall damage from 2 m to 100 m drops",
+      "passed": true,
+      "observed": {
+        "200": {
+          "impact_speed_cm_s": 611.2,
+          "health": 100,
+          "dead": false,
+          "landed_z": 90.1
+        },
+        "500": {
+          "impact_speed_cm_s": 959.7,
+          "health": 100,
+          "dead": false,
+          "landed_z": 90.2
+        },
+        "1000": {
+          "impact_speed_cm_s": 1343.7,
+          "health": 100,
+          "dead": false,
+          "landed_z": 90.1
+        },
+        "2000": {
+          "impact_speed_cm_s": 1906.2,
+          "health": 100,
+          "dead": false,
+          "landed_z": 90.1
+        },
+        "4000": {
+          "impact_speed_cm_s": 2706.7,
+          "health": 100,
+          "dead": false,
+          "landed_z": 90.2
+        },
+        "10000": {
+          "impact_speed_cm_s": 4000,
+          "health": 100,
+          "dead": false,
+          "landed_z": 90.1
+        }
+      }
+    },
+    {
+      "name": "Walking off the 10 m platform causes no damage",
+      "passed": true,
+      "observed": {
+        "health": 100,
+        "dead": false,
+        "z": 90.14999985679874
+      }
+    },
+    {
+      "name": "Falling out of the world is caught (death + restart prompt)",
+      "passed": true,
+      "observed": {
+        "z": -386.41276995572485,
+        "dead": true,
+        "objective": "You fell. Press R to restart."
+      }
+    },
+    {
+      "name": "Restart after out-of-world restores the player",
+      "passed": true,
+      "observed": {
+        "health": 100,
+        "dead": false,
+        "z": 90.15000359035591
+      }
+    },
+    {
+      "name": "Enemy fire still damages the player",
+      "passed": true,
+      "observed": {
+        "health": 76,
+        "game_time_s": 0.0
+      }
+    },
+    {
+      "name": "Restart after enemy damage restores 100 health",
+      "passed": true,
+      "observed": {
+        "health": 100
+      }
+    }
+  ],
+  "measurements": {
+    "runtime_settings": {
+      "MaxWalkSpeed": 562,
+      "MaxWalkSpeedCrouched": 275,
+      "MaxAcceleration": 3750,
+      "BrakingDecelerationWalking": 2048,
+      "GroundFriction": 8,
+      "BrakingFrictionFactor": 2,
+      "bUseSeparateBrakingFriction": false,
+      "JumpZVelocity": 557.2999877929688,
+      "GravityScale": 0.9477999806404114,
+      "AirControl": 0.30000001192092896,
+      "AirControlBoostMultiplier": 2,
+      "AirControlBoostVelocityThreshold": 25,
+      "FallingLateralFriction": 0,
+      "BrakingDecelerationFalling": 0,
+      "MaxStepHeight": 45,
+      "WalkableFloorAngle": 44.76508331298828,
+      "CrouchedHalfHeight": 44,
+      "bCanWalkOffLedges": true,
+      "bCanWalkOffLedgesWhenCrouching": false,
+      "PerchRadiusThreshold": 0,
+      "bApplyGravityWhileJumping": true,
+      "NavAgentProps": {
+        "agentRadius": 34,
+        "agentHeight": 176,
+        "agentStepHeight": -1,
+        "navWalkingSearchHeightScale": 0.5,
+        "preferredNavData": {
+          "refPath": ""
+        },
+        "bCanCrouch": true,
+        "bCanJump": true,
+        "bCanWalk": true,
+        "bCanSwim": true,
+        "bCanFly": false
+      },
+      "LookSensitivity": 0.6
+    },
+    "ground": {
+      "top_speed_cm_s": 562.0,
+      "time_to_90pct_s": 0.1283947005867958,
+      "stop_time_s": 0.1,
+      "stop_distance_cm": 10.7,
+      "sample_spacing_s": 0.0253
+    },
+    "jump": {
+      "apex_cm": 167.2,
+      "airtime_s": 1.217,
+      "sample_spacing_s": 0.0254,
+      "health_after": 100,
+      "predicted": {
+        "apex_cm": 167.188,
+        "airtime_s": 1.2
+      }
+    },
+    "air_control": {
+      "hold_forward": {
+        "forward_cm": 704.5,
+        "lateral_cm": 0
+      },
+      "release_all": {
+        "forward_cm": 691.6,
+        "lateral_cm": 0
+      },
+      "pull_back": {
+        "forward_cm": -97.5,
+        "lateral_cm": 0
+      },
+      "strafe_right_only": {
+        "forward_cm": 420.5,
+        "lateral_cm": 482.9
+      }
+    },
+    "crouch": {
+      "top_speed_cm_s": 275.0,
+      "half_height": 44,
+      "crouched": true
+    },
+    "steps": {
+      "20": {
+        "climbed": true,
+        "peak_z": 110.0,
+        "final_x": -3352.3
+      },
+      "35": {
+        "climbed": true,
+        "peak_z": 125.2,
+        "final_x": -3342.1
+      },
+      "44": {
+        "climbed": true,
+        "peak_z": 134.2,
+        "final_x": -3338.5
+      },
+      "46": {
+        "climbed": false,
+        "peak_z": 90,
+        "final_x": -3634.0
+      },
+      "55": {
+        "climbed": false,
+        "peak_z": 90,
+        "final_x": -3634.1
+      }
+    },
+    "slopes": {
+      "30": {
+        "height_gained_cm": 308.2,
+        "ramp_height_cm": 300.0,
+        "walkable": true
+      },
+      "40": {
+        "height_gained_cm": 393.5,
+        "ramp_height_cm": 385.7,
+        "walkable": true
+      },
+      "44": {
+        "height_gained_cm": 424.0,
+        "ramp_height_cm": 416.8,
+        "walkable": true
+      },
+      "46": {
+        "height_gained_cm": 0.0,
+        "ramp_height_cm": 431.6,
+        "walkable": false
+      },
+      "50": {
+        "height_gained_cm": 0.0,
+        "ramp_height_cm": 459.6,
+        "walkable": false
+      }
+    },
+    "ledges": {
+      "120": {
+        "reached_top": true,
+        "final_z": 210.2,
+        "peak_feet_cm": 168.6
+      },
+      "150": {
+        "reached_top": true,
+        "final_z": 240.1,
+        "peak_feet_cm": 168.3
+      },
+      "165": {
+        "reached_top": true,
+        "final_z": 255.2,
+        "peak_feet_cm": 168.0
+      },
+      "180": {
+        "reached_top": true,
+        "final_z": 270.1,
+        "peak_feet_cm": 182.1
+      },
+      "200": {
+        "reached_top": false,
+        "final_z": 90.1,
+        "peak_feet_cm": 166.8
+      },
+      "220": {
+        "reached_top": false,
+        "final_z": 90.2,
+        "peak_feet_cm": 166.7
+      },
+      "250": {
+        "reached_top": false,
+        "final_z": 90.2,
+        "peak_feet_cm": 166.2
+      },
+      "290": {
+        "reached_top": false,
+        "final_z": 90.1,
+        "peak_feet_cm": 167.0
+      },
+      "crouch_120": {
+        "reached_top": true,
+        "final_z": 210.2,
+        "peak_feet_cm": 213.0
+      },
+      "crouch_150": {
+        "reached_top": true,
+        "final_z": 240.2,
+        "peak_feet_cm": 212.4
+      },
+      "crouch_165": {
+        "reached_top": true,
+        "final_z": 255.2,
+        "peak_feet_cm": 212.6
+      },
+      "crouch_180": {
+        "reached_top": true,
+        "final_z": 270.2,
+        "peak_feet_cm": 212.5
+      },
+      "crouch_200": {
+        "reached_top": true,
+        "final_z": 290.2,
+        "peak_feet_cm": 212.1
+      },
+      "crouch_220": {
+        "reached_top": true,
+        "final_z": 310.0,
+        "peak_feet_cm": 222.0
+      },
+      "crouch_250": {
+        "reached_top": false,
+        "final_z": 90.2,
+        "peak_feet_cm": 210.4
+      },
+      "crouch_290": {
+        "reached_top": false,
+        "final_z": 90.2,
+        "peak_feet_cm": 210.9
+      }
+    },
+    "landings": {
+      "200": {
+        "impact_speed_cm_s": 611.2,
+        "health": 100,
+        "dead": false,
+        "landed_z": 90.1
+      },
+      "500": {
+        "impact_speed_cm_s": 959.7,
+        "health": 100,
+        "dead": false,
+        "landed_z": 90.2
+      },
+      "1000": {
+        "impact_speed_cm_s": 1343.7,
+        "health": 100,
+        "dead": false,
+        "landed_z": 90.1
+      },
+      "2000": {
+        "impact_speed_cm_s": 1906.2,
+        "health": 100,
+        "dead": false,
+        "landed_z": 90.1
+      },
+      "4000": {
+        "impact_speed_cm_s": 2706.7,
+        "health": 100,
+        "dead": false,
+        "landed_z": 90.2
+      },
+      "10000": {
+        "impact_speed_cm_s": 4000,
+        "health": 100,
+        "dead": false,
+        "landed_z": 90.1
+      }
+    }
+  },
+  "errors": [],
+  "limitations": [
+    "Automated test inputs, not a physical keyboard/mouse; feel requires the hands-on checklist.",
+    "Timing uses sampled game time; sample spacing is reported with each timed result."
+  ],
+  "verified_target": {
+    "port": 8001,
+    "listener": "\"C:\\Program Files\\Epic Games\\UE_5.8\\Engine\\Binaries\\Win64\\UnrealEditor.exe\" \"C:/Users/alexa/Documents/AI STUFF/Project Big-movement/Unreal/LostVanguard 5.8/LostVanguard.uproject\" -ini:EditorPerProjectUserSettings:[/Script/ModelContextProtocolEngine.ModelContextProtocolSettings]:ServerPortNumber=8001 -log=MovementEditor_Final.log",
+    "marker_token_matched": true
+  },
+  "editor_background_throttle_before": true
+}

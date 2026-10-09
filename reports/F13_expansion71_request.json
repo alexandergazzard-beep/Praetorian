@@ -1,0 +1,20 @@
+{
+  "file_path": "C:/Users/alexa/Documents/AI STUFF/Project Big/assets/models/forest_wreck/references/F13_isolated_v1.png",
+  "ai_model": "meshy-7.1",
+  "model_type": "standard",
+  "geometry_resolution": "4k",
+  "should_remesh": true,
+  "topology": "triangle",
+  "target_polycount": 60000,
+  "should_texture": true,
+  "enable_pbr": true,
+  "texture_resolution": "4k",
+  "image_enhancement": false,
+  "save_pre_remeshed_model": true,
+  "target_formats": [
+    "glb",
+    "fbx"
+  ],
+  "texture_prompt": "Natural alien canopy tree, rough nonmetallic charcoal brown ribbed bark, dense blue-green teal leathery forked leaves, muted violet undersides, restrained lime new growth. Preserve the leafy canopy with distinct thick leaf outlines and open gaps between branching clusters. No soil base, rocks, text, glow or companion plants.",
+  "response_format": "json"
+}
